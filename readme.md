@@ -62,7 +62,7 @@ Run artisan server:
 php artisan serve
 ```
 
-You're ready to go! [Visit Ping CRM](http://127.0.0.1:8000/) in your browser, and login with:
+You're ready to go! [DEX](http://127.0.0.1:8000/) in your browser, and login with:
 
 - **Username:** tudor.bumbu@math.md
 - **Password:** secret
