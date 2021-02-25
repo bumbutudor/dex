@@ -56,6 +56,12 @@ Run database migrations:
 php artisan migrate
 ```
 
+Initialize the database with some data
+
+```sh
+php artisan db:seed
+```
+
 Run artisan server:
 
 ```sh
