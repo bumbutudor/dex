@@ -1,18 +1,12 @@
-# Ping CRM React
-
-A demo application to illustrate how [Inertia.js](https://inertiajs.com/) works with [Laravel](https://laravel.com/) and [React](https://reactjs.org/).
-
-> This is a port of the original [Ping CRM](https://github.com/inertiajs/pingcrm) written in Laravel and Vue.
-
-![](https://raw.githubusercontent.com/landish/pingcrm-react/master/screenshot.png)
+# DEX
 
 ## Installation
 
 Clone the repo locally:
 
 ```sh
-git clone https://github.com/landish/pingcrm-react.git
-cd pingcrm-react
+git clone https://github.com/...
+cd dex
 ```
 
 Install PHP dependencies:
@@ -45,22 +39,21 @@ Generate application key:
 php artisan key:generate
 ```
 
-Create an SQLite database. You can also use another database (MySQL, Postgres), simply update your configuration accordingly.
+Configure MySQL DB (/.env)
 
 ```sh
-touch database/database.sqlite
+DB_CONNECTION=mysql
+DB_HOST=127.0.0.1
+DB_PORT=3306
+DB_DATABASE=
+DB_USERNAME=
+DB_PASSWORD= 
 ```
 
 Run database migrations:
 
 ```sh
 php artisan migrate
-```
-
-Run database seeder:
-
-```sh
-php artisan db:seed
 ```
 
 Run artisan server:
@@ -71,19 +64,14 @@ php artisan serve
 
 You're ready to go! [Visit Ping CRM](http://127.0.0.1:8000/) in your browser, and login with:
 
-- **Username:** johndoe@example.com
+- **Username:** tudor.bumbu@math.md
 - **Password:** secret
 
-## Running tests
-
-To run the Ping CRM tests, run:
-
-```
-phpunit
-```
 
 ## Credits
+- Tudor Bumbu
+
+### Credits for core crud app
 
 - Original work by Jonathan Reinink (@reinink) and contributors
-- Port to Ruby on Rails by Georg Ledermann (@ledermann)
 - Port to React by Lado Lomidze (@landish)
