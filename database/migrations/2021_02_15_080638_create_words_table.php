@@ -21,6 +21,8 @@ class CreateWordsTable extends Migration
             $table->text('predefinition')->nullable();
             $table->text('definition')->nullable();
 			$table->text('synonyms')->nullable();
+            $table->text('antonyms')->nullable();
+            $table->text('paronime')->nullable();
 			$table->text('other')->nullable();
             $table->boolean('active')->default(false);
             $table->timestamps();
