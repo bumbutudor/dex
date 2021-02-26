@@ -10,8 +10,8 @@ export default () => {
   const { errors } = usePage().props;
   const [sending, setSending] = useState(false);
   const [values, setValues] = useState({
-    email: 'johndoe@example.com',
-    password: 'secret',
+    email: '',
+    password: '',
     remember: true
   });
 
@@ -35,7 +35,7 @@ export default () => {
   }
 
   return (
-    <div className="flex items-center justify-center min-h-screen p-6 bg-indigo-900">
+    <div className="flex items-center justify-center min-h-screen p-6">
       <Helmet title="Login" />
       <div className="w-full max-w-md">
         <Logo
@@ -47,11 +47,12 @@ export default () => {
           className="mt-8 overflow-hidden bg-white rounded-lg shadow-xl"
         >
           <div className="px-10 py-12">
-            <h1 className="text-3xl font-bold text-center">Welcome Back!</h1>
+            <h1 className="text-3xl font-bold text-center">Bine ați venit!</h1>
             <div className="w-24 mx-auto mt-6 border-b-2" />
+            <p className="mt-6 text-center">Vă rugăm să introduceți emailul și parola de access.</p>
             <TextInput
               className="mt-10"
-              label="Email"
+              // label="Email"
               name="email"
               type="email"
               errors={errors.email}
@@ -60,7 +61,7 @@ export default () => {
             />
             <TextInput
               className="mt-6"
-              label="Password"
+              // label="Parola"
               name="password"
               type="password"
               errors={errors.password}
@@ -79,19 +80,19 @@ export default () => {
                 checked={values.remember}
                 onChange={handleChange}
               />
-              <span className="text-sm">Remember Me</span>
+              <span className="text-sm">Ține minte</span>
             </label>
           </div>
           <div className="flex items-center justify-between px-10 py-4 bg-gray-100 border-t border-gray-200">
-            <a className="hover:underline" tabIndex="-1" href="#reset-password">
-              Forgot password?
-            </a>
+            {/* <a className="hover:underline" tabIndex="-1" href="#reset-password">
+              Ați uitat parola?
+            </a> */}
             <LoadingButton
               type="submit"
               loading={sending}
               className="btn-indigo"
             >
-              Login
+              Logare
             </LoadingButton>
           </div>
         </form>

@@ -60,20 +60,20 @@ class DictionariesController extends Controller
             $request->validated()
         );
 
-        return Redirect::back()->with('success', 'Dictionary updated.');
+        return Redirect::back()->with('success', 'Dicționarul a fost modificat.');
     }
 
     public function destroy(Dictionary $dictionary)
     {
         $dictionary->delete();
 
-        return Redirect::back()->with('success', 'Dictionary deleted.');
+        return Redirect::back()->with('success', 'Dicționarul a fost șters.');
     }
 
     public function restore(Dictionary $dictionary)
     {
         $dictionary->restore();
 
-        return Redirect::back()->with('success', 'Dictionary restored.');
+        return Redirect::back()->with('success', 'Dicționarul a fost restabilit.');
     }
 }

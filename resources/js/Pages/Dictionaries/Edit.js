@@ -17,7 +17,7 @@ const Edit = () => {
   const [values, setValues] = useState({
     name: dictionary.name || '',
     description: dictionary.description || '',
-    organization_id: dictionary.phone || ''
+    organization_id: dictionary.organization_id || '',
   });
 
   function handleChange(e) {
@@ -38,14 +38,14 @@ const Edit = () => {
   }
 
   function destroy() {
-    if (confirm('Are you sure you want to delete this organization?')) {
-      Inertia.delete(route('organizations.destroy', organization.id));
+    if (confirm('Sunteți sigur că doriți să ștergeți acest dicționar?')) {
+      Inertia.delete(route('dictionaries.destroy', dictionary.id));
     }
   }
 
   function restore() {
-    if (confirm('Are you sure you want to restore this organization?')) {
-      Inertia.put(route('organizations.restore', organization.id));
+    if (confirm('Sunteți sigur că doriți să restabiliți acest dicționar?')) {
+      Inertia.put(route('dictionaries.restore', dictionary.id));
     }
   }
 
@@ -54,101 +54,54 @@ const Edit = () => {
       <Helmet title={values.name} />
       <h1 className="mb-8 text-3xl font-bold">
         <InertiaLink
-          href={route('organizations')}
+          href={route('dictionaries')}
           className="text-indigo-600 hover:text-indigo-700"
         >
-          Organizations
+          Dicționare
         </InertiaLink>
         <span className="mx-2 font-medium text-indigo-600">/</span>
         {values.name}
       </h1>
-      {organization.deleted_at && (
+      {dictionary.deleted_at && (
         <TrashedMessage onRestore={restore}>
-          This organization has been deleted.
+          Dicționarul a fost șters.
         </TrashedMessage>
       )}
       <div className="max-w-3xl overflow-hidden bg-white rounded shadow">
         <form onSubmit={handleSubmit}>
           <div className="flex flex-wrap p-8 -mb-8 -mr-6">
             <TextInput
-              className="w-full pb-8 pr-6 lg:w-1/2"
-              label="Name"
+              className="w-full pb-8 pr-6 lg:w-1/1"
+              label="Titlu"
               name="name"
               errors={errors.name}
               value={values.name}
               onChange={handleChange}
             />
             <TextInput
-              className="w-full pb-8 pr-6 lg:w-1/2"
-              label="Email"
-              name="email"
-              type="email"
-              errors={errors.email}
-              value={values.email}
-              onChange={handleChange}
-            />
-            <TextInput
-              className="w-full pb-8 pr-6 lg:w-1/2"
-              label="Phone"
-              name="phone"
-              type="text"
-              errors={errors.phone}
-              value={values.phone}
-              onChange={handleChange}
-            />
-            <TextInput
-              className="w-full pb-8 pr-6 lg:w-1/2"
-              label="Address"
-              name="address"
-              type="text"
-              errors={errors.address}
-              value={values.address}
-              onChange={handleChange}
-            />
-            <TextInput
-              className="w-full pb-8 pr-6 lg:w-1/2"
-              label="City"
-              name="city"
-              type="text"
-              errors={errors.city}
-              value={values.city}
-              onChange={handleChange}
-            />
-            <TextInput
-              className="w-full pb-8 pr-6 lg:w-1/2"
-              label="Province/State"
-              name="region"
-              type="text"
-              errors={errors.region}
-              value={values.region}
+              className="w-full pb-8 pr-6 lg:w-1/1"
+              label="Descriere"
+              name="description"
+              errors={errors.description}
+              value={values.description}
               onChange={handleChange}
             />
             <SelectInput
               className="w-full pb-8 pr-6 lg:w-1/2"
-              label="Country"
-              name="country"
-              errors={errors.country}
-              value={values.country}
+              label="Organizație"
+              name="organization_id"
+              disabled
+              errors={errors.organization_id}
+              value={values.organization_id}
               onChange={handleChange}
             >
-              <option value=""></option>
-              <option value="CA">Canada</option>
-              <option value="US">United States</option>
+              <option value="1">IFR</option>
             </SelectInput>
-            <TextInput
-              className="w-full pb-8 pr-6 lg:w-1/2"
-              label="Postal Code"
-              name="postal_code"
-              type="text"
-              errors={errors.postal_code}
-              value={values.postal_code}
-              onChange={handleChange}
-            />
           </div>
           <div className="flex items-center px-8 py-4 bg-gray-100 border-t border-gray-200">
-            {!organization.deleted_at && (
+            {!dictionary.deleted_at && (
               <DeleteButton onDelete={destroy}>
-                Delete Organization
+                Șterge dicționarul
               </DeleteButton>
             )}
             <LoadingButton
@@ -156,25 +109,25 @@ const Edit = () => {
               type="submit"
               className="ml-auto btn-indigo"
             >
-              Update Organization
+              Modifică dicționarul
             </LoadingButton>
           </div>
         </form>
       </div>
-      <h2 className="mt-12 text-2xl font-bold">Contacts</h2>
+      <h2 className="mt-12 text-2xl font-bold">Cuvinte</h2>
       <div className="mt-6 overflow-x-auto bg-white rounded shadow">
         <table className="w-full whitespace-nowrap">
           <thead>
             <tr className="font-bold text-left">
-              <th className="px-6 pt-5 pb-4">Name</th>
-              <th className="px-6 pt-5 pb-4">City</th>
-              <th className="px-6 pt-5 pb-4" colSpan="2">
-                Phone
+              <th className="px-6 pt-5 pb-4">Cuvânt</th>
+              <th className="px-6 pt-5 pb-4">Pre-definiție</th>
+              <th className="px-6 pt-5 pb-4" colSpan="2"> Definiție
               </th>
             </tr>
           </thead>
           <tbody>
-            {organization.contacts.map(
+            {/* Todo */}
+            {/* {organization.contacts.map(
               ({ id, name, phone, city, deleted_at }) => {
                 return (
                   <tr
@@ -235,7 +188,7 @@ const Edit = () => {
                   No contacts found.
                 </td>
               </tr>
-            )}
+            )} */}
           </tbody>
         </table>
       </div>
