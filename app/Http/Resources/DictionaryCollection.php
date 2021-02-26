@@ -15,7 +15,7 @@ class DictionaryCollection extends ResourceCollection
     public function toArray($request)
     {
         return $this->collection->map->only(
-            'id', 'name', 'description', 'deleted_at', 'organization'
+            'id', 'name', 'description', 'deleted_at', 'organization_id'
         );
     }
 }

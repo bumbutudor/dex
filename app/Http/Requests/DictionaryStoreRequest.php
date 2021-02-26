@@ -27,9 +27,7 @@ class DictionaryStoreRequest extends FormRequest
     {
         return [
             'name' => ['required', 'max:100'],
-            'organization_id' => ['nullable', Rule::exists('organizations', 'id')->where(function ($query) {
-                $query->where('account_id', Auth::user()->account_id);
-            })],
+            'organization_id' => ['required'],
             'description' => ['nullable', 'max:325'],
         ];
     }

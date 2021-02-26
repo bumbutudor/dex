@@ -15,6 +15,7 @@ class CreateDictionariesTable extends Migration
     {
         Schema::create('dictionaries', function (Blueprint $table) {
             $table->increments('id');
+            $table->integer('account_id')->nullable()->index();
 			$table->integer('organization_id')->nullable()->index();
             $table->string('name', 100);
             $table->text('description')->nullable();

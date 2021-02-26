@@ -17,7 +17,7 @@ Route::post('login')->name('login.attempt')->uses('Auth\LoginController@login')-
 Route::post('logout')->name('logout')->uses('Auth\LoginController@logout');
 
 // Dashboard
-Route::get('/')->name('dashboard')->uses('DashboardController')->middleware('auth');
+// Route::get('/')->name('dashboard')->uses('DashboardController')->middleware('auth');
 
 // Users
 Route::get('users')->name('users')->uses('UsersController@index')->middleware('remember', 'auth');
@@ -32,13 +32,23 @@ Route::put('users/{user}/restore')->name('users.restore')->uses('UsersController
 Route::get('/img/{path}', 'ImagesController@show')->where('path', '.*');
 
 // Organizations
-Route::get('organizations')->name('organizations')->uses('OrganizationsController@index')->middleware('remember', 'auth');
+Route::get('/')->name('organizations')->uses('OrganizationsController@index')->middleware('remember', 'auth');
 Route::get('organizations/create')->name('organizations.create')->uses('OrganizationsController@create')->middleware('auth');
 Route::post('organizations')->name('organizations.store')->uses('OrganizationsController@store')->middleware('auth');
 Route::get('organizations/{organization}/edit')->name('organizations.edit')->uses('OrganizationsController@edit')->middleware('auth');
 Route::put('organizations/{organization}')->name('organizations.update')->uses('OrganizationsController@update')->middleware('auth');
 Route::delete('organizations/{organization}')->name('organizations.destroy')->uses('OrganizationsController@destroy')->middleware('auth');
 Route::put('organizations/{organization}/restore')->name('organizations.restore')->uses('OrganizationsController@restore')->middleware('auth');
+
+// Dictionaries
+Route::get('dictionaries')->name('dictionaries')->uses('DictionariesController@index')->middleware('remember', 'auth');
+Route::get('dictionaries/create')->name('dictionaries.create')->uses('DictionariesController@create')->middleware('auth');
+Route::post('dictionaries')->name('dictionaries.store')->uses('DictionariesController@store')->middleware('auth');
+Route::get('dictionaries/{dictionary}/edit')->name('dictionaries.edit')->uses('DictionariesController@edit')->middleware('auth');
+Route::put('dictionaries/{dictionary}')->name('dictionaries.update')->uses('DictionariesController@update')->middleware('auth');
+Route::delete('dictionaries/{dictionary}')->name('dictionaries.destroy')->uses('DictionariesController@destroy')->middleware('auth');
+Route::put('dictionaries/{dictionary}/restore')->name('dictionaries.restore')->uses('DictionariesController@restore')->middleware('auth');
+
 
 // Contacts
 Route::get('contacts')->name('contacts')->uses('ContactsController@index')->middleware('remember', 'auth');

@@ -13,6 +13,12 @@ class Dictionary extends Model
     {
         return $this->hasMany(Word::class);
     }
+
+
+    public function scopeOrderByName($query)
+    {
+        $query->orderBy('name')->orderBy('name');
+    }
 	
 	public function scopeFilter($query, array $filters)
     {
