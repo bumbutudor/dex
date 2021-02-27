@@ -14,9 +14,10 @@ class Word extends Model
         return $this->belongsTo(Dictionary::class);
     }
 
-    public function getNameAttribute()
+    
+    public function user()
     {
-        return $this->name;
+        return $this->belongsTo(User::class);
     }
 
     public function scopeOrderByName($query)

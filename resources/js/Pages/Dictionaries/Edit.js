@@ -17,7 +17,7 @@ const Edit = () => {
   const [values, setValues] = useState({
     name: dictionary.name || '',
     description: dictionary.description || '',
-    organization_id: dictionary.organization_id || '',
+    // organization_id: dictionary.organization_id || '',
   });
 
   function handleChange(e) {
@@ -86,7 +86,7 @@ const Edit = () => {
               value={values.description}
               onChange={handleChange}
             />
-            <SelectInput
+            {/* <SelectInput
               className="w-full pb-8 pr-6 lg:w-1/2"
               label="Organizație"
               name="organization_id"
@@ -96,7 +96,7 @@ const Edit = () => {
               onChange={handleChange}
             >
               <option value="1">IFR</option>
-            </SelectInput>
+            </SelectInput> */}
           </div>
           <div className="flex items-center px-8 py-4 bg-gray-100 border-t border-gray-200">
             {!dictionary.deleted_at && (

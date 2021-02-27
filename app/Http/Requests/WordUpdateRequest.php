@@ -28,15 +28,15 @@ class WordUpdateRequest extends FormRequest
         return [
             'name' => ['nullable', 'max:100'],
             'dictionary_id' => ['required', Rule::exists('dictionaries', 'id')->where(function ($query) {
-             $query->where('id', 1);})],
-            'user_id' => ['required', Auth::user()->id],
+                $query->where('account_id', Auth::user()->account_id);
+            })],
             'predefinition' => ['nullable'],
             'definition' => ['nullable'],
             'synonyms' => ['nullable'],
             'antonyms' => ['nullable'],
             'paronyms' => ['nullable'],
             'other' => ['nullable'],
-            'active' => ['nullable'],
+            'active' => ['required'],
         ];
     }
 }

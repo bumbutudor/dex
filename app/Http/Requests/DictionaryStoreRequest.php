@@ -27,8 +27,8 @@ class DictionaryStoreRequest extends FormRequest
     {
         return [
             'name' => ['required', 'max:100'],
-            'organization_id' => ['required'],
             'description' => ['nullable', 'max:325'],
+            // 'organization_id' => ['required'],
         ];
     }
 }

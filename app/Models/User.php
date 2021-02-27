@@ -27,6 +27,16 @@ class User extends Model implements AuthenticatableContract, AuthorizableContrac
         return $this->belongsTo(Account::class);
     }
 
+    public function organization()
+    {
+        return $this->belongsTo(Organization::class);
+    }
+
+    public function words()
+    {
+        return $this->hasMany(Word::class);
+    }
+
     public function getNameAttribute()
     {
         return $this->first_name.' '.$this->last_name;
@@ -47,7 +57,7 @@ class User extends Model implements AuthenticatableContract, AuthorizableContrac
     }
 
     public function getPhotoAttribute() {
-        return $this->photoUrl(['w' => 40, 'h' => 40, 'fit' => 'crop']);
+        return $this->photoUrl(['w' => 70, 'h' => 70, 'fit' => 'crop']);
     }
 
     public function photoUrl(array $attributes)

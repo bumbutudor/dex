@@ -60,7 +60,7 @@ const Index = () => {
                       href={route('dictionaries.edit', id)}
                       className="flex items-center px-6 py-4 focus:text-indigo focus:outline-none"
                     >
-                      {description}
+                      {`${description.substring(0, 75)}...`}
                     </InertiaLink>
                   </td>
                   <td className="w-px border-t">

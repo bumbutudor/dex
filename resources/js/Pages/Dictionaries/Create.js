@@ -13,7 +13,7 @@ const Create = () => {
   const [values, setValues] = useState({
     name: '',
     description: '',
-    organization_id: '',
+    // organization_id: '',
   });
 
   function handleChange(e) {
@@ -64,7 +64,9 @@ const Create = () => {
               value={values.description}
               onChange={handleChange}
             />
-            <SelectInput
+
+            {/* @TODO Review the organization of the dictionary */}
+            {/* <SelectInput
               className="w-full pb-8 pr-6 lg:w-1/2"
               label="Organizație"
               name="organization_id"
@@ -72,10 +74,10 @@ const Create = () => {
               value={values.organization_id}
               onChange={handleChange}
             >
-              {/* <option value=""></option> */}
+              <option value=""></option>
               <option value="1">IFR</option>
               <option value="2">IMI</option>
-            </SelectInput>
+            </SelectInput> */}
           </div>
           <div className="flex items-center justify-end px-8 py-4 bg-gray-100 border-t border-gray-200">
             <LoadingButton

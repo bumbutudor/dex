@@ -35,7 +35,13 @@ class DictionariesController extends Controller
 
     public function create()
     {
-        return Inertia::render('Dictionaries/Create');
+        return Inertia::render('Dictionaries/Create', [
+            'organizations' => new UserOrganizationCollection(
+                Auth::user()->account->organizations()
+                    ->orderBy('name')
+                    ->get()
+            ),
+        ]);
     }
 
     public function store(DictionaryStoreRequest $request)
