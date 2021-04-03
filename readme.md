@@ -33,6 +33,11 @@ Build assets:
 npm run dev
 ```
 
+Production build assets:
+```sh
+npm run prod
+```
+
 Setup configuration:
 
 ```sh
