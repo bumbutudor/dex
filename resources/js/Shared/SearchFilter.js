@@ -65,25 +65,26 @@ export default () => {
             {filters.hasOwnProperty('role') && (
               <SelectInput
                 className="mb-4"
-                label="Role"
+                label="Rol"
                 name="role"
                 value={values.role}
                 onChange={handleChange}
               >
                 <option value=""></option>
-                <option value="user">User</option>
-                <option value="owner">Owner</option>
+                <option value="user">Lexicograf</option>
+                <option value="owner">Admin</option>
               </SelectInput>
             )}
             <SelectInput
-              label="Trashed"
+              label="Problematice"
               name="trashed"
               value={values.trashed}
               onChange={handleChange}
             >
               <option value=""></option>
-              <option value="with">With Trashed</option>
-              <option value="only">Only Trashed</option>
+              <option value="">Doar cele completate parțial</option>
+              {/* <option value="with">Împreună cu cele șteres</option> */}
+              <option value="only">Doar cele șterse</option>
             </SelectInput>
           </div>
         </div>
@@ -92,7 +93,7 @@ export default () => {
           className="px-4 border-r rounded-l md:px-6 hover:bg-gray-100 focus:outline-none focus:border-white focus:ring-2 focus:ring-indigo-400 focus:z-10"
         >
           <div className="flex items-baseline">
-            <span className="hidden text-gray-700 md:inline">Filter</span>
+            <span className="hidden text-gray-700 md:inline">Filtru</span>
             <svg
               className="w-2 h-2 text-gray-700 fill-current md:ml-2"
               xmlns="http://www.w3.org/2000/svg"
@@ -110,7 +111,7 @@ export default () => {
           name="search"
           value={values.search}
           onChange={handleChange}
-          placeholder="Search…"
+          placeholder="Caută…"
         />
       </div>
       <button
@@ -118,7 +119,7 @@ export default () => {
         className="ml-3 text-sm text-gray-600 hover:text-gray-700 focus:text-indigo-700 focus:outline-none"
         type="button"
       >
-        Reset
+        Resetează
       </button>
     </div>
   );

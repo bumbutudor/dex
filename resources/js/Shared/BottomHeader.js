@@ -7,7 +7,7 @@ export default () => {
   const [menuOpened, setMenuOpened] = useState(false);
   return (
     <div className="flex items-center justify-between w-full p-4 text-sm bg-white border-b md:py-0 md:px-12 d:text-md">
-      <div className="mt-1 mr-4">{auth.user.account.name}</div>
+      <div className="mt-1 mr-4">{`Proiect de colaborare ${auth.user.account.name}`}</div>
       <div className="relative">
         <div
           className="flex items-center cursor-pointer select-none group"
@@ -29,14 +29,14 @@ export default () => {
               className="block px-6 py-2 hover:bg-indigo-600 hover:text-white"
               onClick={() => setMenuOpened(false)}
             >
-              My Profile
+              Profilul meu
             </InertiaLink>
             <InertiaLink
               href={route('users')}
               className="block px-6 py-2 hover:bg-indigo-600 hover:text-white"
               onClick={() => setMenuOpened(false)}
             >
-              Manage Users
+              Listă utilizatori
             </InertiaLink>
             <InertiaLink
               as="button"
@@ -44,7 +44,7 @@ export default () => {
               className="block w-full px-6 py-2 text-left focus:outline-none hover:bg-indigo-600 hover:text-white"
               method="post"
             >
-              Logout
+              Ieșire
             </InertiaLink>
           </div>
           <div

@@ -5,10 +5,14 @@ import Layout from '@/Shared/Layout';
 import LoadingButton from '@/Shared/LoadingButton';
 import TextInput from '@/Shared/TextInput';
 import SelectInput from '@/Shared/SelectInput';
+import { CKEditor } from '@ckeditor/ckeditor5-react';
+import ClassicEditor from '@ckeditor/ckeditor5-build-classic';
+
 
 const Create = () => {
   const { dictionaries, errors } = usePage().props;
   const [sending, setSending] = useState(false);
+  const [show, setShow] = useState(false);
   const [values, setValues] = useState({
     name: '',
     predefinition: '',
@@ -61,26 +65,8 @@ const Create = () => {
               value={values.name}
               onChange={handleChange}
             />
-            <TextInput
-              className="w-full pb-8 pr-6 lg:w-1/2"
-              label="Pre-definiție"
-              name="predefinition"
-              type="text"
-              errors={errors.predefinition}
-              value={values.predefinition}
-              onChange={handleChange}
-            />
-            <TextInput
-              className="w-full pb-8 pr-6 lg:w-1/1"
-              label="Definiție"
-              name="definition"
-              type="text"
-              errors={errors.definition}
-              value={values.definition}
-              onChange={handleChange}
-            />
             <SelectInput
-              className="w-full pb-8 pr-6 lg:w-1/1"
+              className="w-full pb-8 pr-6 lg:w-1/2"
               label="Dicționar"
               name="dictionary_id"
               errors={errors.dictionary_id}
@@ -96,6 +82,56 @@ const Create = () => {
             </SelectInput>
             <TextInput
               className="w-full pb-8 pr-6 lg:w-1/1"
+              label="Pre-definiție"
+              name="predefinition"
+              type="text"
+              errors={errors.predefinition}
+              value={values.predefinition}
+              onChange={handleChange}
+            />
+            <div name="Definiție" className="w-full pb-8 pr-6 lg:w-1/1">
+              <h2 className="pb-2">Definiție:</h2>
+              
+              <CKEditor
+                editor={ ClassicEditor }
+                config={ {
+                  toolbar: [ 'bold', 'italic', 'link', 'undo', 'redo' ]
+                  
+                  } }
+          
+                label="Definiție"
+                name="definition"
+                errors={errors.definition}
+                data={values.definition}
+                onChange={ ( event, editor ) => {
+                    const data = editor.getData();
+                    setValues(values => ({
+                      ...values,
+                      definition: data
+                    }));
+
+                } }
+              />
+            </div>
+            
+
+            {/* <TextInput
+              className="w-full pb-8 pr-6 lg:w-1/1"
+              label="Definiție"
+              name="definition"
+              type="text"
+              errors={errors.definition}
+              value={values.definition}
+              onChange={handleChange}
+            /> */}
+
+            <div label="More" className="w-full pb-8 pr-6 lg:w-1/1" >              
+              <label className="btn-info" onClick={() => setShow(!show)} > Mai multe proprietăți </label>
+            </div>
+
+            {show&&(<>
+            <TextInput
+              className="w-full pb-8 pr-6 lg:w-1/2"
               label="Sinonime"
               name="synonyms"
               type="text"
@@ -104,7 +140,7 @@ const Create = () => {
               onChange={handleChange}
             />
             <TextInput
-              className="w-full pb-8 pr-6 lg:w-1/1"
+              className="w-full pb-8 pr-6 lg:w-1/2"
               label="Antonime"
               name="antonyms"
               type="text"
@@ -129,7 +165,8 @@ const Create = () => {
               errors={errors.other}
               value={values.other}
               onChange={handleChange}
-            />
+            /></>)}
+            
             {/* <SelectInput
               disabled
               className="w-full pb-8 pr-6 lg:w-1/1"

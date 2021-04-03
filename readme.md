@@ -21,6 +21,12 @@ Install NPM dependencies:
 npm install
 ```
 
+Live build assets:
+
+```sh
+npm run watch
+```
+
 Build assets:
 
 ```sh

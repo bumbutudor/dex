@@ -12,6 +12,7 @@ class CreateOrganizationsTable extends Migration
             $table->increments('id');
             $table->integer('account_id')->index();
             $table->string('name', 100);
+            $table->string('abr', 10)->nullable();
             $table->string('email', 50)->nullable();
             $table->string('phone', 50)->nullable();
             $table->string('address', 150)->nullable();

@@ -8,22 +8,24 @@ import LoadingButton from '@/Shared/LoadingButton';
 import TextInput from '@/Shared/TextInput';
 import SelectInput from '@/Shared/SelectInput';
 import TrashedMessage from '@/Shared/TrashedMessage';
+import { CKEditor } from '@ckeditor/ckeditor5-react';
+import ClassicEditor from '@ckeditor/ckeditor5-build-classic';
 
 const Edit = () => {
-  const { contact, organizations, errors } = usePage().props;
+  const {word, dictionaries, errors } = usePage().props;
   const [sending, setSending] = useState(false);
+  const [show, setShow] = useState(false);
 
   const [values, setValues] = useState({
-    first_name: contact.first_name || '',
-    last_name: contact.last_name || '',
-    organization_id: contact.organization_id || '',
-    email: contact.email || '',
-    phone: contact.phone || '',
-    address: contact.address || '',
-    city: contact.city || '',
-    region: contact.region || '',
-    country: contact.country || '',
-    postal_code: contact.postal_code || ''
+    name: word.name || '',
+    predefinition: word.predefinition || '',
+    definition: word.definition || '',
+    synonyms: word.synonyms || '',
+    antonyms: word.antonyms || '',
+    paronyms: word.paronyms || '',
+    other: word.other || '',
+    active: word.active || '1',
+    dictionary_id: word.dictionary_id || ''
   });
 
   function handleChange(e) {
@@ -38,39 +40,39 @@ const Edit = () => {
   function handleSubmit(e) {
     e.preventDefault();
     setSending(true);
-    Inertia.put(route('contacts.update', contact.id), values, {
+    Inertia.put(route('words.update', word.id), values, {
       onFinish: () => setSending(false)
     });
   }
 
   function destroy() {
-    if (confirm('Are you sure you want to delete this contact?')) {
-      Inertia.delete(route('contacts.destroy', contact.id));
+    if (confirm('Sunteți sigur că doriți să ștergeți acest cuvânt din dicționar?')) {
+      Inertia.delete(route('words.destroy', word.id));
     }
   }
 
   function restore() {
-    if (confirm('Are you sure you want to restore this contact?')) {
-      Inertia.put(route('contacts.restore', contact.id));
+    if (confirm('Sunteți sigur că doriți să restabiliți acest cuvânt?')) {
+      Inertia.put(route('words.restore', word.id));
     }
   }
 
   return (
     <div>
-      <Helmet title={`${values.first_name} ${values.last_name}`} />
+      <Helmet title={values.name} />
       <h1 className="mb-8 text-3xl font-bold">
         <InertiaLink
-          href={route('contacts')}
+          href={route('words')}
           className="text-indigo-600 hover:text-indigo-700"
         >
-          Contacts
+          Cuvinte
         </InertiaLink>
         <span className="mx-2 font-medium text-indigo-600">/</span>
-        {values.first_name} {values.last_name}
+        {values.name}
       </h1>
-      {contact.deleted_at && (
+      {word.deleted_at && (
         <TrashedMessage onRestore={restore}>
-          This contact has been deleted.
+          Acest cuvânt a fost șters.
         </TrashedMessage>
       )}
       <div className="max-w-3xl overflow-hidden bg-white rounded shadow">
@@ -78,112 +80,123 @@ const Edit = () => {
           <div className="flex flex-wrap p-8 -mb-8 -mr-6">
             <TextInput
               className="w-full pb-8 pr-6 lg:w-1/2"
-              label="First Name"
-              name="first_name"
-              errors={errors.first_name}
-              value={values.first_name}
-              onChange={handleChange}
-            />
-            <TextInput
-              className="w-full pb-8 pr-6 lg:w-1/2"
-              label="Last Name"
-              name="last_name"
-              errors={errors.last_name}
-              value={values.last_name}
+              label="Cuvânt"
+              name="name"
+              type="text"
+              errors={errors.name}
+              value={values.name}
               onChange={handleChange}
             />
             <SelectInput
               className="w-full pb-8 pr-6 lg:w-1/2"
-              label="Organization"
-              name="organization_id"
-              errors={errors.organization_id}
-              value={values.organization_id}
+              label="Dicționar"
+              name="dictionary_id"
+              errors={errors.dictionary_id}
+              value={values.dictionary_id}
               onChange={handleChange}
             >
               <option value=""></option>
-              {organizations.map(({ id, name }) => (
+              {dictionaries.map(({ id, name }) => (
                 <option key={id} value={id}>
                   {name}
                 </option>
               ))}
             </SelectInput>
             <TextInput
+              className="w-full pb-8 pr-6 lg:w-1/1"
+              label="Pre-definiție"
+              name="predefinition"
+              type="text"
+              errors={errors.predefinition}
+              value={values.predefinition}
+              onChange={handleChange}
+            />
+            <div name="Definiție" className="w-full pb-8 pr-6 lg:w-1/1">
+              <h2 className="pb-2">Definiție:</h2>
+              
+              <CKEditor
+                editor={ ClassicEditor }
+                config={ {
+                  toolbar: [ 'bold', 'italic', 'link', 'undo', 'redo' ]
+                  
+                  } }
+          
+                label="Definiție"
+                name="definition"
+                errors={errors.definition}
+                data={values.definition}
+                onChange={ ( event, editor ) => {
+                    const data = editor.getData();
+                    setValues(values => ({
+                      ...values,
+                      definition: data
+                    }));
+
+                } }
+              />
+            </div>
+            {/* <TextInput
+              className="w-full pb-8 pr-6 lg:w-1/1"
+              label="Definiție"
+              name="definition"
+              type="text"
+              errors={errors.definition}
+              value={values.definition}
+              onChange={handleChange}
+            /> */}
+
+            <div label="More" className="w-full pb-8 pr-6 lg:w-1/1" >              
+              <label className="btn-info" onClick={() => setShow(!show)} > Mai multe proprietăți </label>
+            </div>
+            {show&&(<>
+            <TextInput
               className="w-full pb-8 pr-6 lg:w-1/2"
-              label="Email"
-              name="email"
-              type="email"
-              errors={errors.email}
-              value={values.email}
+              label="Sinonime"
+              name="synonyms"
+              type="text"
+              errors={errors.synonyms}
+              value={values.synonyms}
               onChange={handleChange}
             />
             <TextInput
               className="w-full pb-8 pr-6 lg:w-1/2"
-              label="Phone"
-              name="phone"
+              label="Antonime"
+              name="antonyms"
               type="text"
-              errors={errors.phone}
-              value={values.phone}
+              errors={errors.antonyms}
+              value={values.antonyms}
               onChange={handleChange}
             />
             <TextInput
               className="w-full pb-8 pr-6 lg:w-1/2"
-              label="Address"
-              name="address"
+              label="Paronime"
+              name="paronyms"
               type="text"
-              errors={errors.address}
-              value={values.address}
+              errors={errors.paronyms}
+              value={values.paronyms}
               onChange={handleChange}
             />
             <TextInput
               className="w-full pb-8 pr-6 lg:w-1/2"
-              label="City"
-              name="city"
+              label="Alte informații"
+              name="other"
               type="text"
-              errors={errors.city}
-              value={values.city}
+              errors={errors.other}
+              value={values.other}
               onChange={handleChange}
-            />
-            <TextInput
-              className="w-full pb-8 pr-6 lg:w-1/2"
-              label="Province/State"
-              name="region"
-              type="text"
-              errors={errors.region}
-              value={values.region}
-              onChange={handleChange}
-            />
-            <SelectInput
-              className="w-full pb-8 pr-6 lg:w-1/2"
-              label="Country"
-              name="country"
-              errors={errors.country}
-              value={values.country}
-              onChange={handleChange}
-            >
-              <option value=""></option>
-              <option value="CA">Canada</option>
-              <option value="US">United States</option>
-            </SelectInput>
-            <TextInput
-              className="w-full pb-8 pr-6 lg:w-1/2"
-              label="Postal Code"
-              name="postal_code"
-              type="text"
-              errors={errors.postal_code}
-              value={values.postal_code}
-              onChange={handleChange}
-            />
+            /></>)}
+
           </div>
           <div className="flex items-center px-8 py-4 bg-gray-100 border-t border-gray-200">
-            {!contact.deleted_at && (
-              <DeleteButton onDelete={destroy}>Delete Contact</DeleteButton>
+            {!word.deleted_at && (
+              <DeleteButton onDelete={destroy}>Șterge cuvântul</DeleteButton>
             )}
             <LoadingButton
               loading={sending}
               type="submit"
               className="ml-auto btn-indigo"
             >
-              Update Contact
+              Modifică cuvântul
             </LoadingButton>
           </div>
         </form>

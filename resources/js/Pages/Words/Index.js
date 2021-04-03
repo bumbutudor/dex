@@ -4,6 +4,8 @@ import Layout from '@/Shared/Layout';
 import Icon from '@/Shared/Icon';
 import Pagination from '@/Shared/Pagination';
 import SearchFilter from '@/Shared/SearchFilter';
+import parse from 'html-react-parser';
+import { html_substring } from '@/utils';
 
 const Index = () => {
   const { words } = usePage().props;
@@ -29,7 +31,7 @@ const Index = () => {
           <thead>
             <tr className="font-bold text-left">
               <th className="px-6 pt-5 pb-4">Cuvânt</th>
-              <th className="px-6 pt-5 pb-4">Pre-definiție</th>
+              {/* <th className="px-6 pt-5 pb-4">Pre-definiție</th> */}
               <th className="px-6 pt-5 pb-4">Definiție</th>
               <th className="px-6 pt-5 pb-4">Dicționar</th>
             </tr>
@@ -54,23 +56,27 @@ const Index = () => {
                     )}
                   </InertiaLink>
                 </td>
-                <td className="border-t">
+                {/* <td className="border-t">
                   <InertiaLink
                     tabIndex="1"
                     className="flex items-center px-6 py-4 focus:text-indigo focus:outline-none"
                     href={route('words.edit', id)}
                   >
-                    {predefinition}
+                    {predefinition ? parse(predefinition.substring(0, 20)) : ''}
+                    <span>&nbsp;...</span>
                   </InertiaLink>
-                </td>
+                </td> */}
                 <td className="border-t">
                   <InertiaLink
                     tabIndex="-1"
                     href={route('words.edit', id)}
                     className="flex items-center px-6 py-4 focus:text-indigo focus:outline-none"
                   >
-                    {definition}
+                     
+                    {definition ? parse(html_substring(definition, 0, 75)) : ''}
+                    <span>&nbsp;...</span>
                   </InertiaLink>
+                 
                 </td>
                 <td className="border-t">
                   <InertiaLink
@@ -98,7 +104,7 @@ const Index = () => {
             {data.length === 0 && (
               <tr>
                 <td className="px-6 py-4 border-t" colSpan="4">
-                  No contacts found.
+                  Dragă lexicograf, nu aveți niciun cuvânt adăugat. Vă rugăm să le adăugați.
                 </td>
               </tr>
             )}

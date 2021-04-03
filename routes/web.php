@@ -28,7 +28,7 @@ Route::put('users/{user}/rest')->name('users.restore')->uses('UsersController@re
 Route::get('/img/{path}', 'ImagesController@show')->where('path', '.*');
 
 // Dictionaries
-Route::get('/')->name('dictionaries')->uses('DictionariesController@index')->middleware('remember', 'auth');
+Route::get('dict')->name('dictionaries')->uses('DictionariesController@index')->middleware('remember', 'auth');
 Route::get('dict/add')->name('dictionaries.create')->uses('DictionariesController@create')->middleware('auth');
 Route::post('dict')->name('dictionaries.store')->uses('DictionariesController@store')->middleware('auth');
 Route::get('dict/{dictionary}/edit')->name('dictionaries.edit')->uses('DictionariesController@edit')->middleware('auth');
@@ -37,13 +37,13 @@ Route::delete('dict/{dictionary}')->name('dictionaries.destroy')->uses('Dictiona
 Route::put('dict/{dictionary}/rest')->name('dictionaries.restore')->uses('DictionariesController@restore')->middleware('auth');
 
 // Words
-Route::get('cuv')->name('words')->uses('WordsController@index')->middleware('remember', 'auth');
-Route::get('cuv/add')->name('words.create')->uses('WordsController@create')->middleware('auth');
-Route::post('cuv')->name('words.store')->uses('WordsController@store')->middleware('auth');
-Route::get('cuv/{word}/edit')->name('words.edit')->uses('WordsController@edit')->middleware('auth');
-Route::put('cuv/{word}')->name('words.update')->uses('WordsController@update')->middleware('auth');
-Route::delete('cuv/{word}')->name('words.destroy')->uses('WordsController@destroy')->middleware('auth');
-Route::put('cuv/{word}/rest')->name('words.restore')->uses('WordsController@restore')->middleware('auth');
+Route::get('/')->name('words')->uses('WordsController@index')->middleware('remember', 'auth');
+Route::get('cuvinte/add')->name('words.create')->uses('WordsController@create')->middleware('auth');
+Route::post('cuvinte')->name('words.store')->uses('WordsController@store')->middleware('auth');
+Route::get('cuvinte/{word}/edit')->name('words.edit')->uses('WordsController@edit')->middleware('auth');
+Route::put('cuvinte/{word}')->name('words.update')->uses('WordsController@update')->middleware('auth');
+Route::delete('cuvinte/{word}')->name('words.destroy')->uses('WordsController@destroy')->middleware('auth');
+Route::put('cuvinte/{word}/rest')->name('words.restore')->uses('WordsController@restore')->middleware('auth');
 
 // Organizations
 Route::get('org')->name('organizations')->uses('OrganizationsController@index')->middleware('remember', 'auth');

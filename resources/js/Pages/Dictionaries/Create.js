@@ -7,13 +7,13 @@ import TextInput from '@/Shared/TextInput';
 import SelectInput from '@/Shared/SelectInput';
 
 const Create = () => {
-  const { errors } = usePage().props;
+  const { organizations, errors } = usePage().props;
   const [sending, setSending] = useState(false);
 
   const [values, setValues] = useState({
     name: '',
     description: '',
-    // organization_id: '',
+    organization_id: '',
   });
 
   function handleChange(e) {
@@ -66,8 +66,8 @@ const Create = () => {
             />
 
             {/* @TODO Review the organization of the dictionary */}
-            {/* <SelectInput
-              className="w-full pb-8 pr-6 lg:w-1/2"
+            <SelectInput
+              className="w-full pb-8 pr-6 lg:w-1/1"
               label="Organizație"
               name="organization_id"
               errors={errors.organization_id}
@@ -75,9 +75,12 @@ const Create = () => {
               onChange={handleChange}
             >
               <option value=""></option>
-              <option value="1">IFR</option>
-              <option value="2">IMI</option>
-            </SelectInput> */}
+              {organizations.map(({ id, name }) => (
+                <option key={id} value={id}>
+                  {name}
+                </option>
+              ))}
+            </SelectInput>
           </div>
           <div className="flex items-center justify-end px-8 py-4 bg-gray-100 border-t border-gray-200">
             <LoadingButton

@@ -20,6 +20,7 @@ class DictionaryResource extends JsonResource
             'description' => $this->description,
             'deleted_at' => $this->deleted_at,
             'organization_id' => $this->organization_id,
+            'words' => $this->words()->orderByName()->get()->map->only('id', 'name', 'predefinition', 'definition', 'user_id'),
         ];
     }
 }

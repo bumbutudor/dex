@@ -12,6 +12,7 @@ const Create = () => {
 
   const [values, setValues] = useState({
     name: '',
+    abr: '',
     email: '',
     phone: '',
     address: '',
@@ -46,19 +47,27 @@ const Create = () => {
           href={route('organizations')}
           className="text-indigo-600 hover:text-indigo-700"
         >
-          Organizations
+          Organizații
         </InertiaLink>
-        <span className="font-medium text-indigo-600"> /</span> Create
+        <span className="font-medium text-indigo-600"> /</span> Adaugă
       </h1>
       <div className="max-w-3xl overflow-hidden bg-white rounded shadow">
         <form onSubmit={handleSubmit}>
           <div className="flex flex-wrap p-8 -mb-8 -mr-6">
             <TextInput
               className="w-full pb-8 pr-6 lg:w-1/2"
-              label="Name"
+              label="Denumire"
               name="name"
               errors={errors.name}
               value={values.name}
+              onChange={handleChange}
+            />
+            <TextInput
+              className="w-full pb-8 pr-6 lg:w-1/2"
+              label="Abreviere"
+              name="abr"
+              errors={errors.abr}
+              value={values.abr}
               onChange={handleChange}
             />
             <TextInput
@@ -72,7 +81,7 @@ const Create = () => {
             />
             <TextInput
               className="w-full pb-8 pr-6 lg:w-1/2"
-              label="Phone"
+              label="Telefon"
               name="phone"
               type="text"
               errors={errors.phone}
@@ -81,7 +90,7 @@ const Create = () => {
             />
             <TextInput
               className="w-full pb-8 pr-6 lg:w-1/2"
-              label="Address"
+              label="Adresă"
               name="address"
               type="text"
               errors={errors.address}
@@ -90,37 +99,28 @@ const Create = () => {
             />
             <TextInput
               className="w-full pb-8 pr-6 lg:w-1/2"
-              label="City"
+              label="Localitate"
               name="city"
               type="text"
               errors={errors.city}
               value={values.city}
               onChange={handleChange}
             />
-            <TextInput
-              className="w-full pb-8 pr-6 lg:w-1/2"
-              label="Province/State"
-              name="region"
-              type="text"
-              errors={errors.region}
-              value={values.region}
-              onChange={handleChange}
-            />
             <SelectInput
               className="w-full pb-8 pr-6 lg:w-1/2"
-              label="Country"
+              label="Țară"
               name="country"
               errors={errors.country}
               value={values.country}
               onChange={handleChange}
             >
               <option value=""></option>
-              <option value="CA">Canada</option>
-              <option value="US">United States</option>
+              <option value="MD">Moldova</option>
+              <option value="RO">România</option>
             </SelectInput>
             <TextInput
               className="w-full pb-8 pr-6 lg:w-1/2"
-              label="Postal Code"
+              label="*Cod Poștal"
               name="postal_code"
               type="text"
               errors={errors.postal_code}
@@ -134,7 +134,7 @@ const Create = () => {
               type="submit"
               className="btn-indigo"
             >
-              Create Organization
+              Adaugă organizație
             </LoadingButton>
           </div>
         </form>

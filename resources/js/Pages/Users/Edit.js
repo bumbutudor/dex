@@ -57,13 +57,13 @@ const Edit = () => {
   }
 
   function destroy() {
-    if (confirm('Are you sure you want to delete this user?')) {
+    if (confirm('Sunteți sigur că doriți să ștergeți acest utilizator?')) {
       Inertia.delete(route('users.destroy', user.id));
     }
   }
 
   function restore() {
-    if (confirm('Are you sure you want to restore this user?')) {
+    if (confirm('Sunteți sigur că doriți să restabiliți acest utilizator?')) {
       Inertia.put(route('users.restore', user.id));
     }
   }
@@ -77,7 +77,7 @@ const Edit = () => {
             href={route('users')}
             className="text-indigo-600 hover:text-indigo-700"
           >
-            Users
+            Utilizatori
           </InertiaLink>
           <span className="mx-2 font-medium text-indigo-600">/</span>
           {values.first_name} {values.last_name}
@@ -88,7 +88,7 @@ const Edit = () => {
       </div>
       {user.deleted_at && (
         <TrashedMessage onRestore={restore}>
-          This user has been deleted.
+          Acets utilizator a fost șters.
         </TrashedMessage>
       )}
       <div className="max-w-3xl overflow-hidden bg-white rounded shadow">
@@ -96,7 +96,7 @@ const Edit = () => {
           <div className="flex flex-wrap p-8 -mb-8 -mr-6">
             <TextInput
               className="w-full pb-8 pr-6 lg:w-1/2"
-              label="First Name"
+              label="Prenume"
               name="first_name"
               errors={errors.first_name}
               value={values.first_name}
@@ -104,7 +104,7 @@ const Edit = () => {
             />
             <TextInput
               className="w-full pb-8 pr-6 lg:w-1/2"
-              label="Last Name"
+              label="Nume"
               name="last_name"
               errors={errors.last_name}
               value={values.last_name}
@@ -121,7 +121,7 @@ const Edit = () => {
             />
             <TextInput
               className="w-full pb-8 pr-6 lg:w-1/2"
-              label="Password"
+              label="Parolă"
               name="password"
               type="password"
               errors={errors.password}
@@ -130,18 +130,18 @@ const Edit = () => {
             />
             <SelectInput
               className="w-full pb-8 pr-6 lg:w-1/2"
-              label="Owner"
+              label="Lexicograf"
               name="owner"
               errors={errors.owner}
               value={values.owner}
               onChange={handleChange}
             >
-              <option value="1">Yes</option>
-              <option value="0">No</option>
+              <option value="0">Da</option>
+              <option value="1">Nu</option>
             </SelectInput>
             <FileInput
               className="w-full pb-8 pr-6 lg:w-1/2"
-              label="Photo"
+              label="Fotografie"
               name="photo"
               accept="image/*"
               errors={errors.photo}
@@ -151,14 +151,14 @@ const Edit = () => {
           </div>
           <div className="flex items-center px-8 py-4 bg-gray-100 border-t border-gray-200">
             {!user.deleted_at && (
-              <DeleteButton onDelete={destroy}>Delete User</DeleteButton>
+              <DeleteButton onDelete={destroy}>Șterge utilizatorul</DeleteButton>
             )}
             <LoadingButton
               loading={sending}
               type="submit"
               className="ml-auto btn-indigo"
             >
-              Update User
+              Modifică utilizatorul
             </LoadingButton>
           </div>
         </form>

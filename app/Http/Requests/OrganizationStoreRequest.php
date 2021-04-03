@@ -25,6 +25,7 @@ class OrganizationStoreRequest extends FormRequest
     {
         return [
             'name' => ['required', 'max:100'],
+            'abr' => ['nullable', 'max:10'],
             'email' => ['nullable', 'max:50', 'email'],
             'phone' => ['nullable', 'max:50'],
             'address' => ['nullable', 'max:150'],

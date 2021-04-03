@@ -53,5 +53,39 @@ class WordsController extends Controller
     }
 
     // @TODO update and rest
+    public function edit(Word $word)
+    {
+        return Inertia::render('Words/Edit', [
+            'word' => new WordResource($word),
+            'dictionaries' => new WordDictionaryCollection(
+                Auth::user()->account->dictionaries()
+                    ->orderBy('name')
+                    ->get()
+            ),
+        ]);
+    }
+
+    public function update(Word $word, WordUpdateRequest $request)
+    {
+        $word->update(
+            $request->validated()
+        );
+
+        return Redirect::back()->with('success', 'Datele au fost modificate.');
+    }
+
+    public function destroy(Word $word)
+    {
+        $word->delete();
+
+        return Redirect::back()->with('success', 'Cuvântul a fost șters.');
+    }
+
+    public function restore(Word $word)
+    {
+        $word->restore();
+
+        return Redirect::back()->with('success', 'Cuvântul a fost restabilit.');
+    }
 
 }

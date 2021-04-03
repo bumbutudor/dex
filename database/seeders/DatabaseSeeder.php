@@ -25,25 +25,14 @@ class DatabaseSeeder extends Seeder
             'owner' => true,
         ]);
 
-        User::factory()->count(2)->create([
+        User::factory()->count(1)->create([
             'account_id' => $account->id,
-            'organization_id' => 1,
         ]);
 
-        $organizations = Organization::factory()->count(2)->create([
+        $organizations = Organization::factory()->count(1)->create([
             'account_id' => $account->id
         ]);
 
-        Contact::factory()->count(1)->create([
-            'account_id' => $account->id
-        ])
-            ->each(function (Contact  $contact) use ($organizations) {
-                $contact->update(['organization_id' => $organizations->random()->id]);
-            });
-			
-		Dictionary::factory()->count(2)->create()
-            ->each(function (Dictionary  $dictionary) use ($organizations) {
-                $dictionary->update(['organization_id' => $organizations->random()->id]);
-            });
+		
     }
 }

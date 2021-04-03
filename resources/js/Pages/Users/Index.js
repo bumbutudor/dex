@@ -13,25 +13,25 @@ const Index = () => {
   } = users;
   return (
     <div>
-      <h1 className="mb-8 text-3xl font-bold">Users</h1>
+      <h1 className="mb-8 text-3xl font-bold">Utilizatori</h1>
       <div className="flex items-center justify-between mb-6">
         <SearchFilter />
         <InertiaLink
           className="btn-indigo focus:outline-none"
           href={route('users.create')}
         >
-          <span>Create</span>
-          <span className="hidden md:inline"> User</span>
+          <span>Adaugă</span>
+          <span className="hidden md:inline"> utilizator</span>
         </InertiaLink>
       </div>
       <div className="overflow-x-auto bg-white rounded shadow">
         <table className="w-full whitespace-nowrap">
           <thead>
             <tr className="font-bold text-left">
-              <th className="px-6 pt-5 pb-4">Name</th>
+              <th className="px-6 pt-5 pb-4">Nume</th>
               <th className="px-6 pt-5 pb-4">Email</th>
               <th className="px-6 pt-5 pb-4" colSpan="2">
-                Role
+                Rol
               </th>
             </tr>
           </thead>
@@ -77,7 +77,7 @@ const Index = () => {
                       href={route('users.edit', id)}
                       className="flex items-center px-6 py-4 focus:text-indigo focus:outline-none"
                     >
-                      {owner ? 'Owner' : 'User'}
+                      {owner ? 'Admin' : 'Lexicograf'}
                     </InertiaLink>
                   </td>
                   <td className="w-px border-t">
@@ -98,7 +98,7 @@ const Index = () => {
             {data.length === 0 && (
               <tr>
                 <td className="px-6 py-4 border-t" colSpan="4">
-                  No users found.
+                  Nu există niciun utilizator.
                 </td>
               </tr>
             )}

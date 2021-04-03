@@ -28,9 +28,7 @@ class DictionaryUpdateRequest extends FormRequest
         return [
             'name' => ['required', 'max:100'],
             'description' => ['nullable', 'max:325'],
-            // 'organization_id' => ['required', Rule::exists('organizations', 'id')->where(function ($query) {
-            //     $query->where('account_id', Auth::user()->organization_id);
-            // })],
+            'organization_id' => ['required'],
         ];
     }
 }

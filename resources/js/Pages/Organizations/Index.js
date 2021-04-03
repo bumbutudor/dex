@@ -13,30 +13,30 @@ const Index = () => {
   } = organizations;
   return (
     <div>
-      <h1 className="mb-8 text-3xl font-bold">Organizations</h1>
+      <h1 className="mb-8 text-3xl font-bold">Organizații</h1>
       <div className="flex items-center justify-between mb-6">
         <SearchFilter />
         <InertiaLink
           className="btn-indigo focus:outline-none"
           href={route('organizations.create')}
         >
-          <span>Create</span>
-          <span className="hidden md:inline"> Organization</span>
+          <span>Adaugă</span>
+          <span className="hidden md:inline"> Organizație</span>
         </InertiaLink>
       </div>
       <div className="overflow-x-auto bg-white rounded shadow">
         <table className="w-full whitespace-nowrap">
           <thead>
             <tr className="font-bold text-left">
-              <th className="px-6 pt-5 pb-4">Name</th>
-              <th className="px-6 pt-5 pb-4">City</th>
+              <th className="px-6 pt-5 pb-4">Nume abreviat</th>
+              <th className="px-6 pt-5 pb-4">Localitate</th>
               <th className="px-6 pt-5 pb-4" colSpan="2">
-                Phone
+                Telefon
               </th>
             </tr>
           </thead>
           <tbody>
-            {data.map(({ id, name, city, phone, deleted_at }) => {
+            {data.map(({ id, abr, city, phone, deleted_at }) => {
               return (
                 <tr
                   key={id}
@@ -47,7 +47,7 @@ const Index = () => {
                       href={route('organizations.edit', id)}
                       className="flex items-center px-6 py-4 focus:text-indigo-700 focus:outline-none"
                     >
-                      {name}
+                      {abr}
                       {deleted_at && (
                         <Icon
                           name="trash"
@@ -92,7 +92,7 @@ const Index = () => {
             {data.length === 0 && (
               <tr>
                 <td className="px-6 py-4 border-t" colSpan="4">
-                  No organizations found.
+                  Nu există niciu o organizație. Adaugați-le.
                 </td>
               </tr>
             )}

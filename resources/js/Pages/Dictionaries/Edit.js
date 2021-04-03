@@ -9,15 +9,17 @@ import TextInput from '@/Shared/TextInput';
 import SelectInput from '@/Shared/SelectInput';
 import TrashedMessage from '@/Shared/TrashedMessage';
 import Icon from '@/Shared/Icon';
+import parse from 'html-react-parser';
+import { html_substring } from '@/utils';
 
 const Edit = () => {
-  const { errors, dictionary } = usePage().props;
+  const { errors, dictionary, organizations } = usePage().props;
   const [sending, setSending] = useState(false);
 
   const [values, setValues] = useState({
     name: dictionary.name || '',
     description: dictionary.description || '',
-    // organization_id: dictionary.organization_id || '',
+    organization_id: dictionary.organization_id || '',
   });
 
   function handleChange(e) {
@@ -86,17 +88,22 @@ const Edit = () => {
               value={values.description}
               onChange={handleChange}
             />
-            {/* <SelectInput
-              className="w-full pb-8 pr-6 lg:w-1/2"
+            {/* @TODO Review the organization of the dictionary */}
+            <SelectInput
+              className="w-full pb-8 pr-6 lg:w-1/1"
               label="Organizație"
               name="organization_id"
-              disabled
               errors={errors.organization_id}
               value={values.organization_id}
               onChange={handleChange}
             >
-              <option value="1">IFR</option>
-            </SelectInput> */}
+              <option value=""></option>
+              {organizations.map(({ id, name }) => (
+                <option key={id} value={id}>
+                  {name}
+                </option>
+              ))}
+            </SelectInput>
           </div>
           <div className="flex items-center px-8 py-4 bg-gray-100 border-t border-gray-200">
             {!dictionary.deleted_at && (
@@ -120,15 +127,16 @@ const Edit = () => {
           <thead>
             <tr className="font-bold text-left">
               <th className="px-6 pt-5 pb-4">Cuvânt</th>
-              <th className="px-6 pt-5 pb-4">Pre-definiție</th>
-              <th className="px-6 pt-5 pb-4" colSpan="2"> Definiție
+              <th className="px-6 pt-5 pb-4"> Definiție
+              </th>
+              <th className="px-6 pt-5 pb-4" colSpan="2"> Adăugat de:
               </th>
             </tr>
           </thead>
           <tbody>
-            {/* Todo */}
-            {/* {organization.contacts.map(
-              ({ id, name, phone, city, deleted_at }) => {
+            {/* @Todo display user*/}
+            {dictionary.words.map(
+              ({ id, name, user_id, definition, deleted_at }) => {
                 return (
                   <tr
                     key={id}
@@ -136,7 +144,7 @@ const Edit = () => {
                   >
                     <td className="border-t">
                       <InertiaLink
-                        href={route('contacts.edit', id)}
+                        href={route('words.edit', id)}
                         className="flex items-center px-6 py-4 focus:text-indigo focus:outline-none"
                       >
                         {name}
@@ -151,25 +159,25 @@ const Edit = () => {
                     <td className="border-t">
                       <InertiaLink
                         tabIndex="-1"
-                        href={route('contacts.edit', id)}
+                        href={route('words.edit', id)}
                         className="flex items-center px-6 py-4 focus:text-indigo focus:outline-none"
                       >
-                        {city}
+                        {definition ? parse(html_substring(definition, 0, 75)) : ''}
                       </InertiaLink>
                     </td>
                     <td className="border-t">
                       <InertiaLink
                         tabIndex="-1"
-                        href={route('contacts.edit', id)}
+                        href={route('words.edit', id)}
                         className="flex items-center px-6 py-4 focus:text-indigo focus:outline-none"
                       >
-                        {phone}
+                        {user_id}
                       </InertiaLink>
                     </td>
                     <td className="w-px border-t">
                       <InertiaLink
                         tabIndex="-1"
-                        href={route('contacts.edit', id)}
+                        href={route('words.edit', id)}
                         className="flex items-center px-4"
                       >
                         <Icon
@@ -182,13 +190,13 @@ const Edit = () => {
                 );
               }
             )}
-            {organization.contacts.length === 0 && (
+            {dictionary.words.length === 0 && (
               <tr>
                 <td className="px-6 py-4 border-t" colSpan="4">
-                  No contacts found.
+                  Nu există niciun cuvânt în acest dicționar.
                 </td>
               </tr>
-            )} */}
+            )}
           </tbody>
         </table>
       </div>

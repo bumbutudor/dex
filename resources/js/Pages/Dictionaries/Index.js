@@ -4,6 +4,8 @@ import Layout from '@/Shared/Layout';
 import Icon from '@/Shared/Icon';
 import SearchFilter from '@/Shared/SearchFilter';
 import Pagination from '@/Shared/Pagination';
+import parse from 'html-react-parser';
+import { html_substring } from '@/utils';
 
 const Index = () => {
   const { dictionaries } = usePage().props;
@@ -60,7 +62,8 @@ const Index = () => {
                       href={route('dictionaries.edit', id)}
                       className="flex items-center px-6 py-4 focus:text-indigo focus:outline-none"
                     >
-                      {`${description.substring(0, 75)}...`}
+                      {description ? parse(html_substring(description, 0, 75)) : ''}
+                      <span>&nbsp;...</span>
                     </InertiaLink>
                   </td>
                   <td className="w-px border-t">

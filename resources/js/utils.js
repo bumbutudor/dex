@@ -1,3 +1,23 @@
+export function html_substring(str, start, length) {
+  var countTags = 0;
+  var returnString = "";
+  var writeLetters = 0;
+  while (!((writeLetters >= length) && (countTags == 0))) {
+      var letter = str.charAt(start + writeLetters);
+      if (letter == "<") {
+          countTags++;
+      }
+      if (letter == ">") {
+          countTags--;
+      }
+      returnString += letter;
+      writeLetters++;
+  }
+  return returnString;
+}
+
+
+
 export function filesize(size) {
   const i = Math.floor(Math.log(size) / Math.log(1024));
   return (

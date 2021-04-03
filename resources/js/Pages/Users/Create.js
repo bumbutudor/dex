@@ -59,9 +59,9 @@ const Create = () => {
             href={route('users')}
             className="text-indigo-600 hover:text-indigo-700"
           >
-            Users
+            Utilizatori
           </InertiaLink>
-          <span className="font-medium text-indigo-600"> /</span> Create
+          <span className="font-medium text-indigo-600"> /</span> Adaugă
         </h1>
       </div>
       <div className="max-w-3xl overflow-hidden bg-white rounded shadow">
@@ -69,7 +69,7 @@ const Create = () => {
           <div className="flex flex-wrap p-8 -mb-8 -mr-6">
             <TextInput
               className="w-full pb-8 pr-6 lg:w-1/2"
-              label="First Name"
+              label="Prenume"
               name="first_name"
               errors={errors.first_name}
               value={values.first_name}
@@ -77,7 +77,7 @@ const Create = () => {
             />
             <TextInput
               className="w-full pb-8 pr-6 lg:w-1/2"
-              label="Last Name"
+              label="Nume"
               name="last_name"
               errors={errors.last_name}
               value={values.last_name}
@@ -94,7 +94,7 @@ const Create = () => {
             />
             <TextInput
               className="w-full pb-8 pr-6 lg:w-1/2"
-              label="Password"
+              label="Parolă"
               name="password"
               type="password"
               errors={errors.password}
@@ -103,18 +103,18 @@ const Create = () => {
             />
             <SelectInput
               className="w-full pb-8 pr-6 lg:w-1/2"
-              label="Owner"
+              label="Lexicograf"
               name="owner"
               errors={errors.owner}
               value={values.owner}
               onChange={handleChange}
             >
-              <option value="1">Yes</option>
-              <option value="0">No</option>
+              <option value="0">Da</option>
+              <option value="1" disabled>Nu</option>
             </SelectInput>
             <FileInput
               className="w-full pb-8 pr-6 lg:w-1/2"
-              label="Photo"
+              label="Fotografie"
               name="photo"
               accept="image/*"
               errors={errors.photo}
@@ -128,7 +128,7 @@ const Create = () => {
               type="submit"
               className="btn-indigo"
             >
-              Create User
+              Adaugă utilizator
             </LoadingButton>
           </div>
         </form>
@@ -137,6 +137,6 @@ const Create = () => {
   );
 };
 
-Create.layout = page => <Layout title="Create User" children={page} />;
+Create.layout = page => <Layout title="Adaugă utilizator" children={page} />;
 
 export default Create;

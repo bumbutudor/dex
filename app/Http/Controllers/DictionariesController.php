@@ -56,6 +56,11 @@ class DictionariesController extends Controller
     public function edit(Dictionary $dictionary)
     {
         return Inertia::render('Dictionaries/Edit', [
+            'organizations' => new UserOrganizationCollection(
+                Auth::user()->account->organizations()
+                    ->orderBy('name')
+                    ->get()
+            ),
             'dictionary' => new DictionaryResource($dictionary),
         ]);
     }

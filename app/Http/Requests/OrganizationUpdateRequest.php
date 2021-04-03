@@ -25,6 +25,7 @@ class OrganizationUpdateRequest extends FormRequest
     {
         return [
             'name' => ['required', 'max:100'],
+            'abr' => ['nullable', 'max:100'],
             'email' => ['nullable', 'max:50', 'email'],
             'phone' => ['nullable', 'max:50'],
             'address' => ['nullable', 'max:150'],

@@ -16,11 +16,12 @@ const Edit = () => {
 
   const [values, setValues] = useState({
     name: organization.name || '',
+    abr: organization.abr || '',
     email: organization.email || '',
     phone: organization.phone || '',
     address: organization.address || '',
     city: organization.city || '',
-    region: organization.region || '',
+    region: '',
     country: organization.country || '',
     postal_code: organization.postal_code || ''
   });
@@ -43,13 +44,13 @@ const Edit = () => {
   }
 
   function destroy() {
-    if (confirm('Are you sure you want to delete this organization?')) {
+    if (confirm('Sunteți sigur că doriți să ștergeți această organizație?')) {
       Inertia.delete(route('organizations.destroy', organization.id));
     }
   }
 
   function restore() {
-    if (confirm('Are you sure you want to restore this organization?')) {
+    if (confirm('Sunteți sigur că doriți să restabiliți această organizație?')) {
       Inertia.put(route('organizations.restore', organization.id));
     }
   }
@@ -62,14 +63,14 @@ const Edit = () => {
           href={route('organizations')}
           className="text-indigo-600 hover:text-indigo-700"
         >
-          Organizations
+          Organizații
         </InertiaLink>
         <span className="mx-2 font-medium text-indigo-600">/</span>
-        {values.name}
+        {values.abr}
       </h1>
       {organization.deleted_at && (
         <TrashedMessage onRestore={restore}>
-          This organization has been deleted.
+          Această organizație a fost ștearsă.
         </TrashedMessage>
       )}
       <div className="max-w-3xl overflow-hidden bg-white rounded shadow">
@@ -77,10 +78,18 @@ const Edit = () => {
           <div className="flex flex-wrap p-8 -mb-8 -mr-6">
             <TextInput
               className="w-full pb-8 pr-6 lg:w-1/2"
-              label="Name"
+              label="Denumire"
               name="name"
               errors={errors.name}
               value={values.name}
+              onChange={handleChange}
+            />
+            <TextInput
+              className="w-full pb-8 pr-6 lg:w-1/2"
+              label="Abreviere"
+              name="abr"
+              errors={errors.abr}
+              value={values.abr}
               onChange={handleChange}
             />
             <TextInput
@@ -94,7 +103,7 @@ const Edit = () => {
             />
             <TextInput
               className="w-full pb-8 pr-6 lg:w-1/2"
-              label="Phone"
+              label="Telefon"
               name="phone"
               type="text"
               errors={errors.phone}
@@ -103,7 +112,7 @@ const Edit = () => {
             />
             <TextInput
               className="w-full pb-8 pr-6 lg:w-1/2"
-              label="Address"
+              label="Adresă"
               name="address"
               type="text"
               errors={errors.address}
@@ -112,37 +121,28 @@ const Edit = () => {
             />
             <TextInput
               className="w-full pb-8 pr-6 lg:w-1/2"
-              label="City"
+              label="Localitate"
               name="city"
               type="text"
               errors={errors.city}
               value={values.city}
               onChange={handleChange}
             />
-            <TextInput
-              className="w-full pb-8 pr-6 lg:w-1/2"
-              label="Province/State"
-              name="region"
-              type="text"
-              errors={errors.region}
-              value={values.region}
-              onChange={handleChange}
-            />
             <SelectInput
               className="w-full pb-8 pr-6 lg:w-1/2"
-              label="Country"
+              label="Țară"
               name="country"
               errors={errors.country}
               value={values.country}
               onChange={handleChange}
             >
               <option value=""></option>
-              <option value="CA">Canada</option>
-              <option value="US">United States</option>
+              <option value="MD">Moldova</option>
+              <option value="RO">România</option>
             </SelectInput>
             <TextInput
               className="w-full pb-8 pr-6 lg:w-1/2"
-              label="Postal Code"
+              label="*Cod poștal"
               name="postal_code"
               type="text"
               errors={errors.postal_code}
@@ -153,7 +153,7 @@ const Edit = () => {
           <div className="flex items-center px-8 py-4 bg-gray-100 border-t border-gray-200">
             {!organization.deleted_at && (
               <DeleteButton onDelete={destroy}>
-                Delete Organization
+                Șterge organizație
               </DeleteButton>
             )}
             <LoadingButton
@@ -161,12 +161,12 @@ const Edit = () => {
               type="submit"
               className="ml-auto btn-indigo"
             >
-              Update Organization
+              Modifică organizație
             </LoadingButton>
           </div>
         </form>
       </div>
-      <h2 className="mt-12 text-2xl font-bold">Contacts</h2>
+      {/* <h2 className="mt-12 text-2xl font-bold">Contacts</h2>
       <div className="mt-6 overflow-x-auto bg-white rounded shadow">
         <table className="w-full whitespace-nowrap">
           <thead>
@@ -243,7 +243,7 @@ const Edit = () => {
             )}
           </tbody>
         </table>
-      </div>
+      </div> */}
     </div>
   );
 };
