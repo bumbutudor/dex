@@ -6,7 +6,6 @@ export default ({ className }) => {
     <div className={className}>
       <MainMenuItem text="Cuvinte" link="words" />
       <MainMenuItem text="Dicționare" link="dictionaries"  />
-      {/* <MainMenuItem text="Organizații" link="organizations"  /> */}
     </div>
   );
 };

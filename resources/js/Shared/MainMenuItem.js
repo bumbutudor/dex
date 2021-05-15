@@ -12,13 +12,18 @@ export default ({ icon, link, text }) => {
   });
 
   const textClasses = classNames({
-    'text-white': isActive,
-    'text-indigo-200 group-hover:text-white': !isActive
+    'text-white font-bold': isActive,
+    'text-indigo-200 group-hover:text-white font-medium': !isActive
+  });
+
+  const linkClasses = classNames({
+    'flex items-center group py-2 px-2 my-1 rounded-md bg-indigo-600': isActive,
+    'flex items-center group py-2 px-2 my-1 rounded-md hover:font-bold hover:bg-indigo-600': !isActive
   });
 
   return (
     <div className="mb-4">
-      <InertiaLink href={route(link)} className="flex items-center group py-3">
+      <InertiaLink href={route(link)} className={linkClasses}>
         <Icon name={icon} className={iconClasses} />
         <div className={textClasses}>{text}</div>
       </InertiaLink>

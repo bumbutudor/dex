@@ -8,3 +8,9 @@
 
 /* Utilities */
 @import 'tailwindcss/utilities';
+
+/* CKEditor */
+.ck-editor__editable_inline {
+    min-height: 150px;
+    line-height: 1.6;
+}

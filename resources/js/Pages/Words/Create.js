@@ -7,6 +7,7 @@ import TextInput from '@/Shared/TextInput';
 import SelectInput from '@/Shared/SelectInput';
 import { CKEditor } from '@ckeditor/ckeditor5-react';
 import ClassicEditor from '@ckeditor/ckeditor5-build-classic';
+import parse from 'html-react-parser';
 
 
 const Create = () => {
@@ -42,6 +43,7 @@ const Create = () => {
     });
   }
 
+  
   return (
     <div>
       <h1 className="mb-8 text-3xl font-bold">
@@ -80,7 +82,7 @@ const Create = () => {
                 </option>
               ))}
             </SelectInput>
-            <TextInput
+            {/* <TextInput
               className="w-full pb-8 pr-6 lg:w-1/1"
               label="Pre-definiție"
               name="predefinition"
@@ -88,17 +90,16 @@ const Create = () => {
               errors={errors.predefinition}
               value={values.predefinition}
               onChange={handleChange}
-            />
+            /> */}
             <div name="Definiție" className="w-full pb-8 pr-6 lg:w-1/1">
               <h2 className="pb-2">Definiție:</h2>
               
               <CKEditor
                 editor={ ClassicEditor }
                 config={ {
-                  toolbar: [ 'bold', 'italic', 'link', 'undo', 'redo' ]
+                  toolbar: [ 'bold', 'italic', 'link', '|', 'numberedList', 'bulletedList', '|', 'undo', 'redo'],
                   
                   } }
-          
                 label="Definiție"
                 name="definition"
                 errors={errors.definition}
@@ -190,6 +191,18 @@ const Create = () => {
             </LoadingButton>
           </div>
         </form>
+      </div>
+      <div className="mt-10 max-w-3xl overflow-hidden bg-white rounded shadow">
+        <div className="flex flex-wrap p-8 -mb-8 -mr-6">
+            <p className="w-full pb-4 pr-6">Exemplu de afișare finală a obiectului din Dicționar:</p>
+            <div className="w-full pb-8 pr-6" label="cuvant">
+                <h1 className="text-md  pb-2 w-full pr-6">
+                  <a className="font-bold text-indigo-600">{values.name}</a>
+                </h1>
+                <p className="w-full pb-8 pr-6">{parse(values.definition)}</p>
+
+            </div>
+        </div>
       </div>
     </div>
   );

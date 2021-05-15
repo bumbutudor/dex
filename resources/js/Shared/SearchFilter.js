@@ -75,6 +75,7 @@ export default () => {
                 <option value="owner">Admin</option>
               </SelectInput>
             )}
+            {!filters.hasOwnProperty('role') && (
             <SelectInput
               label="Problematice"
               name="trashed"
@@ -86,7 +87,9 @@ export default () => {
               {/* <option value="with">Împreună cu cele șteres</option> */}
               <option value="only">Doar cele șterse</option>
             </SelectInput>
+            )}
           </div>
+          
         </div>
         <button
           onClick={() => setOpened(true)}
