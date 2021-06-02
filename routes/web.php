@@ -63,6 +63,23 @@ Route::put('contacts/{contact}')->name('contacts.update')->uses('ContactsControl
 Route::delete('contacts/{contact}')->name('contacts.destroy')->uses('ContactsController@destroy')->middleware('auth');
 Route::put('contacts/{contact}/restore')->name('contacts.restore')->uses('ContactsController@restore')->middleware('auth');
 
+
+// Insert synonyms into DB
+Route::get('/insert-synonyms', function(){
+	$json = file_get_contents(storage_path('synonyms_to_S_no_L.json'));
+	$objs = json_decode($json,true);
+	foreach ($objs as $obj)  {
+		foreach ($obj as $key => $value) {
+			$insertArr[str_slug($key,'_')] = $value;
+            // echo($key.$value."</br>");
+		}
+        // dd($insertArr); 
+		DB::table('words')->insert($insertArr);
+	}
+	dd("Finished adding data in examples table");
+});
+
+
 // Reports
 Route::get('reports')->name('reports')->uses('ReportsController')->middleware('auth');
 
