@@ -9,6 +9,7 @@ use App\Http\Resources\WordResource;
 // use App\Http\Resources\UserWordCollection;
 use App\Http\Resources\WordDictionaryCollection;
 use App\Models\Word;
+// use App\Models\Account;
 use Inertia\Inertia;
 use Illuminate\Validation\Rule;
 use Illuminate\Support\Facades\Auth;
@@ -29,6 +30,22 @@ class WordsController extends Controller
                     ->paginate()
                     ->appends(Request::all())
             ),
+        ]);
+    }
+
+    // for @guest
+    public function view()
+    {
+        return Inertia::render('Words/View', [
+            'filters' => Request::all('search', 'trashed'),
+            'words' => new WordCollection(
+                Word::with('dictionary')
+                    ->orderByName()
+                    ->filter(Request::only('search', 'trashed'))
+                    ->paginate()
+                    ->appends(Request::all())
+            ),
+            // 'random' => Word::inRandomOrder()->get(),
         ]);
     }
 

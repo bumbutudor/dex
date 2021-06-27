@@ -88,7 +88,7 @@ You're ready to go! [DEX](http://127.0.0.1:8000/) in your browser, and login wit
 ## Credits
 - Tudor Bumbu
 
-### Credits for core crud app
+### Credits for the core crud app
 
 - Original work by Jonathan Reinink (@reinink) and contributors
 - Port to React by Lado Lomidze (@landish)

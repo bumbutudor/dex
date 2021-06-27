@@ -60,7 +60,7 @@ const Create = () => {
           <div className="flex flex-wrap p-8 -mb-8 -mr-6">
             <TextInput
               className="w-full pb-8 pr-6 lg:w-1/2"
-              label="Cuvânt"
+              label="Cuvânt-titlu"
               name="name"
               type="text"
               errors={errors.name}
@@ -82,17 +82,8 @@ const Create = () => {
                 </option>
               ))}
             </SelectInput>
-            {/* <TextInput
-              className="w-full pb-8 pr-6 lg:w-1/1"
-              label="Pre-definiție"
-              name="predefinition"
-              type="text"
-              errors={errors.predefinition}
-              value={values.predefinition}
-              onChange={handleChange}
-            /> */}
             <div name="Definiție" className="w-full pb-8 pr-6 lg:w-1/1">
-              <h2 className="pb-2">Definiție:</h2>
+              <h2 className="pb-2">Descriere lexicografică:</h2>
               
               <CKEditor
                 editor={ ClassicEditor }
@@ -187,7 +178,7 @@ const Create = () => {
               type="submit"
               className="btn-indigo"
             >
-              Adaugă cuvânt
+              Salvează cuvântul
             </LoadingButton>
           </div>
         </form>

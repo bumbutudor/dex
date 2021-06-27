@@ -5,6 +5,7 @@ namespace App\Http\Controllers;
 use App\Http\Requests\DictionaryStoreRequest;
 use App\Http\Requests\DictionaryUpdateRequest;
 use App\Http\Resources\DictionaryCollection;
+use App\Http\Resources\DictionaryWordCollection;
 use App\Http\Resources\DictionaryResource;
 use App\Http\Resources\UserOrganizationCollection;
 use App\Models\Dictionary;
@@ -62,6 +63,35 @@ class DictionariesController extends Controller
                     ->get()
             ),
             'dictionary' => new DictionaryResource($dictionary),
+            'dictionary_words' => new DictionaryWordCollection(
+				// @Todo query user dictionaries
+                    $dictionary->words()
+                    ->orderByName()
+                    ->filter(Request::only('search', 'trashed'))
+                    ->paginate()
+                    ->appends(Request::all())
+            ),
+        ]);
+    }
+
+
+    public function view(Dictionary $dictionary)
+    {
+        return Inertia::render('Dictionaries/View', [
+            // 'organizations' => new UserOrganizationCollection(
+            //     Auth::user()->account->organizations()
+            //         ->orderBy('name')
+            //         ->get()
+            // ),
+            'dictionary' => new DictionaryResource($dictionary),
+            'dictionary_words' => new DictionaryWordCollection(
+				// @Todo query user dictionaries
+                    $dictionary->words()
+                    ->orderByName()
+                    ->filter(Request::only('search', 'trashed'))
+                    ->paginate()
+                    ->appends(Request::all())
+            ),
         ]);
     }
 

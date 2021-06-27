@@ -7,6 +7,9 @@
 |
 */
 
+// Home
+// Route::get('home')->name('home')->uses('WordsController@home')->middleware('auth');
+
 // Auth
 Route::get('login')->name('login')->uses('Auth\LoginController@showLoginForm')->middleware('guest');
 Route::post('login')->name('login.attempt')->uses('Auth\LoginController@login')->middleware('guest');
@@ -32,12 +35,15 @@ Route::get('dict')->name('dictionaries')->uses('DictionariesController@index')->
 Route::get('dict/add')->name('dictionaries.create')->uses('DictionariesController@create')->middleware('auth');
 Route::post('dict')->name('dictionaries.store')->uses('DictionariesController@store')->middleware('auth');
 Route::get('dict/{dictionary}/edit')->name('dictionaries.edit')->uses('DictionariesController@edit')->middleware('auth');
+Route::get('dict/{dictionary}/view')->name('dictionaries.view')->uses('DictionariesController@view')->middleware('guest');
+// Route::get('dict/{dictionary}/view')->name('dictionaries.view')->uses('DictionariesController@view')->middleware('guest');
 Route::put('dict/{dictionary}')->name('dictionaries.update')->uses('DictionariesController@update')->middleware('auth');
 Route::delete('dict/{dictionary}')->name('dictionaries.destroy')->uses('DictionariesController@destroy')->middleware('auth');
 Route::put('dict/{dictionary}/rest')->name('dictionaries.restore')->uses('DictionariesController@restore')->middleware('auth');
 
 // Words
-Route::get('/')->name('words')->uses('WordsController@index')->middleware('remember', 'auth');
+Route::get('/')->name('words.view')->uses('WordsController@view')->middleware('remember', 'guest'); // should be 'guest'
+Route::get('cuvinte')->name('words')->uses('WordsController@index')->middleware('remember', 'auth');
 Route::get('cuvinte/add')->name('words.create')->uses('WordsController@create')->middleware('auth');
 Route::post('cuvinte')->name('words.store')->uses('WordsController@store')->middleware('auth');
 Route::get('cuvinte/{word}/edit')->name('words.edit')->uses('WordsController@edit')->middleware('auth');

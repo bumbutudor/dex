@@ -24,6 +24,14 @@ const Index = () => {
         >
           <span className="hidden md:inline">Dicționar nou</span>
         </InertiaLink>
+        <InertiaLink
+          className="btn-indigo focus:outline-none"
+          href={route('')}
+        >
+          <span>Încarcă</span>
+          <span className="hidden md:inline"> un fișier cu dicționar</span>
+        </InertiaLink>
+
       </div>
       <div className="overflow-x-auto bg-white rounded shadow">
         <table className="w-full whitespace-nowrap">

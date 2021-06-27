@@ -5,6 +5,8 @@ import Layout from '@/Shared/Layout';
 import LoadingButton from '@/Shared/LoadingButton';
 import TextInput from '@/Shared/TextInput';
 import SelectInput from '@/Shared/SelectInput';
+import { CKEditor } from '@ckeditor/ckeditor5-react';
+import ClassicEditor from '@ckeditor/ckeditor5-build-classic';
 
 const Create = () => {
   const { organizations, errors } = usePage().props;
@@ -56,19 +58,36 @@ const Create = () => {
               value={values.name}
               onChange={handleChange}
             />
-            <TextInput
-              className="w-full pb-8 pr-6 lg:w-1/1"
-              label="Descriere"
-              name="description"
-              errors={errors.description}
-              value={values.description}
-              onChange={handleChange}
-            />
+
+            {/* Mod 06.02.2021 by Tudor - TextInput to CK editor */}
+            <div name="Descriere" className="w-full pb-8 pr-6 lg:w-1/1">
+              <h2 className="pb-2">Descriere:</h2>
+              
+              <CKEditor
+                editor={ ClassicEditor }
+                config={ {
+                  toolbar: [ 'bold', 'italic', 'link', '|', 'numberedList', 'bulletedList', '|', 'undo', 'redo'],
+                  
+                  } }
+                label="Descriere"
+                name="description"
+                errors={errors.description}
+                data={values.description}
+                onChange={ ( event, editor ) => {
+                    const data = editor.getData();
+                    setValues(values => ({
+                      ...values,
+                      description: data
+                    }));
+
+                } }
+              />
+            </div>
 
             {/* @TODO Review the organization of the dictionary */}
             <SelectInput
               className="w-full pb-8 pr-6 lg:w-1/1"
-              label="Organizație"
+              label="Instituție"
               name="organization_id"
               errors={errors.organization_id}
               value={values.organization_id}
@@ -88,7 +107,7 @@ const Create = () => {
               type="submit"
               className="btn-indigo"
             >
-              Adaugă
+              Salvează dicționarul
             </LoadingButton>
           </div>
         </form>

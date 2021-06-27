@@ -1,9 +1,14 @@
-import React from 'react';
-import { InertiaLink, usePage } from '@inertiajs/inertia-react';
-import Layout from '@/Shared/Layout';
+import React, { useState } from 'react';
+import Helmet from 'react-helmet';
+import { Inertia } from '@inertiajs/inertia';
+import { usePage } from '@inertiajs/inertia-react';
+import Logo from '@/Shared/Logo';
+import LoadingButton from '@/Shared/LoadingButton';
+import TextInput from '@/Shared/TextInput';
+
 import Icon from '@/Shared/Icon';
 import Pagination from '@/Shared/Pagination';
-import SearchFilter from '@/Shared/SearchFilter';
+import Search from '@/Shared/Search';
 import parse from 'html-react-parser';
 import { html_substring } from '@/utils';
 
@@ -18,13 +23,6 @@ const Index = () => {
       <h1 className="mb-8 text-3xl font-bold">Cuvinte</h1>
       <div className="flex items-center justify-between mb-6">
         <SearchFilter />
-        <InertiaLink
-          className="btn-indigo focus:outline-none"
-          href={route('words.create')}
-        >
-          <span>Adaugă</span>
-          <span className="hidden md:inline"> un cuvânt</span>
-        </InertiaLink>
       </div>
       <div className="overflow-x-auto bg-white rounded shadow">
         <table className="w-full whitespace-nowrap">
@@ -32,7 +30,7 @@ const Index = () => {
             <tr className="font-bold text-left">
               <th className="px-6 pt-5 pb-4">Cuvânt</th>
               {/* <th className="px-6 pt-5 pb-4">Pre-definiție</th> */}
-              <th className="px-6 pt-5 pb-4">Descriere lexicografică</th>
+              <th className="px-6 pt-5 pb-4">Definiție</th>
               <th className="px-6 pt-5 pb-4">Dicționar</th>
             </tr>
           </thead>
@@ -73,7 +71,7 @@ const Index = () => {
                     className="flex items-center px-6 py-4 focus:text-indigo focus:outline-none"
                   >
                      
-                     {definition ? parse(html_substring(definition, 0, 75)) : ''}
+                    {definition ? parse(html_substring(definition, 0, 75)) : ''}
                     <span>&nbsp;...</span>
                   </InertiaLink>
                  

@@ -9,12 +9,22 @@ import TextInput from '@/Shared/TextInput';
 import SelectInput from '@/Shared/SelectInput';
 import TrashedMessage from '@/Shared/TrashedMessage';
 import Icon from '@/Shared/Icon';
+import Pagination from '@/Shared/Pagination';
 import parse from 'html-react-parser';
 import { html_substring } from '@/utils';
 
+import { CKEditor } from '@ckeditor/ckeditor5-react';
+import ClassicEditor from '@ckeditor/ckeditor5-build-classic';
+
+
 const Edit = () => {
-  const { errors, dictionary, organizations } = usePage().props;
+  const { errors, dictionary, organizations, dictionary_words } = usePage().props;
   const [sending, setSending] = useState(false);
+
+  const {
+    data,
+    meta: { links }
+  } = dictionary_words;
 
   const [values, setValues] = useState({
     name: dictionary.name || '',
@@ -80,18 +90,34 @@ const Edit = () => {
               value={values.name}
               onChange={handleChange}
             />
-            <TextInput
-              className="w-full pb-8 pr-6 lg:w-1/1"
-              label="Descriere"
-              name="description"
-              errors={errors.description}
-              value={values.description}
-              onChange={handleChange}
-            />
+            {/* Mod 06.02.2021 by Tudor - TextInput to CK editor */}
+            <div name="Descriere" className="w-full pb-8 pr-6 lg:w-1/1">
+              <h2 className="pb-2">Descriere:</h2>
+              
+              <CKEditor
+                editor={ ClassicEditor }
+                config={ {
+                  toolbar: [ 'bold', 'italic', 'link', '|', 'numberedList', 'bulletedList', '|', 'undo', 'redo'],
+                  
+                  } }
+                label="Descriere"
+                name="description"
+                errors={errors.description}
+                data={values.description}
+                onChange={ ( event, editor ) => {
+                    const data = editor.getData();
+                    setValues(values => ({
+                      ...values,
+                      description: data
+                    }));
+
+                } }
+              />
+            </div>
             {/* @TODO Review the organization of the dictionary */}
             <SelectInput
               className="w-full pb-8 pr-6 lg:w-1/1"
-              label="Organizație"
+              label="Instituție"
               name="organization_id"
               errors={errors.organization_id}
               value={values.organization_id}
@@ -116,7 +142,7 @@ const Edit = () => {
               type="submit"
               className="ml-auto btn-indigo"
             >
-              Modifică dicționarul
+              Salvează modificările
             </LoadingButton>
           </div>
         </form>
@@ -127,15 +153,15 @@ const Edit = () => {
           <thead>
             <tr className="font-bold text-left">
               <th className="px-6 pt-5 pb-4">Cuvânt</th>
-              <th className="px-6 pt-5 pb-4"> Definiție
+              <th className="px-6 pt-5 pb-4"> Descriere lexicografică:
               </th>
-              <th className="px-6 pt-5 pb-4" colSpan="2"> Adăugat de:
-              </th>
+              {/* <th className="px-6 pt-5 pb-4" colSpan="2"> Adăugat de:
+              </th> */}
             </tr>
           </thead>
           <tbody>
             {/* @Todo display user*/}
-            {dictionary.words.map(
+            {data.map(
               ({ id, name, user_id, definition, deleted_at }) => {
                 return (
                   <tr
@@ -162,10 +188,10 @@ const Edit = () => {
                         href={route('words.edit', id)}
                         className="flex items-center px-6 py-4 focus:text-indigo focus:outline-none"
                       >
-                        {definition ? parse(html_substring(definition, 0, 75)) : ''}
+                        {definition ? parse(html_substring(definition, 0, 150)) : ''}
                       </InertiaLink>
                     </td>
-                    <td className="border-t">
+                    {/* <td className="border-t">
                       <InertiaLink
                         tabIndex="-1"
                         href={route('words.edit', id)}
@@ -173,7 +199,7 @@ const Edit = () => {
                       >
                         {user_id}
                       </InertiaLink>
-                    </td>
+                    </td> */}
                     <td className="w-px border-t">
                       <InertiaLink
                         tabIndex="-1"
@@ -200,6 +226,7 @@ const Edit = () => {
           </tbody>
         </table>
       </div>
+      <Pagination links={links} />
     </div>
   );
 };

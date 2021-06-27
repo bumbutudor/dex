@@ -8,6 +8,12 @@ use Illuminate\Database\Eloquent\SoftDeletes;
 class Dictionary extends Model
 {
     use SoftDeletes, HasFactory;
+    
+
+    // public function dict()
+    // {
+    //     return $this->where();
+    // }
 
     public function words()
     {

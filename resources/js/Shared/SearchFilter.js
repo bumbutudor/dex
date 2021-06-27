@@ -53,7 +53,7 @@ export default () => {
   return (
     <div className="flex items-center w-full max-w-md mr-4">
       <div className="relative flex w-full bg-white rounded shadow">
-        <div
+        {/* <div
           style={{ top: '100%' }}
           className={`absolute ${opened ? '' : 'hidden'}`}
         >
@@ -84,14 +84,14 @@ export default () => {
             >
               <option value=""></option>
               <option value="">Doar cele completate parțial</option>
-              {/* <option value="with">Împreună cu cele șteres</option> */}
+              <option value="with">Împreună cu cele șteres</option>
               <option value="only">Doar cele șterse</option>
             </SelectInput>
             )}
           </div>
           
-        </div>
-        <button
+        </div> */}
+        {/* <button
           onClick={() => setOpened(true)}
           className="px-4 border-r rounded-l md:px-6 hover:bg-gray-100 focus:outline-none focus:border-white focus:ring-2 focus:ring-indigo-400 focus:z-10"
         >
@@ -105,7 +105,7 @@ export default () => {
               <path d="M239.998 239.999L0 0h961.243L721.246 240c-131.999 132-240.28 240-240.624 239.999-.345-.001-108.625-108.001-240.624-240z" />
             </svg>
           </div>
-        </button>
+        </button> */}
         <input
           className="relative w-full px-6 py-3 rounded-r focus:outline-none focus:ring-2 focus:ring-indigo-400"
           autoComplete="off"
@@ -122,7 +122,7 @@ export default () => {
         className="ml-3 text-sm text-gray-600 hover:text-gray-700 focus:text-indigo-700 focus:outline-none"
         type="button"
       >
-        Resetează
+        Resetează căutarea
       </button>
     </div>
   );

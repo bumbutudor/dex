@@ -74,8 +74,8 @@ export default () => {
             <IconDanger />
             <div className="py-4 text-white text-sm font-medium">
               {flash.error && flash.error}
-              {numOfErrors === 1 && 'There is one form error'}
-              {numOfErrors > 1 && `There are ${numOfErrors} form errors.`}
+              {numOfErrors === 1 && 'A apărut o eroare'}
+              {numOfErrors > 1 && `Au apărut ${numOfErrors} erori la completarea formularului.`}
             </div>
           </div>
           <ButtonClose onClick={() => setVisible(false)} color="red" />
