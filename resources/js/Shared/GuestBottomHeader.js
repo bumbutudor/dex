@@ -6,7 +6,7 @@ export default () => {
   return (
     <div className="flex items-center w-full p-4 text-sm bg-white border-b md:py-0 md:px-12 d:text-md">
       <div className="max-w-3xl w-full text-center">
-        <div className="text-2xl font-bold pr-20">Caută un cuvânt</div>
+        <div className="text-2xl font-bold pr-10">Caută un cuvânt</div>
       </div>
             
       {/* <div className="mt-1">{`Proiect de colaborare IMI-IFR`}</div> */}
