@@ -4,7 +4,6 @@ import Icon from '@/Shared/Icon';
 import Pagination from '@/Shared/Pagination';
 import Search from '@/Shared/Search';
 import parse from 'html-react-parser';
-import { html_substring } from '@/utils';
 import GuestLayout from '@/Shared/GuestLayout';
 
 const View = () => {
