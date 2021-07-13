@@ -8,17 +8,17 @@ import { html_substring } from '@/utils';
 import GuestLayout from '@/Shared/GuestLayout';
 
 const View = () => {
-  const { words } = usePage().props;
+  const { words, wordOfTheDay } = usePage().props;
 
   const {
     data,
     meta: { links }
   } = words;
-  
+
   // let cuvantul_zilei = data ? data[Math.floor(Math.random() * data.length)] : '';
-  let cuvant_titlu = "A ACHIZIŢIONÁ"
-  let definitie = "<p><span><span>&nbsp;</span><i>tr.</i> 1) a cumpăra, a târgui, a procura; <i>pop</i> a lua. <i>~ nişte produse</i>; 2) a furniza, a livra, a procura. <i>~ cuiva materiale de construcţie.</i></span></p>"
-  let dictionar_name = "Dicționar de sinonime al limbii române"
+  let cuvant_titlu = wordOfTheDay.name;
+  let definitie = wordOfTheDay.definition;
+  let dictionar_name =  wordOfTheDay.dictionary.name;
   return (
     <div>
 

@@ -16,6 +16,15 @@ use Illuminate\Support\Facades\Auth;
 use Illuminate\Support\Facades\Request;
 use Illuminate\Support\Facades\Redirect;
 
+
+function generateRandomNumberEachDay(){
+    $seed = date("d"); //get the day.
+    srand($seed); //seeds the random generator with it.
+    $item = rand(1,10000);
+    return $item;
+}
+
+
 class WordsController extends Controller
 {
     public function index()
@@ -45,7 +54,8 @@ class WordsController extends Controller
                     ->paginate()
                     ->appends(Request::all())
             ),
-            // 'random' => Word::inRandomOrder()->get(),
+            'wordOfTheDay' => Word::with('dictionary')
+                    ->firstWhere('ID', generateRandomNumberEachDay()),
         ]);
     }
 
