@@ -71,8 +71,11 @@ Route::put('contacts/{contact}/restore')->name('contacts.restore')->uses('Contac
 
 
 // Insert synonyms into DB
-Route::get('/insert-synonyms', function(){
-	$json = file_get_contents(storage_path('synonyms_to_S_no_L.json'));
+Route::get('/insert-dictionary', function(){
+	$storage_path_synonyms = 'sinonime/synonyms_to_S_no_L.json';
+	$storage_path_explicativ = 'explicativ/explicativ_ac.json';
+
+	$json = file_get_contents(storage_path($storage_path_explicativ));
 	$objs = json_decode($json,true);
 	foreach ($objs as $obj)  {
 		foreach ($obj as $key => $value) {
