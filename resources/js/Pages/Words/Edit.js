@@ -57,17 +57,22 @@ const Edit = () => {
     }
   }
 
+  function goBack() {
+      window.history.back();
+  }
+
   return (
     <div>
       <Helmet title={values.name} />
+      <button className="ml-auto  text-xl font-bold text-indigo-600 mb-4" onClick={goBack}><span>←Înapoi</span></button>
       <h1 className="mb-8 text-3xl font-bold">
-        <InertiaLink
+        {/* <InertiaLink
           href={route('words')}
           className="text-indigo-600 hover:text-indigo-700"
         >
           Cuvinte
         </InertiaLink>
-        <span className="mx-2 font-medium text-indigo-600">/</span>
+        <span className="mx-2 font-medium text-indigo-600">/</span> */}
         {values.name}
       </h1>
       {word.deleted_at && (

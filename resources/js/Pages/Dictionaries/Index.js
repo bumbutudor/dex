@@ -74,16 +74,16 @@ const Index = () => {
                       <span>&nbsp;...</span>
                     </InertiaLink>
                   </td>
-                  <td className="w-px border-t">
+                  <td className="border-t">
                     <InertiaLink
                       tabIndex="-1"
                       href={route('dictionaries.edit', id)}
-                      className="flex items-center px-4 focus:outline-none"
-                    >
-                      <Icon
+                      className="btn-edit items-center px-4 focus:outline-none"
+                    > <span>Editează dicționarul</span>
+                      {/* <Icon
                         name="cheveron-right"
                         className="block w-6 h-6 text-gray-400 fill-current"
-                      />
+                      /> */}
                     </InertiaLink>
                   </td>
                 </tr>

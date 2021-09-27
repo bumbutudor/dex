@@ -87,16 +87,17 @@ const Index = () => {
                     {dictionary ? dictionary.name : ''}
                   </InertiaLink>
                 </td>
-                <td className="w-px border-t">
+                {/* chevron -> 'Editeaza' modiffied by Tudor on 27.09.2021 */}
+                <td className="border-t">
                   <InertiaLink
                     tabIndex="-1"
                     href={route('words.edit', id)}
-                    className="flex items-center px-4 focus:outline-none"
-                  >
-                    <Icon
+                    className="btn-edit focus:outline-none items-center px-4 focus:outline-none"
+                  > <span>Editeză cuvântul</span>
+                    {/* <Icon
                       name="cheveron-right"
                       className="block w-6 h-6 text-gray-400 fill-current"
-                    />
+                    /> */}
                   </InertiaLink>
                 </td>
               </tr>

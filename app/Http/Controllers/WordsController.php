@@ -32,8 +32,8 @@ class WordsController extends Controller
         return Inertia::render('Words/Index', [
             'filters' => Request::all('search', 'trashed'),
             'words' => new WordCollection(
-                Auth::user()->words()
-                    ->with('dictionary')
+                // Auth::user()->words() modified by Tudor on 27 - remove Auth
+                Word::with('dictionary')
                     ->orderByName()
                     ->filter(Request::only('search', 'trashed'))
                     ->paginate()

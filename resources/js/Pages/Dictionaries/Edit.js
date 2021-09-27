@@ -20,6 +20,7 @@ import ClassicEditor from '@ckeditor/ckeditor5-build-classic';
 const Edit = () => {
   const { errors, dictionary, organizations, dictionary_words } = usePage().props;
   const [sending, setSending] = useState(false);
+  const [show, setShow] = useState(false);
 
   const {
     data,
@@ -64,21 +65,26 @@ const Edit = () => {
   return (
     <div>
       <Helmet title={values.name} />
-      <h1 className="mb-8 text-3xl font-bold">
-        <InertiaLink
+      <h1 className="mb-2 text-3xl font-bold">
+        {/* <InertiaLink
           href={route('dictionaries')}
           className="text-indigo-600 hover:text-indigo-700"
         >
           Dicționare
         </InertiaLink>
-        <span className="mx-2 font-medium text-indigo-600">/</span>
+        <span className="mx-2 font-medium text-indigo-600">/</span> */}
         {values.name}
       </h1>
+      <div label="edit-dictionary" className="pb-4 pr-6" >              
+          <label className="btn-edit" onClick={() => setShow(!show)} > Editează detaliile dicționarului </label>
+      </div>
       {dictionary.deleted_at && (
         <TrashedMessage onRestore={restore}>
           Dicționarul a fost șters.
         </TrashedMessage>
       )}
+
+      {show&&(<>
       <div className="max-w-3xl overflow-hidden bg-white rounded shadow">
         <form onSubmit={handleSubmit}>
           <div className="flex flex-wrap p-8 -mb-8 -mr-6">
@@ -146,14 +152,14 @@ const Edit = () => {
             </LoadingButton>
           </div>
         </form>
-      </div>
-      <h2 className="mt-12 text-2xl font-bold">Cuvinte</h2>
+      </div></>)}
+      <h2 className="mt-2 text-2xl text-center font-bold">Cuvintele din acest dicționar</h2>
       <div className="mt-6 overflow-x-auto bg-white rounded shadow">
         <table className="w-full whitespace-nowrap">
           <thead>
             <tr className="font-bold text-left">
               <th className="px-6 pt-5 pb-4">Cuvânt</th>
-              <th className="px-6 pt-5 pb-4"> Descriere lexicografică:
+              <th className="px-6 pt-5 pb-4">Fragment din descrierea lexicografică:
               </th>
               {/* <th className="px-6 pt-5 pb-4" colSpan="2"> Adăugat de:
               </th> */}
@@ -188,7 +194,7 @@ const Edit = () => {
                         href={route('words.edit', id)}
                         className="flex items-center px-6 py-4 focus:text-indigo focus:outline-none"
                       >
-                        {definition ? parse(html_substring(definition, 0, 150)) : ''}
+                        {definition ? parse(html_substring(definition, 0, 100)) : ''}
                       </InertiaLink>
                     </td>
                     {/* <td className="border-t">
@@ -200,16 +206,17 @@ const Edit = () => {
                         {user_id}
                       </InertiaLink>
                     </td> */}
-                    <td className="w-px border-t">
+                    {/* chevron -> 'Editeaza cuvintul' modiffied by Tudor on 27.09.2021 */}
+                    <td className="border-t">
                       <InertiaLink
                         tabIndex="-1"
                         href={route('words.edit', id)}
-                        className="flex items-center px-4"
-                      >
-                        <Icon
+                        className="btn-edit focus:outline-none items-center px-4 focus:outline-none"
+                      > <span>Editeză cuvântul</span>
+                        {/* <Icon
                           name="cheveron-right"
                           className="block w-6 h-6 text-gray-400 fill-current"
-                        />
+                        /> */}
                       </InertiaLink>
                     </td>
                   </tr>
