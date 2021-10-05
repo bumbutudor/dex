@@ -10,6 +10,7 @@ export default ({ className }) => {
       {/* <MainMenuItem text="Dicționare" link=""  /> */}
       <MainMenuItem text="Dicționarul explicativ" link="dictionaries.edit"  id="1"/>
       <MainMenuItem text="Dicționarul de sinonime" link="dictionaries.edit"  id="2"/>
+      <MainMenuItem text="Modals Demo" link="modals" icon="apple" />
     </div>
   );
 };

@@ -89,7 +89,6 @@ Route::get('/insert-dictionary', function(){
 	dd("Finished adding data in examples table");
 });
 
-
 // Reports
 Route::get('reports')->name('reports')->uses('ReportsController')->middleware('auth');
 
@@ -97,3 +96,6 @@ Route::get('reports')->name('reports')->uses('ReportsController')->middleware('a
 Route::get('500', function () {
     echo $fail;
 });
+
+// Modals
+Route::get('modals')->name('modals')->uses('ModalController@index')->middleware('auth');
