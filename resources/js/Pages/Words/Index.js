@@ -15,34 +15,39 @@ const Index = () => {
   } = words;
   return (
     <div>
-      <h1 className="mb-8 text-3xl font-bold">Cuvinte</h1>
+      {/* <h1 className="mb-8 text-3xl font-bold">Cuvinte</h1> */}
       <div className="flex items-center justify-between mb-6">
+        <h1 className="text-3xl font-bold">Cuvintele din toate dicționarele</h1>
         <SearchFilter />
         <InertiaLink
-          className="btn-indigo focus:outline-none"
+          className="btn-indigo text-lg focus:outline-none"
           href={route('words.create')}
         >
           <span>Adaugă</span>
-          <span className="hidden md:inline"> un cuvânt</span>
+          <span className="hidden md:inline"> un cuvânt nou</span>
         </InertiaLink>
       </div>
       <div className="overflow-x-auto bg-white rounded shadow">
-        <table className="w-full whitespace-nowrap">
+        <table className="w-full table-auto">
           <thead>
-            <tr className="font-bold text-left">
+            <tr className="font-bold text-xl text-left">
               <th className="px-6 pt-5 pb-4">Cuvânt</th>
               {/* <th className="px-6 pt-5 pb-4">Pre-definiție</th> */}
               <th className="px-6 pt-5 pb-4">Descriere lexicografică</th>
-              <th className="px-6 pt-5 pb-4">Dicționar</th>
+              {/* <th className="px-6 pt-5 pb-4">Dicționar</th> */}
+              <th className="px-6 pt-5 pb-4">Acțiune</th>
             </tr>
           </thead>
           <tbody>
             {data.map(({ id, name, predefinition, definition,  dictionary, deleted_at }) => (
               <tr
                 key={id}
-                className="hover:bg-gray-100 focus-within:bg-gray-100"
+                className="text-indigo-900 hover:bg-indigo-200 focus-within:bg-indigo-200"
               >
-                <td className="border-t">
+                <td className="border-t whitespace-nowrap text-2xl"
+                  title={dictionary ? dictionary.name : ''}
+                >
+                  
                   <InertiaLink
                     href={route('words.edit', id)}
                     className="flex items-center px-6 py-4 focus:text-indigo-700 focus:outline-none"
@@ -66,19 +71,21 @@ const Index = () => {
                     <span>&nbsp;...</span>
                   </InertiaLink>
                 </td> */}
-                <td className="border-t">
+                <td className="border-t text-xl pr-4"
+                  title={dictionary ? dictionary.name : ''}
+                >
                   <InertiaLink
                     tabIndex="-1"
                     href={route('words.edit', id)}
                     className="flex items-center px-6 py-4 focus:text-indigo focus:outline-none"
                   >
                      
-                     {definition ? parse(html_substring(definition, 0, 75)) : ''}
-                    <span>&nbsp;...</span>
+                     {definition ? parse(definition) : ''}
+                    {/* <span>&nbsp;...</span> */}
                   </InertiaLink>
                  
                 </td>
-                <td className="border-t">
+                {/* <td className="border-t">
                   <InertiaLink
                     tabIndex="-1"
                     href={route('words.edit', id)}
@@ -86,14 +93,14 @@ const Index = () => {
                   >
                     {dictionary ? dictionary.name : ''}
                   </InertiaLink>
-                </td>
+                </td> */}
                 {/* chevron -> 'Editeaza' modiffied by Tudor on 27.09.2021 */}
-                <td className="border-t">
+                <td className="border-t px-4">
                   <InertiaLink
                     tabIndex="-1"
                     href={route('words.edit', id)}
                     className="btn-edit focus:outline-none items-center px-4 focus:outline-none"
-                  > <span>Editeză cuvântul</span>
+                  > <span>Editează cuvântul</span>
                     {/* <Icon
                       name="cheveron-right"
                       className="block w-6 h-6 text-gray-400 fill-current"
