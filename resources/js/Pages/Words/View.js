@@ -2,7 +2,7 @@ import React from 'react';
 import { InertiaLink, usePage } from '@inertiajs/inertia-react';
 import Icon from '@/Shared/Icon';
 import Pagination from '@/Shared/Pagination';
-import Search from '@/Shared/Search';
+// import Search from '@/Shared/Search';
 import parse from 'html-react-parser';
 import GuestLayout from '@/Shared/GuestLayout';
 
@@ -21,13 +21,13 @@ const View = () => {
   return (
     <div>
 
-      <div className="mb-6 align-center max-w-3xl">
+      {/* <div className="mb-6 align-center max-w-3xl">
         <Search />
-      </div>
+      </div> */}
       <div className="flex">
-        <div className="flex-1 overflow-x-auto max-w-3xl bg-white rounded shadow">
+        <div className="flex-1 overflow-x-auto max-w-3xl  border border-indigo-200 rounded">
               {data.map(({ id, name, definition,  dictionary, deleted_at }) => (
-                <div className="pb-4 w-full  w-3xl p-6 rounded shadow" label="cuvant">
+                <div className="pb-4 w-full bg-white w-3xl p-6 border" label="cuvant">
                     <h1 className="text-lg  pb-2 w-full">
                       <a className="font-bold text-indigo-600">{name=name.replace(/\n/g, " ")}</a>
                     </h1>
@@ -49,14 +49,15 @@ const View = () => {
               )}
         </div>
         
-        <div className="flex-1 overflow-x-auto ml-20 max-w-md w-full ">
-          <h3 className="mb-8 text-lg font-bold text-center">Cuvântul zilei</h3>
-          <div className="w-full p-4 border border-indigo-600" label="cuvant">
-                    <h1 className="text-3xl  pb-2 w-full">
-                      <a className="font-bold text-indigo-600"> {cuvant_titlu ? cuvant_titlu=cuvant_titlu.replace(/\n/g, " ") : ''} </a>
-                    </h1>
-                    <div className="text-xl w-full pr-5 leading-6"> {definitie ? parse(definitie) : ''} </div>
-                    <div className="text-xs pt-2 italic text-gray-500"> {dictionar_name ? dictionar_name : ''} </div>
+        <div className="flex-1 overflow-x-auto ml-10 max-w-md w-full ">
+          
+          <div className="w-full py-4 px-6  border border-indigo-200 rounded bg-orange-100" label="cuvant">
+            <h3 className="mb-2 text-lg italic text-indigo-900">Cuvântul zilei:</h3>
+                <h1 className="text-3xl pb-2 w-full">
+                  <a className="font-bold text-indigo-600"> {cuvant_titlu ? cuvant_titlu=cuvant_titlu.replace(/\n/g, " ") : ''} </a>
+                </h1>
+                <div className="text-xl w-full pr-5 leading-6"> {definitie ? parse(definitie) : ''} </div>
+                <div className="text-xs pt-2 italic text-gray-500"> {dictionar_name ? dictionar_name : ''} </div>
           </div> 
         </div>
 
