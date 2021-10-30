@@ -22,7 +22,7 @@ const Index = () => {
     <div>
       <h1 className="mb-8 text-3xl font-bold">Cuvinte</h1>
       <div className="flex items-center justify-between mb-6">
-        <SearchFilter />
+        {/* <SearchFilter /> */}
       </div>
       <div className="overflow-x-auto bg-white rounded shadow">
         <table className="w-full whitespace-nowrap">
