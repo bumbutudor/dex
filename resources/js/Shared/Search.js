@@ -48,16 +48,16 @@ export default () => {
 
   return (
     <div className="flex items-center w-full mx-auto max-w-md">
-      <div className="relative flex w-full bg-white rounded shadow">
+      <div className="relative flex w-full bg-white rounded">
         <input
-          className="relative w-full px-6 py-4 rounded focus:outline-none focus:ring-2 focus:ring-indigo-400"
+          className="relative w-full px-6 py-4 bg-orange-100 placeholder-indigo-700 rounded ring-1 ring-indigo-400 focus:outline-none focus:ring-4 focus:ring-indigo-400"
           autoComplete="off"
           type="text"
           name="search"
           name="search"
           value={values.search}
           onChange={handleChange}
-          placeholder="Caută..."
+          placeholder="scrie aici..."
         />
       </div>
       <button
