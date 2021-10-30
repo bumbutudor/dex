@@ -65,19 +65,22 @@ const Edit = () => {
   return (
     <div>
       <Helmet title={values.name} />
-      <h1 className="mb-2 text-3xl font-bold">
-        {/* <InertiaLink
+      <div className="flex items-center mb-6">
+      <span className="mb-2 text-3xl font-bold">
+        <InertiaLink
           href={route('dictionaries')}
           className="text-indigo-600 hover:text-indigo-700"
         >
           Dicționare
         </InertiaLink>
-        <span className="mx-2 font-medium text-indigo-600">/</span> */}
+        <span className="mx-2 font-medium text-indigo-600">/</span>
         {values.name}
-      </h1>
-      <div label="edit-dictionary" className="pb-4 pr-6" >              
+      </span>
+      <div label="edit-dictionary" className="btn pl-6" >              
           <label className="btn-edit" onClick={() => setShow(!show)} > Editează detaliile dicționarului </label>
       </div>
+      </div>
+
       {dictionary.deleted_at && (
         <TrashedMessage onRestore={restore}>
           Dicționarul a fost șters.
@@ -153,13 +156,15 @@ const Edit = () => {
           </div>
         </form>
       </div></>)}
-      <h2 className="mt-2 text-2xl text-center font-bold">Cuvintele din acest dicționar</h2>
+      {/* <h2 className="mt-2 text-2xl text-center font-bold">Cuvintele din acest dicționar</h2> */}
       <div className="mt-6 overflow-x-auto bg-white rounded shadow">
-        <table className="w-full whitespace-nowrap">
+        <table className="w-full table-auto">
           <thead>
-            <tr className="font-bold text-left">
+            <tr className="font-bold text-xl text-left">
               <th className="px-6 pt-5 pb-4">Cuvânt</th>
-              <th className="px-6 pt-5 pb-4">Fragment din descrierea lexicografică:
+              <th className="px-6 pt-5 pb-4">Descriere lexicografică:
+              </th>
+              <th className="px-6 pt-5 pb-4">Acțiune
               </th>
               {/* <th className="px-6 pt-5 pb-4" colSpan="2"> Adăugat de:
               </th> */}
@@ -172,9 +177,9 @@ const Edit = () => {
                 return (
                   <tr
                     key={id}
-                    className="hover:bg-gray-100 focus-within:bg-gray-100"
+                    className="hover:bg-indigo-300 text-2xl text-indigo-900 focus-within:bg-indigo-300 "
                   >
-                    <td className="border-t">
+                    <td className="border-t whitespace-nowrap">
                       <InertiaLink
                         href={route('words.edit', id)}
                         className="flex items-center px-6 py-4 focus:text-indigo focus:outline-none"
@@ -188,13 +193,13 @@ const Edit = () => {
                         )}
                       </InertiaLink>
                     </td>
-                    <td className="border-t">
+                    <td className="border-t text-xl pr-4">
                       <InertiaLink
                         tabIndex="-1"
                         href={route('words.edit', id)}
                         className="flex items-center px-6 py-4 focus:text-indigo focus:outline-none"
                       >
-                        {definition ? parse(html_substring(definition, 0, 100)) : ''}
+                        {definition ? parse(definition) : ''}
                       </InertiaLink>
                     </td>
                     {/* <td className="border-t">
@@ -207,7 +212,7 @@ const Edit = () => {
                       </InertiaLink>
                     </td> */}
                     {/* chevron -> 'Editeaza cuvintul' modiffied by Tudor on 27.09.2021 */}
-                    <td className="border-t">
+                    <td className="border-t px-4">
                       <InertiaLink
                         tabIndex="-1"
                         href={route('words.edit', id)}
