@@ -3,13 +3,13 @@ import { InertiaLink } from '@inertiajs/inertia-react';
 import classNames from 'classnames';
 import Icon from '@/Shared/Icon';
 
-export default ({ icon, link, text, id }) => {
+export default ({ icon, link, text }) => { //add id export default ({ icon, link, text, id }
 
   let isActive = route().current(link + '*');
 
-  if(id){
-    isActive = route().current(link + '*');
-  }
+  // if(id){
+  //   isActive = route().current(link + '*');
+  // }
 
   const iconClasses = classNames('w-4 h-4 mr-2', {
     'text-white fill-current': isActive,
@@ -28,7 +28,8 @@ export default ({ icon, link, text, id }) => {
 
   return (
     <div className="mb-4">
-      <InertiaLink href={route(link, id)} className={linkClasses}>
+      {/* <InertiaLink href={route(link, id)} className={linkClasses}> */}
+      <InertiaLink href={route(link)} className={linkClasses}> 
         <Icon name={icon} className={iconClasses} />
         <div className={textClasses}>{text}</div>
       </InertiaLink>
