@@ -31,7 +31,7 @@ const Index = () => {
         <table className="w-full table-auto">
           <thead>
             <tr className="font-bold text-xl text-left">
-              <th className="px-6 pt-5 pb-4">Cuvânt</th>
+              <th className="px-6 pt-5 pb-4">Cuvânt-titlu</th>
               {/* <th className="px-6 pt-5 pb-4">Pre-definiție</th> */}
               <th className="px-6 pt-5 pb-4">Descriere lexicografică</th>
               {/* <th className="px-6 pt-5 pb-4">Dicționar</th> */}
