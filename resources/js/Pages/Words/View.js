@@ -5,6 +5,19 @@ import Pagination from '@/Shared/Pagination';
 // import Search from '@/Shared/Search';
 import parse from 'html-react-parser';
 import GuestLayout from '@/Shared/GuestLayout';
+// import { forEach } from 'lodash-es';
+
+// const synonyms = [''];
+
+// function findSynonymsFromDefinition(definition) {
+//   const regex = /[!"#$%&'()*+,-./:;<=>?@[\]^_`{|}~]/g;
+//   const temp = [...definition.matchAll(/a (.*?) /g)];
+//   temp.forEach(function(synonym){
+//     synonym = synonym.replace(regex, '');
+//     synonyms.push(synonym);
+//   });
+//   return temp;
+// }
 
 const View = () => {
   const { words, wordOfTheDay } = usePage().props;
@@ -27,13 +40,14 @@ const View = () => {
       <div className="flex">
         <div className="flex-1 overflow-x-auto max-w-3xl  border border-indigo-200 rounded">
               {data.map(({ id, name, definition,  dictionary, deleted_at }) => (
-                <div className="pb-4 w-full bg-white w-3xl p-6 border" label="cuvant">
+                <div className="pb-4 w-full bg-white w-3xl p-6 border" key={id} label="cuvant">
                     <h1 className="text-lg  pb-2 w-full">
                       <a className="font-bold text-indigo-600">{name=name.replace(/\n/g, " ")}</a>
                     </h1>
                     <div className="text-lg w-full w-3xl pr-5 leading-6">{parse(definition)}</div>
                     <div className="text-xs pt-2 italic text-gray-500">
-                        {dictionary ? dictionary.name : ''}
+                        {dictionary ? dictionary.name : ''} {deleted_at}
+                        {/* {console.log(findSynonymsFromDefinition(definition))} */}
                     </div>
 
                 </div> 
