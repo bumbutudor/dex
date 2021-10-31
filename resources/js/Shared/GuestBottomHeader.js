@@ -7,8 +7,8 @@ export default () => {
   return (
     <div className="flex items-center w-full p-4 text-sm bg-indigo-200 border-b md:py-0 md:px-12 d:text-md">
       <div className="max-w-3xl w-full text-center flex">
-        <div className="text-2xl font-bold text-indigo-900 mr-4">Caută un cuvânt</div>
-          <Search />
+        <div className="text-2xl whitespace-nowrap font-bold text-indigo-900 mr-4 pt-2">Caută un cuvânt</div>
+        <Search />
       </div>
             
       {/* <div className="mt-1">{`Proiect de colaborare IMI-IFR`}</div> */}
