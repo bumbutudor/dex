@@ -217,7 +217,7 @@ const Edit = () => {
                         tabIndex="-1"
                         href={route('words.edit', id)}
                         className="btn-edit focus:outline-none items-center px-4 focus:outline-none"
-                      > <span>Editeză cuvântul</span>
+                      > <span>Editează cuvântul</span>
                         {/* <Icon
                           name="cheveron-right"
                           className="block w-6 h-6 text-gray-400 fill-current"
