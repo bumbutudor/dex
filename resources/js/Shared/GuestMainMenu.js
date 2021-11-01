@@ -1,5 +1,6 @@
 import React from 'react';
 import MainMenuItem from '@/Shared/MainMenuItem';
+import Count from './Count';
 
 export default ({ className }) => {
   return (
@@ -14,6 +15,7 @@ export default ({ className }) => {
 
       {/* <MainMenuItem text="Autentificare" link="login" /> */}
       {/* <MainMenuItem text="Cuvinte" link="words/view" /> */}
+      <Count />
     </div>
   );
 };
