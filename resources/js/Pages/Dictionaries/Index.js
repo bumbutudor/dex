@@ -4,8 +4,8 @@ import Layout from '@/Shared/Layout';
 import Icon from '@/Shared/Icon';
 import SearchFilter from '@/Shared/SearchFilter';
 import Pagination from '@/Shared/Pagination';
-import parse from 'html-react-parser';
-import { html_substring } from '@/utils';
+// import parse from 'html-react-parser';
+// import { html_substring } from '@/utils';
 
 const Index = () => {
   const { dictionaries } = usePage().props;
@@ -13,6 +13,7 @@ const Index = () => {
     data,
     meta: { links }
   } = dictionaries;
+  
   return (
     <div>
       {/* <h1 className="mb-8 text-3xl font-bold">Toate dicționarele</h1> */}
