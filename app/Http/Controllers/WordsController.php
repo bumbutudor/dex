@@ -28,7 +28,8 @@ function generateRandomNumberEachDay(){
 class WordsController extends Controller
 {
     public function index()
-    {
+    {   
+
         return Inertia::render('Words/Index', [
             'filters' => Request::all('search', 'trashed'),
             'words' => new WordCollection(
@@ -39,6 +40,9 @@ class WordsController extends Controller
                     ->paginate()
                     ->appends(Request::all())
             ),
+            'dict_uzual_count' => Word::where('dictionary_id','=','1')->count(),
+            'dict_sinonime_count' => Word::where('dictionary_id','=','2')->count(),
+
         ]);
     }
 
@@ -56,6 +60,8 @@ class WordsController extends Controller
             ),
             'wordOfTheDay' => Word::with('dictionary')
                     ->firstWhere('ID', generateRandomNumberEachDay()),
+            'dict_uzual_count' => Word::where('dictionary_id','=','1')->count(),
+            'dict_sinonime_count' => Word::where('dictionary_id','=','2')->count(),
         ]);
     }
 
