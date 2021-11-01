@@ -74,9 +74,9 @@ Route::put('contacts/{contact}/restore')->name('contacts.restore')->uses('Contac
 Route::get('/insert-dictionary', function(){
 	// $storage_path_synonyms = 'sinonime/synonyms_to_S_no_L.json';
 	// $storage_path_explicativ = 'explicativ/explicativ_ac.json';
-	$storage_path_explicativ_ce = 'explicativ/explicativ_ce.json';
+	$storage_path = 'explicativ/explicativ_L.json';
 
-	$json = file_get_contents(storage_path($storage_path_explicativ_ce));
+	$json = file_get_contents(storage_path($storage_path));
 	$objs = json_decode($json,true);
 	foreach ($objs as $obj)  {
 		foreach ($obj as $key => $value) {
