@@ -1,3 +1,5 @@
+import $ from 'jquery';
+
 export function html_substring(str, start, length) {
   var countTags = 0;
   var returnString = "";
@@ -42,4 +44,65 @@ export function toFormData(values = {}, method = 'POST') {
   }
 
   return formData;
+}
+
+
+// search for a word when its clicked
+
+const Alphabet = 'a-záàäåăâçèéëìíïĭîòóöșțşţùúüŭ';
+const letter = '[' + Alphabet + ']';
+const nonLetter = '[^' + Alphabet + ']';
+let wwwRoot = getWwwRoot();
+
+
+function getWwwRoot() {
+  var pos = window.location.href.indexOf('/www/');
+  if (pos == -1) {
+    return '/';
+  } else {
+    return window.location.href.substr(0, pos + 5);
+  }
+}
+
+export function searchClickedWord(event) {
+  // if ($(event.target).is('abbr')) return false;
+  var sel = '';
+  // Gets clicked on word (or selected text if text is selected)
+  var word = '';
+  if (window.getSelection && (sel = window.getSelection()).modify) {
+    // Webkit, Gecko
+    var s = window.getSelection();
+    if (s.isCollapsed) { // Do not redirect when the user is trying to select text
+      s.modify('move', 'forward', 'character');
+      s.modify('move', 'backward', 'word');
+      s.modify('extend', 'forward', 'word');
+      word = s.toString();
+      s.modify('move', 'forward', 'character'); // clear selection
+    }
+  } else if ((sel = document.selection) && sel.type != 'Control') {
+    // IE 4+
+    var textRange = sel.createRange();
+    if (!textRange.text) {
+      textRange.expand('word');
+      while (/\s$/.test(textRange.text)) {
+        textRange.moveEnd('character', -1);
+      }
+      word = textRange.text;
+    }
+  }
+
+  // Trim trailing dots
+  var regex = new RegExp(nonLetter + '$', 'i');
+  while (word && regex.test(word)) {
+    word = word.substr(0, word.length - 1);
+  }
+
+  var source = $('.sourceDropDown').length ? $('.sourceDropDown').val() : '';
+  if (source) {
+    source = '-' + source;
+  }
+
+  if (word) {
+    window.location = wwwRoot + '?search=' + encodeURIComponent(word);
+  }
 }
