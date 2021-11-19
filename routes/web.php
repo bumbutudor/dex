@@ -50,6 +50,7 @@ Route::get('cuvint/{word}/edit')->name('words.edit')->uses('WordsController@edit
 Route::put('cuvint/{word}')->name('words.update')->uses('WordsController@update')->middleware('auth');
 Route::delete('cuvint/{word}')->name('words.destroy')->uses('WordsController@destroy')->middleware('auth');
 Route::put('cuvint/{word}/rest')->name('words.restore')->uses('WordsController@restore')->middleware('auth');
+Route::get('correct')->name('words.correct')->uses('WordsController@correct')->middleware('auth');
 
 // Organizations
 Route::get('org')->name('organizations')->uses('OrganizationsController@index')->middleware('remember', 'auth');
@@ -88,6 +89,45 @@ Route::get('/insert-dictionary', function(){
 	}
 	dd("Finished adding data in examples table");
 });
+
+
+// Corect the word-titles
+// Route::get('/correct', function(){
+// 	$regex_1 = '/^<p>( *<span> *<b>| *<b> *<span>) *(.){1,80} *<\/b> *(<span>){0,1} *(<i>){1}/i';
+// 	$regex_2 = '/^<p>( *<span> *<b>| *<b> *<span>) *(.){1,80} *<\/b>/i';
+// 	$error_words = DB::table('words')
+// 						->where('dictionary_id', '=', '1')
+// 						// ->where('name', 'A SE')
+// 						->where('definition', 'regexp', '^<p>( *<span> *<b>| *<b> *<span>) *.+ *</b>.* *<i>')
+// 						// ->limit(10)
+// 						->get();
+// 	$i = 0; 
+// 	foreach ($error_words as $error_word) {
+// 		preg_match($regex_2, $error_word->definition, $matches);
+// 		if (isset($matches[0])) {
+// 			$word_part = $matches[0];
+// 			$word_part = strip_tags($word_part); // remove <b> and <i> tags
+// 			$word_part = preg_replace('/^ ?SE/', ' SE ', $word_part, 1); // replace SEWORD with SE WORD
+// 			$word_part = preg_replace('/~/', ' ~', $word_part, 1); // replace ~ with space~
+// 			$word_part = preg_replace('/\s+/', ' ', $word_part); // replace multiple spaces with one
+// 			$word_part = preg_replace('/1\./', '', $word_part, 1); // remove 1dot
+// 			$new_word = $error_word->name . ' ' . $word_part;
+// 			$new_definition = preg_replace($regex_2, '<p><i>', $error_word->definition, 1);
+			
+// 			DB::table('words')
+// 				->where('id', $error_word->id)
+// 				->update(['name' => $new_word, 'definition' => $new_definition, 'updated_at' => date('Y-m-d H:i:s')]);
+			
+// 				echo($error_word->id." ");
+// 			echo($new_word);		
+// 		$i++;
+// 		}
+	
+// 	}
+// 	echo("<br><h1>Au fost modificate: ".$i." cuvinte</h1>");	
+// 	dd($error_words);
+	
+// });
 
 // Reports
 Route::get('reports')->name('reports')->uses('ReportsController')->middleware('auth');

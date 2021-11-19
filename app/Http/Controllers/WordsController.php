@@ -37,7 +37,7 @@ class WordsController extends Controller
                 Word::with('dictionary')
                     ->orderByName()
                     ->filter(Request::only('search', 'trashed'))
-                    ->paginate()
+                    ->paginate(50)
                     ->appends(Request::all())
             ),
             'dict_uzual_count' => Word::where('dictionary_id','=','1')->count(),
@@ -119,6 +119,56 @@ class WordsController extends Controller
         $word->restore();
 
         return Redirect::back()->with('success', 'Cuvântul a fost restabilit.');
+    }
+
+    public function destroy_permanently(Word $word)
+    {
+        $word->forceDelete();
+
+        return Redirect::back()->with('success', 'Cuvântul a fost șters permanent.');
+    }
+
+    public function correct()
+    {
+        $regex_1 = '/^<p>( *<span> *<b>| *<b> *<span>) *(.){1,80} *<\/b> *(<span>){0,1} *(<i>){1}/i';
+	    $regex_2 = '/^<p>( *<span> *<b>| *<b> *<span>) *(.){1,80} *<\/b>/i';
+	    $error_words = Word::where('dictionary_id', '=', '1')
+						->where('name', 'A SE')
+                        // ->where('name', 'A')
+						->where('definition', 'regexp', '^<p>( *<span> *<b>| *<b> *<span>) *.+ *</b>.* *<i>')
+						// ->limit(10)
+						->get();
+        $i = 0; 
+        
+        echo("<h1>Cuvinte cu erori: ".count($error_words));
+
+        foreach ($error_words as $error_word) {
+            preg_match($regex_1, $error_word->definition, $matches);
+            if (isset($matches[0])) {
+                $word_part = $matches[0];
+                $word_part = strip_tags($word_part); // remove <b> and <i> tags
+                $word_part = preg_replace('/^ ?SE/', ' SE ', $word_part, 1); // replace SEWORD with SE WORD
+                $word_part = preg_replace('/~/', ' ~', $word_part, 1); // replace ~ with space~
+                $word_part = preg_replace('/\s+/', ' ', $word_part); // replace multiple spaces with one
+                $word_part = preg_replace('/1\./', '', $word_part, 1); // remove 1dot
+                
+                $new_word = $error_word->name . ' ' . $word_part;
+                $new_definition = preg_replace($regex_1, '<p><i>', $error_word->definition, 1);
+                
+                echo("<br>".$new_word."<br>");
+                echo($new_definition);
+
+                Word::where('id', $error_word->id)
+                    ->update(['name' => $new_word, 'definition' => $new_definition, 'updated_at' => date('Y-m-d H:i:s')]);
+                
+            $i++;
+            }
+        
+        }
+        
+        echo("<br><h1>Au fost modificate: ".$i." cuvinte</h1>");
+
+        echo("<a href=".url('')."><-Inapoi</a>");
     }
 
 }

@@ -69,7 +69,7 @@ class DictionariesController extends Controller
                     $dictionary->words()
                     ->orderByName()
                     ->filter(Request::only('search', 'trashed'))
-                    ->paginate()
+                    ->paginate(50)
                     ->appends(Request::all())
             ),
         ]);
