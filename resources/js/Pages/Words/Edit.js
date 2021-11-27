@@ -10,6 +10,10 @@ import SelectInput from '@/Shared/SelectInput';
 import TrashedMessage from '@/Shared/TrashedMessage';
 import { CKEditor } from '@ckeditor/ckeditor5-react';
 import ClassicEditor from '@ckeditor/ckeditor5-build-classic';
+import ConfirmModal from '@/Shared/ConfirmModal';
+import ModalWithButtons from '@/Shared/ModalWithButtons';
+import SmallButton from "@/Shared/SmallButton";
+import LoadingSmallButton from "@/Shared/LoadingSmallButton";
 
 const Edit = () => {
   const {word, dictionaries, errors } = usePage().props;
@@ -27,6 +31,62 @@ const Edit = () => {
     active: word.active || '1',
     dictionary_id: word.dictionary_id || ''
   });
+  
+
+  // for modal
+  const [valuesModal, setValuesModal] = useState({
+    name: '',
+    definition: '',
+    active: word.active || '1',
+    dictionary_id: word.dictionary_id || ''
+  });
+
+  const [dialogIsOpen, setDialogIsOpen] = useState(false);
+  const [confirmOpen, setConfirmOpen] = useState(false);
+
+  let onConfirm = () => {
+    alert("Confirmed");
+  }
+
+  let onNotConfirmed = () => {
+      alert("Not confirmed");
+  }
+
+  let onShowConfirmModal = () => {
+      setConfirmOpen(true);
+  }
+
+  let onShowDialogWithButtons = () => {
+      setDialogIsOpen(true);
+  }
+
+  function handleChangeModal(e) {
+    const key = e.target.name;
+    const value = e.target.value;
+    setValuesModal(valuesModal => ({
+      ...valuesModal,
+      [key]: value
+    }));
+  }
+
+  function handleSubmitFromModal(e) {
+      e.preventDefault();
+      setSending(true);
+
+      Inertia.post(route('words.storeFromModal'), valuesModal, {
+          preserveState: true,
+          onSuccess: (page) => {
+              setSending(false);
+              setDialogIsOpen(false);
+          },
+          onError: (errors) => {  
+              setSending(false);
+          }
+      });
+
+      // clear form after submit
+      // setValuesModal({ name: '', definition: '' });
+  }
 
   function handleChange(e) {
     const key = e.target.name;
@@ -64,7 +124,7 @@ const Edit = () => {
   return (
     <div>
       <Helmet title={values.name} />
-      <button className="ml-auto  text-xl font-bold text-indigo-600 mb-4" onClick={goBack}><span>←Înapoi</span></button>
+      {/* <button className="ml-auto  text-xl font-bold text-indigo-600 mb-4" onClick={goBack}><span>←Înapoi</span></button> */}
       <h1 className="mb-8 text-3xl font-bold">
         {/* <InertiaLink
           href={route('words')}
@@ -188,6 +248,110 @@ const Edit = () => {
           </div>
         </form>
       </div>
+
+      {/* for modal */}
+      <div className="absolute top-60 right-40">     
+                {false &&
+                <SmallButton className="btn-indigo ml-2"
+                             onClick={onShowConfirmModal}>
+                    Adaugă un cuvânt instrus
+                </SmallButton>
+                }
+
+                <SmallButton className="btn-indigo ml-2"
+                        onClick={onShowDialogWithButtons}>
+                    Adaugă un cuvânt instrus
+                </SmallButton>
+
+                <ConfirmModal
+                    title="Delete Post?"
+                    open={confirmOpen}
+                    onClose={() => setConfirmOpen(false)}
+                    onConfirm={onConfirm}
+                    onReject={onNotConfirmed}
+                >
+                    Esti sigur?
+                </ConfirmModal>
+
+                <ModalWithButtons
+                    title="Adaugă un cuvânt nou"
+                    open={dialogIsOpen}
+                    onClose={() => setDialogIsOpen(false)}
+                    onConfirm={() => setDialogIsOpen(false)}
+                    buttons={
+                        <React.Fragment>
+                            <div className="p-1">
+                                <LoadingSmallButton
+                                    loading={sending}
+                                    onClick={handleSubmitFromModal}
+                                    className="btn-indigo ml-auto"
+                                >
+                                    Salvează
+                                </LoadingSmallButton>
+                            </div>
+                        </React.Fragment>
+                    }
+                >
+                    <div className="bg-white rounded shadow overflow-hidden max-w-3xl">
+                        <form>
+                            <div className="p-4 -mr-3 -mb-4 flex flex-wrap">
+                                <TextInput
+                                    className="pr-4 pb-4 w-full "
+                                    label="Cuvânt-titlu"
+                                    name="name"
+                                    value={valuesModal.name}
+                                    errors={errors.name}
+                                    onChange={handleChangeModal}
+                                />
+            
+                                <div name="Definiție" className="w-full pb-8 pr-6">
+                                  <h2 className="pb-2">Aici, la descrierea lexicografică, tăie textul necesar din stânga și lipeștel mai jos.</h2>
+                                  
+                                  <CKEditor
+                                    editor={ ClassicEditor }
+                                    config={ {
+                                      toolbar: [ 'bold', 'italic', 'link', 'undo', 'redo' ]
+                                      
+                                      } }
+                              
+                                    label="Definiție"
+                                    name="definition"
+                                    errors={errors.definition}
+                                    data={valuesModal.definition}
+                                    onChange={ ( event, editor ) => {
+                                        const data = editor.getData();
+                                        setValuesModal(values => ({
+                                          ...values,
+                                          definition: data
+                                        }));
+
+                                    } }
+                                  />
+                                </div>
+
+                                <SelectInput
+                                  className="w-full pb-8 pr-6"
+                                  label="Dicționar"
+                                  name="dictionary_id"
+                                  errors={errors.dictionary_id}
+                                  value={valuesModal.dictionary_id}
+                                  onChange={handleChangeModal}
+                                >
+                                  <option value=""></option>
+                                  {dictionaries.map(({ id, name }) => (
+                                    <option key={id} value={id}>
+                                      {name}
+                                    </option>
+                                  ))}
+                                </SelectInput>
+
+                            </div>
+
+                        </form>
+                    </div>
+
+                </ModalWithButtons>
+            </div>
       
     </div>
   );

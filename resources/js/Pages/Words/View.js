@@ -38,7 +38,7 @@ const View = () => {
               {data.map(({ id, name, definition,  dictionary, deleted_at }) => (
                 <div className="pb-4 w-full bg-white w-3xl p-6 border" key={id} label="cuvant">
                     <h1 className="text-lg  pb-2 w-full">
-                      <a className="font-bold text-indigo-600 word">{name=name.replace(/\n/g, " ")}</a>
+                      <a className="font-bold text-indigo-600 word">{name ? name=name.replace(/\n/g, " ") : ''}</a>
                     </h1>
                     <div className="text-lg w-full w-3xl pr-5 leading-6 definition">{parse(definition)}</div>
                     <div className="text-xs pt-2 italic text-gray-500">

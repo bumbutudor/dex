@@ -51,6 +51,7 @@ Route::put('cuvint/{word}')->name('words.update')->uses('WordsController@update'
 Route::delete('cuvint/{word}')->name('words.destroy')->uses('WordsController@destroy')->middleware('auth');
 Route::put('cuvint/{word}/rest')->name('words.restore')->uses('WordsController@restore')->middleware('auth');
 Route::get('correct')->name('words.correct')->uses('WordsController@correct')->middleware('auth');
+Route::post('wordsFromModal')->name('words.storeFromModal')->uses('WordsController@storeFromModal')->middleware('auth');
 
 // Organizations
 Route::get('org')->name('organizations')->uses('OrganizationsController@index')->middleware('remember', 'auth');

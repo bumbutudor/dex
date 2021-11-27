@@ -17,7 +17,7 @@ export default function ModalWithButtons(props) {
                     <Button
                         onClick={() => onClose()}
                         className="btn-indigo hover:bg-secondary-light">
-                        Cancel
+                        Ignoră
                     </Button>
                 </div>
 

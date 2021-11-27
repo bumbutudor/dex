@@ -85,6 +85,15 @@ class WordsController extends Controller
         return Redirect::route('words')->with('success', 'Cuvântul a fost adăugat.');
     }
 
+    public function storeFromModal(WordStoreRequest $request)
+    {
+        Auth::user()->words()->create(
+            $request->validated()
+        );
+
+        return Redirect::back()->with('success', 'Cuvântul a fost adăugat. Dacă mai este vreun intrus, adaugă un cuvânt');
+    }
+
     // @TODO update and rest
     public function edit(Word $word)
     {
@@ -103,8 +112,8 @@ class WordsController extends Controller
         $word->update(
             $request->validated()
         );
-
-        return Redirect::back()->with('success', 'Datele au fost modificate.');
+        // return Redirect::back()->with('success', 'Cuvântul a fost modificat.');
+        return Redirect::route('words')->with('success', 'Cuvântul a fost modificat.');
     }
 
     public function destroy(Word $word)
