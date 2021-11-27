@@ -1,0 +1,884 @@
+[
+  {
+    "user_id": 1,
+    "dictionary_id": 2,
+    "name": "ZA",
+    "definition": "<p><span> <i>f. </i>1) ochi, verigă; 2) armură, lăn­ţişor</span><span>.</span><span><p></p></span></p>"
+  },
+  {
+    "user_id": 1,
+    "dictionary_id": 2,
+    "name": "ZADÁR",
+    "definition": "<p><i><span>n.<span>  </span></span></i><span>inutilitate, zădărnicie, va­nitate</span><span>.<p></p></span></p>"
+  },
+  {
+    "user_id": 1,
+    "dictionary_id": 2,
+    "name": "ZADÁRNIC",
+    "definition": "<p><span> <b><span> </span></b></span><b><span>1.</span></b><span> <i>adj. </i><span> </span>inutil, van, ineficace; <i>livr. </i><span> </span></span><span>inoperant, superfluu. <i>Eforturi ~e; </i><b><span>2. </span></b><i>adv. </i><span>degeaba, inutil.</span></span><span><p></p></span></p>"
+  },
+  {
+    "user_id": 1,
+    "dictionary_id": 2,
+    "name": "ZAHARICÁLE",
+    "definition": "<p><i><span>f. pl.<span>  </span></span></i><span>cofeturi, dulciuri. <i>Cumpărase la copii</i> <i>~.</i></span><span><p></p></span></p>"
+  },
+  {
+    "user_id": 1,
+    "dictionary_id": 2,
+    "name": "ZAHARISÍT",
+    "definition": "<p><i><span>adj. </span></i><span><span> </span><span>1)<b> </b></span>îndulcit. <i>Fructe </i></span><i><span>~e</span></i><i><span>;</span></i><i><span> </span></i><span>2) ramolit, </span><span>îmbătrânit</span><span>.<p></p></span></p>"
+  },
+  {
+    "user_id": 1,
+    "dictionary_id": 2,
+    "name": "ZAIAFÉT",
+    "definition": "<p><i><span>n. </span></i><span>chef, petrecere, ospăţ.<i> ~ul era în toi.</i></span><span><p></p></span></p>"
+  },
+  {
+    "user_id": 1,
+    "dictionary_id": 2,
+    "name": "ZÁR/E",
+    "definition": "<p><i><span>f. </span></i><span>orizont. <i>~ea era învăluită de fum.</i></span><span><p></p></span></p>"
+  },
+  {
+    "user_id": 1,
+    "dictionary_id": 2,
+    "name": "ZÁRIŞTE",
+    "definition": "<p><i><span>f.<span>  </span></span></i><span>zare, orizont.<i>Cocorii au dispărut în ~.</i></span><span><p></p></span></p>"
+  },
+  {
+    "user_id": 1,
+    "dictionary_id": 2,
+    "name": "ZÁRV/Ă",
+    "definition": "<p><i><span>f. </span></i><span><span> </span>1)<b> </b></span><span>gălăgie, larmă, zgomot; 2) </span><span>conflict.<i> ~a </i></span><i><span>a</span></i><i><span><span>  </span>izbucnit pe neaşteptate.</span></i><span><p></p></span></p>"
+  },
+  {
+    "user_id": 1,
+    "dictionary_id": 2,
+    "name": "ZARZAVÁT",
+    "definition": "<p><i><span> n. </span></i><span><span> </span>legume </span><i><span>pl.</span></i><span>, verdeţuri </span><i><span>pl. </span></i><span>.</span><span><p></p></span></p>"
+  },
+  {
+    "user_id": 1,
+    "dictionary_id": 2,
+    "name": "ZĂBÁVĂ",
+    "definition": "<p><i><span>f. </span></i><span>1)<i> </i></span><span>întârziere, încetineală, tărăgăneală. </span><i><span>Să ajungem acolo fără multă ~;</span></i><i><span> </span></i><span>2) răgaz, pauză, odihnă</span><span>.<p></p></span></p>"
+  },
+  {
+    "user_id": 1,
+    "dictionary_id": 2,
+    "name": "ZĂBĂÚC",
+    "definition": "<p><i><span>adj.<span>  </span></span></i><span>zăpăcit, aiurit, năucit. <i>Omul</i> <i>~ încurcă toate lucrurile.</i></span><span><p></p></span></p>"
+  },
+  {
+    "user_id": 1,
+    "dictionary_id": 2,
+    "name": "A ZĂBOVÍ",
+    "definition": "<p><i><span>itr.<span>  </span></span></i><span>a întârzia, a sta, a rămâne.<i>În drum spre casă au ~t prin parc.</i></span><span><p></p></span></p>"
+  },
+  {
+    "user_id": 1,
+    "dictionary_id": 2,
+    "name": "ZĂBRÉLE",
+    "definition": "<p><i><span> f. pl. </span></i><span>gratii </span><i><span>pl.</span></i><span>, ostreţe <i>pl.</i>, îngrăditură, grilaj.<i> ~</i></span><i><span>le</span></i><i><span> de la ferestre<span>  </span>urmau să fie înlăturate.</span></i><span><p></p></span></p>"
+  },
+  {
+    "user_id": 1,
+    "dictionary_id": 2,
+    "name": "A ZĂCEÁ",
+    "definition": "<p><span> <span><i>itr</i></span><i>.</i></span><i><span> </span></i><span>a boli. <i>Zăcea de mai mulţi ani</i>.</span><span><p></p></span></p>"
+  },
+  {
+    "user_id": 1,
+    "dictionary_id": 2,
+    "name": "ZĂCÚT",
+    "definition": "<p><i><span>adj.<span>  </span></span></i><span>stătut, clocit, bâhlit. <i>Produsele ~e au fost </i></span><i><span>scoase</span></i><i><span> din depozit.</span></i><span><p></p></span></p>"
+  },
+  {
+    "user_id": 1,
+    "dictionary_id": 2,
+    "name": "A ZĂDĂRÎ",
+    "definition": "<p><i><span>tr</span></i><i><span>.<span>  </span></span></i><span>1) </span><span>a întărâta, a incita, a pro­<span>voca, </span></span><span>a stârni; 2)</span><span> a sâcâi, a necăji, a hăr</span><span>ţui.</span><span><p></p></span></p>"
+  },
+  {
+    "user_id": 1,
+    "dictionary_id": 2,
+    "name": "A ZĂDĂRNICÍ",
+    "definition": "<p><b><span> </span></b><i><span>tr.</span></i><b><span> </span></b><span>a împiedica, a dejuca, a </span><span>sabota, <span>a</span> anihila. <i>Lucrările de reparaţie au fost </i></span><i><span>~</span></i><i><span>te de timpul nefavorabil.</span></i><i><span><p></p></span></i></p>"
+  },
+  {
+    "user_id": 1,
+    "dictionary_id": 2,
+    "name": "ZĂDĂRNICÍE",
+    "definition": "<p><i><span>f. </span></i><span>inutilitate, deşertăciune, nimicnicie.</span><span><p></p></span></p>"
+  },
+  {
+    "user_id": 1,
+    "dictionary_id": 2,
+    "name": "ZĂDÚF",
+    "definition": "<p><i><span>n.</span></i><span> <span>1)<b> </b></span>arşiţă, </span><span>caniculă, zăpuşeală; 2) <span> </span><i>fig. </i>supărare, </span><span>necaz, indispoziţie.</span><span><p></p></span></p>"
+  },
+  {
+    "user_id": 1,
+    "dictionary_id": 2,
+    "name": "ZĂGÁZ",
+    "definition": "<p><i><span>n. </span></i><span>1)<b> </b></span><span>stăvilar, baraj, dig, scoc. <i>Viitura a rupt</i> </span><i><span>~ul</span></i><i><span>;</span></i><span> 2) <i>fig. </i>oprelişte, îngrădire, piedică, </span><span>barieră, obstacol.</span><span><p></p></span></p>"
+  },
+  {
+    "user_id": 1,
+    "dictionary_id": 2,
+    "name": "A ZĂGĂZUÍ",
+    "definition": "<p><i><span>tr. </span></i><span>a stăvili, a îndigui, a bara, </span><span>a închide, a împiedica. <i>Au ~t cursul râului.</i></span><i><span><p></p></span></i></p>"
+  },
+  {
+    "user_id": 1,
+    "dictionary_id": 2,
+    "name": "ZĂLÓG",
+    "definition": "<p><i><span>n.<span>  </span></span></i><span>amanet, garanţie, gaj, che­zăşie. <i>Drept </i></span><i><span>~ </span></i><i><span>a lăsat inelul cu diamant</span></i><span>.</span><span><p></p></span></p>"
+  },
+  {
+    "user_id": 1,
+    "dictionary_id": 2,
+    "name": "ZĂLÚD",
+    "definition": "<p><i><span>adj. </span></i><span><span> </span>smintit, ţâcnit, zăpăcit, înnebunit, tulburat, năucit.</span><span><p></p></span></p>"
+  },
+  {
+    "user_id": 1,
+    "dictionary_id": 2,
+    "name": "A ZĂMISLÍ",
+    "definition": "<p><i><span>tr. înv. </span></i><span>1)<b> </b></span><span>concepe, a pro­<span>crea; 2) <i>fig</i>. a crea, a naşte, a produce.</span><i> ~ un proiect.</i></span><span><p></p></span></p>"
+  },
+  {
+    "user_id": 1,
+    "dictionary_id": 2,
+    "name": "ZĂNÁTIC",
+    "definition": "<p><i><span>adj. </span></i><span>zăpăcit, smintit, bezmetic, aiurit</span><span>;</span><span> <i>reg. </i>zărghit. <i>Firea lui </i></span><i><span>~ă</span></i><i><span> nu accepta un regim sever de tratament.</span></i><i><span><p></p></span></i></p>"
+  },
+  {
+    "user_id": 1,
+    "dictionary_id": 2,
+    "name": "A ZĂNGĂNÍ",
+    "definition": "<p><span> <i>tr.<span>  </span></i>a zornăi, a zdrăngăni. <i>Paznicul </i></span><i><span>~ea</span></i><i><span><span>  </span>cheile de la poartă</span></i><span>.</span><span><p></p></span></p>"
+  },
+  {
+    "user_id": 1,
+    "dictionary_id": 2,
+    "name": "ZĂNOÁGĂ",
+    "definition": "<p><i><span>f. geol. geogr. </span></i><span>caldeiră, circ.</span><span><p></p></span></p>"
+  },
+  {
+    "user_id": 1,
+    "dictionary_id": 2,
+    "name": "ZĂPADĂ",
+    "definition": "<p><i><span>f.<span>  </span></span></i><span>omăt, nea, ninsoare. </span><span><p></p></span></p>"
+  },
+  {
+    "user_id": 1,
+    "dictionary_id": 2,
+    "name": "ZĂPĂCEÁLĂ",
+    "definition": "<p><i><span>f.</span></i><b><span><span>  </span></span></b><span>1) </span><span>tulburare, buimăceală,</span><span> năuceală, ameţeală, încurcătură, dezordine</span><span>; 2)<span>  </span>gălăgie, larmă, balamuc.<p></p></span></p>"
+  },
+  {
+    "user_id": 1,
+    "dictionary_id": 2,
+    "name": "A (SE) ZĂPĂCÍ",
+    "definition": "<p><i><span>tr.,</span></i><i><span> itr. pron. </span></i><span>a (se) tulbura, a (se) năuci, a (se) buimăci, a (se) ameţi, a (se) încurc</span><span>a. <p></p></span></p>"
+  },
+  {
+    "user_id": 1,
+    "dictionary_id": 2,
+    "name": "ZĂPĂCÍT",
+    "definition": "<p><i><span>adj. </span></i><span>buimăcit, năucit, tulburat, ameţit, fâstâcit, zvăpăiat. </span><i><span>Ce tânăr<span>  </span></span></i><i><span>~!</span></i><i><span> .<p></p></span></i></p>"
+  },
+  {
+    "user_id": 1,
+    "dictionary_id": 2,
+    "name": "ZĂPLÁZ",
+    "definition": "<p><span> <i>n.</i> gard, îngrădire, îngrăditură. </span><span><p></p></span></p>"
+  },
+  {
+    "user_id": 1,
+    "dictionary_id": 2,
+    "name": "ZĂPUŞEÁLĂ",
+    "definition": "<p><i><span>f.<span>  </span></span></i><span>caniculă, zăduf, arşiţă.<span>   </span></span><i><span>~</span></i><i><span>a de afară te apasă.<p></p></span></i></p>"
+  },
+  {
+    "user_id": 1,
+    "dictionary_id": 2,
+    "name": "ZĂPUŞITÓR",
+    "definition": "<p><i><span>adj. </span></i><span><span> </span>arzător, canicular, torid, </span><span>dogoritor. <i>Soare ~.</i></span><i><span><p></p></span></i></p>"
+  },
+  {
+    "user_id": 1,
+    "dictionary_id": 2,
+    "name": "A",
+    "definition": "<p><b><span> (SE)</span></b><b><span> ZĂRÍ</span></b><span> </span><b><span>1. </span></b><i><span>itr. </span></i><span>a vedea, a observa, </span><span>a desluşi; </span><b><span>2. </span></b><i><span>itr. pron. </span></i><span>a apărea, a se ivi, </span><span>a se arăta. </span><i><span>Băiatul se zâri de după casă.</span></i><span> </span><span><p></p></span></p>"
+  },
+  {
+    "user_id": 1,
+    "dictionary_id": 2,
+    "name": "ZĂTICNEÁLĂ",
+    "definition": "<p><i><span>f. </span></i><span>împiedicare, piedică, stânjenire, zăticnire.</span><span><p></p></span></p>"
+  },
+  {
+    "user_id": 1,
+    "dictionary_id": 2,
+    "name": "A ZĂTICNÍ",
+    "definition": "<p><b><span> </span></b><i><span>itr.</span></i><i><span> </span></i><span>a </span><span>împiedica, a stânjeni, a <span>stingheri, a tulbura, a încurca</span></span><span>.</span><span><p></p></span></p>"
+  },
+  {
+    "user_id": 1,
+    "dictionary_id": 2,
+    "name": "ZĂU",
+    "definition": "<p><i><span>interj. </span></i><span>1) jur</span><span>!</span><span>; 2) desigur, </span><span>întradevăr, bineînţeles.</span><span><p></p></span></p>"
+  },
+  {
+    "user_id": 1,
+    "dictionary_id": 2,
+    "name": "ZĂVÓD",
+    "definition": "<p><i><span>m.<span>  </span></span></i><span>câine, dulău. </span><span><p></p></span></p>"
+  },
+  {
+    "user_id": 1,
+    "dictionary_id": 2,
+    "name": "ZĂVÓI",
+    "definition": "<p><i><span>n. </span></i><span>l</span><span>uncă. </span><i><span>Mieii<span>  </span>zburdă în<span>  </span></span></i><i><span>~</span></i><i><span> .<p></p></span></i></p>"
+  },
+  {
+    "user_id": 1,
+    "dictionary_id": 2,
+    "name": "ZĂVÓR",
+    "definition": "<p><i><span>n.</span></i><span> ivăr, încuietoare. </span><i><span>Am încuiat uşa cu<span>  </span></span></i><i><span>~</span></i><i><span>ul.<p></p></span></i></p>"
+  },
+  {
+    "user_id": 1,
+    "dictionary_id": 2,
+    "name": "A ZĂVORÎ",
+    "definition": "<p><b><span>1. </span></b><i><span>tr. </span></i><span><span> </span>a încuia, a închide; <b>2.</b> <i>tr., itr. pron.</i> a (se) închide, a (se) izola.<span>  </span><i>S-a</i></span><i><span> </span></i><i><span>~t în casă să nu-l deranjeze nimeni.</span></i><span><p></p></span></p>"
+  },
+  {
+    "user_id": 1,
+    "dictionary_id": 2,
+    "name": "ZÂMBET",
+    "definition": "<p><i><span>n. </span></i><span>1)</span><b><span> </span></b><span>surâs; 2) <i>fig. </i>strălucire, sclipire, scânteiere.</span><span><p></p></span></p>"
+  },
+  {
+    "user_id": 1,
+    "dictionary_id": 2,
+    "name": "A ZÂMBÍ",
+    "definition": "<p><i><span>itr. </span></i><span><span> </span></span><span>1<b>)</b></span><b><span> </span></b><span>a surâde; 2) <i>fig. </i>a străluci, a sclipi, a scânteia.</span><b><span><p></p></span></b></p>"
+  },
+  {
+    "user_id": 1,
+    "dictionary_id": 2,
+    "name": "ZÂMBITÓR",
+    "definition": "<p><i><span>adj.<span>  </span></span></i><span>surâzător, vesel, radios</span><span>; <i>fam.</i> zâmbăreţ.</span><b><span><p></p></span></b></p>"
+  },
+  {
+    "user_id": 1,
+    "dictionary_id": 2,
+    "name": "ZÂZÁNIE",
+    "definition": "<p><i><span>f. </span></i><span>animozitate, conflict, dezacord, discordie, disensiune, divergenţă, litigiu, neînţelegere, vrajbă.</span><span><p></p></span></p>"
+  },
+  {
+    "user_id": 1,
+    "dictionary_id": 2,
+    "name": "A ZÂZÂ/",
+    "definition": "<p><b><span>Í</span></b><span> <i>itr.</i> a bâzâi, a zumz</span><span>ă</span><span>i. <i>Viespele </i></span><i><span>~</span></i><i><span>iau lângă cada cu must</span></i><span>.</span><span><p></p></span></p>"
+  },
+  {
+    "user_id": 1,
+    "dictionary_id": 2,
+    "name": "ZBANGHÍU",
+    "definition": "<p><i><span>adj.</span></i><span> <span>1)<b> </b></span>saşiu; 2) neastâmpărat, zvăpăiat. </span><i><span>Un copil ~.<p></p></span></i></p>"
+  },
+  {
+    "user_id": 1,
+    "dictionary_id": 2,
+    "name": "A SE ZBÁTE",
+    "definition": "<p><i><span>itr. pron.</span></i><span>1)<b> </b></span><span>a se zvârcoli, a se agita, a se </span><span>zbuciuma. </span><i><span>Pasărea se zbătea în colivie; </span></i><span>2) a se strădui. </span><i><span>Se zbătea să termine<span>  </span>lucrarea.</span></i><b><span><p></p></span></b></p>"
+  },
+  {
+    "user_id": 1,
+    "dictionary_id": 2,
+    "name": "A SE ZBÂRCÍ",
+    "definition": "<p><span> <i>itr. pron.<span>  </span></i>a se încreţi, a se <span>rida. <i>Merele rămase pe pom se zbârciseră.</i></span></span><i><span><p></p></span></i></p>"
+  },
+  {
+    "user_id": 1,
+    "dictionary_id": 2,
+    "name": "ZBÂRCITÚR/Ă",
+    "definition": "<p><i><span>f.<span>  </span></span></i><span>încreţitură, rid, cută. <i>În colţul gurii i se adunase cîteva</i> <i>~i.</i></span><span><p></p></span></p>"
+  },
+  {
+    "user_id": 1,
+    "dictionary_id": 2,
+    "name": "A (SE) ZBÂRLÍ 1.",
+    "definition": "<p><i><span>tr</span></i><b><span>. </span></b><span>a ciufuli. <i>Îi zbârli în glumâ părul</i></span><span>;</span><span> </span><b><span>2. </span></b><i><span>itr. pron.</span></i><span> <i>fîg. </i>a se supăra, a se mânia, a se zborşi, a se <span>răsti, a se înfuria, a se îndârji. <i>Se zbârlise rău în timpul discuţiei.</i></span></span><span><p></p></span></p>"
+  },
+  {
+    "user_id": 1,
+    "dictionary_id": 2,
+    "name": "A ZBÂRNÂÍ",
+    "definition": "<p><i><span>itr.</span></i><i><span> </span></i><span><span> </span></span><span>1) </span><span>a bâzâi, a zumzăi. </span><i><span>Un bondar îi zbârnâia la ureche; </span></i><span>2) a </span><span>ţârâi, a suna. <i>Zbârnâi soneria de la uşă şi se trezi.</i></span><b><span><p></p></span></b></p>"
+  },
+  {
+    "user_id": 1,
+    "dictionary_id": 2,
+    "name": "A SE ZBENGUÍ",
+    "definition": "<p><i><span>itr.pron. </span></i><span>a se juca, a se hârjoni, a zburda, a alerga. </span><i><span>Copiii se zbenguie în curte.<p></p></span></i></p>"
+  },
+  {
+    "user_id": 1,
+    "dictionary_id": 2,
+    "name": "A SE ZBICÍ",
+    "definition": "<p><i><span>itr. pron. </span></i><span><span> </span>a se usca, a se zvânta. </span><i><span>Rufele s-au ~t. <p></p></span></i></p>"
+  },
+  {
+    "user_id": 1,
+    "dictionary_id": 2,
+    "name": "A ZBIERÁ",
+    "definition": "<p><i><span>itr. </span></i><span>1) </span><span>a striga, a ţipa, a răcni, <span>a<b> </b></span>vo</span><span>cifera; </span><span>2) a rage, a mugi. <i>Vitele ~u de foame.<p></p></i></span></p>"
+  },
+  {
+    "user_id": 1,
+    "dictionary_id": 2,
+    "name": "ZBOR",
+    "definition": "<p><i><span>n. </span></i><span>1) <b><span> </span></b></span><span>planare, înălţare, plutire. <span> </span></span><i><span>Admira </span></i><i><span>~ul lin al ciocârlie; </span></i><span>2) </span><span>viteză, goană, fugă; </span><i><span>Porni în </span></i><i><span>~ spre casă. </span></i><span><p></p></span></p>"
+  },
+  {
+    "user_id": 1,
+    "dictionary_id": 2,
+    "name": "A SE ZBORŞÍ",
+    "definition": "<p><i><span>itr. pron</span></i><i><span>.</span></i><i><span> </span></i><span><span> </span>a se supăra, a se înfuria, a se zbârli.</span><span><p></p></span></p>"
+  },
+  {
+    "user_id": 1,
+    "dictionary_id": 2,
+    "name": "ZBÚCIUM",
+    "definition": "<p><i><span>n. </span></i><span>1) </span><span>frământare, nelinişte, zbuciumare, chin, necaz, tulburare, îngrijorare; </span><span>2)</span><span> agitaţie, tumult, învăl<span>măşeală, forfotă.</span></span><span><p></p></span></p>"
+  },
+  {
+    "user_id": 1,
+    "dictionary_id": 2,
+    "name": "A SE ZBUCIUMÁ",
+    "definition": "<p><span><i><span>itr</span></i></span><i><span>. pron. </span></i><span>1) a <span>clocoti</span>,<span>  </span>a <span>fremăta</span>, a se <span>învolbura</span>; <span><i>Apele</i></span><i> <span>înspumate</span> se <span>zbuciumă</span>; </i>2)<i> </i></span><span>a se frământa, a se nelinişti, a se chinui, a se necăji, a se tulbura, a se îngrijora, a se agita, a se zvârcoli. </span><i><span>Se zbuciumă întruna, nu-şi găseşte liniştea.</span></i><i><span><p></p></span></i></p>"
+  },
+  {
+    "user_id": 1,
+    "dictionary_id": 2,
+    "name": "A ZBURÁ",
+    "definition": "<p><i><span>itr. </span></i><span>a plana, a pluti, a naviga (în aer). </span><span><p></p></span></p>"
+  },
+  {
+    "user_id": 1,
+    "dictionary_id": 2,
+    "name": "A (SE) ZBURĂTĂCÍ",
+    "definition": "<p><i><span>tr., itr. pron.</span></i><span> a </span><span>(se) </span><span>împrăştia, a (</span><span>se) răzleţi, a (se) risipi.</span><span><p></p></span></p>"
+  },
+  {
+    "user_id": 1,
+    "dictionary_id": 2,
+    "name": "ZBURĂTOÁRE",
+    "definition": "<p><i><span>f. </span></i><span>pasăre, orătanie.</span><span><p></p></span></p>"
+  },
+  {
+    "user_id": 1,
+    "dictionary_id": 2,
+    "name": "A ZBURDÁ",
+    "definition": "<p><i><span>itr. </span></i><span><span> </span>a se zbengui, a se juca, a se agita. <i>Mieii zburdau în ţarc.</i></span><i><span><p></p></span></i></p>"
+  },
+  {
+    "user_id": 1,
+    "dictionary_id": 2,
+    "name": "ZBURDÁLNIC",
+    "definition": "<p><i><span>adj.<span>  </span></span></i><span>zglobiu, neastâmpărat, vioi, nebunatic, jucăuş. <i>Avea o pornire</i> <i>~ă în priviri.</i></span><span><p></p></span></p>"
+  },
+  {
+    "user_id": 1,
+    "dictionary_id": 2,
+    "name": "ZBURDĂLNICÍ/E",
+    "definition": "<p><i><span>f. </span></i><span><span> </span>vioiciune, neastâmpăr, </span><span>zbenguială, voioşie.<i> ~a copilului îl irita.</i></span><span><p></p></span></p>"
+  },
+  {
+    "user_id": 1,
+    "dictionary_id": 2,
+    "name": "ZDRÁVĂN",
+    "definition": "<p><i><span>adj. </span></i><span>1)<b> </b></span><span>voinic, puternic, vânjos, viguros. <i>Pădurarul era un om</i> </span><i><span>~;</span></i><span> 2) sănătos, teafăr, întreg, neatins, nevătămat. <i>A ridicat coşul cu mâna</i> <i>~ă.</i></span><span><p></p></span></p>"
+  },
+  {
+    "user_id": 1,
+    "dictionary_id": 2,
+    "name": "ZDREÁNŢ/Ă",
+    "definition": "<p><i><span>f. </span></i><span>1)<b> </b></span><span>cârpă, buleandră, fleandură, petică; <i>pop. </i>treanţă, <span>ruptură. <i>Haina se făcuse numai </i></span><i>~e</i></span><i><span>; </span></i><i><span><span> </span></span></i><span>2) <i>fig. </i>secătură, jigodie.</span><span><p></p></span></p>"
+  },
+  {
+    "user_id": 1,
+    "dictionary_id": 2,
+    "name": "A (SE) ZDRELÍ",
+    "definition": "<p><i><span>tr., itr</span></i><i><span>. pron. </span></i><span>a (se) juli, a (se) jupui, a (se) zgâria. </span><i><span>Şi-a<span>  </span></span></i><i><span>~</span></i><i><span>t piciorul.<p></p></span></i></p>"
+  },
+  {
+    "user_id": 1,
+    "dictionary_id": 2,
+    "name": "ZDRENŢĂRÓS",
+    "definition": "<p><i><span>adj. </span></i><span>rupt, zdrenţuit, </span><span>flenduros. <i>Era îmbrăcat<span>  </span>într-un pardesiu ~.</i></span><i><span><p></p></span></i></p>"
+  },
+  {
+    "user_id": 1,
+    "dictionary_id": 2,
+    "name": "A ZDROBÍ",
+    "definition": "<p><b><span>1<span>. </span></span></b><i><span>tr</span></i><i><span>.</span></i><span> </span><span>1) </span><span>a strivi, a sfărâma. <i>Zdrobea strugurii cu mâna</i>; </span><span>2) </span><span>a nimici, a distruge, a rade; <i>Au</i><span>  </span><i>~t cetatea. </i>3) a istovi, a secătui, a slei, a vlăgui, a extenua. <i>Munca i-a ~t; </i></span><b><span>2. </span></b><i><span>itr. pron. fig. </span></i><span><span> </span>a se chinui, a se frământa, a se agita, a se zbuciuma. </span><span><p></p></span></p>"
+  },
+  {
+    "user_id": 1,
+    "dictionary_id": 2,
+    "name": "ZDROBIT/",
+    "definition": "<p><b><span>ÓR </span></b><i><span>adj. </span></i><span>1) strivitor<i>, </i>decisiv, determinant, hotărâtor.</span><span> <i>Diferenţa de scor era</i> <i>~oare; </i></span><i><span>2) </span></i><span>istovitor, epuizant, obositor, extenuant.</span><span><p></p></span></p>"
+  },
+  {
+    "user_id": 1,
+    "dictionary_id": 2,
+    "name": "A",
+    "definition": "<p><b><span>(SE)</span></b><b><span> ZDRUNCINÁ </span></b><i><span>vb.</span></i><span> </span><b><span>1. </span></b><i><span>tr., itr. pron.</span></i><b><span> </span></b><span>a (se) cutremura, </span><span><span> </span>a </span><span>(se) zgudui</span><span>, </span><span>a (se) <span>clătina, a (se) zgâlţâi<b>. </b><i>Bubuitura a </i></span></span><b><span><span> </span></span></b><i><span>~t casa; </span></i><b><span>2. </span></b><i><span>tr.</span></i><i><span> </span></i><span><span> </span>a slăbi, </span><span>a <span>submina</span></span><b><span>. </span></b><i><span>Vorbele rele i-au ~t autoritatea</span></i><span>.</span><span><p></p></span></p>"
+  },
+  {
+    "user_id": 1,
+    "dictionary_id": 2,
+    "name": "ZEBRÁT",
+    "definition": "<p><b><span> </span></b><i><span>adj.<b> </b></span></i><span>vărgat, dungat<b>. </b><i>Un pled</i><b> </b></span><i><span>~ acoperea canapeaua.</span></i><b><i><span><p></p></span></i></b></p>"
+  },
+  {
+    "user_id": 1,
+    "dictionary_id": 2,
+    "name": "ZECIUIÁLĂ",
+    "definition": "<p><i><span>f<b>. </b></span></i><i><span>ist.<b> </b></span></i><span>dijma, bir<i>.<b> </b></i></span><b><i><span><p></p></span></i></b></p>"
+  },
+  {
+    "user_id": 1,
+    "dictionary_id": 2,
+    "name": "ZEFÍR",
+    "definition": "<p><i><span>m.<span>  </span></span></i><span>adiere, vântuleţ.<b> </b></span><b><span><p></p></span></b></p>"
+  },
+  {
+    "user_id": 1,
+    "dictionary_id": 2,
+    "name": "ZEFLEMEÁ",
+    "definition": "<p><i><span>f. </span></i><span>ironie</span><span>, <span>sarcasm</span>.</span><span><p></p></span></p>"
+  },
+  {
+    "user_id": 1,
+    "dictionary_id": 2,
+    "name": "A ZEIFICÁ",
+    "definition": "<p><i><span>tr.<span>  </span></span></i><span>a diviniza, a deifica. <i>Era actorul pe care îl zeifica .</i></span><i><span><p></p></span></i></p>"
+  },
+  {
+    "user_id": 1,
+    "dictionary_id": 2,
+    "name": "ZEIT/ÁTE",
+    "definition": "<p><i><span>f.</span></i><span> divinitate, zeu, idol. <i>Citea ceva despre</i> <i>~ăţile păgâne.</i></span><span><p></p></span></p>"
+  },
+  {
+    "user_id": 1,
+    "dictionary_id": 2,
+    "name": "ZEL",
+    "definition": "<p><span> <i>n. </i><span> </span>râvnă, sârguinţă, <span>ardoare, hărnicie, silinţă. <i>Dădea dovadă de zel în lucru.</i></span></span><i><span><p></p></span></i></p>"
+  },
+  {
+    "user_id": 1,
+    "dictionary_id": 2,
+    "name": "ZELÓS",
+    "definition": "<p><i><span>adj. </span></i><span>harnic, vrednic, sârguincios. </span><span><p></p></span></p>"
+  },
+  {
+    "user_id": 1,
+    "dictionary_id": 2,
+    "name": "ZEMÓS",
+    "definition": "<p><i><span>adj. </span></i><span>mustos, suculent. <i>Aveau în grădină un pom de pere</i> <i>~oase.</i> </span><span><p></p></span></p>"
+  },
+  {
+    "user_id": 1,
+    "dictionary_id": 2,
+    "name": "ZENÍT",
+    "definition": "<p><span><span>  </span><i>n. </i>apogeu, culme. <i>La numai treizeci de ani ajunsese în</i> <i>~ul slavei.</i></span><i><span><p></p></span></i></p>"
+  },
+  {
+    "user_id": 1,
+    "dictionary_id": 2,
+    "name": "ZERÓ",
+    "definition": "<p><i><span>n. </span></i><span>nulă, nimic, nulitate.</span><span><p></p></span></p>"
+  },
+  {
+    "user_id": 1,
+    "dictionary_id": 2,
+    "name": "ZÉSTRE",
+    "definition": "<p><i><span>f.<span>  </span></span></i><span>dotă, dotaţie.</span><span><p></p></span></p>"
+  },
+  {
+    "user_id": 1,
+    "dictionary_id": 2,
+    "name": "ZEŢÁR",
+    "definition": "<p><span> <i>m.<span>  </span></i>tipograf, culegător.</span><span><p></p></span></p>"
+  },
+  {
+    "user_id": 1,
+    "dictionary_id": 2,
+    "name": "ZEU",
+    "definition": "<p><span> <i><span>m.<span>  </span></span></i><span>divinitate, idol, zeitate. </span></span><span><p></p></span></p>"
+  },
+  {
+    "user_id": 1,
+    "dictionary_id": 2,
+    "name": "ZEVZÉC",
+    "definition": "<p><span> <i>m. </i>nătărău, prostănac, <span>nerod<b>, </b></span></span><span><span> </span>neghiob, aiurit. </span><i><span>Fratele mai mic era un<span>  </span></span></i><i><span>~</span></i><i><span> .<p></p></span></i></p>"
+  },
+  {
+    "user_id": 1,
+    "dictionary_id": 2,
+    "name": "ZGÁIB/Ă",
+    "definition": "<p><span> <i>f.</i> bubuliţă. <i>Pe gleznă îi apăruse nişte</i> <i>~e.</i></span><span><p></p></span></p>"
+  },
+  {
+    "user_id": 1,
+    "dictionary_id": 2,
+    "name": "ZGÁRDĂ",
+    "definition": "<p><span> <i>f. </i>curea, legătoare. </span><i><span>Căţeluşul avea o </span></i><i><span>~ </span></i><i><span>roşie la gât.<p></p></span></i></p>"
+  },
+  {
+    "user_id": 1,
+    "dictionary_id": 2,
+    "name": "A SE ZGÂÍ",
+    "definition": "<p><i><span>itr. pron. </span></i><span><span> </span>a se holba.<i> Se zgâia fără jenă la noii veniţi.</i></span><span><p></p></span></p>"
+  },
+  {
+    "user_id": 1,
+    "dictionary_id": 2,
+    "name": "A (SE) ZGÂLŢÂÍ",
+    "definition": "<p><span> </span><b><span>1. </span></b><i><span>tr., itr. pron. </span></i><b><span><span> </span></span></b><span>a (se) cutremura, </span><span><span> </span>a </span><span>(se) zgudui</span><span>, </span><span>a (se) <span>clătina<b>. </b><i>Bubuitura a </i></span></span><b><span><span> </span></span></b><i><span>~t casa; </span></i><b><span>2. </span></b><i><span>tr<span>.</span></span></i><span> a scutura, a agita, a clătina, a<b> </b></span><span>zgudui, a zdruncina. <i>Îl zgâlţâia cu putere ca să-l trezească.</i></span><i><span><p></p></span></i></p>"
+  },
+  {
+    "user_id": 1,
+    "dictionary_id": 2,
+    "name": "A ZGÂNDĂRÎ",
+    "definition": "<p><i><span>tr.</span></i><span> <span>1) <b><span> </span></b></span>a râcâi, â scociorî, <span>a </span>răscoli, a scormoni. <i>~ o rană</i></span><i><span>; </span></i><span><span> </span>2) a incita, a întărâta, a aţâţa.<i> ~ o temă tabu.</i></span><span><p></p></span></p>"
+  },
+  {
+    "user_id": 1,
+    "dictionary_id": 2,
+    "name": "ZGÂRCÉNIE",
+    "definition": "<p><span> <i>f. </i>avariţie, calicenie, calicie, meschinărie. <i>Era de o ~ mai puţin întâlnită.</i></span><i><span><p></p></span></i></p>"
+  },
+  {
+    "user_id": 1,
+    "dictionary_id": 2,
+    "name": "ZGÂRCI",
+    "definition": "<p><span> <i>n. </i>cartilaj.<i> ~ul vertebrelor era distrus de săruri.</i></span><span><p></p></span></p>"
+  },
+  {
+    "user_id": 1,
+    "dictionary_id": 2,
+    "name": "A SE ZGÂRC/Í",
+    "definition": "<p><i><span>itr. pron. </span></i><span>1) a se contracta, a se chirci, a se ghemui, a se strânge. <i>Se </i></span><i><span>~<span>eşte de frig</span></span></i><span>; </span><span>2) a se calici, a se lăcomi, a </span><span>se scumpi. <i>Se ~ea de fiecare dată când era vorba de înnoirea proviziilor</i>.</span><span><p></p></span></p>"
+  },
+  {
+    "user_id": 1,
+    "dictionary_id": 2,
+    "name": "ZGÂRCÍT 1.",
+    "definition": "<p><i><span>adj. </span></i><span>chircit, contractat, ghemuit, strâns; <i>pop. </i>ciuciulit. <i>Om ~ de durere; </i><b>2. </b><i>adj</i>.,<i> m.</i> avar, calic; <i>livr. </i>harpagon; <i>rar </i>meschin; <i>pop. </i>şi <i>fam. </i>cărpănos; <i>fam. </i>zgârciob, frige-linte, zgârie-brânză. <i>Este un mare ~.</i></span><i><span><p></p></span></i></p>"
+  },
+  {
+    "user_id": 1,
+    "dictionary_id": 2,
+    "name": "A ZGÂRIÁ",
+    "definition": "<p><i><span>vb.</span></i><span> 1)</span><i><span> </span></i><span>a zdreli, a scrijeli; </span><span>2) a zgrepţăna, </span><span>a râcâi.</span><span><p></p></span></p>"
+  },
+  {
+    "user_id": 1,
+    "dictionary_id": 2,
+    "name": "ZGÂTIE",
+    "definition": "<p><i><span>f. </span></i><span>ştrengărită. </span><i><span>O<span>  </span></span></i><i><span>~</span></i><i><span><span>  </span>de fetişcană.<p></p></span></i></p>"
+  },
+  {
+    "user_id": 1,
+    "dictionary_id": 2,
+    "name": "ZGLOBÍU",
+    "definition": "<p><i><span>adj.<span>  </span></span></i><span>zburdalnic, sprinten, vioi, zvăpăiat.</span><span><p></p></span></p>"
+  },
+  {
+    "user_id": 1,
+    "dictionary_id": 2,
+    "name": "ZGÓMOT",
+    "definition": "<p><i><span>n. </span></i><span>1) <b><span> </span></b></span><span>gălăgie, larmă, vacarm, </span><span>tumult; 2) vâlvă, senzaţie, răsunet.</span><span><p></p></span></p>"
+  },
+  {
+    "user_id": 1,
+    "dictionary_id": 2,
+    "name": "ZGOMOTÓ/S",
+    "definition": "<p><b><span> </span></b><i><span>adj. </span></i><span>gălăgios, tumultuos, turbulent, agitat. <span> </span></span><i><span>O ceată de copii<span>  </span></span></i><i><span>~</span></i><i><span>şi.<p></p></span></i></p>"
+  },
+  {
+    "user_id": 1,
+    "dictionary_id": 2,
+    "name": "A ZGREPŢĂN/Á",
+    "definition": "<p><i><span>tr<b>.</b></span></i><span> a zgâria, a </span><span>râcâi. </span><i><span>Pisica </span></i><i><span>~ă</span></i><i><span> la uşă.<p></p></span></i></p>"
+  },
+  {
+    "user_id": 1,
+    "dictionary_id": 2,
+    "name": "A SE ZGRIBUL/Í",
+    "definition": "<p><i><span>itr. pron. </span></i><span>a tremura, a se </span><span>rebegi</span><span>, a se ghemui<b>. </b></span><i><span>Copiii<span>  </span>se<span>  </span></span></i><i><span>~e</span></i><i><span>au de frig.<p></p></span></i></p>"
+  },
+  {
+    "user_id": 1,
+    "dictionary_id": 2,
+    "name": "ZGRIPŢÓR",
+    "definition": "<p><i><span>m </span></i><span>1)<i> </i></span><span>pajură; 2) avar, zgârcit, <span>lacom, egoist.</span></span><span><p></p></span></p>"
+  },
+  {
+    "user_id": 1,
+    "dictionary_id": 2,
+    "name": "ZGRIPŢOROÁICĂ",
+    "definition": "<p><i><span>f.<span>  </span></span></i><span>cotoroanţă, baborniţă, hârcă. </span><i><span>Poveste cu o<span>  </span></span></i><i><span>~</span></i><i><span> .<p></p></span></i></p>"
+  },
+  {
+    "user_id": 1,
+    "dictionary_id": 2,
+    "name": "ZGRUNŢURÓS",
+    "definition": "<p><i><span>adj. <span> </span></span></i><span>granulos, grunjos.</span><span><p></p></span></p>"
+  },
+  {
+    "user_id": 1,
+    "dictionary_id": 2,
+    "name": "A ZGUDUÍ",
+    "definition": "<p><i><span>tr. </span></i><span>1)</span><b><span> </span></b><span>a cutremura, a zgâlţâi, a </span><span>zdruncina, a clătina. <i>Explozia a ~t casele din </i></span><i><span>vecinătate</span></i><span>; 2</span><span>) a mişca, a <span>emoţiona, a înfiora, a agita, a răscoli. <i>Vestea i-a </i></span><i>~<span>t pe toţi.</span></i></span><span><p></p></span></p>"
+  },
+  {
+    "user_id": 1,
+    "dictionary_id": 2,
+    "name": "ZGÚRĂ",
+    "definition": "<p><i><span>f.<span>  </span></span></i><span>scorie, cenuşă.</span><span><p></p></span></p>"
+  },
+  {
+    "user_id": 1,
+    "dictionary_id": 2,
+    "name": "ZI",
+    "definition": "<p><i><span>f.<span>  </span></span></i><span>dată, timp, vreme. <i>La ziua respectivă încă nu erau cunoscute rezultatele concursului.</i></span><span><p></p></span></p>"
+  },
+  {
+    "user_id": 1,
+    "dictionary_id": 2,
+    "name": "ZIÁR",
+    "definition": "<p><i><span>n. </span></i><span>cotidian, jurnal, gazetă, foaie. </span><i><span>Chioşc de<span>  </span></span></i><i><span>~e</span></i><i><span> .</span></i><i><span><p></p></span></i></p>"
+  },
+  {
+    "user_id": 1,
+    "dictionary_id": 2,
+    "name": "ZIARÍST",
+    "definition": "<p><span><i><span>m.</span></i></span><i><span> </span></i><span>publicist, jurnalist, gazetar. </span><i><span>Lucra<span>  </span></span></i><i><span>~</span></i><i><span><span>  </span>la un cotidian.</span></i><i><span><p></p></span></i></p>"
+  },
+  {
+    "user_id": 1,
+    "dictionary_id": 2,
+    "name": "ZIARÍSTICĂ",
+    "definition": "<p><span><i><span>f.</span></i></span><i><span> </span></i><span>gazetărie, jurnalism, presă, </span><span>publicistică. </span><i><span>Facultatea de<span>  </span></span></i><i><span>~</span></i><i><span>.</span></i><i><span><p></p></span></i></p>"
+  },
+  {
+    "user_id": 1,
+    "dictionary_id": 2,
+    "name": "ZIBELÍNĂ",
+    "definition": "<p><i><span>f. zool. </span></i><span>samur.</span><span><p></p></span></p>"
+  },
+  {
+    "user_id": 1,
+    "dictionary_id": 2,
+    "name": "ZICÁLĂ",
+    "definition": "<p><i><span>f.</span></i><span> maximă, aforism, zicătoare, </span><span>proverb, </span><span>zicere, </span><span>cugetare. </span><span><p></p></span></p>"
+  },
+  {
+    "user_id": 1,
+    "dictionary_id": 2,
+    "name": "ZICĂTOÁRE",
+    "definition": "<p><i><span>f.<span>  </span></span></i><span>maximă, aforism, zicală, </span><span>proverb, </span><span>zicere,</span><span> cugetare. </span><span><p></p></span></p>"
+  },
+  {
+    "user_id": 1,
+    "dictionary_id": 2,
+    "name": "A ZÍCE",
+    "definition": "<p><i><span>itr. </span></i><span>1)<b> </b></span><span>a spune, a vorbi, a exprima, </span><span>a comunica, a rosti, a afirma, a declara, a susţine, a considera. </span><i><span><span> </span>Fă aşa cum<span>  </span>̴ bunica; </span></i><span>2) a dispune, a porunci, a ordona, a îndemna, a preciza; 3) a cânta, a doini, a intona, a hori.<i> </i><i>~ din fluier.</i></span><span><p></p></span></p>"
+  },
+  {
+    "user_id": 1,
+    "dictionary_id": 2,
+    "name": "ZÍCERE",
+    "definition": "<p><i><span>f. </span></i><span>1)<i> </i></span><span>cuvânt, vorbă, vorbire; 2) expresie, zicală, zicătoare, maximă, proverb</span><span>, cugetare.</span><span><p></p></span></p>"
+  },
+  {
+    "user_id": 1,
+    "dictionary_id": 2,
+    "name": "ZID",
+    "definition": "<p><i><span>n.<span>  </span></span></i><span>perete, mur.<i> ~urile cetăţii erau acoperite cu </i></span><i><span>muşchi</span></i><i><span>.</span></i><span><p></p></span></p>"
+  },
+  {
+    "user_id": 1,
+    "dictionary_id": 2,
+    "name": "A ZIDÍ",
+    "definition": "<p><i><span>tr. </span></i><span>a construi, a înălţa, a clădi, a dura, a edifica. <i>Au ~t casa în trei zile.</i></span><i><span><p></p></span></i></p>"
+  },
+  {
+    "user_id": 1,
+    "dictionary_id": 2,
+    "name": "ZIDÍRE",
+    "definition": "<p><i><span>f. </span></i><span>1)</span><b><span> </span></b><span>construcţie, clădire, <span>edificiu; 2) creaţie, creatură, făptură.</span></span><span><p></p></span></p>"
+  },
+  {
+    "user_id": 1,
+    "dictionary_id": 2,
+    "name": "ZÍLNIC",
+    "definition": "<p><b><span> </span></b><i><span>adj</span></i><span> cotidian, curent, obişnuit. <i>Plimbarea </i></span><i><span>~ă</span></i><i><span> îl ajuta să se menţină în formă.</span></i><i><span><p></p></span></i></p>"
+  },
+  {
+    "user_id": 1,
+    "dictionary_id": 2,
+    "name": "ZIM/Ţ",
+    "definition": "<p><i><span>m. </span></i><span><span> </span>crestătură, dinte. <i>Pânza beschiei avea ~ţi rari.</i></span><i><span><p></p></span></i></p>"
+  },
+  {
+    "user_id": 1,
+    "dictionary_id": 2,
+    "name": "ZIMŢÁT",
+    "definition": "<p><i><span>adj. </span></i><span>dinţat, crestat. </span><i><span>Mecanismul este alcătuit din roţi<span>  </span></span></i><i><span>~</span></i><i><span>e. <p></p></span></i></p>"
+  },
+  {
+    "user_id": 1,
+    "dictionary_id": 2,
+    "name": "ZÍSĂ",
+    "definition": "<p><i><span>f. </span></i><span>1) vorbă, spusă, afirmaţie; 2) proverb, zicătoare, zicere, zicală.</span><span><p></p></span></p>"
+  },
+  {
+    "user_id": 1,
+    "dictionary_id": 2,
+    "name": "ZLOÁTĂ",
+    "definition": "<p><i><span>f. </span></i><span>lapoviţă, fleaşcă, fleşcăială.</span><span><p></p></span></p>"
+  },
+  {
+    "user_id": 1,
+    "dictionary_id": 2,
+    "name": "A ZOBÍ",
+    "definition": "<p><i><span>tr. </span></i><span><span> </span>a sfărâma, a zdrobi, a strivi.<i> ~ toată vesela de scârbă.</i></span><span><p></p></span></p>"
+  },
+  {
+    "user_id": 1,
+    "dictionary_id": 2,
+    "name": "ZÓDIE",
+    "definition": "<p><i><span>f.</span></i><i><span> </span></i><span>1) </span><span>constelaţie</span><span>; 2) </span><span>soartă, destin, ursită.</span><span><p></p></span></p>"
+  },
+  {
+    "user_id": 1,
+    "dictionary_id": 2,
+    "name": "ZODIÉR",
+    "definition": "<p><i><span>m. </span></i><span>astrolog; <i>pop</i>. solomonar.</span><span><p></p></span></p>"
+  },
+  {
+    "user_id": 1,
+    "dictionary_id": 2,
+    "name": "ZOR",
+    "definition": "<p><span> <i>n. </i>1) grabă, urgenţă, febrilitate. <i>Scrisorile trebuiau trimise de ~</i></span><i><span>;</span></i><span> 2) sârguinţă, însufleţire, elan.<span>  </span></span><i><span>Cosaşii lucrau de<span>  </span></span></i><i><span>~</span></i><i><span>; </span></i><span>3) necesitate, nevoie, presiune, strâmtoare. </span><span><p></p></span></p>"
+  },
+  {
+    "user_id": 1,
+    "dictionary_id": 2,
+    "name": "ZÓRI",
+    "definition": "<p><i><span> m. pl. </span></i><span><span> </span>auroră, răsărit,<span>  </span>revărsat. <i>Au pornit la drum în ~.</i></span><i><span><p></p></span></i></p>"
+  },
+  {
+    "user_id": 1,
+    "dictionary_id": 2,
+    "name": "A (",
+    "definition": "<p><b><span>SE) ZOR/Í<span> 1. </span></span></b><i><span>tr., itr. pron</span></i><i><span>. </span></i><i><span><span> </span></span></i><span>a (se) grăbi, a (se) </span><span>iuţi; </span><b><span>2. </span></b><i><span>tr.</span></i><i><span> </span></i><span>a îndemna, <span>a stimula. </span></span><i><span>Căruţaşul<span>  </span></span></i><i><span>~</span></i><i><span>ea caii.<b><p></p></b></span></i></p>"
+  },
+  {
+    "user_id": 1,
+    "dictionary_id": 2,
+    "name": "ZORZOÁNE",
+    "definition": "<p><i><span>f. pl<b>. </b></span></i><span>podoabe, ţărţămuri.</span><b><span><p></p></span></b></p>"
+  },
+  {
+    "user_id": 1,
+    "dictionary_id": 2,
+    "name": "A ZUGRĂVÍ",
+    "definition": "<p><b><span> </span></b><i><span>tr. </span></i><span>1) <b><span> </span></b></span><span>a picta, <span>a desena.</span></span><i><span> ~ un tablou</span></i><i><span>;</span></i><b><span> </span></b><span>2)<b> </b>a<b> </b></span><span>descrie, a contura, a proiecta, a</span><span> </span><span>reflecta, a prezenta. </span><i><span>A ~t</span></i><i><span> obiectiv realitatea în romanul</span></i><span> <i>său.</i> </span><span><p></p></span></p>"
+  },
+  {
+    "user_id": 1,
+    "dictionary_id": 2,
+    "name": "ZULÚF",
+    "definition": "<p><i><span>m. </span></i><span>cârlionţ, buclă. <i>Vântul îi răsfira</i> <i>~ii <span>aurii.</span></i></span><span><p></p></span></p>"
+  },
+  {
+    "user_id": 1,
+    "dictionary_id": 2,
+    "name": "ZÚMZET",
+    "definition": "<p><b><span> </span></b><i><span>n. </span></i><span>bâzâit, </span><span>zumzăit, zbârnâit. </span><i><span>În livadă se aude<span>  </span></span></i><i><span>~</span></i><i><span> de albine.<p></p></span></i></p>"
+  },
+  {
+    "user_id": 1,
+    "dictionary_id": 2,
+    "name": "ZURBAGÍU",
+    "definition": "<p><i><span>adj. </span></i><span>1)<b> </b><span>scandalagiu, </span></span><span>certăreţ, </span><span>gâlcevitor</span><span>; 2) rebel, răzvrătit.</span><span><p></p></span></p>"
+  },
+  {
+    "user_id": 1,
+    "dictionary_id": 2,
+    "name": "ZURLÍU",
+    "definition": "<p><b><span> </span></b><i><span>adj.</span></i><span> 1)</span><i><span> </span></i><span>zvăpăiat, zburdalnic, nebunatic, zglobiu; </span><span>2) </span><span>smintit, aiurit, zăpăcit, bezmetic; <i>reg. </i>zărghit.</span><span><p></p></span></p>"
+  },
+  {
+    "user_id": 1,
+    "dictionary_id": 2,
+    "name": "ZVĂPĂIÁT",
+    "definition": "<p><i><span>adj. </span></i><span>1) nebunatic, zbur<span>dalnic, zglobiu, zurliu; 2) fluturatic, fluşturatic, nebunatic.</span></span><span><p></p></span></p>"
+  },
+  {
+    "user_id": 1,
+    "dictionary_id": 2,
+    "name": "A ZVÂCNÍ",
+    "definition": "<p><i><span>itr. </span></i><span>a bate, a palpita, a pulsa, a ticăi, a tresări, a se zbate. <i>Inima ~eşte cu putere.</i></span><i><span><p></p></span></i></p>"
+  },
+  {
+    "user_id": 1,
+    "dictionary_id": 2,
+    "name": "A (SE) ZVÂNTÁ",
+    "definition": "<p><b><span>1.</span></b><span> <i>itr. pron. </i>a se zbici, a se usca. </span><i><span>Rufele s-au </span></i><i><span>~</span></i><i><span>t.</span></i><span> </span><b><span>2</span></b><span>. <i>tr</i></span><i><span>.</span></i><span> <span>a distruge, a nimici; a zdrobi. <i>I-a </i></span><i>~<span>t pe duşmani.</span></i></span><i><span><p></p></span></i></p>"
+  },
+  {
+    "user_id": 1,
+    "dictionary_id": 2,
+    "name": "A SE ZVÂRCOL/Í",
+    "definition": "<p><i><span>itr. pron.<span>  </span></span></i><span>a se zbate, a se agita, a se </span><span>zbuciuma, a se frământa. </span><i><span>Ostaşul se<span>  </span></span></i><i><span>~</span></i><i><span> ea de durere.<p></p></span></i></p>"
+  },
+  {
+    "user_id": 1,
+    "dictionary_id": 2,
+    "name": "A ZVÂRL/Í",
+    "definition": "<p><i><span>tr. </span></i><span>1) </span><span>a arunca, a lepăda<span>. </span></span><i><span>Au început </span></i><i><span>~</span></i><i><span><span>  </span>cu pietre; </span></i><span><span> </span>2) a cheltui, a consuma. </span><i><span>~</span></i><i><span>ea banii pe fleacuri. <p></p></span></i></p>"
+  },
+  {
+    "user_id": 1,
+    "dictionary_id": 2,
+    "name": "ZVELT",
+    "definition": "<p><i><span>ad</span></i><i><span>j.</span></i><i><span><span>  </span></span></i><span>înalt, graţios, subţire, suplu. </span><i><span>În frunte mergea un soldat </span></i><i><span>~</span></i><i><span> . <b><span><p></p></span></b></span></i></p>"
+  },
+  {
+    "user_id": 1,
+    "dictionary_id": 2,
+    "name": "ZVON",
+    "definition": "<p><span> </span><i><span>n. </span></i><span>1) </span><b><span><span> </span></span></b><span>ştire, veste, vorbă, in<span>formaţie. </span></span><i><span><span> </span></span></i><i><span>~</span></i><i><span>urile s-au adeverit; </span></i><span>2) rumoare, murmur. <i>~ de glasuri.</i></span><i><span><p></p></span></i></p>"
+  },
+  {
+    "user_id": 1,
+    "dictionary_id": 2,
+    "name": "A SE ZVON/Í",
+    "definition": "<p><span> </span><i><span>itr. pron. </span></i><span>a se spune, a se vorbi, a se <span>auzi. </span></span><i><span>Se<span>   </span></span></i><i><span>~</span></i><i><span> eşte că va sosi mâine.<p></p></span></i></p>"
+  }
+]
