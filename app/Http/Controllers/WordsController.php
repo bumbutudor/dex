@@ -29,13 +29,16 @@ class WordsController extends Controller
 {
     public function index()
     {   
-
+        $custom_order = "CASE WHEN name REGEXP '^(\"a|a se|A|A SE\")[[:space:]]' = 1 THEN TRIM(SUBSTR(name, INSTR(name, ' '))) ELSE name END ASC";
         return Inertia::render('Words/Index', [
             'filters' => Request::all('search', 'trashed'),
             'words' => new WordCollection(
                 // Auth::user()->words() modified by Tudor on 27 - remove Auth
                 Word::with('dictionary')
-                    ->orderByName()
+                    // order the words by name without „A”, „A SE”
+                    // ->orderByName()
+                    ->orderBy('predefinition', 'ASC')
+                    // ->orderByRaw($custom_order)
                     ->filter(Request::only('search', 'trashed'))
                     ->paginate(50)
                     ->appends(Request::all())
@@ -53,7 +56,8 @@ class WordsController extends Controller
             'filters' => Request::all('search', 'trashed'),
             'words' => new WordCollection(
                 Word::with('dictionary')
-                    ->orderByName()
+                    // ->orderByName()
+                    ->orderBy('predefinition', 'ASC')
                     ->filter(Request::only('search', 'trashed'))
                     ->paginate()
                     ->appends(Request::all())
@@ -112,8 +116,11 @@ class WordsController extends Controller
         $word->update(
             $request->validated()
         );
-        // return Redirect::back()->with('success', 'Cuvântul a fost modificat.');
-        return Redirect::route('words')->with('success', 'Cuvântul a fost modificat.');
+        return Redirect::back()->with('success', 'Cuvântul a fost modificat.');
+        // return Redirect::refresh()->with('success', 'Cuvântul a fost modificat.');
+        
+        // return Redirect::route('words')->with('success', 'Cuvântul a fost modificat.');
+        // return Redirect::to($request->request->get('http_referrer'))->with('success', 'Cuvântul a fost modificat.');
     }
 
     public function destroy(Word $word)

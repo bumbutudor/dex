@@ -67,7 +67,8 @@ class DictionariesController extends Controller
             'dictionary_words' => new DictionaryWordCollection(
 				// @Todo query user dictionaries
                     $dictionary->words()
-                    ->orderByName()
+                    // ->orderByName()
+                    ->orderBy('predefinition', 'ASC')
                     ->filter(Request::only('search', 'trashed'))
                     ->paginate(50)
                     ->appends(Request::all())
@@ -88,7 +89,8 @@ class DictionariesController extends Controller
             'dictionary_words' => new DictionaryWordCollection(
 				// @Todo query user dictionaries
                     $dictionary->words()
-                    ->orderByName()
+                    // ->orderByName()
+                    ->orderBy('predefinition', 'ASC')
                     ->filter(Request::only('search', 'trashed'))
                     ->paginate()
                     ->appends(Request::all())
