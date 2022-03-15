@@ -17,7 +17,7 @@ const Index = () => {
     <div>
       {/* <h1 className="mb-8 text-3xl font-bold">Cuvinte</h1> */}
       <div className="flex items-center justify-between mb-6">
-        <h1 className="text-3xl font-bold">Cuvintele din toate dicționarele</h1>
+        <h1 className="text-3xl">Cuvintele din toate dicționarele</h1>
         <SearchFilter />
         <InertiaLink
           className="btn-indigo text-lg focus:outline-none"
@@ -30,24 +30,24 @@ const Index = () => {
       <div className="overflow-x-auto bg-white rounded shadow">
         <table className="w-full table-auto">
           <thead>
-            <tr className="font-bold text-xl text-left">
+            <tr className="font-normal text-xl text-left">
               <th className="px-6 pt-5 pb-4">Cuvânt-titlu</th>
-              {/* <th className="px-6 pt-5 pb-4">Pre-definiție</th> */}
+              <th className="px-6 pt-5 pb-4">Cuvânt de bază</th>
               <th className="px-6 pt-5 pb-4">Descriere lexicografică</th>
               {/* <th className="px-6 pt-5 pb-4">Dicționar</th> */}
               <th className="px-6 pt-5 pb-4">Acțiune</th>
             </tr>
           </thead>
           <tbody>
-            {data.map(({ id, name, predefinition, definition,  dictionary, deleted_at }) => (
+            {data.map(({ id, name, predefinition, definition, dictionary, deleted_at }) => (
               <tr
                 key={id}
                 className="text-indigo-900 hover:bg-indigo-200 focus-within:bg-indigo-200"
               >
-                <td className="border-t whitespace-nowrap text-2xl"
+                <td className="border-t whitespace-nowrap text-xl font-bold"
                   title={dictionary ? dictionary.name : ''}
                 >
-                  
+
                   <InertiaLink
                     href={route('words.edit', id)}
                     className="flex items-center px-6 py-4 focus:text-indigo-700 focus:outline-none"
@@ -61,16 +61,15 @@ const Index = () => {
                     )}
                   </InertiaLink>
                 </td>
-                {/* <td className="border-t">
+                <td className="border-t">
                   <InertiaLink
                     tabIndex="1"
                     className="flex items-center px-6 py-4 focus:text-indigo focus:outline-none"
                     href={route('words.edit', id)}
                   >
-                    {predefinition ? parse(predefinition.substring(0, 20)) : ''}
-                    <span>&nbsp;...</span>
+                    {predefinition}
                   </InertiaLink>
-                </td> */}
+                </td>
                 <td className="border-t text-xl pr-4"
                   title={dictionary ? dictionary.name : ''}
                 >
@@ -79,11 +78,11 @@ const Index = () => {
                     href={route('words.edit', id)}
                     className="flex items-center px-6 py-4 focus:text-indigo focus:outline-none"
                   >
-                     
-                     {definition ? parse(definition) : ''}
+
+                    {definition ? parse(definition) : ''}
                     {/* <span>&nbsp;...</span> */}
                   </InertiaLink>
-                 
+
                 </td>
                 {/* <td className="border-t">
                   <InertiaLink

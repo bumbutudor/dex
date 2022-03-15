@@ -43,7 +43,7 @@ const Create = () => {
     });
   }
 
-  
+
   return (
     <div>
       <h1 className="mb-8 text-3xl font-bold">
@@ -67,6 +67,15 @@ const Create = () => {
               value={values.name}
               onChange={handleChange}
             />
+            <TextInput
+              className="w-full pb-8 pr-6 lg:w-1/2"
+              label="Cuvânt de bază (folosit la ordonarea cuvintelor)"
+              name="predefinition"
+              type="text"
+              errors={errors.predefinition}
+              value={values.predefinition}
+              onChange={handleChange}
+            />
             <SelectInput
               className="w-full pb-8 pr-6 lg:w-1/2"
               label="Dicționar"
@@ -84,28 +93,28 @@ const Create = () => {
             </SelectInput>
             <div name="Definiție" className="w-full pb-8 pr-6 lg:w-1/1">
               <h2 className="pb-2">Descriere lexicografică:</h2>
-              
+
               <CKEditor
-                editor={ ClassicEditor }
-                config={ {
-                  toolbar: [ 'bold', 'italic', 'link', '|', 'numberedList', 'bulletedList', '|', 'undo', 'redo'],
-                  
-                  } }
+                editor={ClassicEditor}
+                config={{
+                  toolbar: ['bold', 'italic', 'link', '|', 'numberedList', 'bulletedList', '|', 'undo', 'redo'],
+
+                }}
                 label="Definiție"
                 name="definition"
                 errors={errors.definition}
                 data={values.definition}
-                onChange={ ( event, editor ) => {
-                    const data = editor.getData();
-                    setValues(values => ({
-                      ...values,
-                      definition: data
-                    }));
+                onChange={(event, editor) => {
+                  const data = editor.getData();
+                  setValues(values => ({
+                    ...values,
+                    definition: data
+                  }));
 
-                } }
+                }}
               />
             </div>
-            
+
 
             {/* <TextInput
               className="w-full pb-8 pr-6 lg:w-1/1"
@@ -117,48 +126,48 @@ const Create = () => {
               onChange={handleChange}
             /> */}
 
-            <div label="More" className="w-full pb-8 pr-6 lg:w-1/1" >              
+            <div label="More" className="w-full pb-8 pr-6 lg:w-1/1" >
               <label className="btn-info" onClick={() => setShow(!show)} > Mai multe proprietăți </label>
             </div>
 
-            {show&&(<>
-            <TextInput
-              className="w-full pb-8 pr-6 lg:w-1/2"
-              label="Sinonime"
-              name="synonyms"
-              type="text"
-              errors={errors.synonyms}
-              value={values.synonyms}
-              onChange={handleChange}
-            />
-            <TextInput
-              className="w-full pb-8 pr-6 lg:w-1/2"
-              label="Antonime"
-              name="antonyms"
-              type="text"
-              errors={errors.antonyms}
-              value={values.antonyms}
-              onChange={handleChange}
-            />
-            <TextInput
-              className="w-full pb-8 pr-6 lg:w-1/2"
-              label="Paronime"
-              name="paronyms"
-              type="text"
-              errors={errors.paronyms}
-              value={values.paronyms}
-              onChange={handleChange}
-            />
-            <TextInput
-              className="w-full pb-8 pr-6 lg:w-1/2"
-              label="Alte informații"
-              name="other"
-              type="text"
-              errors={errors.other}
-              value={values.other}
-              onChange={handleChange}
-            /></>)}
-            
+            {show && (<>
+              <TextInput
+                className="w-full pb-8 pr-6 lg:w-1/2"
+                label="Sinonime"
+                name="synonyms"
+                type="text"
+                errors={errors.synonyms}
+                value={values.synonyms}
+                onChange={handleChange}
+              />
+              <TextInput
+                className="w-full pb-8 pr-6 lg:w-1/2"
+                label="Antonime"
+                name="antonyms"
+                type="text"
+                errors={errors.antonyms}
+                value={values.antonyms}
+                onChange={handleChange}
+              />
+              <TextInput
+                className="w-full pb-8 pr-6 lg:w-1/2"
+                label="Paronime"
+                name="paronyms"
+                type="text"
+                errors={errors.paronyms}
+                value={values.paronyms}
+                onChange={handleChange}
+              />
+              <TextInput
+                className="w-full pb-8 pr-6 lg:w-1/2"
+                label="Alte informații"
+                name="other"
+                type="text"
+                errors={errors.other}
+                value={values.other}
+                onChange={handleChange}
+              /></>)}
+
             {/* <SelectInput
               disabled
               className="w-full pb-8 pr-6 lg:w-1/1"
@@ -185,14 +194,14 @@ const Create = () => {
       </div>
       <div className="mt-10 max-w-3xl overflow-hidden bg-white rounded shadow">
         <div className="flex flex-wrap p-8 -mb-8 -mr-6">
-            <p className="w-full pb-4 pr-6">Exemplu de afișare finală a obiectului din Dicționar:</p>
-            <div className="w-full pb-8 pr-6" label="cuvant">
-                <h1 className="text-md  pb-2 w-full pr-6">
-                  <a className="font-bold text-indigo-600">{values.name}</a>
-                </h1>
-                <p className="w-full pb-8 pr-6">{parse(values.definition)}</p>
+          <p className="w-full pb-4 pr-6">Exemplu de afișare finală a obiectului din Dicționar:</p>
+          <div className="w-full pb-8 pr-6" label="cuvant">
+            <h1 className="text-md  pb-2 w-full pr-6">
+              <a className="font-bold text-indigo-600">{values.name}</a>
+            </h1>
+            <p className="w-full pb-8 pr-6">{parse(values.definition)}</p>
 
-            </div>
+          </div>
         </div>
       </div>
     </div>

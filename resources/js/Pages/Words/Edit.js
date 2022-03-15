@@ -16,7 +16,7 @@ import SmallButton from "@/Shared/SmallButton";
 import LoadingSmallButton from "@/Shared/LoadingSmallButton";
 
 const Edit = () => {
-  const {word, dictionaries, errors } = usePage().props;
+  const { word, dictionaries, errors } = usePage().props;
   const [sending, setSending] = useState(false);
   const [show, setShow] = useState(false);
 
@@ -31,12 +31,13 @@ const Edit = () => {
     active: word.active || '1',
     dictionary_id: word.dictionary_id || ''
   });
-  
+
 
   // for modal
   const [valuesModal, setValuesModal] = useState({
     name: '',
     definition: '',
+    predefinition: '',
     active: word.active || '1',
     dictionary_id: word.dictionary_id || ''
   });
@@ -49,15 +50,15 @@ const Edit = () => {
   }
 
   let onNotConfirmed = () => {
-      alert("Not confirmed");
+    alert("Not confirmed");
   }
 
   let onShowConfirmModal = () => {
-      setConfirmOpen(true);
+    setConfirmOpen(true);
   }
 
   let onShowDialogWithButtons = () => {
-      setDialogIsOpen(true);
+    setDialogIsOpen(true);
   }
 
   function handleChangeModal(e) {
@@ -70,22 +71,22 @@ const Edit = () => {
   }
 
   function handleSubmitFromModal(e) {
-      e.preventDefault();
-      setSending(true);
+    e.preventDefault();
+    setSending(true);
 
-      Inertia.post(route('words.storeFromModal'), valuesModal, {
-          preserveState: true,
-          onSuccess: (page) => {
-              setSending(false);
-              setDialogIsOpen(false);
-          },
-          onError: (errors) => {  
-              setSending(false);
-          }
-      });
+    Inertia.post(route('words.storeFromModal'), valuesModal, {
+      preserveState: true,
+      onSuccess: (page) => {
+        setSending(false);
+        setDialogIsOpen(false);
+      },
+      onError: (errors) => {
+        setSending(false);
+      }
+    });
 
-      // clear form after submit
-      // setValuesModal({ name: '', definition: '' });
+    // clear form after submit
+    // setValuesModal({ name: '', definition: '' });
   }
 
   function handleChange(e) {
@@ -118,13 +119,15 @@ const Edit = () => {
   }
 
   function goBack() {
-      window.history.back();
+    window.history.back();
+    // window.location.replace(document.referrer);
+    // window.location.reload()
   }
 
   return (
     <div>
       <Helmet title={values.name} />
-      {/* <button className="ml-auto  text-xl font-bold text-indigo-600 mb-4" onClick={goBack}><span>←Înapoi</span></button> */}
+      <button className="ml-auto  text-xl font-bold text-indigo-600 mb-4" onClick={goBack}><span>←Înapoi</span></button>
       <h1 className="mb-8 text-3xl font-bold">
         {/* <InertiaLink
           href={route('words')}
@@ -149,7 +152,18 @@ const Edit = () => {
               name="name"
               type="text"
               errors={errors.name}
-              value={values.name=values.name.replace(/\n/g, " ")}
+              // value={values.name=values.name.replace(/\n/g, " ")}
+              value={values.name}
+              onChange={handleChange}
+            />
+            <TextInput
+              className="w-full pb-8 pr-6 lg:w-1/2"
+              label="Cuvânt de bază (folosit la ordonarea cuvintelor)"
+              name="predefinition"
+              type="text"
+              errors={errors.predefinition}
+              // value={values.name=values.name.replace(/\n/g, " ")}
+              value={values.predefinition}
               onChange={handleChange}
             />
             <SelectInput
@@ -169,69 +183,69 @@ const Edit = () => {
             </SelectInput>
             <div name="Definiție" className="w-full pb-8 pr-6 lg:w-1/1">
               <h2 className="pb-2">Descriere lexicografică:</h2>
-              
+
               <CKEditor
-                editor={ ClassicEditor }
-                config={ {
-                  toolbar: [ 'bold', 'italic', 'link', 'undo', 'redo' ]
-                  
-                  } }
-          
+                editor={ClassicEditor}
+                config={{
+                  toolbar: ['bold', 'italic', 'link', 'undo', 'redo']
+
+                }}
+
                 label="Definiție"
                 name="definition"
                 errors={errors.definition}
                 data={values.definition}
-                onChange={ ( event, editor ) => {
-                    const data = editor.getData();
-                    setValues(values => ({
-                      ...values,
-                      definition: data
-                    }));
+                onChange={(event, editor) => {
+                  const data = editor.getData();
+                  setValues(values => ({
+                    ...values,
+                    definition: data
+                  }));
 
-                } }
+                }}
               />
             </div>
 
-            <div label="More" className="w-full pb-8 pr-6 lg:w-1/1" >              
+            <div label="More" className="w-full pb-8 pr-6 lg:w-1/1" >
               <label className="btn-info" onClick={() => setShow(!show)} > Mai multe proprietăți </label>
             </div>
-            {show&&(<>
-            <TextInput
-              className="w-full pb-8 pr-6 lg:w-1/2"
-              label="Sinonime"
-              name="synonyms"
-              type="text"
-              errors={errors.synonyms}
-              value={values.synonyms}
-              onChange={handleChange}
-            />
-            <TextInput
-              className="w-full pb-8 pr-6 lg:w-1/2"
-              label="Antonime"
-              name="antonyms"
-              type="text"
-              errors={errors.antonyms}
-              value={values.antonyms}
-              onChange={handleChange}
-            />
-            <TextInput
-              className="w-full pb-8 pr-6 lg:w-1/2"
-              label="Paronime"
-              name="paronyms"
-              type="text"
-              errors={errors.paronyms}
-              value={values.paronyms}
-              onChange={handleChange}
-            />
-            <TextInput
-              className="w-full pb-8 pr-6 lg:w-1/2"
-              label="Alte informații"
-              name="other"
-              type="text"
-              errors={errors.other}
-              value={values.other}
-              onChange={handleChange}
-            /></>)}
+            {show && (<>
+              <TextInput
+                className="w-full pb-8 pr-6 lg:w-1/2"
+                label="Sinonime"
+                name="synonyms"
+                type="text"
+                errors={errors.synonyms}
+                value={values.synonyms}
+                onChange={handleChange}
+              />
+              <TextInput
+                className="w-full pb-8 pr-6 lg:w-1/2"
+                label="Antonime"
+                name="antonyms"
+                type="text"
+                errors={errors.antonyms}
+                value={values.antonyms}
+                onChange={handleChange}
+              />
+              <TextInput
+                className="w-full pb-8 pr-6 lg:w-1/2"
+                label="Paronime"
+                name="paronyms"
+                type="text"
+                errors={errors.paronyms}
+                value={values.paronyms}
+                onChange={handleChange}
+              />
+              <TextInput
+                className="w-full pb-8 pr-6 lg:w-1/2"
+                label="Alte informații"
+                name="other"
+                type="text"
+                errors={errors.other}
+                value={values.other}
+                onChange={handleChange}
+              /></>)}
 
           </div>
           <div className="flex items-center px-8 py-4 bg-gray-100 border-t border-gray-200">
@@ -250,109 +264,120 @@ const Edit = () => {
       </div>
 
       {/* for modal */}
-      <div className="absolute top-60 right-40">     
-                {false &&
-                <SmallButton className="btn-indigo ml-2"
-                             onClick={onShowConfirmModal}>
-                    Adaugă un cuvânt instrus
-                </SmallButton>
-                }
+      <div className="absolute top-60 right-40">
+        {false &&
+          <SmallButton className="btn-indigo ml-2"
+            onClick={onShowConfirmModal}>
+            Adaugă un cuvânt instrus
+          </SmallButton>
+        }
 
-                <SmallButton className="btn-indigo ml-2"
-                        onClick={onShowDialogWithButtons}>
-                    Adaugă un cuvânt instrus
-                </SmallButton>
+        <SmallButton className="btn-indigo ml-2"
+          onClick={onShowDialogWithButtons}>
+          Adaugă un cuvânt instrus
+        </SmallButton>
 
-                <ConfirmModal
-                    title="Delete Post?"
-                    open={confirmOpen}
-                    onClose={() => setConfirmOpen(false)}
-                    onConfirm={onConfirm}
-                    onReject={onNotConfirmed}
+        <ConfirmModal
+          title="Delete Post?"
+          open={confirmOpen}
+          onClose={() => setConfirmOpen(false)}
+          onConfirm={onConfirm}
+          onReject={onNotConfirmed}
+        >
+          Esti sigur?
+        </ConfirmModal>
+
+        <ModalWithButtons
+          title="Adaugă un cuvânt nou"
+          open={dialogIsOpen}
+          onClose={() => setDialogIsOpen(false)}
+          onConfirm={() => setDialogIsOpen(false)}
+          buttons={
+            <React.Fragment>
+              <div className="p-1">
+                <LoadingSmallButton
+                  loading={sending}
+                  onClick={handleSubmitFromModal}
+                  className="btn-indigo ml-auto"
                 >
-                    Esti sigur?
-                </ConfirmModal>
+                  Salvează
+                </LoadingSmallButton>
+              </div>
+            </React.Fragment>
+          }
+        >
+          <div className="bg-white rounded shadow overflow-hidden max-w-3xl">
+            <form>
+              <div className="p-4 -mr-3 -mb-4 flex flex-wrap">
+                <TextInput
+                  className="pr-4 pb-4 w-full "
+                  label="Cuvânt-titlu"
+                  name="name"
+                  value={valuesModal.name}
+                  errors={errors.name}
+                  onChange={handleChangeModal}
+                />
 
-                <ModalWithButtons
-                    title="Adaugă un cuvânt nou"
-                    open={dialogIsOpen}
-                    onClose={() => setDialogIsOpen(false)}
-                    onConfirm={() => setDialogIsOpen(false)}
-                    buttons={
-                        <React.Fragment>
-                            <div className="p-1">
-                                <LoadingSmallButton
-                                    loading={sending}
-                                    onClick={handleSubmitFromModal}
-                                    className="btn-indigo ml-auto"
-                                >
-                                    Salvează
-                                </LoadingSmallButton>
-                            </div>
-                        </React.Fragment>
-                    }
+                <TextInput
+                  className="pr-4 pb-4 w-full "
+                  label="Cuvânt de bază (folosit la ordonarea cuvintelor)"
+                  name="predefinition"
+                  type="text"
+                  errors={errors.predefinition}
+                  // value={values.name=values.name.replace(/\n/g, " ")}
+                  value={valuesModal.predefinition}
+                  onChange={handleChangeModal}
+                />
+
+                <div name="Definiție" className="w-full pb-8 pr-6">
+                  <h2 className="pb-2">Aici, la descrierea lexicografică, tăie textul necesar din stânga și lipeștel mai jos.</h2>
+
+                  <CKEditor
+                    editor={ClassicEditor}
+                    config={{
+                      toolbar: ['bold', 'italic', 'link', 'undo', 'redo']
+
+                    }}
+
+                    label="Definiție"
+                    name="definition"
+                    errors={errors.definition}
+                    data={valuesModal.definition}
+                    onChange={(event, editor) => {
+                      const data = editor.getData();
+                      setValuesModal(values => ({
+                        ...values,
+                        definition: data
+                      }));
+
+                    }}
+                  />
+                </div>
+
+                <SelectInput
+                  className="w-full pb-8 pr-6"
+                  label="Dicționar"
+                  name="dictionary_id"
+                  errors={errors.dictionary_id}
+                  value={valuesModal.dictionary_id}
+                  onChange={handleChangeModal}
                 >
-                    <div className="bg-white rounded shadow overflow-hidden max-w-3xl">
-                        <form>
-                            <div className="p-4 -mr-3 -mb-4 flex flex-wrap">
-                                <TextInput
-                                    className="pr-4 pb-4 w-full "
-                                    label="Cuvânt-titlu"
-                                    name="name"
-                                    value={valuesModal.name}
-                                    errors={errors.name}
-                                    onChange={handleChangeModal}
-                                />
-            
-                                <div name="Definiție" className="w-full pb-8 pr-6">
-                                  <h2 className="pb-2">Aici, la descrierea lexicografică, tăie textul necesar din stânga și lipeștel mai jos.</h2>
-                                  
-                                  <CKEditor
-                                    editor={ ClassicEditor }
-                                    config={ {
-                                      toolbar: [ 'bold', 'italic', 'link', 'undo', 'redo' ]
-                                      
-                                      } }
-                              
-                                    label="Definiție"
-                                    name="definition"
-                                    errors={errors.definition}
-                                    data={valuesModal.definition}
-                                    onChange={ ( event, editor ) => {
-                                        const data = editor.getData();
-                                        setValuesModal(values => ({
-                                          ...values,
-                                          definition: data
-                                        }));
+                  <option value=""></option>
+                  {dictionaries.map(({ id, name }) => (
+                    <option key={id} value={id}>
+                      {name}
+                    </option>
+                  ))}
+                </SelectInput>
 
-                                    } }
-                                  />
-                                </div>
+              </div>
 
-                                <SelectInput
-                                  className="w-full pb-8 pr-6"
-                                  label="Dicționar"
-                                  name="dictionary_id"
-                                  errors={errors.dictionary_id}
-                                  value={valuesModal.dictionary_id}
-                                  onChange={handleChangeModal}
-                                >
-                                  <option value=""></option>
-                                  {dictionaries.map(({ id, name }) => (
-                                    <option key={id} value={id}>
-                                      {name}
-                                    </option>
-                                  ))}
-                                </SelectInput>
+            </form>
+          </div>
 
-                            </div>
+        </ModalWithButtons>
+      </div>
 
-                        </form>
-                    </div>
-
-                </ModalWithButtons>
-            </div>
-      
     </div>
   );
 };
