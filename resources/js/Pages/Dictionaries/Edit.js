@@ -61,24 +61,27 @@ const Edit = () => {
       Inertia.put(route('dictionaries.restore', dictionary.id));
     }
   }
+  const animateIconOnClick = () => {
+    document.querySelector('#reload-icon').classList.add('animate-spin');
+  }
 
   return (
     <div>
       <Helmet title={values.name} />
       <div className="flex items-center mb-6">
-      <span className="mb-2 text-3xl font-bold">
-        <InertiaLink
-          href={route('dictionaries')}
-          className="text-indigo-600 hover:text-indigo-700"
-        >
-          Dicționare
-        </InertiaLink>
-        <span className="mx-2 font-medium text-indigo-600">/</span>
-        {values.name}
-      </span>
-      <div label="edit-dictionary" className="btn pl-6" >              
+        <span className="mb-2 text-3xl font-bold">
+          <InertiaLink
+            href={route('dictionaries')}
+            className="text-indigo-600 hover:text-indigo-700"
+          >
+            Dicționare
+          </InertiaLink>
+          <span className="mx-2 font-medium text-indigo-600">/</span>
+          {values.name}
+        </span>
+        <div label="edit-dictionary" className="btn pl-6" >
           <label className="btn-edit" onClick={() => setShow(!show)} > Editează detaliile dicționarului </label>
-      </div>
+        </div>
       </div>
 
       {dictionary.deleted_at && (
@@ -87,76 +90,91 @@ const Edit = () => {
         </TrashedMessage>
       )}
 
-      {show&&(<>
-      <div className="max-w-3xl overflow-hidden bg-white rounded shadow">
-        <form onSubmit={handleSubmit}>
-          <div className="flex flex-wrap p-8 -mb-8 -mr-6">
-            <TextInput
-              className="w-full pb-8 pr-6 lg:w-1/1"
-              label="Titlu"
-              name="name"
-              errors={errors.name}
-              value={values.name}
-              onChange={handleChange}
-            />
-            {/* Mod 06.02.2021 by Tudor - TextInput to CK editor */}
-            <div name="Descriere" className="w-full pb-8 pr-6 lg:w-1/1">
-              <h2 className="pb-2">Descriere:</h2>
-              
-              <CKEditor
-                editor={ ClassicEditor }
-                config={ {
-                  toolbar: [ 'bold', 'italic', 'link', '|', 'numberedList', 'bulletedList', '|', 'undo', 'redo'],
-                  
-                  } }
-                label="Descriere"
-                name="description"
-                errors={errors.description}
-                data={values.description}
-                onChange={ ( event, editor ) => {
+      {show && (<>
+        <div className="max-w-3xl overflow-hidden bg-white rounded shadow">
+          <form onSubmit={handleSubmit}>
+            <div className="flex flex-wrap p-8 -mb-8 -mr-6">
+              <TextInput
+                className="w-full pb-8 pr-6 lg:w-1/1"
+                label="Titlu"
+                name="name"
+                errors={errors.name}
+                value={values.name}
+                onChange={handleChange}
+              />
+              {/* Mod 06.02.2021 by Tudor - TextInput to CK editor */}
+              <div name="Descriere" className="w-full pb-8 pr-6 lg:w-1/1">
+                <h2 className="pb-2">Descriere:</h2>
+
+                <CKEditor
+                  editor={ClassicEditor}
+                  config={{
+                    toolbar: ['bold', 'italic', 'link', '|', 'numberedList', 'bulletedList', '|', 'undo', 'redo'],
+
+                  }}
+                  label="Descriere"
+                  name="description"
+                  errors={errors.description}
+                  data={values.description}
+                  onChange={(event, editor) => {
                     const data = editor.getData();
                     setValues(values => ({
                       ...values,
                       description: data
                     }));
 
-                } }
-              />
+                  }}
+                />
+              </div>
+              {/* @TODO Review the organization of the dictionary */}
+              <SelectInput
+                className="w-full pb-8 pr-6 lg:w-1/1"
+                label="Instituție"
+                name="organization_id"
+                errors={errors.organization_id}
+                value={values.organization_id}
+                onChange={handleChange}
+              >
+                <option value=""></option>
+                {organizations.map(({ id, name }) => (
+                  <option key={id} value={id}>
+                    {name}
+                  </option>
+                ))}
+              </SelectInput>
             </div>
-            {/* @TODO Review the organization of the dictionary */}
-            <SelectInput
-              className="w-full pb-8 pr-6 lg:w-1/1"
-              label="Instituție"
-              name="organization_id"
-              errors={errors.organization_id}
-              value={values.organization_id}
-              onChange={handleChange}
-            >
-              <option value=""></option>
-              {organizations.map(({ id, name }) => (
-                <option key={id} value={id}>
-                  {name}
-                </option>
-              ))}
-            </SelectInput>
-          </div>
-          <div className="flex items-center px-8 py-4 bg-gray-100 border-t border-gray-200">
-            {!dictionary.deleted_at && (
-              <DeleteButton onDelete={destroy}>
-                Șterge dicționarul
-              </DeleteButton>
-            )}
-            <LoadingButton
-              loading={sending}
-              type="submit"
-              className="ml-auto btn-indigo"
-            >
-              Salvează modificările
-            </LoadingButton>
-          </div>
-        </form>
-      </div></>)}
+            <div className="flex items-center px-8 py-4 bg-gray-100 border-t border-gray-200">
+              {!dictionary.deleted_at && (
+                <DeleteButton onDelete={destroy}>
+                  Șterge dicționarul
+                </DeleteButton>
+              )}
+              <LoadingButton
+                loading={sending}
+                type="submit"
+                className="ml-auto btn-indigo"
+              >
+                Salvează modificările
+              </LoadingButton>
+            </div>
+          </form>
+        </div></>)}
       {/* <h2 className="mt-2 text-2xl text-center font-bold">Cuvintele din acest dicționar</h2> */}
+      <div className="flex flex-wrap -mx-2">
+        <InertiaLink
+          className="flex items-center px-6 py-4 text-gray-600 focus:text-indigo-700 focus:outline-none"
+          href={history.state.url}
+          onClick={animateIconOnClick} //e.target.classList.toggle('animate-spin')
+
+        >
+          <Icon
+            name="reload"
+            className="h-6 w-6 scale-x-[-1]"
+          />
+          <span>Actualizează tabelul</span>
+        </InertiaLink>
+
+      </div>
       <div className="mt-6 overflow-x-auto bg-white rounded shadow">
         <table className="w-full table-auto">
           <thead>

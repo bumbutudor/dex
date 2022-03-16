@@ -13,6 +13,11 @@ const Index = () => {
     data,
     meta: { links }
   } = words;
+
+  const animateIconOnClick = () => {
+    document.querySelector('#reload-icon').classList.add('animate-spin');
+  }
+
   return (
     <div>
       {/* <h1 className="mb-8 text-3xl font-bold">Cuvinte</h1> */}
@@ -27,7 +32,23 @@ const Index = () => {
           <span className="hidden md:inline"> un cuvânt nou</span>
         </InertiaLink>
       </div>
+      <div className="flex flex-wrap -mx-2">
+        <InertiaLink
+          className="flex items-center px-6 py-4 text-gray-600 focus:text-indigo-700 focus:outline-none"
+          href={history.state.url}
+          onClick={animateIconOnClick} //e.target.classList.toggle('animate-spin')
+
+        >
+          <Icon
+            name="reload"
+            className="h-6 w-6 scale-x-[-1]"
+          />
+          <span>Actualizează tabelul</span>
+        </InertiaLink>
+      </div>
+
       <div className="overflow-x-auto bg-white rounded shadow">
+
         <table className="w-full table-auto">
           <thead>
             <tr className="font-normal text-xl text-left">
