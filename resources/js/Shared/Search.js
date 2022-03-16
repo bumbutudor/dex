@@ -11,6 +11,7 @@ export default () => {
 
   const [values, setValues] = useState({
     search: filters.search || '',
+    // search: '',
   });
 
   const prevValues = usePrevious(values);
@@ -53,7 +54,6 @@ export default () => {
           className="relative w-full px-6 py-4 bg-orange-100 placeholder-indigo-700 rounded ring-1 ring-indigo-400 focus:outline-none focus:ring-4 focus:ring-indigo-400"
           autoComplete="off"
           type="text"
-          name="search"
           name="search"
           value={values.search}
           onChange={handleChange}
