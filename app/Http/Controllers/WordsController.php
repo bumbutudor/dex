@@ -45,6 +45,7 @@ class WordsController extends Controller
             ),
             'dict_uzual_count' => Word::where('dictionary_id','=','1')->count(),
             'dict_sinonime_count' => Word::where('dictionary_id','=','2')->count(),
+            'dict_sensuri_noi_count' => Word::where('dictionary_id','=','4')->count(),
 
         ]);
     }
@@ -66,6 +67,7 @@ class WordsController extends Controller
                     ->firstWhere('ID', generateRandomNumberEachDay()),
             'dict_uzual_count' => Word::where('dictionary_id','=','1')->count(),
             'dict_sinonime_count' => Word::where('dictionary_id','=','2')->count(),
+            'dict_sensuri_noi_count' => Word::where('dictionary_id','=','4')->count(),
         ]);
     }
 
