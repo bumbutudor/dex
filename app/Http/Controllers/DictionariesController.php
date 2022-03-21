@@ -26,7 +26,8 @@ class DictionariesController extends Controller
 				// @Todo query user dictionaries
                 Auth::user()->account->dictionaries()
                     // ->with('organization')
-                    ->orderByName()
+                    // ->orderByName()
+                    ->orderBy('created_at', 'asc')->orderByName()
                     ->filter(Request::only('search', 'trashed'))
                     ->paginate()
                     ->appends(Request::all())
