@@ -13,13 +13,13 @@ const Index = () => {
     data,
     meta: { links }
   } = dictionaries;
-  
+
   return (
     <div>
       {/* <h1 className="mb-8 text-3xl font-bold">Toate dicționarele</h1> */}
       <div className="flex items-center justify-between mb-6">
-        <div  className="inline">
-          <span className="text-3xl font-bold">Toate dicționarele</span>
+        <div className="inline">
+          <span className="text-3xl font-bold">Dicționare încărcate</span>
           <span> (apasă pe un dicționar pentru a edita cuvintele adăugate)</span>
         </div>
         {/* <SearchFilter /> */}
