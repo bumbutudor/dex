@@ -197,7 +197,7 @@ const Edit = () => {
                     key={id}
                     className="hover:bg-indigo-300 text-2xl text-indigo-900 focus-within:bg-indigo-300 "
                   >
-                    <td className="border-t whitespace-nowrap">
+                    <td className="border-t font-bold whitespace-nowrap">
                       <InertiaLink
                         href={route('words.edit', id)}
                         className="flex items-center px-6 py-4 focus:text-indigo focus:outline-none"
