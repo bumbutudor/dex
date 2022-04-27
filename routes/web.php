@@ -76,7 +76,7 @@ Route::put('contacts/{contact}/restore')->name('contacts.restore')->uses('Contac
 Route::get('/insert-dictionary', function(){
 	// $storage_path_synonyms = 'sinonime/synonyms_to_S_no_L.json';
 	// $storage_path_explicativ = 'explicativ/explicativ_ac.json';
-	$storage_path = 'explicativ/explicativ_L.json';
+	$storage_path = 'dictionar3/sensuri_noi_az.json';
 
 	$json = file_get_contents(storage_path($storage_path));
 	$objs = json_decode($json,true);
