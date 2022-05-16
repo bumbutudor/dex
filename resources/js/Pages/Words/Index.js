@@ -8,7 +8,7 @@ import parse from 'html-react-parser';
 import { html_substring } from '@/utils';
 
 const Index = () => {
-  const { words } = usePage().props;
+  const { words, auth } = usePage().props;
   const {
     data,
     meta: { links }
@@ -17,6 +17,8 @@ const Index = () => {
   const animateIconOnClick = () => {
     document.querySelector('#reload-icon').classList.add('animate-spin');
   }
+
+  // console.log(auth.user.owner);
 
   return (
     <div>
@@ -53,7 +55,7 @@ const Index = () => {
           <thead>
             <tr className="font-normal text-xl text-left">
               <th className="px-6 pt-5 pb-4">Cuvânt-titlu</th>
-              <th className="px-6 pt-5 pb-4">Cuvânt de bază</th>
+              {auth.user.owner && <th className="px-6 pt-5 pb-4">Cuvânt de bază</th>}
               <th className="px-6 pt-5 pb-4">Descriere lexicografică</th>
               {/* <th className="px-6 pt-5 pb-4">Dicționar</th> */}
               <th className="px-6 pt-5 pb-4">Acțiune</th>
@@ -82,15 +84,16 @@ const Index = () => {
                     )}
                   </InertiaLink>
                 </td>
-                <td className="border-t">
-                  <InertiaLink
-                    tabIndex="1"
-                    className="flex items-center px-6 py-4 focus:text-indigo focus:outline-none"
-                    href={route('words.edit', id)}
-                  >
-                    {predefinition}
-                  </InertiaLink>
-                </td>
+                {auth.user.owner && (
+                  <td className="border-t">
+                    <InertiaLink
+                      tabIndex="1"
+                      className="flex items-center px-6 py-4 focus:text-indigo focus:outline-none"
+                      href={route('words.edit', id)}
+                    >
+                      {predefinition}
+                    </InertiaLink>
+                  </td>)}
                 <td className="border-t text-xl pr-4"
                   title={dictionary ? dictionary.name : ''}
                 >
