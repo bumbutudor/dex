@@ -10,6 +10,7 @@ use App\Http\Resources\WordDictionaryCollection;
 use App\Http\Resources\DictionaryResource;
 use App\Http\Resources\UserOrganizationCollection;
 use App\Models\Dictionary;
+use App\Models\Word;
 use Inertia\Inertia;
 use Illuminate\Validation\Rule;
 use Illuminate\Support\Facades\Auth;
@@ -120,5 +121,27 @@ class DictionariesController extends Controller
         $dictionary->restore();
 
         return Redirect::back()->with('success', 'Dicționarul a fost restabilit.');
+    }
+
+    public function insert(){
+        $storage_path = 'explicativ/explicativ_T2.json';
+
+        $json = file_get_contents(storage_path($storage_path));
+        $objs = json_decode($json,true);
+        $i = 0;
+        foreach ($objs as $obj)  {
+            foreach ($obj as $key => $value) {
+                $insertArr[str_slug($key,'_')] = $value;
+            } 
+            DB::table('words')->insert($insertArr);
+            $i++;
+        }
+        // dd("Finished adding data in examples table");
+
+        // $dictionary = Dictionary::find(Request::input('dictionary_id'));
+        // var_dump($dictionary);
+        // $words = Request::input('words');
+        // $dictionary->words()->createMany($words);
+        return Redirect::back()->with('success', 'Litera X a fost încărcată. '.$i.' cuvinte au fost adăugate.');
     }
 }

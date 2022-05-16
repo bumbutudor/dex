@@ -40,6 +40,7 @@ Route::get('dictionar/{dictionary}/view')->name('dictionaries.view')->uses('Dict
 Route::put('dictionar/{dictionary}')->name('dictionaries.update')->uses('DictionariesController@update')->middleware('auth');
 Route::delete('dictionar/{dictionary}')->name('dictionaries.destroy')->uses('DictionariesController@destroy')->middleware('auth');
 Route::put('dictionar/{dictionary}/rest')->name('dictionaries.restore')->uses('DictionariesController@restore')->middleware('auth');
+Route::get('dictionar/{dictionary}/incarca-litera')->name('dictionaries.inser')->uses('DictionariesController@insert')->middleware('auth');
 
 // Words
 Route::get('/')->name('words.view')->uses('WordsController@view')->middleware('remember', 'guest'); // should be 'guest'
@@ -76,19 +77,22 @@ Route::put('contacts/{contact}/restore')->name('contacts.restore')->uses('Contac
 Route::get('/insert-dictionary', function(){
 	// $storage_path_synonyms = 'sinonime/synonyms_to_S_no_L.json';
 	// $storage_path_explicativ = 'explicativ/explicativ_ac.json';
-	$storage_path = 'dictionar3/sensuri_noi_az.json';
+	// $storage_path = 'dictionar3/sensuri_noi_az.json';
+
+	$storage_path = 'explicativ/explicativ_I2.json';
 
 	$json = file_get_contents(storage_path($storage_path));
 	$objs = json_decode($json,true);
+	$i = 0;
 	foreach ($objs as $obj)  {
 		foreach ($obj as $key => $value) {
 			$insertArr[str_slug($key,'_')] = $value;
-            // echo($key.$value."</br>");
-		}
-        // dd($insertArr); 
+		} 
 		DB::table('words')->insert($insertArr);
+		$i++;
 	}
-	dd("Finished adding data in examples table");
+	echo 'Litera Î a fost încărcată. '.$i.' cuvinte au fost adăugate.';
+	// return Redirect::back()->with('success', 'Litera X a fost încărcată. '.$i.' cuvinte au fost adăugate.');
 });
 
 
