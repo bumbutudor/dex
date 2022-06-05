@@ -78,8 +78,12 @@ Route::get('/insert-dictionary', function(){
 	// $storage_path_synonyms = 'sinonime/synonyms_to_S_no_L.json';
 	// $storage_path_explicativ = 'explicativ/explicativ_ac.json';
 	// $storage_path = 'dictionar3/sensuri_noi_az.json';
-
-	$storage_path = 'explicativ/explicativ_I2.json';
+	
+	// $storage_path = 'explicativ/explicativ_I2.json';
+	// $storage_path = 'explicativ/explicativ_I2part3.json';
+	// $storage_path = 'explicativ/explicativ_J.json';
+	// $storage_path = 'explicativ/explicativ_S2.json';
+	$storage_path = 'explicativ/explicativ_U.json';
 
 	$json = file_get_contents(storage_path($storage_path));
 	$objs = json_decode($json,true);
@@ -91,7 +95,7 @@ Route::get('/insert-dictionary', function(){
 		DB::table('words')->insert($insertArr);
 		$i++;
 	}
-	echo 'Litera Î a fost încărcată. '.$i.' cuvinte au fost adăugate.';
+	echo 'Litera U a fost încărcată. '.$i.' cuvinte au fost adăugate.';
 	// return Redirect::back()->with('success', 'Litera X a fost încărcată. '.$i.' cuvinte au fost adăugate.');
 });
 
