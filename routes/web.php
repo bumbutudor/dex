@@ -32,6 +32,8 @@ Route::get('/img/{path}', 'ImagesController@show')->where('path', '.*');
 
 // Dictionaries
 Route::get('dictionare')->name('dictionaries')->uses('DictionariesController@index')->middleware('remember', 'auth');
+Route::get('litera')->name('litera')->uses('DictionariesController@letter')->middleware('remember', 'auth');
+Route::post('litera')->name('dictionaries.sendLetter')->uses('DictionariesController@sendLetter')->middleware('remember', 'auth');
 Route::get('dictionar/add')->name('dictionaries.create')->uses('DictionariesController@create')->middleware('auth');
 Route::post('dictionar')->name('dictionaries.store')->uses('DictionariesController@store')->middleware('auth');
 Route::get('dictionar/{dictionary}/edit')->name('dictionaries.edit')->uses('DictionariesController@edit')->middleware('auth');

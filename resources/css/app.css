@@ -11,6 +11,34 @@
 
 /* CKEditor */
 .ck-editor__editable_inline {
-    min-height: 150px;
-    line-height: 1.6;
+  min-height: 150px;
+  line-height: 1.6;
+}
+
+/* letter CKEditor */
+.litera .ck-editor__editable_inline {
+  min-height: 300px !important;
+}
+
+/*
+ * Custom sticky toolbar Ckeditor
+ */
+.ck.ck-editor__top.ck-reset_all {
+  z-index: var(--ck-z-modal);
+  position: sticky;
+  top: -50px;
+  /* margin-top: -100px; */
+}
+
+.ck.ck-sticky-panel__placeholder {
+  display: none !important;
+}
+
+.ck.ck-sticky-panel .ck-sticky-panel__content_sticky {
+  position: unset;
+}
+
+#litera {
+  color: orange;
+  font-weight: 600;
 }

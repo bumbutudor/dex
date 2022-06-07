@@ -3,6 +3,7 @@
 namespace App\Http\Controllers;
 
 use App\Http\Requests\DictionaryStoreRequest;
+use App\Http\Requests\LetterSendRequest;
 use App\Http\Requests\DictionaryUpdateRequest;
 use App\Http\Resources\DictionaryCollection;
 use App\Http\Resources\DictionaryWordCollection;
@@ -11,11 +12,14 @@ use App\Http\Resources\DictionaryResource;
 use App\Http\Resources\UserOrganizationCollection;
 use App\Models\Dictionary;
 use App\Models\Word;
+use App\Mail\LetterSent;
 use Inertia\Inertia;
 use Illuminate\Validation\Rule;
 use Illuminate\Support\Facades\Auth;
 use Illuminate\Support\Facades\Request;
 use Illuminate\Support\Facades\Redirect;
+use Illuminate\Support\Facades\Mail;
+
 
 class DictionariesController extends Controller
 {
@@ -143,5 +147,32 @@ class DictionariesController extends Controller
         // $words = Request::input('words');
         // $dictionary->words()->createMany($words);
         return Redirect::back()->with('success', 'Litera X a fost încărcată. '.$i.' cuvinte au fost adăugate.');
+    }
+
+
+    public function letter()
+    {
+        return Inertia::render('Dictionaries/AddLetter', [
+            'filters' => Request::all('search', 'trashed'),
+            'dictionaries' => new DictionaryCollection(
+				// @Todo query user dictionaries
+                Auth::user()->account->dictionaries()
+                    ->orderBy('created_at', 'asc')->orderByName()
+                    ->filter(Request::only('search', 'trashed'))
+                    ->paginate()
+                    ->appends(Request::all())
+            ),
+        ]);
+    }
+
+
+    public function sendLetter(LetterSendRequest $request)
+    {
+
+        echo($request['letter']);
+        Mail::to("tudor.bumbu@math.md")->send(new LetterSent($request));
+
+
+        return Redirect::back()->with('success', 'Litera a fost trimisă spre admistrator pentru aprobare. Va fi încărcată în curând pe platformă.');
     }
 }
