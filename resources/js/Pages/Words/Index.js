@@ -6,9 +6,11 @@ import Pagination from '@/Shared/Pagination';
 import SearchFilter from '@/Shared/SearchFilter';
 import parse from 'html-react-parser';
 import { html_substring } from '@/utils';
+import DictionaryTab from '@/Shared/DictionaryTab';
+import LetterFilter from '@/Shared/LetterFilter';
 
 const Index = () => {
-  const { words, auth } = usePage().props;
+  const { words, dictionaries, auth, dictionary_count } = usePage().props;
   const {
     data,
     meta: { links }
@@ -18,7 +20,9 @@ const Index = () => {
     document.querySelector('#reload-icon').classList.add('animate-spin');
   }
 
-  // console.log(auth.user.owner);
+  console.log(links);
+  const params = new URLSearchParams(window.location.search);
+  const dictionaryID = params.get('dictionar');
 
   return (
     <div>
@@ -34,9 +38,33 @@ const Index = () => {
           <span className="hidden md:inline"> un cuvânt nou</span>
         </InertiaLink>
       </div>
-      <div className="flex flex-wrap -mx-2">
+      <div className="flex -mx-2">
+        <DictionaryTab
+          text='Toate cuvintele'
+          link='?all=0'
+          link_id={0}
+        />
+        {dictionaries.map(({ id, name }) => (
+          <DictionaryTab
+            key={id}
+            text={name}
+            link={`?dictionar=${id}`}
+            link_id={id}
+          />
+        ))}
+      </div>
+
+      {params.has('dictionar') && dictionaryID && (
+        <div className="flex -mx-2 mb-2">
+          <LetterFilter />
+        </div>
+      )}
+
+
+
+      <div className="overflow-x-auto bg-white rounded shadow">
         <InertiaLink
-          className="flex items-center px-6 py-4 text-gray-600 focus:text-indigo-700 focus:outline-none"
+          className="flex refresh-table absolute top-4 right-80 items-center px-6 py-4 text-gray-600 focus:text-indigo-700 focus:outline-none"
           href={history.state.url}
           onClick={animateIconOnClick} //e.target.classList.toggle('animate-spin')
 
@@ -47,20 +75,17 @@ const Index = () => {
           />
           <span>Actualizează tabelul</span>
         </InertiaLink>
-      </div>
-
-      <div className="overflow-x-auto bg-white rounded shadow">
 
         <table className="w-full table-auto">
-          <thead>
+
+          {/* <thead>
             <tr className="font-normal text-xl text-left">
               <th className="px-6 pt-5 pb-4">Cuvânt-titlu</th>
               {auth.user.owner && <th className="px-6 pt-5 pb-4">Cuvânt de bază</th>}
               <th className="px-6 pt-5 pb-4">Descriere lexicografică</th>
-              {/* <th className="px-6 pt-5 pb-4">Dicționar</th> */}
               <th className="px-6 pt-5 pb-4">Acțiune</th>
             </tr>
-          </thead>
+          </thead> */}
           <tbody>
             {data.map(({ id, name, predefinition, definition, dictionary, deleted_at }) => (
               <tr
@@ -143,7 +168,7 @@ const Index = () => {
         </table>
       </div>
       <Pagination links={links} />
-    </div>
+    </div >
   );
 };
 

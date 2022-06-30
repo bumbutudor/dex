@@ -29,6 +29,53 @@ class WordsController extends Controller
 {
     public function index()
     {   
+
+        // get the words of the selected dictionary - added on 30 June 2022 by Tudor
+        if (Request::has('dictionar')) {
+            return Inertia::render('Words/Index', [
+                'filters' => Request::all('search', 'trashed', 'dictionary_id'),
+                'words' => new WordCollection(
+                    Word::with('dictionary')
+                        ->where('dictionary_id', Request::get('dictionar'))
+                        ->where('predefinition', 'LIKE', Request::get('litera') . '%')
+                        // ->appends(Request::all())
+                        ->orderBy('predefinition', 'ASC')
+                        ->filter(Request::only('search', 'trashed'))
+                        ->paginate(50)
+                        ->appends(Request::all())
+                ),
+                'dictionaries' => new WordDictionaryCollection(
+                    Auth::user()->account->dictionaries()
+                        ->orderBy('name')
+                        ->get()
+                ),
+                'dictionary_count' => Word::where('dictionary_id','=',Request::get('dictionar'))->count(),
+                'dictionary_id' => Request::get('dictionar'),
+            ]);
+        }
+
+         // get the words of the selected dictionary - added on 30 June 2022 by Tudor
+         if (Request::has('all')) {
+            return Inertia::render('Words/Index', [
+                'filters' => Request::all('search', 'trashed'),
+                'words' => new WordCollection(
+                    Word::with('dictionary')
+                        ->where('predefinition', 'LIKE', Request::get('litera') . '%')
+                        // ->appends(Request::all())
+                        ->orderBy('predefinition', 'ASC')
+                        ->filter(Request::only('search', 'trashed'))
+                        ->paginate(50)
+                        ->appends(Request::all())
+                ),
+                'dictionaries' => new WordDictionaryCollection(
+                    Auth::user()->account->dictionaries()
+                        ->orderBy('name')
+                        ->get()
+                ),
+
+            ]);
+        }
+
         $custom_order = "CASE WHEN name REGEXP '^(\"a|a se|A|A SE\")[[:space:]]' = 1 THEN TRIM(SUBSTR(name, INSTR(name, ' '))) ELSE name END ASC";
         return Inertia::render('Words/Index', [
             'filters' => Request::all('search', 'trashed'),
@@ -37,6 +84,7 @@ class WordsController extends Controller
                 Word::with('dictionary')
                     // order the words by name without „A”, „A SE”
                     // ->orderByName()
+                    // ->where('dictionary_id', Request::get('dictionary_id'))
                     ->orderBy('predefinition', 'ASC')
                     // ->orderByRaw($custom_order)
                     ->filter(Request::only('search', 'trashed'))
@@ -46,6 +94,11 @@ class WordsController extends Controller
             'dict_uzual_count' => Word::where('dictionary_id','=','1')->count(),
             'dict_sinonime_count' => Word::where('dictionary_id','=','2')->count(),
             'dict_sensuri_noi_count' => Word::where('dictionary_id','=','4')->count(),
+            'dictionaries' => new WordDictionaryCollection(
+                Auth::user()->account->dictionaries()
+                    ->orderBy('name')
+                    ->get()
+            ),
 
         ]);
     }
