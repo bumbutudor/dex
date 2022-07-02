@@ -27,7 +27,7 @@ export default ({ link_id, link, text }) => {
   });
 
   return (
-    <div className="mb-4">
+    <div className="mb-4 max-w-xs">
       {/* <InertiaLink href={route(link, id)} className={linkClasses}> */}
       <InertiaLink href={link} className={linkClasses}>
         <div id={link} className={textClasses}>{text}</div>

@@ -30,15 +30,15 @@ const Index = () => {
       <div className="flex items-center justify-between mb-6">
         <h1 className="text-3xl">Cuvintele din dicționarele încărcate</h1>
         <SearchFilter />
-        <InertiaLink
+        {/* <InertiaLink
           className="btn-indigo text-lg focus:outline-none"
           href={route('words.create')}
         >
           <span>Adaugă</span>
           <span className="hidden md:inline"> un cuvânt nou</span>
-        </InertiaLink>
+        </InertiaLink> */}
       </div>
-      <div className="flex -mx-2">
+      <div className="flex items-center justify-between">
         <DictionaryTab
           text='Toate cuvintele'
           link='?all=0'
@@ -55,7 +55,7 @@ const Index = () => {
       </div>
 
       {params.has('dictionar') && dictionaryID && (
-        <div className="flex -mx-2 mb-2">
+        <div className="mb-2">
           <LetterFilter />
         </div>
       )}

@@ -7,9 +7,10 @@ const LetterLink = ({ active, label, params }) => {
   const className = classNames(
     [
       'mr-1 mb-1',
-      'px-4 py-3',
-      'border border-solid border-gray-300 rounded',
+      'px-3 py-2',
+      'border border-solid border-indigo-600 rounded',
       'text-sm',
+      'text-indigo-600',
       'hover:bg-indigo-300',
       'focus:outline-none focus:border-indigo-700 focus:text-indigo-700'
     ],
@@ -70,36 +71,132 @@ export default () => {
         "active": letter === "E"
       },
       {
-        "params": "http://127.0.0.1:8000/cuvinte?dictionar=2&page=6",
-        "label": 6,
-        "active": false
+        "params": "dictionar=" + dictionary_id + "&litera=F",
+        "label": "F",
+        "active": letter === "F"
       },
       {
-        "params": "http://127.0.0.1:8000/cuvinte?dictionar=2&page=7",
-        "label": 7,
-        "active": false
+        "params": "dictionar=" + dictionary_id + "&litera=G",
+        "label": "G",
+        "active": letter === "G"
       },
       {
-        "params": "http://127.0.0.1:8000/cuvinte?dictionar=2&page=8",
-        "label": 8,
-        "active": false
+        "params": "dictionar=" + dictionary_id + "&litera=H",
+        "label": "H",
+        "active": letter === "H"
       },
       {
-        "params": "http://127.0.0.1:8000/cuvinte?dictionar=2&page=9",
-        "label": 9,
-        "active": false
+        "params": "dictionar=" + dictionary_id + "&litera=I",
+        "label": "I",
+        "active": letter === "I"
       },
       {
-        "params": "http://127.0.0.1:8000/cuvinte?dictionar=2&page=10",
-        "label": 10,
-        "active": false
+        "params": "dictionar=" + dictionary_id + "&litera=Î",
+        "label": "Î",
+        "active": letter === "Î"
       },
+      {
+        "params": "dictionar=" + dictionary_id + "&litera=J",
+        "label": "J",
+        "active": letter === "J"
+      },
+      {
+        "params": "dictionar=" + dictionary_id + "&litera=K",
+        "label": "K",
+        "active": letter === "K"
+      },
+      {
+        "params": "dictionar=" + dictionary_id + "&litera=L",
+        "label": "L",
+        "active": letter === "L"
+      },
+      {
+        "params": "dictionar=" + dictionary_id + "&litera=M",
+        "label": "M",
+        "active": letter === "M"
+      },
+      {
+        "params": "dictionar=" + dictionary_id + "&litera=N",
+        "label": "N",
+        "active": letter === "N"
+      },
+      {
+        "params": "dictionar=" + dictionary_id + "&litera=O",
+        "label": "O",
+        "active": letter === "O"
+      },
+      {
+        "params": "dictionar=" + dictionary_id + "&litera=P",
+        "label": "P",
+        "active": letter === "P"
+      },
+      {
+        "params": "dictionar=" + dictionary_id + "&litera=Q",
+        "label": "Q",
+        "active": letter === "Q"
+      },
+      {
+        "params": "dictionar=" + dictionary_id + "&litera=R",
+        "label": "R",
+        "active": letter === "R"
+      },
+      {
+        "params": "dictionar=" + dictionary_id + "&litera=S",
+        "label": "S",
+        "active": letter === "S"
+      },
+      {
+        "params": "dictionar=" + dictionary_id + "&litera=Ș",
+        "label": "Ș",
+        "active": letter === "Ș"
+      },
+      {
+        "params": "dictionar=" + dictionary_id + "&litera=T",
+        "label": "T",
+        "active": letter === "T"
+      },
+      {
+        "params": "dictionar=" + dictionary_id + "&litera=Ț",
+        "label": "Ț",
+        "active": letter === "Ț"
+      },
+      {
+        "params": "dictionar=" + dictionary_id + "&litera=U",
+        "label": "U",
+        "active": letter === "U"
+      },
+      {
+        "params": "dictionar=" + dictionary_id + "&litera=V",
+        "label": "V",
+        "active": letter === "V"
+      },
+      {
+        "params": "dictionar=" + dictionary_id + "&litera=W",
+        "label": "W",
+        "active": letter === "W"
+      },
+      {
+        "params": "dictionar=" + dictionary_id + "&litera=X",
+        "label": "X",
+        "active": letter === "X"
+      },
+      {
+        "params": "dictionar=" + dictionary_id + "&litera=Y",
+        "label": "Y",
+        "active": letter === "Y"
+      },
+      {
+        "params": "dictionar=" + dictionary_id + "&litera=Z",
+        "label": "Z",
+        "active": letter === "Z"
+      },
+
 
     ]
 
 
   return (
-    <div className="flex flex-wrap">
+    <div className="flex flex-wrap items-center justify-between">
       {/* <span>Litere: </span> */}
       {links.map(({ active, label, params }) => {
         return params === null ? (
