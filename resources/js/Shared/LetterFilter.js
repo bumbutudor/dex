@@ -15,7 +15,7 @@ const LetterLink = ({ active, label, params }) => {
       'focus:outline-none focus:border-indigo-700 focus:text-indigo-700'
     ],
     {
-      'bg-indigo-300 text-indigo-700 font-bold': active
+      'bg-indigo-300 text-indigo-700 text-xl font-bold': active
     }
   );
   return (

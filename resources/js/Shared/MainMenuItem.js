@@ -27,7 +27,7 @@ export default ({ icon, link, text }) => { //add id export default ({ icon, link
   });
 
   return (
-    <div className="mb-4">
+    <div className="mb-1">
       {/* <InertiaLink href={route(link, id)} className={linkClasses}> */}
       <InertiaLink href={route(link)} className={linkClasses}>
         <Icon name={icon} className={iconClasses} />

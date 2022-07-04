@@ -29,6 +29,7 @@ class WordsController extends Controller
 {
     public function index()
     {   
+        setlocale(LC_COLLATE, 'ro_RO.utf8');
 
         // get the words of the selected dictionary - added on 30 June 2022 by Tudor
         if (Request::has('dictionar')) {
@@ -39,15 +40,13 @@ class WordsController extends Controller
                         ->where('dictionary_id', Request::get('dictionar'))
                         ->where('predefinition', 'LIKE', Request::get('litera') . '%')
                         // ->appends(Request::all())
-                        ->orderBy('predefinition', 'ASC')
+                        ->orderBy('predefinition', 'asc', SORT_LOCALE_STRING)
                         ->filter(Request::only('search', 'trashed'))
                         ->paginate(50)
                         ->appends(Request::all())
                 ),
                 'dictionaries' => new WordDictionaryCollection(
-                    Auth::user()->account->dictionaries()
-                        ->orderBy('name')
-                        ->get()
+                    Auth::user()->account->dictionaries()->get()
                 ),
                 'dictionary_count' => Word::where('dictionary_id','=',Request::get('dictionar'))->count(),
                 'dictionary_id' => Request::get('dictionar'),
@@ -68,10 +67,11 @@ class WordsController extends Controller
                         ->appends(Request::all())
                 ),
                 'dictionaries' => new WordDictionaryCollection(
-                    Auth::user()->account->dictionaries()
-                        ->orderBy('name')
-                        ->get()
+                    Auth::user()->account->dictionaries()->get()
                 ),
+                'dict_uzual_count' => Word::where('dictionary_id','=','1')->count(),
+                'dict_sinonime_count' => Word::where('dictionary_id','=','2')->count(),
+                'dict_sensuri_noi_count' => Word::where('dictionary_id','=','4')->count(),
 
             ]);
         }
@@ -95,9 +95,7 @@ class WordsController extends Controller
             'dict_sinonime_count' => Word::where('dictionary_id','=','2')->count(),
             'dict_sensuri_noi_count' => Word::where('dictionary_id','=','4')->count(),
             'dictionaries' => new WordDictionaryCollection(
-                Auth::user()->account->dictionaries()
-                    ->orderBy('name')
-                    ->get()
+                Auth::user()->account->dictionaries()->get()
             ),
 
         ]);

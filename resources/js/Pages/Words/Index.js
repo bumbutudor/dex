@@ -27,17 +27,17 @@ const Index = () => {
   return (
     <div>
       {/* <h1 className="mb-8 text-3xl font-bold">Cuvinte</h1> */}
-      <div className="flex items-center justify-between mb-6">
+      {/* <div className="flex items-center justify-between mb-6">
         <h1 className="text-3xl">Cuvintele din dicționarele încărcate</h1>
         <SearchFilter />
-        {/* <InertiaLink
+        <InertiaLink
           className="btn-indigo text-lg focus:outline-none"
           href={route('words.create')}
         >
           <span>Adaugă</span>
           <span className="hidden md:inline"> un cuvânt nou</span>
-        </InertiaLink> */}
-      </div>
+        </InertiaLink>
+      </div> */}
       <div className="flex items-center justify-between">
         <DictionaryTab
           text='Toate cuvintele'
