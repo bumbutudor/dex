@@ -1,13 +1,26 @@
 import React, { useState } from 'react';
 import { InertiaLink, usePage } from '@inertiajs/inertia-react';
 import Icon from '@/Shared/Icon';
+import SearchFilter from '@/Shared/SearchFilter';
+// import route from 'vendor/tightenco/ziggy/src/js/route';
 
 export default () => {
   const { auth } = usePage().props;
   const [menuOpened, setMenuOpened] = useState(false);
+
+  // console.log(window.location.pathname);
+  // console.log(pathname === "/cuvinte");
+  const pathname = window.location.pathname;
   return (
     <div className="flex items-center justify-between w-full p-4 text-sm bg-white border-b md:py-0 md:px-12 d:text-md">
-      <div className="mt-1 mr-4">{`Proiect de colaborare ${auth.user.account.name}`}</div>
+
+      {pathname !== "/cuvinte" ?
+        (<div className="mt-1 mr-4">{`Proiect de colaborare ${auth.user.account.name}`}</div>) :
+        (<div className="max-w-3xl w-full text-center flex">
+          <div className="text-xl whitespace-nowrap text-indigo-900 mr-4 pt-2">Caută un cuvânt</div>
+          <SearchFilter />
+        </div>)
+      }
       <div className="relative">
         <div
           className="flex items-center cursor-pointer select-none group"

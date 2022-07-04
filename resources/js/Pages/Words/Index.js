@@ -20,7 +20,7 @@ const Index = () => {
     document.querySelector('#reload-icon').classList.add('animate-spin');
   }
 
-  console.log(links);
+  // console.log(links);
   const params = new URLSearchParams(window.location.search);
   const dictionaryID = params.get('dictionar');
 
@@ -40,7 +40,7 @@ const Index = () => {
       </div> */}
       <div className="flex items-center justify-between">
         <DictionaryTab
-          text='Toate cuvintele'
+          text='Toate cuvintele din dicționarele încărcate'
           link='?all=0'
           link_id={0}
         />

@@ -8,7 +8,7 @@ export default ({ link_id, link, text }) => {
   const params = new URLSearchParams(window.location.search)
 
   // You can access specific parameters:
-  console.log(params.get('dictionar'), link_id);
+  // console.log(params.get('dictionar'), link_id);
 
   let isActive = params.get('dictionar') === link_id.toString()
 
