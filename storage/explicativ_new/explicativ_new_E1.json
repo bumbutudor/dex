@@ -1,0 +1,785 @@
+[
+  {
+    "user_id": 6,
+    "dictionary_id": 5,
+    "name": "E1,",
+    "predefinition": "E1,",
+    "definition": "<p> <i>subst</i>. <i>m. invar. </i>1) A șaptea literă a alfabetului limbii române<strong> Cuvântul </strong><i><strong>eticism </strong></i><strong>începe cu litera „e”.</strong> 2<strong>)</strong> Semn grafic pentru această literă. 3) Sunet notat cu această literă. <strong>Scrie un „e” majuscul.</strong> </p>",
+    "active": 0,
+    "created_at": "2022-07-25 03:08:59"
+  },
+  {
+    "user_id": 6,
+    "dictionary_id": 5,
+    "name": "E2,",
+    "predefinition": "E2,",
+    "definition": "<p> <i>interj.</i> [Onomat<strong>.</strong>]<i> (se folosește pentru a exprima surpriză, admirație, enervare, reproș, indiferență etc.).</i> <strong>E-e-e, ce frumos e aici!</strong> </p>",
+    "active": 0,
+    "created_at": "2022-07-25 03:08:59"
+  },
+  {
+    "user_id": 6,
+    "dictionary_id": 5,
+    "name": "E3, é-uri,",
+    "predefinition": "E3, é-uri,",
+    "definition": "<p> <i>subst. n. </i>[&lt; fr. <strong>E.</strong>] <i>alim. </i>Aditiv alimentar în clasificarea europeană care e urmat de un număr de trei cifre. <strong>E greu să găseşti acum ceva ce nu conţine e-uri.</strong> </p>",
+    "active": 0,
+    "created_at": "2022-07-25 03:08:59"
+  },
+  {
+    "user_id": 6,
+    "dictionary_id": 5,
+    "name": "EASTMANCOLÓR,",
+    "predefinition": "EASTMANCOLÓR,",
+    "definition": "<p> <i>subst</i>. <i>n</i>. <i>invar.</i> [Pr.: <strong>ístmăncolór;</strong> &lt; engl. <strong>eastmancolor.</strong>] 1) Procedeu de realizare a filmului color constând în suprapunerea a trei emulsii, sensibile la trei culori, pe suportul de celuloid. <strong>Eastmancolor a fost folosit mai mult în anii 1950 și 1960. </strong>2) Film realizat cu acest procedeu. <strong>Au fost produse trei tipuri de eastmancolor.</strong> </p>",
+    "active": 0,
+    "created_at": "2022-07-25 03:08:59"
+  },
+  {
+    "user_id": 6,
+    "dictionary_id": 5,
+    "name": "é-BÁNKING,",
+    "predefinition": "é-BÁNKING,",
+    "definition": "<p> <i>subst. n. </i>[Pr.: <strong>í-bénking; </strong>&lt; engl. <strong>e(lectronic) banking.</strong>] <i>fin. </i>Termen folosit pentru efectuarea de tranzacţii bancare prin intermediul internetului. <strong>Cel mai mare avantaj al e-banking-ului este satisfacerea mai rapidă şi mai eficientă a nevoilor utilizatorilor. </strong>♦ <strong>Internet banking </strong>tranzacţie bancară efectuată prin intermediul internetului. <strong>Cu e-banking de la ProCredit Bank puteți gestiona cu ușurință activitățile bancare zilnice.</strong> </p>",
+    "active": 0,
+    "created_at": "2022-07-25 03:08:59"
+  },
+  {
+    "user_id": 6,
+    "dictionary_id": 5,
+    "name": "EBÉN,",
+    "predefinition": "EBÉN,",
+    "definition": "<p> <i>subst</i>. <i>n</i>. [&lt; fr. <strong>ébène</strong>; lat. <strong>ebenus</strong>.] Lemn de culoare închisă, obţinut din arbori exotici, folosit la confecţionarea mobilei de lux şi a unor instrumente muzicale. <i>Sin.:</i> abanos. <strong>În odaie era un pian de eben. </strong>/ <i>Par</i>.: eden. </p>",
+    "active": 0,
+    "created_at": "2022-07-25 03:08:59"
+  },
+  {
+    "user_id": 6,
+    "dictionary_id": 5,
+    "name": "EBENACÉE,",
+    "predefinition": "EBENACÉE,",
+    "definition": "<p> <i>subst</i>. <i>f</i>. [&lt; fr. <strong>ébénacée</strong>.]<strong> </strong>1) <i>la pl.</i> Familie de arbori tropicali cu lemnul de culoare închisă, dur și foarte prețios. <strong>Ebenaceele cuprinde aproximativ 768 de specii de arbori și arbuști.</strong> 2) Arbore din această familie. </p>",
+    "active": 0,
+    "created_at": "2022-07-25 03:08:59"
+  },
+  {
+    "user_id": 6,
+    "dictionary_id": 5,
+    "name": "EBENÍN, ebenínă, ebeníni, ebeníne,",
+    "predefinition": "EBENÍN, ebenínă, ebeníni, ebeníne,",
+    "definition": "<p> <i>adj</i>. [&lt; fr. <strong>ébénin</strong>; lat. <strong>ebeninus</strong>.] Care este de culoarea abanosului; negru ca abanosul sau ca ebenul. <strong>Marmură ebenină.</strong> </p>",
+    "active": 0,
+    "created_at": "2022-07-25 03:08:59"
+  },
+  {
+    "user_id": 6,
+    "dictionary_id": 5,
+    "name": "EBENÍST, ebeníști,",
+    "predefinition": "EBENÍST, ebeníști,",
+    "definition": "<p> <i>subst</i>. <i>m.</i> [&lt; fr. <strong>ébeniste</strong>.] 1) Persoană care confecționează sau vinde obiecte din lemn de eben. <strong>Ebeniştii produc, decorează şi repară mobilier din lemn, căruţe şi alte vehicule, roţi, piese de schimb, accesorii etc.</strong> 2) Tâmplar specializat în confecționarea mobilei fine. <strong>Îi admiră meșteșugul ebenistului.</strong> </p>",
+    "active": 0,
+    "created_at": "2022-07-25 03:08:59"
+  },
+  {
+    "user_id": 6,
+    "dictionary_id": 5,
+    "name": "EBENISTERÍE,",
+    "predefinition": "EBENISTERÍE,",
+    "definition": "<p> <i>subst</i>. <i>f</i>. [Art.: <strong>ebenisteria; </strong>G.-D.: <strong>ebenisteriei; </strong>&lt; fr. <strong>ébénisterie</strong>.] 1) Meșteșugul ebenistului. <strong>Maestrul autodidact a învățat ebenisteria într-un atelier. </strong>2) Atelierul ebenistului. <strong>Un meșteșugar și-a deschis propria ebenisterie.</strong> </p>",
+    "active": 0,
+    "created_at": "2022-07-25 03:08:59"
+  },
+  {
+    "user_id": 6,
+    "dictionary_id": 5,
+    "name": "EBONÍTĂ,",
+    "predefinition": "EBONÍTĂ,",
+    "definition": "<p> <i>subst</i>. <i>f</i>. [Art.: <strong>ebonitei;</strong> &lt; fr. <strong>ébonite</strong>.] Material plastic obţinut prin vulcanizarea cauciucului cu sulf, folosit în diferite ramuri ale industriei. <strong>Tub de ebonită</strong>. <strong>Dop de ebonită</strong>. </p>",
+    "active": 0,
+    "created_at": "2022-07-25 03:08:59"
+  },
+  {
+    "user_id": 6,
+    "dictionary_id": 5,
+    "name": "E-BÓOK, e-bóokuri,",
+    "predefinition": "E-BÓOK, e-bóokuri,",
+    "definition": "<p> <i>subst. n. </i>[Pr.: <strong>í-buk; </strong>&lt; engl. <strong>e(lectronic) book.</strong>] <i>tehn. inform. </i>Fişier electronic digital ce conţine textul şi imaginile unei cărţi, între timp chiar şi clipuri video. <strong>Biblioteca va încheia contracte de parteneriat cu diverşi furnizori şi distribuitori de e-bookuri.</strong> </p>",
+    "active": 0,
+    "created_at": "2022-07-25 03:08:59"
+  },
+  {
+    "user_id": 6,
+    "dictionary_id": 5,
+    "name": "A EBOȘÁ, eboșéz,",
+    "predefinition": "EBOȘÁ, eboșéz,",
+    "definition": "<p> <i>vb. tranz. </i>[&lt; fr. <strong>ébaucher</strong>.]<i> tehn.</i> 1) <i>(metale)</i> A prelucra la cald (prin așchiere, prin găurire etc.) pentru a obține eboșe. <strong>Meșterii eboșează o gamă variată de metale neferoase. </strong>2) <i>(opere de artă plastică)</i> A realiza în linii generale. <i>Sin.: </i>a schiţa; a creiona. <strong>De la început, pictorul a eboșat lucrarea, iar pe parcursul atelierelor următoare ne-a bucurat cu un tablou unic.</strong> </p>",
+    "active": 0,
+    "created_at": "2022-07-25 03:08:59"
+  },
+  {
+    "user_id": 6,
+    "dictionary_id": 5,
+    "name": "EBOȘÁRE, eboșắri",
+    "predefinition": "EBOȘÁRE, eboșắri",
+    "definition": "<p> <i>,</i> <i>subst</i>. <i>f</i>. [Din <strong>a eboșa</strong>.] Acțiunea de a eboșa și rezultatul ei. </p>",
+    "active": 0,
+    "created_at": "2022-07-25 03:08:59"
+  },
+  {
+    "user_id": 6,
+    "dictionary_id": 5,
+    "name": "EBÓȘĂ, ebóșe,",
+    "predefinition": "EBÓȘĂ, ebóșe,",
+    "definition": "<p> <i>subst</i>. <i>f</i>. [&lt; fr. <strong>ébauche</strong>.] 1) Semifabricat obținut prin laminarea lingourilor. <strong>Eboşa a fost obţinută la noi în țară prin forjarea unui lingou neoriginar.</strong> 2) Schiță inițială (a unui desen, plan). <i>Sin.:</i> carton; crochiu. <strong>De fapt, acest tablou este o eboșă care a rămas în prima fază a execuției sale.</strong> </p>",
+    "active": 0,
+    "created_at": "2022-07-25 03:08:59"
+  },
+  {
+    "user_id": 6,
+    "dictionary_id": 5,
+    "name": "EBOȘOÁR, eboșoáre,",
+    "predefinition": "EBOȘOÁR, eboșoáre,",
+    "definition": "<p> <i>subst</i>. <i>n.</i> [Sil.: <strong>-șoar; </strong>&lt; fr. <strong>ébauchoir.</strong>] 1) Instrument folosit în sculptură pentru modelare. 2) Daltă folosită în lucrări de olărie, dulgherie, fierărie. <strong>Pentru finisarea formei, s-a intervenit puțin cu eboșoarul, acolo unde era nevoie.</strong> </p>",
+    "active": 0,
+    "created_at": "2022-07-25 03:08:59"
+  },
+  {
+    "user_id": 6,
+    "dictionary_id": 5,
+    "name": "EBRÁIC, ebráică, ebráici, ebráice,",
+    "predefinition": "EBRÁIC, ebráică, ebráici, ebráice,",
+    "definition": "<p> <i>adj</i>., <i>subst</i>. [Sil.: <strong>-bra-ic</strong>; &lt; fr. <strong>hébraïque</strong>; lat. <strong>hebraicus</strong>.] <strong>1.</strong> <i>adj</i>. Care se referă la vechii evrei; propriu vechilor evrei. <strong>Alfabetul ebraic. 2.</strong> <i>subst</i>. <i>f</i>. <i>mai</i> <i>ales</i> <i>art</i>. 1) Limba vorbită de vechii evrei. <strong>Ebraica era folosită numai ca limbă de ritual și era învățată ca atare în școlile religioase tradiționale. </strong>2) Limba oficială a statului Israel. <strong>Ebraica este considerată „limbă sfântă”.</strong> </p>",
+    "active": 0,
+    "created_at": "2022-07-25 03:08:59"
+  },
+  {
+    "user_id": 6,
+    "dictionary_id": 5,
+    "name": "EBRAÍSM, ebraísme,",
+    "predefinition": "EBRAÍSM, ebraísme,",
+    "definition": "<p> <i>subst</i>. <i>n.</i> [Sil.: <strong>-bra-; </strong>&lt; fr. <strong>hébraïsme</strong>.] 1) Particularitate a limbii ebraice. <strong>Ebraismul nu se preocupă de universalitate și abstracțiune.</strong> 2) Element lexical sau gramatical propriu limbii ebraice. <strong>Ebraismele constituie o prezenţă caracteristică traducerilor textului biblic.</strong> </p>",
+    "active": 0,
+    "created_at": "2022-07-25 03:08:59"
+  },
+  {
+    "user_id": 6,
+    "dictionary_id": 5,
+    "name": "EBRAÍST, ebraíști,",
+    "predefinition": "EBRAÍST, ebraíști,",
+    "definition": "<p> <i>subst</i>. <i>m.</i> [Sil.: <strong>-bra-; </strong>&lt; fr. <strong>hébraïste</strong>.] Specialist în ebraistică. <strong>Forma cea mai cunoscută în limba română a numelui divin este „Iehova”, deși majoritatea ebraiștilor preferă forma „Yahweh”.</strong> </p>",
+    "active": 0,
+    "created_at": "2022-07-25 03:08:59"
+  },
+  {
+    "user_id": 6,
+    "dictionary_id": 5,
+    "name": "EBRAÍSTICĂ,",
+    "predefinition": "EBRAÍSTICĂ,",
+    "definition": "<p> <i>subst</i>. <i>f</i>. [Sil.: <strong>-bra-is-; </strong>G.-D. art.: <strong>ebraisticii; </strong>&lt; fr. <strong>hébraïstique</strong>.]<i> </i>Știință care se ocupă cu studiul limbii, istoriei și culturii ebraice. <strong>Asigurarea unei calificări superioare în domeniul ebraisticii.</strong> </p>",
+    "active": 0,
+    "created_at": "2022-07-25 03:08:59"
+  },
+  {
+    "user_id": 6,
+    "dictionary_id": 5,
+    "name": "EBRIETÁTE,",
+    "predefinition": "EBRIETÁTE,",
+    "definition": "<p> <i>subst</i>. <i>f</i>. [Sil.: <strong>-bri-e-</strong>; G.-D. art.: <strong>ebrietăţii</strong>; &lt; fr. <strong>ébriété</strong>; lat. <strong>ebrietas, -atis</strong>.] Stare provocată de consumul excesiv de alcool. <i>Sin</i>.: beţie. <i>Ant</i>.: trezie. <strong>Şoferii care conduc în stare de ebrietate ar putea fi sancţionaţi cu o amendă de 3000 de lei.</strong> </p>",
+    "active": 0,
+    "created_at": "2022-07-25 03:08:59"
+  },
+  {
+    "user_id": 6,
+    "dictionary_id": 5,
+    "name": "E-BRÓKERING,",
+    "predefinition": "E-BRÓKERING,",
+    "definition": "<p> <i>subst. n. </i>[Pr.: <strong>í-brókăring</strong>; &lt; engl. <strong>e(lectronic) brokering.</strong>] Cumpărare și vânzare on-line de titluri de valoare. <strong>E-brokeringul</strong> <strong>de inovare are un rol cheie în descoperirea ideilor esențiale și sprijinirea dezvoltării unor proiecte concrete.</strong> </p>",
+    "active": 0,
+    "created_at": "2022-07-25 03:08:59"
+  },
+  {
+    "user_id": 6,
+    "dictionary_id": 5,
+    "name": "EBULIO-,",
+    "predefinition": "EBULIO-,",
+    "definition": "<p> [Sil.: <strong>-li-o-</strong>; &lt; fr. <strong>ébulio-</strong>; cf. lat. <strong>ebullire</strong>.] Element prim de compunere savantă însemnând „fierbere”<strong>,</strong> „de fierbere”, „ebuliție”. </p>",
+    "active": 0,
+    "created_at": "2022-07-25 03:08:59"
+  },
+  {
+    "user_id": 6,
+    "dictionary_id": 5,
+    "name": "EBULIOMÉTRIC, ebuliométrică, ebuliométrici, ebuliométrice,",
+    "predefinition": "EBULIOMÉTRIC, ebuliométrică, ebuliométrici, ebuliométrice,",
+    "definition": "<p> <i>adj. </i>[Sil.: <strong>-li-o-</strong>; &lt; fr. <strong>ébulliométrique.</strong>] Care ține de ebuliometrie; care se referă la ebuliometrie. <strong>Determinarea conţinutului de alcool din vin prin metoda ebuliometrică.</strong> </p>",
+    "active": 0,
+    "created_at": "2022-07-25 03:08:59"
+  },
+  {
+    "user_id": 6,
+    "dictionary_id": 5,
+    "name": "EBULIOMETRÍE,",
+    "predefinition": "EBULIOMETRÍE,",
+    "definition": "<p> <i>subst</i>. <i>f</i>. [Sil.: <strong>-li-o-, -tri-; </strong>art.: <strong>ebuliometria</strong>;<i> </i>G.-D.: <strong>ebuliometriei; </strong>&lt; fr. <strong>ébulliométrie</strong>.] Metodă fizico-chimică de determinare a concentrației de alcool din unele lichide prin stabilirea punctului de fierbere al acestora. <i>Sin.: </i>ebulioscopie. <strong>Principii de utilizare a ebuliometriei.</strong> </p>",
+    "active": 0,
+    "created_at": "2022-07-25 03:08:59"
+  },
+  {
+    "user_id": 6,
+    "dictionary_id": 5,
+    "name": "EBULIOMÉTRU, ebuliométre,",
+    "predefinition": "EBULIOMÉTRU, ebuliométre,",
+    "definition": "<p> <i>subst</i>. <i>n</i>. [Sil.: <strong>-li-o-, -tru;</strong><i> </i>&lt; fr. <strong>ébulliometre</strong>.] Aparat folosit în buliometrie. <i>Sin.: </i>ebulioscop. <strong>Cunoscând punctul de fierbere determinat cu ebuliometrul, se deduce concentraţia alcoolică, folosind un disc sau o riglă specială de calcul.</strong> </p>",
+    "active": 0,
+    "created_at": "2022-07-25 03:08:59"
+  },
+  {
+    "user_id": 6,
+    "dictionary_id": 5,
+    "name": "EBULIOSCÓP, ebulioscoápe,",
+    "predefinition": "EBULIOSCÓP, ebulioscoápe,",
+    "definition": "<p> <i>subst</i>. <i>n</i>. [Sil.: <strong>-li-o-, </strong>&lt; fr. <strong>ébullioscope</strong>.] Aparat folosit în ebuliometrie. <i>Sin.: </i>ebuliometru. <strong>Alcoolul se dozează cu ebulioscopul.</strong> </p>",
+    "active": 0,
+    "created_at": "2022-07-25 03:08:59"
+  },
+  {
+    "user_id": 6,
+    "dictionary_id": 5,
+    "name": "EBULIOSCOPÍE,",
+    "predefinition": "EBULIOSCOPÍE,",
+    "definition": "<p> <i>subst</i>. <i>f</i>. [Sil.: <strong>-li-o-</strong>; art.: <strong>ebulioscopia</strong>; G.-D.: <strong>ebulioscopiei;</strong> &lt; fr. <strong>éboullioscopie.</strong>] Metodă fizico-chimică de determinare a concentrației de alcool din unele lichide prin stabilirea punctului de fierbere al acestora. <i>Sin.: </i>ebuliometrie. <strong>Am rezolvat probleme referitoare la ebulioscopie.</strong> </p>",
+    "active": 0,
+    "created_at": "2022-07-25 03:08:59"
+  },
+  {
+    "user_id": 6,
+    "dictionary_id": 5,
+    "name": "EBULÍȚIE, ebulíții",
+    "predefinition": "EBULÍȚIE, ebulíții",
+    "definition": "<p> <i>, subst</i>. <i>f.</i> [Sil.: -<strong>ți-e</strong>; art.:<strong> ebuliția; </strong>G.-D.: <strong>ebuliției; </strong>&lt; fr. <strong>ébullition</strong>; lat. <strong>ebullitio, -onis.</strong>] Trecere treptată a lichidului în stare de vapori sub acțiunea căldurii. <i>Sin.: </i>ebulițiune. <strong>La încălzirea unui lichid acesta își păstrează starea lichidă până la atingerea temperaturii de ebuliție. </strong>2) <i>fig.</i> Stare de neliniște excesivă, de tulburare, de tensiune nervoasă. <i>Sin.: </i>efervescență. <strong>Poetul s-a aflat într-o permanentă ebuliție.</strong> </p>",
+    "active": 0,
+    "created_at": "2022-07-25 03:08:59"
+  },
+  {
+    "user_id": 6,
+    "dictionary_id": 5,
+    "name": "EBULIȚIÚNE,",
+    "predefinition": "EBULIȚIÚNE,",
+    "definition": "<p> <i>subst</i>. <i>f.</i> [Art.: <strong>ebulițiunii; </strong>&lt; lat. <strong>ebullitio, -onis.</strong>]<i> </i>Trecere treptată a lichidului în stare de vapori sub acțiunea căldurii. <i>Sin.: </i>ebuliție. <strong>Temperatură normală de ebulițiune.</strong> </p>",
+    "active": 0,
+    "created_at": "2022-07-25 03:08:59"
+  },
+  {
+    "user_id": 6,
+    "dictionary_id": 5,
+    "name": "É-bÚsiness,",
+    "predefinition": "É-bÚsiness,",
+    "definition": "<p> <i>subst. n. </i>[Pr.: <strong>í-bíznis; </strong>&lt; engl. <strong>e(lectronic) business.</strong>]<strong> </strong><i>tehn. inform. </i>Totalitate de acţiuni realizate de o companie prin intermediul internetului pentru buna desfăşurare a activităţii sale. <strong>Asociaţia susţine tinerii ambiţioşi, care vor să se afirme pe arena e-businessului din ţara noastră.</strong> </p>",
+    "active": 0,
+    "created_at": "2022-07-25 03:09:00"
+  },
+  {
+    "user_id": 6,
+    "dictionary_id": 5,
+    "name": "A ECARISÁ, ecariséz,",
+    "predefinition": "ECARISÁ, ecariséz,",
+    "definition": "<p> <i>vb. tranz.</i> [&lt; fr. <strong>équarrir.</strong>] 1) <i>(bușteni)</i> A tăia, transformând în scânduri prismatice. <strong>El dădu instrucţiuni muncitorilor săi cum să cureţe şi să ecariseze buştenii de fag.</strong> 2) <i>(animale moarte)</i> A lipsi de piele. <i>Sin.:</i> a jupui; a jumuli; a beli. <strong>Un bărbat a împușcat și a ecarisat un urs, fiind inspirat de pelicula „The Revenant”.</strong> </p>",
+    "active": 0,
+    "created_at": "2022-07-25 03:09:00"
+  },
+  {
+    "user_id": 6,
+    "dictionary_id": 5,
+    "name": "ECARISÁRE,",
+    "predefinition": "ECARISÁRE,",
+    "definition": "<p> <i> subst</i>. <i>f.</i> [G.-D. art.: <strong>ecarisării</strong>; din <strong>a ecarisa.</strong>] Acțiunea de a ecarisa și rezultatul ei. <strong>Reguli pentru implementarea legislației privind ecarisarea teritoriului și protecția mediului.</strong> </p>",
+    "active": 0,
+    "created_at": "2022-07-25 03:09:00"
+  },
+  {
+    "user_id": 6,
+    "dictionary_id": 5,
+    "name": "ECARISÁT, ecarisátă, ecarisáți, ecarisáte,",
+    "predefinition": "ECARISÁT, ecarisátă, ecarisáți, ecarisáte,",
+    "definition": "<p> <i>adj</i>. [Din <strong>a ecarisa.</strong>]<strong> </strong><i>v.<strong> </strong></i><strong>A ECARISA.</strong><i><strong> </strong></i><strong>Lemn ecarisat.</strong> </p>",
+    "active": 0,
+    "created_at": "2022-07-25 03:09:00"
+  },
+  {
+    "user_id": 6,
+    "dictionary_id": 5,
+    "name": "ecarisáj,",
+    "predefinition": "ecarisáj,",
+    "definition": "<p> <i>subst</i>. <i>n</i>. [&lt; fr. <strong>équarrissage</strong>.] 1) Prelucrare a animalelor sacrificate la abatoare şi a deşeurilor obţinute, pentru a le transforma în produse utile (făină, oase, clei etc.). <strong>Făinurile animale constituie unul dintre produsele rezultate din procesul de ecarisaj.</strong> 2) Întreprindere care execută această operație. <strong>Prelucrarea resturilor se va face în abatorul producător sau la un ecarisaj de tip industrial.</strong> 3) Operație de strângere a cadavrelor de animale. <strong>Serviciul public de ecarisaj se realizează prin instituirea de norme privind transportul, îngrijirea și exterminarea animalelor fără stăpân. 4) </strong>Stârpire a câinilor vagabonzi. <strong>Capturarea și ecarisajul câinilor fără stăpân nu este o soluție viabilă.</strong> </p>",
+    "active": 0,
+    "created_at": "2022-07-25 03:09:00"
+  },
+  {
+    "user_id": 6,
+    "dictionary_id": 5,
+    "name": "ECARISÓR, ecarisóri,",
+    "predefinition": "ECARISÓR, ecarisóri,",
+    "definition": "<p> <i>subst</i>. <i>m.</i> [&lt; fr. <strong>équarrisseur.</strong>] Persoană care lucrează la ecarisaj. <i>Sin.: </i>hingher. <strong>Serviciile de întreţinere şi tratare a câinilor sunt asigurate de 6 angajaţi, dintre care doi medici, 2 ecarisori, un îngrijitor şi un şofer la maşina de ecarisaj.</strong> </p>",
+    "active": 0,
+    "created_at": "2022-07-25 03:09:00"
+  },
+  {
+    "user_id": 6,
+    "dictionary_id": 5,
+    "name": "ECÁRT, ecárturi,",
+    "predefinition": "ECÁRT, ecárturi,",
+    "definition": "<p> <i>subst</i>. <i>n</i>. [&lt; fr. <strong>écart.</strong>] 1) Distanța care separă două obiecte ce pot fi îndepărtate sau care se îndepărtează. <strong>Executarea contractului are loc într-un ecart de 3-7 zile bursiere de la data încheierii sale. </strong>2) Lipsă de asemănare. <i>Sin.: </i>diferență. <strong>Ecartul dintre salariile de la stat şi cele din privat s-a adâncit masiv în ultimii ani.</strong> 3) <i>fig.</i> Îndepărtare de la regulile de conduită. <i>Sin.:</i> abatere. <strong>În acest tânăr există o distanță, un ecart continuu față de mocirla sau penibilul în care se afundă.</strong> </p>",
+    "active": 0,
+    "created_at": "2022-07-25 03:09:00"
+  },
+  {
+    "user_id": 6,
+    "dictionary_id": 5,
+    "name": "ECARTAMÉNT, ecartaménte,",
+    "predefinition": "ECARTAMÉNT, ecartaménte,",
+    "definition": "<p> <i>subst</i>. <i>n</i>. [&lt; fr. <strong>écartement.</strong>]<strong> </strong>1) Distanță dintre roțile situate pe aceeași osie ale unui vehicul. <strong>Construcţia osiilor din faţă şi spate permite variaţia ecartamentului. </strong>2) Distanță dintre șinele unei căi ferate. <strong>Proiectul refacerii ecartamentului european pe traseul de cale ferată Chişinău – Ungheni.</strong> </p>",
+    "active": 0,
+    "created_at": "2022-07-25 03:09:00"
+  },
+  {
+    "user_id": 6,
+    "dictionary_id": 5,
+    "name": "É-cAsh,",
+    "predefinition": "É-cAsh,",
+    "definition": "<p> <i>subst. n. </i>[Pr.: <strong>í-cheş; </strong>&lt; engl. <strong>e(lectronic) cash.</strong>] <i>tehn. inform. </i>Sistem electronic securizat ce permite a efectua prin intermediul internetului transfer de fonduri, plată cu cardul etc. <strong>Clienţii pot plăti acum e-cash la orice bancă.</strong> </p>",
+    "active": 0,
+    "created_at": "2022-07-25 03:09:00"
+  },
+  {
+    "user_id": 6,
+    "dictionary_id": 5,
+    "name": "ECHÉR, echére,",
+    "predefinition": "ECHÉR, echére,",
+    "definition": "<p> <i>subst</i>. <i>n</i>. [&lt; fr. <strong>équerre</strong>.] 1) Instrument în formă de triunghi-dreptunghi, folosit pentru a desena şi a verifică unghiurile drepte. <strong>La lecţia de desen liniar elevii se folosesc de echere</strong>. 2) Instrument topografic pentru fixarea pe teren a aliniamentelor perpendiculare. <strong>În ultima vreme, utilizarea echerelor în topografie a devenit desuetă.</strong> </p>",
+    "active": 0,
+    "created_at": "2022-07-25 03:09:00"
+  },
+  {
+    "user_id": 6,
+    "dictionary_id": 5,
+    "name": "ECHI-,",
+    "predefinition": "ECHI-,",
+    "definition": "<p> [&lt; fr. <strong>équi-</strong>; lat. <strong>aequi-</strong>.] Element de compunere savantă însemnând „egal”<strong>,</strong> „asemănător”. </p>",
+    "active": 0,
+    "created_at": "2022-07-25 03:09:00"
+  },
+  {
+    "user_id": 6,
+    "dictionary_id": 5,
+    "name": "ECHICURÉNT, echicuréntă, echicurénți, echicurénte,",
+    "predefinition": "ECHICURÉNT, echicuréntă, echicurénți, echicurénte,",
+    "definition": "<p> <i> adj</i>. [&lt; <strong>echi-</strong> + <strong>curent.</strong>] (<i>despre fluide</i>) Care curge în același sens cu altul. <strong>La supraîncălzitoare se folosește curgerea fluidelor atât în contracurent, cât și în echicurent.</strong> </p>",
+    "active": 0,
+    "created_at": "2022-07-25 03:09:00"
+  },
+  {
+    "user_id": 6,
+    "dictionary_id": 5,
+    "name": "ECHIDISTÁNT, echidistántă, echidistánţi, echidistánte,",
+    "predefinition": "ECHIDISTÁNT, echidistántă, echidistánţi, echidistánte,",
+    "definition": "<p> <i>adj</i>. [&lt; fr. <strong>équidistant</strong>.] (<i>despre puncte, drepte, planuri etc.</i>) Care se află la distanţă egală faţă de un obiect de referire (punct, dreaptă, plan) sau care sunt la distanţe egale unele de altele. <strong>Suprafața terestră se intersectează cu o serie de planuri orizontale, paralele și echidistante.</strong> </p>",
+    "active": 0,
+    "created_at": "2022-07-25 03:09:00"
+  },
+  {
+    "user_id": 6,
+    "dictionary_id": 5,
+    "name": "ECHIDISTÁNȚĂ, echidistánțe,",
+    "predefinition": "ECHIDISTÁNȚĂ, echidistánțe,",
+    "definition": "<p> <i>subst</i>. <i>f</i>. [&lt; fr. <strong>équidistance</strong>.] Diferență constantă de înălțime dintre cotele a două suprafețe de nivel. <strong>În zonele cu relief muntos echidistanța este mai mare decât în zonele joase și relativ netede.</strong> </p>",
+    "active": 0,
+    "created_at": "2022-07-25 03:09:00"
+  },
+  {
+    "user_id": 6,
+    "dictionary_id": 5,
+    "name": "ECHÍDNĂ, echídne,",
+    "predefinition": "ECHÍDNĂ, echídne,",
+    "definition": "<p> <i>subst</i>. <i>f</i>. [&lt; fr. <strong>échidné</strong>.] Mamifer insectivor, lung de circa 25 cm, cu țepi pe corp și botul cornos, foarte ascuțit. <strong>Echidna poate trăi până la 25 de ani în captivitate.</strong> </p>",
+    "active": 0,
+    "created_at": "2022-07-25 03:09:00"
+  },
+  {
+    "user_id": 6,
+    "dictionary_id": 5,
+    "name": "ECHILATERÁL, echilaterálă, echilateráli, echilaterále,",
+    "predefinition": "ECHILATERÁL, echilaterálă, echilateráli, echilaterále,",
+    "definition": "<p> <i>adj</i>. [&lt; fr. <strong>équilatéral</strong>; lat. <strong>aequilateralis</strong>.] (<i>despre</i> <i>figuri</i> <i>geometrice</i>) Care are toate laturile egale. <strong>Triunghi echilateral</strong>. </p>",
+    "active": 0,
+    "created_at": "2022-07-25 03:09:00"
+  },
+  {
+    "user_id": 6,
+    "dictionary_id": 5,
+    "name": "A (SE) ECHILIBRÁ, (mă) echilibréz,",
+    "predefinition": "ECHILIBRÁ, (mă) echilibréz,",
+    "definition": "<p> <i>vb</i>. [Sil.: <strong>-bra</strong>; &lt; fr. <strong>équilibrer</strong>.] <strong>1. </strong><i>tranz</i>., <i>intranz</i>. <i>pronom</i>. A aduce (a ajunge) în stare de echilibru. <i>Sin.: </i>a (se) cumpăni; a (se) pondera. <i>Ant.: </i>a (se) dezechilibra. <strong>A echilibra forţele</strong>. <strong>Bugetul de stat se echilibrează cu sursele de finanţare pentru fiecare lună în parte.</strong> <strong>2. </strong><i>tranz. (valori, prețuri, bugete)</i> A face să fie proporţional. <i>Sin.:</i> a proporţiona. <strong>În unele situaţii poate fi imposibil de a echilibra bugetul.</strong> </p>",
+    "active": 0,
+    "created_at": "2022-07-25 03:09:00"
+  },
+  {
+    "user_id": 6,
+    "dictionary_id": 5,
+    "name": "ECHILIBRÁRE, echilibrắri,",
+    "predefinition": "ECHILIBRÁRE, echilibrắri,",
+    "definition": "<p> <i>subst</i>. <i>f</i>. [Sil.: <strong>-bra</strong>; din <strong>a (se) echilibra</strong>.] 1) Acțiunea de a (se) echilibra și rezultatul ei. <strong>Sume alocate din cotele defalcate din impozitul pe venit pentru echilibrarea bugetelor locale.</strong> 2) <i>tehn. </i>Eliminare sau reducere a forțelor dinamice asimetrice care se exercită asupra pieselor unui sistem tehnic, din cauza mișcării accelerate a acestora. <strong>Echilibrarea statică și dinamică a mecanismelor și a mașinilor.</strong> 3) Atenuare a cuplajelor nedorite dintre circuitele unei linii de telecomunicații. <strong>Comutarea și echilibrarea încărcărilor în rețea.</strong> </p>",
+    "active": 0,
+    "created_at": "2022-07-25 03:09:00"
+  },
+  {
+    "user_id": 6,
+    "dictionary_id": 5,
+    "name": "ECHILIBRÁT, echilibrátă, echilibráți, echilibráte,",
+    "predefinition": "ECHILIBRÁT, echilibrátă, echilibráți, echilibráte,",
+    "definition": "<p> <i>adj</i>. [Din <strong>a (se) echilibra</strong>.] 1)<i> v</i>. <strong>A ECHILIBRA. Buget echilibrat. </strong>2) <i>fig. (despre persoane sau despre manifestările lor)</i> Care vădește cumpătare. <i>Sin.:</i> sobru; auster; cumpătat. <i>Ant.: </i>dezechilibrat; neechilibrat; necumpătat. <strong>Oamenii echilibrați sunt mult mai complecși decât cei care prezintă tendințe extreme sau radicale în comportament sau atitudini.</strong> </p>",
+    "active": 0,
+    "created_at": "2022-07-25 03:09:00"
+  },
+  {
+    "user_id": 6,
+    "dictionary_id": 5,
+    "name": "ECHILIBRÍST, echilibrístă, echilibríști, echilibríste,",
+    "predefinition": "ECHILIBRÍST, echilibrístă, echilibríști, echilibríste,",
+    "definition": "<p> <i>subst</i>. <i>m.</i> și <i>f.</i> [Sil.: <strong>-brist</strong>; &lt; fr. <strong>équilibriste</strong>.] Artist de circ care practică echilibristica. <strong>Un echilibrist a străbătut 150 de metri pe o funie întinsă la 25 de metri deasupra râului Sena.</strong> </p>",
+    "active": 0,
+    "created_at": "2022-07-25 03:09:00"
+  },
+  {
+    "user_id": 6,
+    "dictionary_id": 5,
+    "name": "ECHILIBRÍSTIC, echilibrístică, echilibrístici, echilibrístice,",
+    "predefinition": "ECHILIBRÍSTIC, echilibrístică, echilibrístici, echilibrístice,",
+    "definition": "<p> <i>adj.</i> [Sil.: <strong>-li-bris-</strong>; cf. germ. <strong>Equilibristik</strong>.] Care ţine de echilibrişti sau de echilibristică; propriu echilibriştilor sau echilibristicii. <i>Sin.:</i> acrobatic. <strong>Reprezentaţii echilibristice.</strong> </p>",
+    "active": 0,
+    "created_at": "2022-07-25 03:09:00"
+  },
+  {
+    "user_id": 6,
+    "dictionary_id": 5,
+    "name": "ECHILIBRÍSTICĂ,",
+    "predefinition": "ECHILIBRÍSTICĂ,",
+    "definition": "<p> <i>subst</i>. <i>f</i>. [Sil.: <strong>-li-bris-</strong>; G.-D. art.: <strong>echilibristicii</strong>; cf. germ. <strong>Equilibristik</strong>.] Arta de a păstra echilibrul în poziţii sau mişcări dificile. <strong>Echilibristică la 2000 de metri altitudine.</strong> </p>",
+    "active": 0,
+    "created_at": "2022-07-25 03:09:00"
+  },
+  {
+    "user_id": 6,
+    "dictionary_id": 5,
+    "name": "ECHILÍBRU, echilíbre,",
+    "predefinition": "ECHILÍBRU, echilíbre,",
+    "definition": "<p> <i>subst</i>. <i>n</i>. [Sil.: <strong>-bru</strong>; &lt; fr. <strong>équilibre</strong>; lat. <strong>aequilibrium</strong>.] 1) Stare a unui corp care este supus acţiunii unei forţe, fără a-i schimba poziţia; stare staționară a unui fenomen. <i>Ant</i>.: dezechilibru. <strong>Pentru a reuși să-ți menții echilibrul, indiferent dacă mergi pe bicicletă sau pe o sfoară, îți trebuie foarte mult exercițiu.</strong> 2) Concordanţă între lucruri opuse sau diferite. <strong>Echilibru de forţe</strong>. ♦ <strong>Echilibru dinamic</strong> echilibru determinat de două procese opuse care se desfășoară cu aceeași intensitate. ♦ <strong>A-şi pierde echilibrul</strong> a fi gata să cadă, să se prăbușească. 3) Proprietate a unui sistem de forțe sau de alte acțiuni care au ca efect rezultant nul și, în consecință, nu modifică starea corpului ori a fenomenului asupra căruia se exercită. 4) <i>fig</i>. Stare de linişte sufletească. <i>Sin</i>.: cumpănă; stabilitate. <i>Ant</i>.: dezechilibru. <strong>Echilibru sufletesc. </strong>5) Stare a unei balanțe economice în care părțile comparate sau raportate sunt egale. ♦ <strong>Echilibru bugetar</strong> stare a unui buget în care veniturile acoperă cheltuielile. <strong>Echilibru economic</strong> stare de concordanță între elementele interdependente și toate variabilele necesare a fi corelate ale activității economice și sociale. </p>",
+    "active": 0,
+    "created_at": "2022-07-25 03:09:00"
+  },
+  {
+    "user_id": 6,
+    "dictionary_id": 5,
+    "name": "ECHIMOLECULÁR, echimoleculáră, echimoleculári, echimoleculáre,",
+    "predefinition": "ECHIMOLECULÁR, echimoleculáră, echimoleculári, echimoleculáre,",
+    "definition": "<p> <i>adj.</i> [&lt; fr. <strong>équimoléculaire</strong>.] <i>chim. (despre amestecuri) </i>Care este alcătuit din soluții cu aceeași cantitate de molecule. <strong>Un amestec echimolecular de Al și Fe reacționează cu o soluție de HCl, c=36,5% și formează 0,5 moli gaz</strong>. </p>",
+    "active": 0,
+    "created_at": "2022-07-25 03:09:00"
+  },
+  {
+    "user_id": 6,
+    "dictionary_id": 5,
+    "name": "ECHIMÓZĂ, echimóze,",
+    "predefinition": "ECHIMÓZĂ, echimóze,",
+    "definition": "<p> <i>subst</i>. <i>f</i>. [&lt; fr. <strong>ecchymose</strong>.] Pată de culoare roşie-vineţie, evoluând până la galben, apărută pe piele, în urma unei lovituri. <i>Sin.: </i>vânătaie. <strong>O echimoză netratată se resoarbe spontan în aproximativ 3 săptămâni. </strong><i><strong>/ </strong>Par.: </i>enchimoză. </p>",
+    "active": 0,
+    "created_at": "2022-07-25 03:09:00"
+  },
+  {
+    "user_id": 6,
+    "dictionary_id": 5,
+    "name": "ECHINÍD,",
+    "predefinition": "ECHINÍD,",
+    "definition": "<p> <i>subst</i>. <i>m</i>. <i>v</i>. <strong>ECHINIDĂ.</strong> </p>",
+    "active": 0,
+    "created_at": "2022-07-25 03:09:00"
+  },
+  {
+    "user_id": 6,
+    "dictionary_id": 5,
+    "name": "ECHINÍDĂ, echiníde,",
+    "predefinition": "ECHINÍDĂ, echiníde,",
+    "definition": "<p> <i>subst</i>. <i>f</i>. [Var.: <strong>echiníd;</strong> &lt; fr. <strong>échinide</strong>.] 1) <i>la pl.</i> Clasă de animale marine cu corpul acoperit cu un schelet calcaros cu spini (reprezentanți: ariciul-de-mare, steaua-de-mare etc.). <strong>Echinidele ce se hrănesc cu alge posedă de asemenea un astfel de aparat masticator, pe care nu îl întâlnim și la cele ce se hrănesc cu nămol.</strong> 2) Animal din această clasă. </p>",
+    "active": 0,
+    "created_at": "2022-07-25 03:09:00"
+  },
+  {
+    "user_id": 6,
+    "dictionary_id": 5,
+    "name": "ECHIN(O)-,",
+    "predefinition": "ECHIN(O)-,",
+    "definition": "<p> [&lt; fr. <strong>échin/o/-, echini-</strong>; cf. lat<i>. </i><strong>echinus</strong><i>,</i> gr. <strong>ekhinos</strong>.] Element de compunere însemnând „arici”, „cu ghimpi”. </p>",
+    "active": 0,
+    "created_at": "2022-07-25 03:09:00"
+  },
+  {
+    "user_id": 6,
+    "dictionary_id": 5,
+    "name": "ECHINOCÓC, echinocóci,",
+    "predefinition": "ECHINOCÓC, echinocóci,",
+    "definition": "<p> <i>subst</i>. <i>m. </i>[&lt; fr. <strong>échuinocoque</strong>.] 1) Vierme parazit care trăiește în corpul unor animale (rumegătoare, porci etc.) sau al omului. <strong>Produs farmaceutic pentru combaterea echinococilor.</strong> 2) Chist provocat de acest vierme în diferite organe ale animalelor sau ale omului. <strong>Deoarece echinococul crește lent, mulţi oameni infestaţi nu acuză simptome de boală.</strong> </p>",
+    "active": 0,
+    "created_at": "2022-07-25 03:09:00"
+  },
+  {
+    "user_id": 6,
+    "dictionary_id": 5,
+    "name": "ECHINOCOCÓZĂ,",
+    "predefinition": "ECHINOCOCÓZĂ,",
+    "definition": "<p> <i>subst.</i> <i>f. </i>[G.-D. art.: <strong>echinococozei</strong>; &lt; fr. <strong>échinococcose</strong>.] <i>med. </i>Boală parazitară comună omului și animalelor, provocată de echinococ. <strong>Oamenii fac două tipuri principale de echinococoză: chistică și</strong><a><strong> alveolară</strong></a><strong>.</strong> </p>",
+    "active": 0,
+    "created_at": "2022-07-25 03:09:00"
+  },
+  {
+    "user_id": 6,
+    "dictionary_id": 5,
+    "name": "ECHINOCȚIÁL, echinocțiálă, echinocțiáli, echinocțiále,",
+    "predefinition": "ECHINOCȚIÁL, echinocțiálă, echinocțiáli, echinocțiále,",
+    "definition": "<p> <i>adj. </i>[Sil.: <strong>-ți-al;</strong> &lt; fr. <strong>équinoxial</strong>; lat. <strong>aequinoxialis</strong>.] Care ține de echinocțiu; propriu echinocțiului. <strong>Furtună echinocțială.</strong> </p>",
+    "active": 0,
+    "created_at": "2022-07-25 03:09:00"
+  },
+  {
+    "user_id": 6,
+    "dictionary_id": 5,
+    "name": "ECHINÓCŢIU, echinócţii,",
+    "predefinition": "ECHINÓCŢIU, echinócţii,",
+    "definition": "<p> <i>subst</i>. <i>n</i>. [&lt; lat. <strong>aequinoctium</strong>; fr. <strong>équinoxe</strong>.] Fiecare dintre cele două date ale anului (în jurul lui 21 martie şi 23 septembrie), când ziua este egală cu noaptea. <strong>Echinocţiu de primăvară</strong>. <strong>Echinocţiu de toamnă</strong>. </p>",
+    "active": 0,
+    "created_at": "2022-07-25 03:09:00"
+  },
+  {
+    "user_id": 6,
+    "dictionary_id": 5,
+    "name": "ECHINODÉRM, echinodérme,",
+    "predefinition": "ECHINODÉRM, echinodérme,",
+    "definition": "<p> <i>subst</i>. <i>n</i>. [&lt; fr. <strong>échinodermes</strong>.] 1) <i>la</i> <i>pl</i>. Încrengătură de animale marine nevertebrate, cu un schelet extern calcaros. <strong>Echinodermele sunt animale cu simetrie radială, unele forme posedă simetrie bilaterală.</strong> 2) Animal din această încrengătură. <strong>Ariciul-de-mare este un echinoderm.</strong> </p>",
+    "active": 0,
+    "created_at": "2022-07-25 03:09:00"
+  },
+  {
+    "user_id": 6,
+    "dictionary_id": 5,
+    "name": "A (SE) ECHIPÁ, (mă) echipéz,",
+    "predefinition": "ECHIPÁ, (mă) echipéz,",
+    "definition": "<p> <i>vb</i>. [&lt; fr. <strong>équiper</strong>.] <strong>1. </strong><i>tranz</i>. 1) (<i>un</i> <i>militar</i>, <i>un</i> <i>sportiv</i>, <i>o</i> <i>navă</i> etc.) A prevedea cu cele necesare în vederea realizării unei acţiuni, unei expediții. <i>Sin</i>.: a dota; a înzestra. <i>Ant</i>.: a dezechipa.<strong> A echipat mașina cu cauciucuri noi.</strong> 2) (<i>o întreprindere, o instalație etc.</i>) A dota cu echipament. <strong>Un antreprenor moldovean, cu suportul UE, a putut să-și echipeze atelierul de producere a brichetelor. 2. </strong><i>intranz.</i> <i>pronom.</i> A-și pune echipamentul necesar.<strong> Să ne echipăm adecvat pentru pelerinaj.</strong> </p>",
+    "active": 0,
+    "created_at": "2022-07-25 03:09:00"
+  },
+  {
+    "user_id": 6,
+    "dictionary_id": 5,
+    "name": "ECHIPÁJ, echipáje,",
+    "predefinition": "ECHIPÁJ, echipáje,",
+    "definition": "<p> <i>subst</i>. <i>n</i>. [&lt; fr. <strong>équipage</strong>.] 1) Personal de conducere şi de deservire a unei nave (maritime sau aeriene). <strong>Echipajul corabiei naufragiate a fost salvat</strong>. 2) Formaţie de sportivi care conduce o ambarcaţie (un autoturism) în timpul competiţiilor. <strong>Echipajul feminin al României de 8+1 a obținut medalia de aur la Campionatul Mondial de la Sarasota. </strong>3) Partea fixă sau partea mobilă a unui instrument. <strong>Echipajul mobil este constituit din douǎ bobine coaxiale, dispuse sub un anumit unghi.</strong> </p>",
+    "active": 0,
+    "created_at": "2022-07-25 03:09:00"
+  },
+  {
+    "user_id": 6,
+    "dictionary_id": 5,
+    "name": "ECHIPAMÉNT, echipaménte,",
+    "predefinition": "ECHIPAMÉNT, echipaménte,",
+    "definition": "<p> <i>subst</i>. <i>n</i>. [&lt; fr. <strong>équipement</strong>.] 1) Totalitate a obiectelor necesare pentru a echipa o persoană. <strong>Echipament militar</strong>. <strong>Echipament sportiv</strong>. 2) Ansamblu de aparate şi de dispozitive ale unei instalaţii, maşini etc. care îi asigură funcţionarea. <strong>Echipamente de siguranță și de protecție. </strong>♦ <strong>Echipament de bord</strong> ansamblu de aparate, mecanisme și instalații folosite la controlul zborului și conducerii unui avion, precum și pentru asigurarea condițiilor de confort în interiorul acestuia. <strong>Echipament de campanie</strong> echipament pe care îl poartă soldații pe front sau la instrucție. </p>",
+    "active": 0,
+    "created_at": "2022-07-25 03:09:00"
+  },
+  {
+    "user_id": 6,
+    "dictionary_id": 5,
+    "name": "ECHIPÁRE, echipắri",
+    "predefinition": "ECHIPÁRE, echipắri",
+    "definition": "<p> <i>,</i> <i>subst</i>. <i>f</i>. [Din <strong>a (se) echipa</strong>.] Acțiunea de a (se) echipa și rezultatul ei. </p>",
+    "active": 0,
+    "created_at": "2022-07-25 03:09:00"
+  },
+  {
+    "user_id": 6,
+    "dictionary_id": 5,
+    "name": "ECHIPÁT, echipátă, echipáți, echipáte,",
+    "predefinition": "ECHIPÁT, echipátă, echipáți, echipáte,",
+    "definition": "<p> <i>adj</i>. [Din <strong>a (se) echipa</strong>.] <i>v. </i><strong>A ECHIPA.</strong> </p>",
+    "active": 0,
+    "created_at": "2022-07-25 03:09:00"
+  },
+  {
+    "user_id": 6,
+    "dictionary_id": 5,
+    "name": "ECHÍPĂ, echípe,",
+    "predefinition": "ECHÍPĂ, echípe,",
+    "definition": "<p> <i>subst</i>. <i>f</i>. [&lt; fr. <strong>équipe</strong>.] 1) Grup de persoane care îndeplineşte o muncă sau o acţiune comună sub conducerea unui şef. <strong>Pentru ca o echipă să funcționeze și să fie productivă, membrii acesteia trebuie să aibă, în primul rând, </strong><a><strong>obiective</strong></a><strong> comune. </strong>♦ <strong>Spirit de echipă</strong> legătură spirituală între membrii unei echipe, care stă la baza conlucrării lor. 2) Grup de sportivi constituit într-o formație, în cadrul căreia se antrenează, sub conducerea unui specialist, și participă la competiții. <strong>Şef de echipă</strong>. 3) Fiecare dintre cele două formații care își dispută un meci (de fotbal, baschet, hochei, polo etc.).<strong> Echipă de</strong> <strong>fotbal</strong>. </p>",
+    "active": 0,
+    "created_at": "2022-07-25 03:09:00"
+  },
+  {
+    "user_id": 6,
+    "dictionary_id": 5,
+    "name": "ECHIPIÉR, echipiéră, echipiéri, echipiére,",
+    "predefinition": "ECHIPIÉR, echipiéră, echipiéri, echipiére,",
+    "definition": "<p> <i>subst</i>. <i>m</i>. [Sil.: <strong>-pi-er</strong>; &lt; fr. <strong>équipier</strong>.] Membru al unei echipe sportive. <strong>Echipierul de la McLaren-Mercedes nu a rezistat în fruntea cursei mai mult de trei tururi.</strong> </p>",
+    "active": 0,
+    "created_at": "2022-07-25 03:09:00"
+  },
+  {
+    "user_id": 6,
+    "dictionary_id": 5,
+    "name": "ECHIPOLÉNT, echipoléntă, echipolénți, echipolénte,",
+    "predefinition": "ECHIPOLÉNT, echipoléntă, echipolénți, echipolénte,",
+    "definition": "<p> <i> adj</i>. [&lt; fr. <strong>équipollent</strong>.] 1) Care este de valoare egală. <strong>Vectori echipolenți.</strong> 2) <i>(despre noțiuni sau judecăți)</i> Care exprimă același sens în forme diferite. <i>Sin.: </i>echivalent. <strong>Opoziţia echipolentă ţine de diferenţa trăsăturilor semantice ale termenilor.</strong> </p>",
+    "active": 0,
+    "created_at": "2022-07-25 03:09:00"
+  },
+  {
+    "user_id": 6,
+    "dictionary_id": 5,
+    "name": "ECHIPOLÉNȚĂ,",
+    "predefinition": "ECHIPOLÉNȚĂ,",
+    "definition": "<p> <i>subst</i>. <i>f</i>. [G.-D. art.: <strong>echipolenței; </strong>&lt; fr. <strong>équipollence</strong>; lat. <strong>aequipollentia</strong>.] 1) Egalitate de forțe, de puteri. <strong>Codul de procedură prevede acum şi trei cazuri de echipolenţă. </strong>2. <i>log</i>. Raport de egalitate între două propoziții sau concepte de aceeași extensie. <i>Sin.:</i> echivalență. <strong>În funcţie de numărul semelor diferenţiale, pot fi stabilite mai multe grade de echipolenţă.</strong> 3. <i>mat</i>. Relație între vectori echipolenți. <strong>Vectorul reprezintă o relație de echipolență între segmentele orientate.</strong> </p>",
+    "active": 0,
+    "created_at": "2022-07-25 03:09:00"
+  },
+  {
+    "user_id": 6,
+    "dictionary_id": 5,
+    "name": "ECHIPOTENȚIÁL, echipotențiálă, echipotențiáli, echipotențiále,",
+    "predefinition": "ECHIPOTENȚIÁL, echipotențiálă, echipotențiáli, echipotențiále,",
+    "definition": "<p> <i> adj. </i>[Sil.: <strong>e-chi-po-ten-ți-al; </strong>&lt; fr. <strong>équipotentiel.</strong>] Care are potențial egal; cu potențial identic. <strong>Suprafețele echipotențiale sunt suprafețe de un potențial scalar constant.</strong> </p>",
+    "active": 0,
+    "created_at": "2022-07-25 03:09:00"
+  },
+  {
+    "user_id": 6,
+    "dictionary_id": 5,
+    "name": "ECHIPOTENȚIALITÁTE,",
+    "predefinition": "ECHIPOTENȚIALITÁTE,",
+    "definition": "<p> <i>subst</i>. <i>f</i>. [Sil.: <strong>-ți-a</strong><i>-</i>; G.-D. art.: <strong>echipotențialității</strong>; &lt; <strong>echipotențial</strong> + suf. <i>-</i><strong>itate.</strong>] Însușirea de a fi echipotențial. <strong>Legătură de echipotențialitate.</strong> </p>",
+    "active": 0,
+    "created_at": "2022-07-25 03:09:00"
+  },
+  {
+    "user_id": 6,
+    "dictionary_id": 5,
+    "name": "ECHIPROBÁBIL, echiprobábilă, echiprobábili, echiprobábile",
+    "predefinition": "ECHIPROBÁBIL, echiprobábilă, echiprobábili, echiprobábile",
+    "definition": "<p> ,<i> adj. </i>[&lt; fr. <strong>équiprobable.</strong>]<i> (despre evenimente)</i> Care are șanse egale de a se produce cu ale altora. <strong>Situație echiprobabilă.</strong> </p>",
+    "active": 0,
+    "created_at": "2022-07-25 03:09:00"
+  },
+  {
+    "user_id": 6,
+    "dictionary_id": 5,
+    "name": "ECHITÁBIL, echitábilă, echitábili, echitábile,",
+    "predefinition": "ECHITÁBIL, echitábilă, echitábili, echitábile,",
+    "definition": "<p> <i>adj</i>. [&lt; fr. <strong>équitable</strong>.] (<i>despre</i> <i>acţiuni</i>, <i>idei</i> etc.) Care este întemeiat pe dreptate, pe adevăr. <i>Sin</i>.: just; drept; nepărtinitor; imparţial. <i>Ant</i>.: inechitabil; neechitabil; nedrept; injust; strâmb. <strong>Comisia asigură o evaluare confidențială, corectă și echitabilă a propunerilor.</strong> </p>",
+    "active": 0,
+    "created_at": "2022-07-25 03:09:00"
+  },
+  {
+    "user_id": 6,
+    "dictionary_id": 5,
+    "name": "ECHITÁTE, echitắţi,",
+    "predefinition": "ECHITÁTE, echitắţi,",
+    "definition": "<p> <i>subst</i>. <i>f</i>. [&lt; fr. <strong>équité</strong>; lat. <strong>aequitas, -atis</strong>.] Principiu moral sau juridic care cere respectarea drepturilor fiecăruia. <i>Sin</i>.: dreptate; <i>Ant.: </i>inechitate; nedreptate; injusteţe; injustiţie. <strong>Echitatea este un concept fundamental pentru dreptate. </strong>/<i> Par.: </i>echitație. </p>",
+    "active": 0,
+    "created_at": "2022-07-25 03:09:00"
+  },
+  {
+    "user_id": 6,
+    "dictionary_id": 5,
+    "name": "ECHITÁȚIE,",
+    "predefinition": "ECHITÁȚIE,",
+    "definition": "<p> <i>subst</i>. <i>f</i>. [Sil.: <strong>-ți-e; </strong>art.: <strong>echitația; </strong>G.-D.: <strong>echitației; </strong>&lt; fr. <strong>équitation</strong>; lat. <strong>equitatio, -onis</strong>.] Sport constând din exerciții de alergări, sărituri și dresaj cu calul. <i>Sin.: </i>călărie. <strong>Cel mai mare beneficiu, pe care îl poate avea echitația, este faptul că această activitate combate stresul. </strong>/<i> Par.: </i>echitate. </p>",
+    "active": 0,
+    "created_at": "2022-07-25 03:09:00"
+  },
+  {
+    "user_id": 6,
+    "dictionary_id": 5,
+    "name": "ECHIUNITÁR, echiunitáră, echiunitári, echiunitáre,",
+    "predefinition": "ECHIUNITÁR, echiunitáră, echiunitári, echiunitáre,",
+    "definition": "<p> <i>adj</i>. [&lt; <strong>echi</strong> + <strong>unitar</strong>.] (<i>despre</i> <i>fracţii</i> <i>ordinare</i>) Care are o valoare egală cu unitatea. <strong>Fracțiile echiunitare sunt acelea care au numărătorul egal cu numitorul</strong>. </p>",
+    "active": 0,
+    "created_at": "2022-07-25 03:09:00"
+  },
+  {
+    "user_id": 6,
+    "dictionary_id": 5,
+    "name": "A (SE) ECHIVALÁ, (mă) echivaléz,",
+    "predefinition": "ECHIVALÁ, (mă) echivaléz,",
+    "definition": "<p> <i>vb</i>. <i>tranz</i>., <i>intranz</i>. <i>pronom</i>. [&lt; fr. <strong>équivaloir</strong>; lat. <strong>aequivalere</strong>.] A face să devină (a deveni) echivalent. <i>Sin</i>.: a (se) egala. <strong>Cum pot fi echivalate studiile de scurtă durată?</strong> <strong>Guvernul țării a ajuns la o datorie ce se echivalează cu 250% din PIB.</strong> </p>",
+    "active": 0,
+    "created_at": "2022-07-25 03:09:00"
+  },
+  {
+    "user_id": 6,
+    "dictionary_id": 5,
+    "name": "ECHIVALÁRE, echivalắri,",
+    "predefinition": "ECHIVALÁRE, echivalắri,",
+    "definition": "<p> <i>subst</i>. <i>f</i>. [Din<strong> a (se) echivala</strong>.]<strong> </strong>1) Acțiunea de a (se) echivala şi rezultatul ei. 2) Recunoaștere a valabilității unor studii, examene sau diplome obținute în cadrul unei școli de alt tip sau în străinătate. <strong>Centrul Naţional de Recunoaştere şi Echivalare a Diplomelor.</strong> </p>",
+    "active": 0,
+    "created_at": "2022-07-25 03:09:00"
+  },
+  {
+    "user_id": 6,
+    "dictionary_id": 5,
+    "name": "ECHIVALÉNT, echivaléntă, echivalénţi, echivalénte,",
+    "predefinition": "ECHIVALÉNT, echivaléntă, echivalénţi, echivalénte,",
+    "definition": "<p> <i>adj</i>., <i>subst</i>. [&lt; fr. <strong>équivalent</strong>; lat. <strong>aequivalens, -ntis</strong>.] <strong>1</strong>. <i>adj. </i>1) Care are aceeaşi valoare, acelaşi sens sau aceeaşi mărime cu altceva. <i>Sin</i>.: echipolent. <strong>Preţuri echivalente</strong>. 2) (<i>despre figuri geometrice</i>) Care are aceeași arie cu altă figură, fără a fi identică cu aceasta. <strong>Două figuri geometrice plane sunt echivalente dacă au ariile egale.</strong> <strong>2.</strong> <i>subst</i>. <i>n. </i>1) Cantitate de materie, de forță etc. egală cu o alta. <strong>Masele substanțelor care reacționează sunt direct proporționale cu echivalenții lor chimici.</strong> 2) Mărime care indică echivalența a două forțe sau a două acțiuni. 3) Marfă care poate servi la exprimarea valorii altei mărfi în procesul schimbului. <strong>Instanța i-a aplicat o amendă în mărime de 600 de unități convenționale, echivalentul a 30000 de lei.</strong> </p>",
+    "active": 0,
+    "created_at": "2022-07-25 03:09:00"
+  },
+  {
+    "user_id": 6,
+    "dictionary_id": 5,
+    "name": "ECHIVALÉNŢĂ, echivalénţe,",
+    "predefinition": "ECHIVALÉNŢĂ, echivalénţe,",
+    "definition": "<p> <i>subst</i>. <i>f</i>. [&lt; fr. <strong>équivalence</strong>.] 1) Egalitate de valoare, de semnificație, de sens; însuşirea de a fi echivalent. <i>Sin</i>.: echipolență. <strong>Echivalenţa a două ecuaţii</strong>. ♦ <strong>Examen de echivalență</strong> examen pentru recunoașterea, cu drepturi egale, a unei diplome (nerecunoscute de stat) sau pentru transferul de la un tip de școală la altul. 2) <i>log</i>. Relație între două enunțuri care au aceeași valoare de adevăr. <strong>Orice echivalenţă logică se reduce la validitatea unei formule.</strong> 3) <i>med</i>. Denumire dată unei crize de natură epileptică, care se manifestă sub altă formă decât cea convulsivă. <strong>Mulţi copii, anterior diagnosticaţi cu echivalenţe, sunt catalogaţi, de obicei, ca având un sindrom migrenos. </strong>4) <i>mat</i>. Relație simetrică, reflexivă și tranzitivă între elementele unei mulțimi. <strong>Relații de echivalență.</strong> </p>",
+    "active": 0,
+    "created_at": "2022-07-25 03:09:00"
+  },
+  {
+    "user_id": 6,
+    "dictionary_id": 5,
+    "name": "ECHIVÓC, echivócă, echivóci, echivóce,",
+    "predefinition": "ECHIVÓC, echivócă, echivóci, echivóce,",
+    "definition": "<p> <i>adj</i>., <i>subst</i>. [&lt; fr. <strong>équivoque</strong>; lat. <strong>aequivocus</strong>.] <strong>1. </strong><i>adj. </i>1) <i>(despre cuvinte, expresii etc.)</i> Care poate fi interpretat în mai multe feluri. <i>Sin</i>.: ambiguu; interpretabil. <i>Ant</i>.: inechivoc; univoc. <strong>Textul legislativ trebuie să fie formulat clar, fluent și inteligibil, fără dificultăți sintactice și pasaje obscure sau echivoce</strong>. 2) <i>(despre acțiuni, purtări etc.)</i> Care trezește îndoieli; care dă de bănuit. <i>Sin.:</i> îndoielnic; dubios; suspect; veros. <i>Ant</i>.: neîndoielnic; sigur. <strong>Situaţie echivocă</strong>. <strong>2. </strong><i>subst</i>. <i>n. </i>1) Cuvânt sau expresie cu sens ambiguu. <strong>Actul normativ trebuie să excludă orice echivoc. </strong>2) Lipsă de claritate, de precizie. <i>Sin.:</i> ambiguitate. <strong>De multe ori, echivocurile apar atunci când se vrea o expunere cât mai scurtă, mai ales în anunţuri, oferte, etichete etc.</strong> </p>",
+    "active": 0,
+    "created_at": "2022-07-25 03:09:00"
+  },
+  {
+    "user_id": 6,
+    "dictionary_id": 5,
+    "name": "ECHIVOCITÁTE,",
+    "predefinition": "ECHIVOCITÁTE,",
+    "definition": "<p> <i>subst</i>. <i>f. </i>[G.-D. art.: <strong>echivocității;</strong> &lt; it. <strong>equivocita</strong>.] 1) Caracter echivoc. <strong>Echivocitatea desemnării moștenitorilor.</strong> 2) <i>fig</i>. Vorbă sau frază ambiguă. <strong>Elemente de echivocitate.</strong> </p>",
+    "active": 0,
+    "created_at": "2022-07-25 03:09:00"
+  },
+  {
+    "user_id": 6,
+    "dictionary_id": 5,
+    "name": "ECLAMPSÍE, eclampsíi,",
+    "predefinition": "ECLAMPSÍE, eclampsíi,",
+    "definition": "<p> <i>subst</i>. <i>f.</i> [Sil.: -<strong>clam-; </strong>art.: <strong>eclampsia; </strong>G.-D.: <strong>eclampsiei;</strong> &lt; fr. <strong>éclampsie</strong>.] Sindrom caracterizat prin accese convulsive (leșinuri, dureri de cap etc.), survenite la unele femei înainte sau după naștere. <strong>Se estimează că eclampsia afectează aproximativ 1,4% dintre nașteri. </strong>♦ <strong>Eclampsie puerilă</strong> boală a copiilor, cauzată de funcționarea anormală a glandei tiroide. </p>",
+    "active": 0,
+    "created_at": "2022-07-25 03:09:00"
+  },
+  {
+    "user_id": 6,
+    "dictionary_id": 5,
+    "name": "ECLÁMPTIC, eclámptică, eclámptici, eclámptice,",
+    "predefinition": "ECLÁMPTIC, eclámptică, eclámptici, eclámptice,",
+    "definition": "<p> <i>adj. [Sil.: - </i><strong>clam-;&lt; fr. éclamptique.] </strong><i>med. Cu caracter de eclampsie; de eclampsie.</i> <strong>O convulsie eclamptică, de obicei, nu provoacă leziuni cerebrale cronice.</strong> </p>",
+    "active": 0,
+    "created_at": "2022-07-25 03:09:00"
+  }
+]

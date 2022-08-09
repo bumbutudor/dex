@@ -1,0 +1,533 @@
+[
+  {
+    "user_id": 8,
+    "dictionary_id": 5,
+    "name": "C,",
+    "predefinition": "C,",
+    "definition": "<p> <i>subst. m. invar.</i><strong> </strong>1) A cincea literă a alfabetului limbii române.<strong> A scris litera „c” pe tablă. </strong>2)<strong> </strong>Sunet notat cu această literă.<strong> Pronunţă consoana „c”. </strong>3) Semn grafic pentru această literă.<strong> Scrie un „c” caligrafic. 4</strong>) Cifră romană cu valoarea de „100”. 5) Simbol pentru elementul chimic „carbon”. 6) <i>muz.</i> Notaţie literală pentru sunetul „do”. 6) <i>mat.</i> Simbol pentru mulţimea numerelor complexe. </p>",
+    "active": 0,
+    "created_at": "2022-07-20 15:30:17"
+  },
+  {
+    "user_id": 8,
+    "dictionary_id": 5,
+    "name": "CA1,",
+    "predefinition": "CA1,",
+    "definition": "<p> <i>adv.</i><strong> [&lt; </strong>lat. <strong>guam.</strong>] 1) <i>(exprimă un raport comparativ)</i> Asemănător cu…; la fel cu…; precum (este). <strong>Am o rochie ca a ta.</strong> 2) (<i>exprimă un raport temporal</i>) Aproape; aproximativ. <strong>Azi vremea este ca ieri.</strong> ♦ <strong>Ca mâine, poimâine</strong> în curând. 3) (<i>exprimă un raport relaţional</i>) Cu privire la…; în ce priveşte.<strong> Ca aspect clădirea este frumoasă.</strong> 4) (<i>exprimă un raport de</i><strong> </strong><i>similitudine)</i> <strong>Băiatu-i ca băiatul.</strong> 5) (<i>exprimă un raport dubitativ)</i> <strong>Toate ca toate.</strong> </p>",
+    "active": 0,
+    "created_at": "2022-07-20 15:30:17"
+  },
+  {
+    "user_id": 8,
+    "dictionary_id": 5,
+    "name": "CA2,",
+    "predefinition": "CA2,",
+    "definition": "<p> <i>conj.</i> [&lt; lat. <strong>qu(i)a</strong>.]<strong> </strong>1) (<i>exprimă un raport final</i>) Pentru ca; cu scopul de a. <strong>Pleacă repede ca să nu întârzii.</strong> 2) (<i>exprimă un raport modal</i>) <strong>A vorbi aşa, ca să fie înţeles.</strong> 3)<strong> (</strong><i>exprimă un</i> <i>raport completiv)</i> <strong>Doreşte ca să se reîntoarcă.</strong> 4) (<i>exprimă un raport consecutiv</i>) Încât. <strong>Prea mare e piatra ca să o poţi muta din loc</strong>. 5) (<i>exprimă un raport temporal de posterioritate</i>) Înainte de. <strong>A ajuns acasă înainte ca să înceapă ploaia.</strong> </p>",
+    "active": 0,
+    "created_at": "2022-07-20 15:30:17"
+  },
+  {
+    "user_id": 8,
+    "dictionary_id": 5,
+    "name": "CAB, cáburi,",
+    "predefinition": "CAB, cáburi,",
+    "definition": "<p> subst. n. [&lt; engl. <strong>cab.]</strong> Cabrioletă englezească cu două roţi, în care vizitiul stă pe un scaun înalt, la spate. <strong>De la aeroport am luat un cab galben, simbolul New York-ului.</strong> </p>",
+    "active": 0,
+    "created_at": "2022-07-20 15:30:17"
+  },
+  {
+    "user_id": 8,
+    "dictionary_id": 5,
+    "name": "CABÁLĂ, cabále,",
+    "predefinition": "CABÁLĂ, cabále,",
+    "definition": "<p> <i>subst. f.</i> [&lt; fr. <strong>cabale.]</strong> 1) Doctrină iudaică de interpretare mistică a Bibliei. <strong>Doctrina cabalei poate fi înţeleasă numai de persoane iniţiate.</strong> 2) Acţiune ilegală întreprinsă în taină contra unei persoane oficiale, contra unui stat etc<i>. Sin.:</i> conspiraţie; conjuraţie;<strong> </strong>complot;<strong> </strong>urzeală.<strong> În Grecia o cabală militară a înlăturat regele şi parlamentul de la putere.</strong> 3)<strong> </strong>Totalitatea persoanelor care iau parte la un astfel de complot.<strong> Ca să se răzbune, ea a pus la cale o cabală împotriva lui. </strong> </p>",
+    "active": 0,
+    "created_at": "2022-07-20 15:30:17"
+  },
+  {
+    "user_id": 8,
+    "dictionary_id": 5,
+    "name": "CABALÍN, cabalínă, cabalíni, cabalíne,",
+    "predefinition": "CABALÍN, cabalínă, cabalíni, cabalíne,",
+    "definition": "<p> adj. [&lt; lat. <strong>caballinus.]</strong> Care ţine de cai; propriu cailor. <strong>Rasă cabalină.</strong>  </p>",
+    "active": 0,
+    "created_at": "2022-07-20 15:30:17"
+  },
+  {
+    "user_id": 8,
+    "dictionary_id": 5,
+    "name": "CABALÍNĂ, cabalíne,",
+    "predefinition": "CABALÍNĂ, cabalíne,",
+    "definition": "<p> <i>subst. f.</i> [&lt; lat. <strong>caballinus.] </strong>1) <i>pl.</i> Familie de mamifere de talie mare, domestice (reprezentant: calul). <strong>Creşterea cabalinelor este o ocupaţie profitabilă.</strong> 2) Animal<strong> </strong>din această familie. <strong>Zebra este o cabalină.</strong>  </p>",
+    "active": 0,
+    "created_at": "2022-07-20 15:30:17"
+  },
+  {
+    "user_id": 8,
+    "dictionary_id": 5,
+    "name": "CABALÍSTIC, cabalístică, cabalístici, cabalístice,",
+    "predefinition": "CABALÍSTIC, cabalístică, cabalístici, cabalístice,",
+    "definition": "<p> <i>adj.</i> [&lt; fr. <strong>cabalistique.</strong>] 1) Care ţine de cabală; propriu cabalei. <strong>Interpretare cabalistică</strong>. 2) Care are în sine o taină greu de priceput. <i>Sin.:</i> misterios; enigmatic; mistic; tainic; sibilic. <strong>Formulă cabalistică.</strong> </p>",
+    "active": 0,
+    "created_at": "2022-07-20 15:30:17"
+  },
+  {
+    "user_id": 8,
+    "dictionary_id": 5,
+    "name": "CABÁNĂ, cabáne,",
+    "predefinition": "CABÁNĂ, cabáne,",
+    "definition": "<p> <i>subst. f.</i> [&lt; fr. <strong>cabanne.</strong>] Casă construită (la munte) pentru adăpostirea turiştilor şi a vânătorilor. <strong>Cabana se afla în munţii Carpaţi./</strong><i>Par.:</i> cabină. </p>",
+    "active": 0,
+    "created_at": "2022-07-20 15:30:17"
+  },
+  {
+    "user_id": 8,
+    "dictionary_id": 5,
+    "name": "CABANIÉR, cabaniéră, cabaniéri, cabaniére,",
+    "predefinition": "CABANIÉR, cabaniéră, cabaniéri, cabaniére,",
+    "definition": "<p> <i>subst. m</i>. şi <i>f.</i> [Sil.: -<strong>ni-er;</strong> &lt; fr. <strong>cabanier</strong>.] Persoană care păzeşte sau administrează o cabană. <strong>Cabanierul ne cunoştea bine şi era bucuros de venirea noastră.</strong> / <i>Par.:</i> cabinier. </p>",
+    "active": 0,
+    "created_at": "2022-07-20 15:30:17"
+  },
+  {
+    "user_id": 8,
+    "dictionary_id": 5,
+    "name": "CABÁNIŢĂ, cabániţe,",
+    "predefinition": "CABÁNIŢĂ, cabániţe,",
+    "definition": "<p> <i>subst. f.</i> [&lt; tc. <strong>kabaniça.</strong>] <i>înv.</i> Manta luxoasă, bogat împodobită, pe care o purtau în trecut domnitorii şi boierii la solemnităţi. <i>Sin.:</i> caftan. <strong>Domnul era îmbrăcat cu o cabaniţă turcească.</strong> </p>",
+    "active": 0,
+    "created_at": "2022-07-20 15:30:17"
+  },
+  {
+    "user_id": 8,
+    "dictionary_id": 5,
+    "name": "CABANÓS, cabanóşi,",
+    "predefinition": "CABANÓS, cabanóşi,",
+    "definition": "<p> <i>subst. m.</i> [&lt; pol<strong>. kabano</strong>s.] Cârnăcior subţire, uscat, semiafumat, preparat din carne de vită şi de porc. <strong>Bunicul meu era un specialist neîntrecut în fabricarea cabanoşilor.</strong> </p>",
+    "active": 0,
+    "created_at": "2022-07-20 15:30:17"
+  },
+  {
+    "user_id": 8,
+    "dictionary_id": 5,
+    "name": "CABARÉT, cabaréte,",
+    "predefinition": "CABARÉT, cabaréte,",
+    "definition": "<p> <i>subst. n.</i> [&lt; fr. <strong>cabaret</strong>.] Local de petrecere, cu băuturi alcoolice, cu<strong> dans</strong> şi cu program de varietăţi. <strong>Nepoata ei devenise stea de cabaret.</strong> </p>",
+    "active": 0,
+    "created_at": "2022-07-20 15:30:17"
+  },
+  {
+    "user_id": 8,
+    "dictionary_id": 5,
+    "name": "CABARETIÉR, cabaretiéră, cabaretiéri, cabaretiére,",
+    "predefinition": "CABARETIÉR, cabaretiéră, cabaretiéri, cabaretiére,",
+    "definition": "<p> <i>subst. m.</i> şi <i>f.</i> [Sil<strong>.: -ti-er;</strong> &lt; fr. <strong>cabaretier</strong>.] Persoană care are în proprietate un cabaret.<strong> Cabaretierul a remediat scandalul iscat în local.</strong> </p>",
+    "active": 0,
+    "created_at": "2022-07-20 15:30:17"
+  },
+  {
+    "user_id": 8,
+    "dictionary_id": 5,
+    "name": "CABERNET,",
+    "predefinition": "CABERNET,",
+    "definition": "<p> <i>subst.</i> [Pr.: <strong>caberné;</strong> &lt; fr<strong>. cabernet.</strong>] <strong>1</strong>. <i>subst. n.</i> Soi de viţă-de-vie cu struguri<strong> </strong>mici, de culoare neagră-albăstruie, cultivată pentru producerea vinurilor roşii, de calitate superioară.<strong> Podgoria a fost plantată cu cabernet şi pino. 2. cabernet-uri,</strong> <i>subst. n.</i> Varietate<strong> </strong>de vin produs din acest soi de viţă.<strong> Ea avea un cabernet rămas încă de la Paşte.</strong> </p>",
+    "active": 0,
+    "created_at": "2022-07-20 15:30:17"
+  },
+  {
+    "user_id": 8,
+    "dictionary_id": 5,
+    "name": "CABESTÁN, cabestáne,",
+    "predefinition": "CABESTÁN, cabestáne,",
+    "definition": "<p> <i>subst. n.</i> [&lt; fr. <strong>cabestan</strong>.] Troliu cu axa de rotaţie verticală, pe care se înfăşoară cablul de tracţiune, utilizat la deplasarea sarcinilor şi a vehiculelor pe distanţe relativ scurte. <strong>Toate corăbiile au câte un cabestan.</strong> </p>",
+    "active": 0,
+    "created_at": "2022-07-20 15:30:17"
+  },
+  {
+    "user_id": 8,
+    "dictionary_id": 5,
+    "name": "CABÍNĂ, cabíne,",
+    "predefinition": "CABÍNĂ, cabíne,",
+    "definition": "<p> <i>subst. f.</i> [&lt; fr.<strong> cabine</strong>.]<strong> </strong>1) Încăpere mică într-o clădire sau într-un vehicul<strong> cu </strong>diferite destinaţii.<strong> Cabină telefonică. Cabină de protecţie. </strong>2):<strong> Cabină spaţială (</strong><i>sau</i> <strong>cosmică) </strong>compartiment al unei nave cosmice în care stau astronauţii în timpul zborului în spaţiul interplanetar. / <i>Par.:</i> cabană. </p>",
+    "active": 0,
+    "created_at": "2022-07-20 15:30:17"
+  },
+  {
+    "user_id": 8,
+    "dictionary_id": 5,
+    "name": "CABINÉT, cabinéte,",
+    "predefinition": "CABINÉT, cabinéte,",
+    "definition": "<p> <i>subst. n<strong>.</strong></i> [&lt; fr. <strong>cabinet</strong>.] 1) Încăpere destinată exercitării unei profesiuni sau unei munci intelectuale legate de o anumită profesiune. <i>Sin.:</i> birou. <strong>Cabinet medical.</strong> 2) Încăpere a unei persoane cu funcţie de răspundere<i>. Sin.:</i> birou. <strong>Cabinetul directorului</strong>. 3) Consiliu de Miniştri. <i>Sin.:</i> guvern. <strong>Face parte din cabinet.</strong> </p>",
+    "active": 0,
+    "created_at": "2022-07-20 15:30:17"
+  },
+  {
+    "user_id": 8,
+    "dictionary_id": 5,
+    "name": "CABINIÉR, cabiniéră, cabiniéri, cabiniére,",
+    "predefinition": "CABINIÉR, cabiniéră, cabiniéri, cabiniére,",
+    "definition": "<p> <i>subst. m.</i> şi <i>f.</i> [Sil.: -<strong>ni-er; &lt; </strong>fr. <strong>cabinier</strong>.] Persoană care are în grijă o cabină la teatru, la operă etc. <strong>Cabinierul făcea curățenie în cabine. /</strong> <i>Par.:</i> cabanier. </p>",
+    "active": 0,
+    "created_at": "2022-07-20 15:30:17"
+  },
+  {
+    "user_id": 8,
+    "dictionary_id": 5,
+    "name": "A CABLÁ, cabléz,",
+    "predefinition": "CABLÁ, cabléz,",
+    "definition": "<p> <i>vb. tranz.</i> [Sil.: <strong>ca-bla;&lt; fr. câbler;</strong> engl<strong>. cable.</strong>] 1) (<i>locuinţe, instituţii</i> etc.) A prevedea cu cabluri de telecomunicaţii. <strong>Pentru a instala posturi de telefoane, blocurile noi urmează să fie cablate.</strong> 2) (<i>cablu</i>) A confecţiona prin răsucirea sau împletirea firelor în mănunchiuri şi unirea mănunchiurilor între ele. <strong>Înainte de a fi cablate, firele de metal sunt supuse unei operaţii speciale.</strong> / <i>Par.:</i> a cabra. </p>",
+    "active": 0,
+    "created_at": "2022-07-20 15:30:17"
+  },
+  {
+    "user_id": 8,
+    "dictionary_id": 5,
+    "name": "CABLÁJ, cabláje,",
+    "predefinition": "CABLÁJ, cabláje,",
+    "definition": "<p> <i>subst. n.</i> [Sil.: <strong>ca-blaj;&lt; </strong>fr. <strong>câblage</strong>.] 1) Mod de răsucire sau împletire a firelor pentru a forma un cablu. <strong>Cablajul se realizează într-o secţie specială. </strong>2) Totalitate a cablurilor şi a firelor izolate care formează conexiunile unei instalaţii sau ale unui aparat de telecomunicaţii. <strong>Cablaj imprimat.</strong> </p>",
+    "active": 0,
+    "created_at": "2022-07-20 15:30:17"
+  },
+  {
+    "user_id": 8,
+    "dictionary_id": 5,
+    "name": "CABLÁRE, cablắri,",
+    "predefinition": "CABLÁRE, cablắri,",
+    "definition": "<p> <i>subst. f.</i> [Din<strong> a cabla.] </strong>Acţiunea de a cabla şi rezultatul ei. </p>",
+    "active": 0,
+    "created_at": "2022-07-20 15:30:17"
+  },
+  {
+    "user_id": 8,
+    "dictionary_id": 5,
+    "name": "CABLÁT, cablátă, cabláţi, cabláte,",
+    "predefinition": "CABLÁT, cablátă, cabláţi, cabláte,",
+    "definition": "<p> <i>adj.</i> [Din a<strong> cabla.</strong>] <i>v.</i> <strong>A CABLA.</strong> </p>",
+    "active": 0,
+    "created_at": "2022-07-20 15:30:17"
+  },
+  {
+    "user_id": 8,
+    "dictionary_id": 5,
+    "name": "CABLIÉR, cabliére,",
+    "predefinition": "CABLIÉR, cabliére,",
+    "definition": "<p> <i>subst. n.</i> [Sil<strong>.: ca-bli-er;</strong> <strong>&lt; </strong>fr. <strong>câblier</strong>.] Navă adaptată pentru<strong> transportul </strong>şi montarea cablurilor submarine.<strong> Cablierul a ancorat în rada portului.</strong>  </p>",
+    "active": 0,
+    "created_at": "2022-07-20 15:30:17"
+  },
+  {
+    "user_id": 8,
+    "dictionary_id": 5,
+    "name": "CABLÍST, cablíşti,",
+    "predefinition": "CABLÍST, cablíşti,",
+    "definition": "<p> <i>subst. m.</i> [<strong>Sil.: ca-blist; </strong>&lt;<strong> cablu</strong> + suf<strong>. -ist</strong>.] Persoană angajată la o firmă de furnizare a serviciilor de telecomunicaţii prin cablu, care se ocupă de executarea unor lucrări de extindere a reţelei existente, precum şi de întreţinere a acesteia. <i>Sin.:</i> cablor. <strong>Un cablist priceput deserveşte câteva instalaţii. </strong> </p>",
+    "active": 0,
+    "created_at": "2022-07-20 15:30:17"
+  },
+  {
+    "user_id": 8,
+    "dictionary_id": 5,
+    "name": "CABLÓR, cablóri,",
+    "predefinition": "CABLÓR, cablóri,",
+    "definition": "<p> <i>subst. m.</i> [Sil<strong>.: ca-blor;</strong> <strong>&lt; </strong>fr. <strong>câbleur.</strong>] Persoană angajată la o firmă de furnizare a serviciilor de telecomunicaţii prin cablu, care se ocupă de executarea unor lucrări de<i> </i>extindere a reţelei existente, precum şi de întreţinere a acesteia. <i>Sin.:</i> cablist<strong>. Un cablor priceput deserveşte câteva instalaţii. </strong> </p>",
+    "active": 0,
+    "created_at": "2022-07-20 15:30:17"
+  },
+  {
+    "user_id": 8,
+    "dictionary_id": 5,
+    "name": "CÁBLU, cábluri,",
+    "predefinition": "CÁBLU, cábluri,",
+    "definition": "<p> <i>subst. n.</i> [Sil.: <strong>ca-blu;</strong> &lt; fr. <strong>câble</strong>.] 1) Frânghie groasă din fire metalice sau vegetale răsucite şi folosită la tracţiune sau la ridicat greutăţi. <strong>Cablu de remorcare.</strong> 2) Conductă electrică formată din mai multe fire izolate, folosită pentru transmiterea energiei electrice, a semnalelor de telecomunicaţiii, de internet etc. <i>Sin.:</i> fir. <strong>Cablu de tensiune înaltă. Cablu de telecomunicaţii. ♦ Operator de cablu</strong> operator care oferă servicii de televiziune, telefonie, internet etc. accesibile prin reţeaua de cablu. <strong>Televiziune prin cablu</strong> procedeu de difuzare a programelor de televiziune către abonaţi, al căror aparat este racordat prin cablu coaxial sau prin fibre optice la staţia emiţătoare. </p>",
+    "active": 0,
+    "created_at": "2022-07-20 15:30:17"
+  },
+  {
+    "user_id": 8,
+    "dictionary_id": 5,
+    "name": "CABOTÁJ, cabotáje,",
+    "predefinition": "CABOTÁJ, cabotáje,",
+    "definition": "<p> <i>subst. n.</i> [&lt; fr. <strong>cabotage.] </strong>Navigaţie, fluvială sau aeriană, de-a lungul coastei, între localităţi apropiate.<strong> Cabotajul este privilegiul călătoriei de-a lungul ţărmurilor riveranilor.</strong> </p>",
+    "active": 0,
+    "created_at": "2022-07-20 15:30:17"
+  },
+  {
+    "user_id": 8,
+    "dictionary_id": 5,
+    "name": "CABOTIÉR, cabotiére,",
+    "predefinition": "CABOTIÉR, cabotiére,",
+    "definition": "<p> <i>subst. n.</i> [<i>Sil.:</i> <strong>-ti-er;&lt; </strong>fr<strong>. cabotier.</strong>] Navă de tonaj mic sau mijlociu, care navighează între porturile de pe coastă. <strong>Am ajuns pe insulă cu un cabotier.</strong> </p>",
+    "active": 0,
+    "created_at": "2022-07-20 15:30:17"
+  },
+  {
+    "user_id": 8,
+    "dictionary_id": 5,
+    "name": "CABOTÍN, cabotínă, cabotíni, cabotíne,",
+    "predefinition": "CABOTÍN, cabotínă, cabotíni, cabotíne,",
+    "definition": "<p> <i>adj., subst.</i> [&lt; fr. c<strong>abotin</strong>.] <strong>1.</strong> <i>adj., subst. m.</i> și <i>f.</i> (Persoană) care încearcă să se remarce printr-o comportare teatrală cu mijloace de prost gust. <strong>2</strong>. <i>subst. m.</i> şi <i>f.</i> 1)<strong> </strong>Actor lipsit de talent<strong>. Era un cabotin care savura ridicolul unor personaje în care se regăsea.</strong> 2)<strong> </strong>Persoană nesinceră care urmăreşte succese uşoare.<strong> Acest om orgolios pare să fie un cabotin.</strong> </p>",
+    "active": 0,
+    "created_at": "2022-07-20 15:30:17"
+  },
+  {
+    "user_id": 8,
+    "dictionary_id": 5,
+    "name": "CABOTINÉSC, cabotineáscă, cabotinéşti,",
+    "predefinition": "CABOTINÉSC, cabotineáscă, cabotinéşti,",
+    "definition": "<p> <i>adj.</i> [&lt; <strong>cabotin </strong>+ suf.<strong> -esc</strong>.] Care ţine de cabotin;<strong> </strong>propriu cabotinului.<strong> Jocul cabotinesc îl pot face doar persoanele fără cultură.</strong> </p>",
+    "active": 0,
+    "created_at": "2022-07-20 15:30:17"
+  },
+  {
+    "user_id": 8,
+    "dictionary_id": 5,
+    "name": "A CABRÁ, cabreáză,",
+    "predefinition": "CABRÁ, cabreáză,",
+    "definition": "<p> <i>vb. intranz.</i> [Sil.: <strong>ca-bra;</strong> &lt; fr. <strong>cabrer.</strong>] 1) (<i>despre unele patrupede</i>) A se ridica pe<strong> </strong>picioarele de dinapoi.<strong> Calul mai întâi a cabrat, apoi a pornit într-o goană nebună. </strong>2) (<i>despre<strong> </strong>avioane)</i> A se ridica brusc cu botul în sus.<strong> </strong>/ <i>Par.:</i> a cabla. </p>",
+    "active": 0,
+    "created_at": "2022-07-20 15:30:17"
+  },
+  {
+    "user_id": 8,
+    "dictionary_id": 5,
+    "name": "CABRÁJ, cabráje,",
+    "predefinition": "CABRÁJ, cabráje,",
+    "definition": "<p> <i>subst. n.</i> [Sil.: <strong>ca-braj;&lt; </strong>fr.<strong> cabrage</strong>.] 1) Ridicare a unui cal pe picioarele<strong> </strong>dinapoi.<strong> În cabraj, calul avea o alură împărătească.</strong> <strong>2) </strong>Evoluţie a unui avion care îşi<strong> </strong>măreşte brusc panta de urcare.<strong> Era un pilot experimentat şi executa cabraje spectaculoase.</strong> 3)<strong> </strong>Evoluţie a unui autovehicul când demarează brusc.<strong> Cabrajul tractorului.</strong> </p>",
+    "active": 0,
+    "created_at": "2022-07-20 15:30:17"
+  },
+  {
+    "user_id": 8,
+    "dictionary_id": 5,
+    "name": "CABRÁRE, cabrắri,",
+    "predefinition": "CABRÁRE, cabrắri,",
+    "definition": "<p> <i>subst. f.</i> [Sil.: <strong>ca-bra-; </strong>din <strong>a cabra</strong>.] Acţiunea de a cabra şi rezultatul ei. </p>",
+    "active": 0,
+    "created_at": "2022-07-20 15:30:17"
+  },
+  {
+    "user_id": 8,
+    "dictionary_id": 5,
+    "name": "CABRIÓLĂ, cabrióle,",
+    "predefinition": "CABRIÓLĂ, cabrióle,",
+    "definition": "<p> <i>subst. f.</i> [ Sil<strong>.: ca-bri-o-;</strong> <strong>&lt; </strong>fr. <strong>cabriole.</strong>] Salt al calului cu o întoarcere<strong> </strong>pe loc.<strong> Cabriolă este un termen de echitaţie.</strong> </p>",
+    "active": 0,
+    "created_at": "2022-07-20 15:30:17"
+  },
+  {
+    "user_id": 8,
+    "dictionary_id": 5,
+    "name": "CABRIOLÉT, cabrioléte,",
+    "predefinition": "CABRIOLÉT, cabrioléte,",
+    "definition": "<p> <i>subst. n.</i> [Sil.: <strong>ca-bri-o-;</strong> &lt; fr. <strong>cabriolet.</strong>]<strong> </strong>Automobil care are<strong> </strong>capota rabatabilă. <strong>Şi-a mai cumpărat o maşină, un cabriolet de data aceasta. / </strong><i>Par.:</i> cabrioletă. </p>",
+    "active": 0,
+    "created_at": "2022-07-20 15:30:17"
+  },
+  {
+    "user_id": 8,
+    "dictionary_id": 5,
+    "name": "CABRIOLÉTĂ, cabrioléte,",
+    "predefinition": "CABRIOLÉTĂ, cabrioléte,",
+    "definition": "<p> <i>subst. f.</i> [Sil. <strong>ca-bri-o-;&lt;</strong> fr<strong>. cabriolet.</strong>] Trăsură mică şi uşoară, cu două roţi, trasă, de obicei, de un singur cal. <i>Sin.:</i> şaretă; faeton; brişcă. <strong>În curte stătea o </strong>cabrioletă cu un cal negru. / <i>Par.:</i> cabriolet. </p>",
+    "active": 0,
+    "created_at": "2022-07-20 15:30:17"
+  },
+  {
+    "user_id": 8,
+    "dictionary_id": 5,
+    "name": "CACADÚ,",
+    "predefinition": "CACADÚ,",
+    "definition": "<p> <i>subst. m.</i> [&lt; germ<strong>. Kakadiu</strong>.] Papagal care trăieşte, în special, în Australia, are penaj alb cu pete roşii, ciocul mare cu care sparge nuci şi are pe cap un moţ de pene viu colorate<strong>. Unii cacadu trăiesc peste 50 de ani.</strong> </p>",
+    "active": 0,
+    "created_at": "2022-07-20 15:30:17"
+  },
+  {
+    "user_id": 8,
+    "dictionary_id": 5,
+    "name": "CACÁO,",
+    "predefinition": "CACÁO,",
+    "definition": "<p> <i>subst. f.</i> [Art.: <strong>cacaua; &lt;</strong> fr<strong>.cacao</strong>.] 1) Sămânţă extrasă din fructele cacaotierului<strong>.</strong> <strong>Boabele de cacao se usucă, se presează şi se transformă în pudră.</strong> 2) Produs alimentar sub formă de praf, obţinut din seminţele cacaotierului, folosit, mai ales, în alimentaţie. 3) Băutură preparată din acest praf. <strong>Un pahar de cacao.</strong> </p>",
+    "active": 0,
+    "created_at": "2022-07-20 15:30:17"
+  },
+  {
+    "user_id": 8,
+    "dictionary_id": 5,
+    "name": "CACAOTIÉR, cacaotiéri,",
+    "predefinition": "CACAOTIÉR, cacaotiéri,",
+    "definition": "<p> <i>subst. m.</i> [Sil.: -<strong>ti-er;</strong> &lt; fr. <strong>cacaotier.</strong>] Arbore tropical ale cărui fructe conţin seminţe folosite în alimentaţie. <strong>Plantaţie de cacaotieri.</strong> </p>",
+    "active": 0,
+    "created_at": "2022-07-20 15:30:17"
+  },
+  {
+    "user_id": 8,
+    "dictionary_id": 5,
+    "name": "CACOFÓNIC, cacofónică, cacofónici, cacofónice,",
+    "predefinition": "CACOFÓNIC, cacofónică, cacofónici, cacofónice,",
+    "definition": "<p> <i>adj.</i> [&lt; fr.<strong> cacophonique</strong>.] Care ţine de cacofonie; propriu cacofoniei. <i>Ant.:</i> eufonic. <strong>Amalgam de cuvinte cacofonice.</strong> </p>",
+    "active": 0,
+    "created_at": "2022-07-20 15:30:17"
+  },
+  {
+    "user_id": 8,
+    "dictionary_id": 5,
+    "name": "CACOFONÍE, cacofoníi,",
+    "predefinition": "CACOFONÍE, cacofoníi,",
+    "definition": "<p> <i>subst. f.</i> [Art.: <strong>cacofonia;</strong> G.-D. : <strong>cacofoniei</strong>; &lt; fr. <strong>cacophonie.</strong>] 1) Asociaţie de sunete, de silabe neplăcute la auz. <i>Ant.:</i> eufonie. <strong>Cacofonia este un fenomen neagreat şi dezaprobat.</strong> 2) <i>muz.</i> Lipsă de armonie; sunete discordante. <strong>Arcuşul se mişca haotic pe coardele care vibrau într-o cacofonie de sunete.</strong> </p>",
+    "active": 0,
+    "created_at": "2022-07-20 15:30:17"
+  },
+  {
+    "user_id": 8,
+    "dictionary_id": 5,
+    "name": "CACOGRAFÍE, cacografíi,",
+    "predefinition": "CACOGRAFÍE, cacografíi,",
+    "definition": "<p> <i>subst. f.</i> [Sil<strong>.: -co-gra-;</strong> art.: <strong>cacografia;</strong> G.-D.: <strong>cacografiei;</strong> &lt; fr. <strong>cacographie.</strong>] Scriere incorectă, neconformă cu regulile ortografice. <strong>Cacografiile ziariştilor noştri sunt determinate de cunoaşterea aproximativă a limbii.</strong> </p>",
+    "active": 0,
+    "created_at": "2022-07-20 15:30:17"
+  },
+  {
+    "user_id": 8,
+    "dictionary_id": 5,
+    "name": "CACOLOGÍE, cacologíi,",
+    "predefinition": "CACOLOGÍE, cacologíi,",
+    "definition": "<p> <i>subst. f</i>. [Art.: <strong>cacologia;</strong> G.-D.: <strong>cacologiei;</strong> &lt; fr. <strong>cacologie.</strong>] Construcţie gramaticală greşită. <strong>Din neatenţie a comis o cacologie regretabilă.</strong> </p>",
+    "active": 0,
+    "created_at": "2022-07-20 15:30:17"
+  },
+  {
+    "user_id": 8,
+    "dictionary_id": 5,
+    "name": "CACTACÉE, cactacée,",
+    "predefinition": "CACTACÉE, cactacée,",
+    "definition": "<p> <i>subst. f.</i> [Art.: <strong>cactaceea;</strong> G.-D.: <strong>cactaceei;</strong> &lt; fr.<strong> cactacées</strong>.] 1) <i>la pl.</i> Familie de plante exotice adaptate la condiţiile de creştere în deşerturi şi semideşerturi, cu tulpinile cărnoase, pline cu apă, cu frunzele reduse sub formă de spini (reprezentanţi: cactusul, limba-soacrei etc.). <strong>Cactaceele sunt originare din regiunile calde ale Americii.</strong> 2) Plantă din această familie. <strong>Cactusul-butoiaş este o cactacee.</strong> </p>",
+    "active": 0,
+    "created_at": "2022-07-20 15:30:17"
+  },
+  {
+    "user_id": 8,
+    "dictionary_id": 5,
+    "name": "CÁCTUS, cáctuşi,",
+    "predefinition": "CÁCTUS, cáctuşi,",
+    "definition": "<p> <i>subst. m.</i> [&lt; fr. <strong>cactus</strong>.] Plantă perenă suculentă, adaptată la secetă, cu tulpină cărnoasă, plină de spini, fără frunze, cu flori solitare, mari de diferite culori, care se cultivă la noi ca plantă ornamentală. <strong>Unele specii de cactuşi sunt comestibile.</strong> </p>",
+    "active": 0,
+    "created_at": "2022-07-20 15:30:17"
+  },
+  {
+    "user_id": 8,
+    "dictionary_id": 5,
+    "name": "A CADASTRÁ, cadastréz,",
+    "predefinition": "CADASTRÁ, cadastréz,",
+    "definition": "<p> <i>vb. tranz.</i> [&lt; fr. <strong>cadastrer</strong>.] ( <i>proprietăţi imobiliare)</i> A înscrie într-un cadastru (determinând din punct de vedere cantitativ). <strong>A cadastra proprietatea funciară.</strong> </p>",
+    "active": 0,
+    "created_at": "2022-07-20 15:30:17"
+  },
+  {
+    "user_id": 8,
+    "dictionary_id": 5,
+    "name": "CADASTRÁL, cadastrálă, cadastráli, cadastrále,",
+    "predefinition": "CADASTRÁL, cadastrálă, cadastráli, cadastrále,",
+    "definition": "<p> <i>adj.</i> [&lt; fr. <strong>cadastral</strong>.] Care ţine de cadastru; propriu cadastrului. <strong>Lucrări cadastrale.</strong> ♦ <strong>Registru Cadastral</strong> registru în care sunt înregistrate datele de identificare a tuturor bunurilor imobiliare situate pe un teritoriu. </p>",
+    "active": 0,
+    "created_at": "2022-07-20 15:30:17"
+  },
+  {
+    "user_id": 8,
+    "dictionary_id": 5,
+    "name": "CADASTRÁRE, cadastrắri,",
+    "predefinition": "CADASTRÁRE, cadastrắri,",
+    "definition": "<p> <i>subst. f.</i> [Din <strong>a cadastra.]</strong> Acţiunea de a cadastra şi rezultatul ei. </p>",
+    "active": 0,
+    "created_at": "2022-07-20 15:30:17"
+  },
+  {
+    "user_id": 8,
+    "dictionary_id": 5,
+    "name": "CADÁSTRU,",
+    "predefinition": "CADÁSTRU,",
+    "definition": "<p> <i>subst.</i> [&lt; fr. <strong>cadastre</strong>.] <strong>1.</strong> <i>subst. n.</i> 1) Disciplină a geodeziei care se ocupă cu determinarea elementelor economice şi juridice privind o proprietate funciară.<strong> La facultate a studiat şi cursul de cadastru.</strong> 2) Totalitate a lucrărilor tehnice pentru stabilirea şi reprezentarea grafică a suprafeţelor funciare. <strong>Cadastru rural.</strong> 3) Serviciu care efectuează aceste lucrări.<strong> O vreme a activat în sistemul de cadastru al oraşului.</strong> <strong>2. cadastre,</strong> <i>subst. n.</i> Registru în care sunt incluse datele de identificare a proprietăţilor funciare pe un anumit teritoriu.<strong> Pentru a lichida o întreprindere trebuie să te înscrii, mai întâi, în cadastru.</strong> </p>",
+    "active": 0,
+    "created_at": "2022-07-20 15:30:17"
+  },
+  {
+    "user_id": 8,
+    "dictionary_id": 5,
+    "name": "CADAVÉRIC, cadavérică, cadavérici, cadavérice,",
+    "predefinition": "CADAVÉRIC, cadavérică, cadavérici, cadavérice,",
+    "definition": "<p> <i>adj.</i> [&lt; fr. <strong>cadavérique.</strong>] 1) Care ţine de cadavru; propriu cadavrului. <strong>Toxină cadaverică.</strong> 2) Care are aspect de cadavru; asemănător unui cadavru. <strong>Paliditate cadaverică.</strong> </p>",
+    "active": 0,
+    "created_at": "2022-07-20 15:30:17"
+  },
+  {
+    "user_id": 8,
+    "dictionary_id": 5,
+    "name": "CADÁVRU, cadávre,",
+    "predefinition": "CADÁVRU, cadávre,",
+    "definition": "<p> <i>subst. n</i>. [Sil.: <strong>-da-vru;</strong> &lt; fr. <strong>cadavre.</strong>] Corpul unui om sau al unui animal mort; trup neînsufleţit. <strong>A fost găsit cadavrul unui om.</strong> ♦ <strong>A trece peste cadavre</strong> a nu ţine seama de nimic pentru a-şi atinge scopul. <strong>Cadavru viu</strong> om foarte slab şi palid, lipsit de vlagă. </p>",
+    "active": 0,
+    "created_at": "2022-07-20 15:30:17"
+  },
+  {
+    "user_id": 8,
+    "dictionary_id": 5,
+    "name": "CÁDĂ, căzi,",
+    "predefinition": "CÁDĂ, căzi,",
+    "definition": "<p> <i>subst. f</i>. [&lt; sl. <strong>kadĭ.</strong>] 1) Vas mare în care se face baie. <i>Sin.:</i> baie; vană; feredeu; scăldătoare. <strong>Mama îşi spală copilul în cadă.</strong> 2) Vas mare din doage, în care se prelucrează strugurii. <strong>Cada era plină cu struguri zdrobiţi.</strong> 3) Recipient mare în care se păstrează temporar lichidele necesare unor operaţii tehnologice. <strong>Cadă de vopsit.</strong> </p>",
+    "active": 0,
+    "created_at": "2022-07-20 15:30:17"
+  },
+  {
+    "user_id": 8,
+    "dictionary_id": 5,
+    "name": "CADẤNĂ, cadầne,",
+    "predefinition": "CADẤNĂ, cadầne,",
+    "definition": "<p> <i>subst. f.</i> [&lt; tc.<strong> kadin</strong>.] Sclavă din haremurile turceşti. <i>Sin.:</i> odaliscă.<strong> Era a doua cadână în ierarhia haremului. </strong>♦ <strong>A sta ca o cadână</strong> a sta fără nicio treabă. </p>",
+    "active": 0,
+    "created_at": "2022-07-20 15:30:17"
+  },
+  {
+    "user_id": 8,
+    "dictionary_id": 5,
+    "name": "A CADENȚÁ, cadenţéz,",
+    "predefinition": "CADENȚÁ, cadenţéz,",
+    "definition": "<p> <i>vb. tranz.</i> [&lt; fr. <strong>cadencer.</strong>] 1) (<i>fraze, versuri, bucăţi muzicale</i>) A reliefa prin elemente de cadenţă. <i>Sin</i>.: a ritma. <strong>Poetul îşi cadenţează versul în conformitate cu trăirile sale. </strong>2) (<i>mişcările)</i> A pune în acord cu o cadenţă. <strong>Soldaţii cadenţează paşii la comandă.</strong> </p>",
+    "active": 0,
+    "created_at": "2022-07-20 15:30:17"
+  },
+  {
+    "user_id": 8,
+    "dictionary_id": 5,
+    "name": "CADENŢÁRE, cadenţắri,",
+    "predefinition": "CADENŢÁRE, cadenţắri,",
+    "definition": "<p> <i>subst. f.</i> [Din <strong>a cadenţa</strong>.] Acţiunea de a cadenţa şi rezultatul ei. </p>",
+    "active": 0,
+    "created_at": "2022-07-20 15:30:17"
+  },
+  {
+    "user_id": 8,
+    "dictionary_id": 5,
+    "name": "CADENȚÁT, cadenţátă, cadenţáţi, cadenţáte,",
+    "predefinition": "CADENȚÁT, cadenţátă, cadenţáţi, cadenţáte,",
+    "definition": "<p> <i>adj.</i> [Din <strong>a cadenţa</strong><i><strong>.</strong></i>]<i> v.</i> <strong>A CADENȚA.</strong> </p>",
+    "active": 0,
+    "created_at": "2022-07-20 15:30:17"
+  },
+  {
+    "user_id": 8,
+    "dictionary_id": 5,
+    "name": "CADÉNŢĂ, cadénţe,",
+    "predefinition": "CADÉNŢĂ, cadénţe,",
+    "definition": "<p> <i>subst. f.</i> [&lt; fr. <strong>cadence;</strong> it. <strong>cadenza.</strong>] 1) Repetare regulată a unei mişcări. <strong>Cadenţa stropilor de ploaie.</strong> ♦ <strong>A ţine cadenţa</strong> a păstra ritmul în timpul mersului într-o coloană. 2) Potrivire armonioasă a sunetelor în versuri sau în opere muzicale. <i>Sin</i>.: ritm; tact; tempo. <strong>Cadenţa unei melodii.</strong> </p>",
+    "active": 0,
+    "created_at": "2022-07-20 15:30:17"
+  },
+  {
+    "user_id": 8,
+    "dictionary_id": 5,
+    "name": "CADÉT, cadéţi,",
+    "predefinition": "CADÉT, cadéţi,",
+    "definition": "<p> <i>subst. m.</i> [&lt; fr. <strong>cadét; </strong>rus. <strong>kadet</strong>.] 1) <i>înv. </i>(<i>în Rusia sau Germania</i>) Tânăr nobil care învaţă la o şcoală de ofiţeri. <i>Sin.:</i> iuncher. <strong>Corp de cadeţi</strong>. 2) Ambarcaţiune de sport cu vele. <strong>Tocmai se pornise un vânt călduţ şi cadetul se mişca ca o suflare magică.</strong> </p>",
+    "active": 0,
+    "created_at": "2022-07-20 15:30:17"
+  }
+]

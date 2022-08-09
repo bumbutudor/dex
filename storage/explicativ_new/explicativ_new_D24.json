@@ -1,0 +1,1298 @@
+[
+  {
+    "user_id": 9,
+    "dictionary_id": 5,
+    "name": "DAC, dácă, daci, dáce,",
+    "predefinition": "DAC, dácă, daci, dáce,",
+    "definition": "<p> <i>adj</i>., <i>subst</i>. [&lt; lat. <strong>dacus.] 1.</strong> <i>adj</i>. Care se referă la Dacia sau la populaţia ei; privitor la Dacia sau la populaţia ei. <i>Sin</i>.: dacic. <strong>Obiecte străvechi dace. 2.</strong> <i>subst</i>. <i>m</i>. şi <i>f</i>. Persoană care făcea parte din populaţia de bază a Daciei.<strong> Dacii erau viteji.</strong> </p>",
+    "active": 0,
+    "created_at": "2022-08-03 15:13:11"
+  },
+  {
+    "user_id": 9,
+    "dictionary_id": 5,
+    "name": "DÁCĂ,",
+    "predefinition": "DÁCĂ,",
+    "definition": "<p> <i>conj</i>. [&lt; <strong>de</strong>4 + <strong>că</strong>.] (<i>introduce</i> <i>propoziţii</i> <i>subordonate</i>.) C<strong>iteşte dacă vrei</strong>; <strong>dacă nu ştii, întreabă</strong>.<strong> </strong> </p>",
+    "active": 0,
+    "created_at": "2022-08-03 15:13:11"
+  },
+  {
+    "user_id": 9,
+    "dictionary_id": 5,
+    "name": "DACIÁDĂ, daciáde",
+    "predefinition": "DACIÁDĂ, daciáde",
+    "definition": "<p> <i>subst</i>. <i>f</i>. [Sil.: <strong>-ci-a-, </strong>G.-D.:<strong> daciadei;</strong> &lt; <strong>dac</strong> + suf. <strong>-iadă</strong>.] Competiţie sportivă românească, cu caracter de masă organizată din doi în doi ani, înainte de 1989. </p>",
+    "active": 0,
+    "created_at": "2022-08-03 15:13:11"
+  },
+  {
+    "user_id": 9,
+    "dictionary_id": 5,
+    "name": "DACIÁN, daciánă, daciéni, daciéne,",
+    "predefinition": "DACIÁN, daciánă, daciéni, daciéne,",
+    "definition": "<p> <i>subst.</i>, <i>adj. </i>[Sil.: <strong>-ci-an</strong>. pl. <strong>-ieni, -iene</strong>; &lt; fr. <strong>dacien</strong>.] <i>geol.</i><strong>1.</strong> <i>subst. n. 1) </i>Al treilea etaj al pliocenului din sud-estul Europei (din Bazinul Dacic). 2) Serie de strate geologice din această perioadă. <strong>2.</strong> <i>adj.</i> Care se referă la această perioadă; propriu acestei perioade.  </p>",
+    "active": 0,
+    "created_at": "2022-08-03 15:13:11"
+  },
+  {
+    "user_id": 9,
+    "dictionary_id": 5,
+    "name": "DÁCIC, dácică, dácici, dácice,",
+    "predefinition": "DÁCIC, dácică, dácici, dácice,",
+    "definition": "<p> <i>adj</i>. [&lt; lat. <strong>dacicus.]</strong> Care se referă la Dacia sau la populaţia ei. <i>Sin</i>.: dac. <strong>Cultura dacică.</strong> </p>",
+    "active": 0,
+    "created_at": "2022-08-03 15:13:11"
+  },
+  {
+    "user_id": 9,
+    "dictionary_id": 5,
+    "name": "DACÍSM, dacísme,",
+    "predefinition": "DACÍSM, dacísme,",
+    "definition": "<p> <i>subst. n.</i> [&lt; <strong>dac </strong>+ suf. <strong>-ism</strong>.] 1) Ansamblu de caractere specifice dacilor<i> Sin.</i>: dacitate.* 2) Sentiment de admiraţie faţă de daci. <strong>O afirmație ce deplasează accentul de pe latinitate pe dacism. </strong>3) Element lexical de origine dacică. <strong>Numărul dacismelor în limba română este mic.</strong> </p>",
+    "active": 0,
+    "created_at": "2022-08-03 15:13:11"
+  },
+  {
+    "user_id": 9,
+    "dictionary_id": 5,
+    "name": "DACÍT,",
+    "predefinition": "DACÍT,",
+    "definition": "<p> <i>subst. n.</i> [&lt; fr. <strong>dacite</strong>] <i>mineral</i>. Rocă vulcanică, cenuşie, alcătuită din cuarţ, andezin, biotit, feldspat etc., care se foloseşte ca piatră de construcţie. / <i>Par.: </i>dacită. </p>",
+    "active": 0,
+    "created_at": "2022-08-03 15:13:11"
+  },
+  {
+    "user_id": 9,
+    "dictionary_id": 5,
+    "name": "DACÍTĂ,",
+    "predefinition": "DACÍTĂ,",
+    "definition": "<p> <i>subst. f. </i>[&lt; fr. <strong>dacite.</strong>] Exploziv folosit în mine și în cariere. <strong>Dacita face parte din grupul dinamitelor. / </strong><i>Par.: </i>dacit. </p>",
+    "active": 0,
+    "created_at": "2022-08-03 15:13:11"
+  },
+  {
+    "user_id": 9,
+    "dictionary_id": 5,
+    "name": "A DACIZÁ, dacizéz,",
+    "predefinition": "DACIZÁ, dacizéz,",
+    "definition": "<p> <i>vb. tranz</i>. [&lt; <strong>dac</strong> + suf. <strong>-iz</strong>a.] A coloniza cu daci. <strong>A daciza o regiune</strong>. </p>",
+    "active": 0,
+    "created_at": "2022-08-03 15:13:11"
+  },
+  {
+    "user_id": 9,
+    "dictionary_id": 5,
+    "name": "DACIZÁT, dacizátă, dacizáți, dacizáte,",
+    "predefinition": "DACIZÁT, dacizátă, dacizáți, dacizáte,",
+    "definition": "<p> <i>adj</i>. [Din <strong>a daciza</strong>.] <i>v</i>. A <strong>DACIZa</strong>. </p>",
+    "active": 0,
+    "created_at": "2022-08-03 15:13:11"
+  },
+  {
+    "user_id": 9,
+    "dictionary_id": 5,
+    "name": "DACNOMANÍE, dacnomaníi,",
+    "predefinition": "DACNOMANÍE, dacnomaníi,",
+    "definition": "<p> <i>subst. f. </i>[Art.: <strong>dacnomania;</strong> G.-D.: <strong>dacnomaniei</strong>; &lt; fr. <strong>dacnomanie.</strong>] <i>med. </i>Tendinţă patologică de a muşca. <strong>Copilul e bolnav: are dacnomanie</strong>. </p>",
+    "active": 0,
+    "created_at": "2022-08-03 15:13:11"
+  },
+  {
+    "user_id": 9,
+    "dictionary_id": 5,
+    "name": "DACOROMÁN, dacorománă, dacorománi, dacorománe,",
+    "predefinition": "DACOROMÁN, dacorománă, dacorománi, dacorománe,",
+    "definition": "<p> <i>adj</i>., <i>subst</i>. [&lt; <strong>dac + roman</strong>.] <strong>1.</strong> <i>adj</i>. Care ţine de romani; propriu romanilor<strong>. Tradiții dacoromane. 2.</strong> <i>subst. m.</i> Populaţie de limbă latină, care s-a format pe teritoriul Daciei ca urmare a convieţuirii dacilor cu coloniștii romani şi care, după retragerea romanilor, a constituit elementul fundamental în procesul de formare a poporului român.  </p>",
+    "active": 0,
+    "created_at": "2022-08-03 15:13:11"
+  },
+  {
+    "user_id": 9,
+    "dictionary_id": 5,
+    "name": "DACOROMẤN, dacoromấnă, dacoromấni, dacoromấne,",
+    "predefinition": "DACOROMẤN, dacoromấnă, dacoromấni, dacoromấne,",
+    "definition": "<p> <i>subst., adj.</i> [&lt; <strong>dac + român.] 1.</strong> <i>adj.</i> Care aparţine romanilor din nordul Dunării; privitor la românii din nordul Dunării. <i>Sin</i>.: dacoromânesc. <strong>Limba română literară s-a format pe baza dialectului dacoromân. 2. </strong><i>subst</i>. <i>m</i>. şi <i>f.</i> <i>mai ales la</i> <i>pl</i>. Persoană care face parte din populaţia română din nordul Dunării.<strong> Contactul dacoromânilor cu alte popoare. 3. </strong><i>subst. f. mai ales art. </i>Dialect vorbit de dacoromâni, devenită limbă națională și literară. <strong>Dacoromâna s-a despărțit de aromână prin sec. al X-lea.</strong> </p>",
+    "active": 0,
+    "created_at": "2022-08-03 15:13:11"
+  },
+  {
+    "user_id": 9,
+    "dictionary_id": 5,
+    "name": "DACOROMÂNÉSC, dacoromânésc, dacoromânéască, dacoromânéști,",
+    "predefinition": "DACOROMÂNÉSC, dacoromânésc, dacoromânéască, dacoromânéști,",
+    "definition": "<p> <i>adj.</i> [&lt; <strong>dacoromân + </strong>suf.<strong> -esc</strong>.] Care aparţine românilor din nordul Dunării; privitor la românii din nordul Dunării. <i>Sin</i>.: dacoromân.<strong>* Vestigii dacoromânești.</strong> </p>",
+    "active": 0,
+    "created_at": "2022-08-03 15:13:11"
+  },
+  {
+    "user_id": 9,
+    "dictionary_id": 5,
+    "name": "DACRI-, [",
+    "predefinition": "DACRI-, [",
+    "definition": "<p> Var.:<strong> dacrio-; </strong>&lt; fr. <strong>dacry(o)-.]</strong> Element d compunere însemnând „lacrimă”. </p>",
+    "active": 0,
+    "created_at": "2022-08-03 15:13:11"
+  },
+  {
+    "user_id": 9,
+    "dictionary_id": 5,
+    "name": "DACRIO-,",
+    "predefinition": "DACRIO-,",
+    "definition": "<p> <i><strong>v.</strong></i><strong> DACRI-.</strong> </p>",
+    "active": 0,
+    "created_at": "2022-08-03 15:13:11"
+  },
+  {
+    "user_id": 9,
+    "dictionary_id": 5,
+    "name": "DACRIOADENÍTĂ, dacrioadeníte,",
+    "predefinition": "DACRIOADENÍTĂ, dacrioadeníte,",
+    "definition": "<p> <i>subst. f. </i>[Sil.: -<strong>cri-o</strong>-., art.: <strong>dacriodenita</strong>; G.-D.: <strong>dacriodenitei;</strong> &lt; fr. <strong>dacryoadénite.</strong>] <i>med. </i>Inflamaţie acută sau cronică a glandelor lacrimale.  </p>",
+    "active": 0,
+    "created_at": "2022-08-03 15:13:11"
+  },
+  {
+    "user_id": 9,
+    "dictionary_id": 5,
+    "name": "DACRIOCÉL, dacriocéle,",
+    "predefinition": "DACRIOCÉL, dacriocéle,",
+    "definition": "<p> <i>subst. n</i>. [Sil.: -<strong>cri-o</strong>-; &lt; fr. <strong>dacrycèle</strong>.] <i>med</i>. Hernie a glandei lacrimale.  </p>",
+    "active": 0,
+    "created_at": "2022-08-03 15:13:11"
+  },
+  {
+    "user_id": 9,
+    "dictionary_id": 5,
+    "name": "DACRIOCÍST, dacriocíste,",
+    "predefinition": "DACRIOCÍST, dacriocíste,",
+    "definition": "<p> <i>subst. n. </i>[Sil.: -<strong>cri-o</strong>-;&lt; fr. <strong>dacryocyste</strong>.] <i>anat. </i>Sac lacrimal.  </p>",
+    "active": 0,
+    "created_at": "2022-08-03 15:13:11"
+  },
+  {
+    "user_id": 9,
+    "dictionary_id": 5,
+    "name": "DACRIOCISTÍTĂ, dacriocistíte,",
+    "predefinition": "DACRIOCISTÍTĂ, dacriocistíte,",
+    "definition": "<p> <i>subst. f</i>. [Sil.: -<strong>cri-o</strong>-; art. <strong>dacriocistita</strong>; G.-D.: <strong>dacriocistitei</strong>; &lt; fr. <strong>dacryocystite</strong>] <i>med. </i>Inflamaţie a sacului lacrimal.  </p>",
+    "active": 0,
+    "created_at": "2022-08-03 15:13:11"
+  },
+  {
+    "user_id": 9,
+    "dictionary_id": 5,
+    "name": "DACRIOGÉN, dacriogénă, dacriogéni, dacriogéne,",
+    "predefinition": "DACRIOGÉN, dacriogénă, dacriogéni, dacriogéne,",
+    "definition": "<p> <i>adj. </i>[Sil. -<strong>cri-o</strong>-; &lt; fr. <strong>dacryogène</strong>] <i>med.</i> Care provoacă secreţia lacrimilor. <strong>Substanțe dacriogene.</strong> </p>",
+    "active": 0,
+    "created_at": "2022-08-03 15:13:11"
+  },
+  {
+    "user_id": 9,
+    "dictionary_id": 5,
+    "name": "DACRIOÍD, dacrioídă, dacrioízi, dacrioíde,",
+    "predefinition": "DACRIOÍD, dacrioídă, dacrioízi, dacrioíde,",
+    "definition": "<p> <i>adj.</i> [Sil.: -<strong>cri-o</strong>-; &lt; fr. <strong>dacryoide.</strong> ] Care este în formă de lacrimă. <strong>Mi-a dăruit un pandativ dacrioid</strong>.  </p>",
+    "active": 0,
+    "created_at": "2022-08-03 15:13:11"
+  },
+  {
+    "user_id": 9,
+    "dictionary_id": 5,
+    "name": "DACRIÓM, dacrioame,",
+    "predefinition": "DACRIÓM, dacrioame,",
+    "definition": "<p> <i>subst. n. </i>[Sil.: -<strong>cri-om</strong>-; &lt; engl. <strong>dacryoma</strong>.] <i>med.</i> Ulcer al căilor lacrimale. <strong>În urma examinării a fost depistat un dacriom</strong>. </p>",
+    "active": 0,
+    "created_at": "2022-08-03 15:13:11"
+  },
+  {
+    "user_id": 9,
+    "dictionary_id": 5,
+    "name": "DACRIOPIORÉE, dacriopiorée,",
+    "predefinition": "DACRIOPIORÉE, dacriopiorée,",
+    "definition": "<p> <i>subst. f</i>. [Sil.: -<strong>cri-o</strong>-; &lt; <strong>dacrio- + pioree</strong>.] <i>med. </i>Supuraţie a căilor lacrimale.  </p>",
+    "active": 0,
+    "created_at": "2022-08-03 15:13:11"
+  },
+  {
+    "user_id": 9,
+    "dictionary_id": 5,
+    "name": "DACRIORÉE, dacriorée,",
+    "predefinition": "DACRIORÉE, dacriorée,",
+    "definition": "<p> <i>subst. f</i>. [Sil.: -<strong>cri-o</strong>-; art.: <strong>dacrioreea</strong>; G.-D.: <strong>dacrioreii; </strong>&lt;<strong> </strong>fr<strong>. dacryorhée.</strong>] Lăcrimare abundentă.  </p>",
+    "active": 0,
+    "created_at": "2022-08-03 15:13:11"
+  },
+  {
+    "user_id": 9,
+    "dictionary_id": 5,
+    "name": "DACRÓN,",
+    "predefinition": "DACRÓN,",
+    "definition": "<p> <i>subst. n.</i> [&lt; engl.,<strong> </strong>fr.<strong> dacron.</strong>] <i>chim. </i>Fibră sintetică poliesterică, de provenienţă americană. <strong>Dacronul este folosit în chirurgie.</strong> </p>",
+    "active": 0,
+    "created_at": "2022-08-03 15:13:11"
+  },
+  {
+    "user_id": 9,
+    "dictionary_id": 5,
+    "name": "DACTÍL(O)-,",
+    "predefinition": "DACTÍL(O)-,",
+    "definition": "<p> [&lt; fr. <strong>dactyl(o)-</strong>.] Element de compunere însemnând „deget”, „în legătură cu degetele”; „în legătură cu maşina de scris”.  </p>",
+    "active": 0,
+    "created_at": "2022-08-03 15:13:11"
+  },
+  {
+    "user_id": 9,
+    "dictionary_id": 5,
+    "name": "DACTÍLIC, dactílică, dactílici, dactílice,",
+    "predefinition": "DACTÍLIC, dactílică, dactílici, dactílice,",
+    "definition": "<p> <i>adj.</i> [Cf. fr. <strong>dactylique</strong>.] 1) (<i>despre versuri</i> ) Care este alcătuit din dactili. <i>♦ </i><strong>Metru dactilic</strong> sistem de versificaţie care are la bază, ca unitate metrică, dactilul. <strong>Rima dactilică</strong> rimă cu accentul pe antepenultima silabă.  </p>",
+    "active": 0,
+    "created_at": "2022-08-03 15:13:11"
+  },
+  {
+    "user_id": 9,
+    "dictionary_id": 5,
+    "name": "DACTÍLIO-,",
+    "predefinition": "DACTÍLIO-,",
+    "definition": "<p> [<strong>&lt; </strong>fr.<strong> dactili(o)- .]</strong> Element de compunere însemnând „inel”.  </p>",
+    "active": 0,
+    "created_at": "2022-08-03 15:13:11"
+  },
+  {
+    "user_id": 9,
+    "dictionary_id": 5,
+    "name": "DACTILIOGRAFÍE, dactiliografíi,",
+    "predefinition": "DACTILIOGRAFÍE, dactiliografíi,",
+    "definition": "<p> <i>subst. f.</i> [Sil.: <strong>-li-o-</strong>.; art. <strong>dactiliografia</strong>; G.-D.:<strong> dactiliografiei; &lt; </strong>fr.<strong> dactyliographie.]</strong> Descriere a inelelor şi a pietrelor preţioase gravate. <strong>Era interesat de dactiliografie.</strong> </p>",
+    "active": 0,
+    "created_at": "2022-08-03 15:13:11"
+  },
+  {
+    "user_id": 9,
+    "dictionary_id": 5,
+    "name": "DACTILIOLOGÍE,",
+    "predefinition": "DACTILIOLOGÍE,",
+    "definition": "<p> <i>subst</i>. <i>f</i>. [Sil.: <strong>-li-o-;</strong> art.: <strong>dactiliologia;</strong> G.-D.: <strong>dactiliologiei; &lt; </strong>gr.: <strong>daktylios</strong>.] Parte a arheologiei care se ocupă cu studiul inelelor şi al pietrelor preţioase gravate. <strong>A elaborat un studiu în domeniul dactilologiei</strong>.  </p>",
+    "active": 0,
+    "created_at": "2022-08-03 15:13:11"
+  },
+  {
+    "user_id": 9,
+    "dictionary_id": 5,
+    "name": "DACTILIOMANȚÍE,",
+    "predefinition": "DACTILIOMANȚÍE,",
+    "definition": "<p> <i>subst</i>. <i>f</i>. [Sil.: <strong>-li-o-; -;</strong> art.: <strong>dactiliomanţia</strong>; G.-D.: <strong>dactiliomanției</strong>; <strong>&lt; </strong>fr. <strong>dactyliomancie,</strong> germ. <strong>Daktyliomantie</strong>.] Artă a ghicitului cu ajutorul unui inel. <strong>Deseori recurgea la dactiliomanție.</strong> </p>",
+    "active": 0,
+    "created_at": "2022-08-03 15:13:11"
+  },
+  {
+    "user_id": 9,
+    "dictionary_id": 5,
+    "name": "DACTILIOTÉCĂ, dactiliotéci,",
+    "predefinition": "DACTILIOTÉCĂ, dactiliotéci,",
+    "definition": "<p> <i>subst</i>. <i>f</i>. [Sil.: <strong>-li-o-; </strong>art<strong>. dactilioteca; </strong>G.-D.:<strong> dactiliotecii; &lt; </strong>germ.<strong> Daktyliothek.</strong>] 1) Colecţie de inele sau de pietre preţioase. 2) Casetă, sipet etc. în care se păstrează inelele sau pietrele preţioase. <strong>Avea o dactilioteca bogată</strong>. </p>",
+    "active": 0,
+    "created_at": "2022-08-03 15:13:11"
+  },
+  {
+    "user_id": 9,
+    "dictionary_id": 5,
+    "name": "DACTILÍTĂ, dactilíte,",
+    "predefinition": "DACTILÍTĂ, dactilíte,",
+    "definition": "<p> <i>subst</i>. <i>f</i>.<strong> </strong>[&lt; fr. <strong>dactylite;</strong> cf. gr. <strong>daktylos.</strong>] <i>med.</i> Inflamaţie a unui deget. <strong>În urma căzăturii s-a ales cu o dactilită. </strong> </p>",
+    "active": 0,
+    "created_at": "2022-08-03 15:13:11"
+  },
+  {
+    "user_id": 9,
+    "dictionary_id": 5,
+    "name": "DACTÍLO,",
+    "predefinition": "DACTÍLO,",
+    "definition": "<p> <i>adv. invar</i>., <i>fam.</i> [&lt; fr. <strong>dactylo.</strong>] Care este dactilografiat. <strong>Cinci foi dactilo</strong>.  </p>",
+    "active": 0,
+    "created_at": "2022-08-03 15:13:11"
+  },
+  {
+    "user_id": 9,
+    "dictionary_id": 5,
+    "name": "DACTILOFAZÍE,",
+    "predefinition": "DACTILOFAZÍE,",
+    "definition": "<p> <i>subst</i>. <i>f</i>. [Art. <strong>dactilofazia</strong>; G.-D.: <strong>dactilofaziei</strong>; &lt; fr. <strong>dactylophasie.</strong>] Procedeu utilizat de surdomuţi pentru a comunica între ei, care constă în efectuarea cu degetele a unor semne şi mişcări convenţionale, echivalente sunetelor limbii. <i>Sin</i>.: dactilologie.* <strong>Am observat că ei comunicau prin dactilofazie</strong>. </p>",
+    "active": 0,
+    "created_at": "2022-08-03 15:13:11"
+  },
+  {
+    "user_id": 9,
+    "dictionary_id": 5,
+    "name": "DACTILOFÓN, dactilofoáne,",
+    "predefinition": "DACTILOFÓN, dactilofoáne,",
+    "definition": "<p> <i>subst</i>. <i>n</i>. [&lt; fr. <strong>dactylophone.</strong>] Aparat portativ cu clape corespunzând unor litere sau sunete, care este destinat să faciliteze comunicarea celor care nu vorbesc<strong>. Dactilofonul îl ajuta să comunice cu cei din preajmă</strong>.  </p>",
+    "active": 0,
+    "created_at": "2022-08-03 15:13:11"
+  },
+  {
+    "user_id": 9,
+    "dictionary_id": 5,
+    "name": "DATILOGRÁF, dactilográfă, dactilográfi, dactilográfe,",
+    "predefinition": "DATILOGRÁF, dactilográfă, dactilográfi, dactilográfe,",
+    "definition": "<p> <i>subst</i>. <i>m</i>. şi <i>f</i>. [Sil.: <strong>-graf</strong>; &lt; fr. <strong>dactylographe</strong>.] Persoană care are ca ocupaţie de bază dactilografia. <strong>Caut dactilograf.</strong> </p>",
+    "active": 0,
+    "created_at": "2022-08-03 15:13:11"
+  },
+  {
+    "user_id": 9,
+    "dictionary_id": 5,
+    "name": "A DACTILOGRAFIÁ, dactilografiéz,",
+    "predefinition": "DACTILOGRAFIÁ, dactilografiéz,",
+    "definition": "<p> <i>vb</i>. <i>tranz</i>. [Sil.: <strong>-lo-gra-fi-a</strong>; &lt; fr. <strong>dactylographier</strong>.] A scrie la maşina de scris. <strong>Am dactilografiat un articol</strong>.  </p>",
+    "active": 0,
+    "created_at": "2022-08-03 15:13:11"
+  },
+  {
+    "user_id": 9,
+    "dictionary_id": 5,
+    "name": "DACTILOGRAFIÁT, dactilografiátă, dactilografiáți, dactilografiáte,",
+    "predefinition": "DACTILOGRAFIÁT, dactilografiátă, dactilografiáți, dactilografiáte,",
+    "definition": "<p> <i>adj</i>. [Sil.: <strong>-lo-gra-fi-at</strong>; din <strong>a dactilografia</strong>.] <i>v</i>. <strong>a dactilografiA. Am găsit un text vechi dactilografiat.</strong> </p>",
+    "active": 0,
+    "created_at": "2022-08-03 15:13:11"
+  },
+  {
+    "user_id": 9,
+    "dictionary_id": 5,
+    "name": "DACTILOGRÁFIC, dactilográfică, dactilográfici, dactilográfice,",
+    "predefinition": "DACTILOGRÁFIC, dactilográfică, dactilográfici, dactilográfice,",
+    "definition": "<p> <i>adj.</i> [Sil.: <strong>-lo-gra-;</strong> &lt; fr. <strong>dactylographique</strong>.] 1) Care ţine de dactilografie; care se referă la dactilografie. <strong>Produs dactilografic.</strong> 2) Care se obţine prin dactilografiere.  </p>",
+    "active": 0,
+    "created_at": "2022-08-03 15:13:11"
+  },
+  {
+    "user_id": 9,
+    "dictionary_id": 5,
+    "name": "DACTILOGRAFÍE,",
+    "predefinition": "DACTILOGRAFÍE,",
+    "definition": "<p> <i>subst</i>. <i>f</i>. [Sil.: <strong>-lo-gra-</strong>; art.: <strong>dactilografia</strong>; G.-D.: <strong>dactilografiei</strong>; &lt; fr. <strong>dactylographie</strong>.] 1) Tehnica de a scrie la maşina de scris. <strong>Se pricepea la dactilografie.</strong> 2) Meseria de a scrie la maşina de scris. <strong>În tinerețe a făcut dactilografie.</strong> </p>",
+    "active": 0,
+    "created_at": "2022-08-03 15:13:11"
+  },
+  {
+    "user_id": 9,
+    "dictionary_id": 5,
+    "name": "DACTILOGRAFIÉRE, dactilografiéri,",
+    "predefinition": "DACTILOGRAFIÉRE, dactilografiéri,",
+    "definition": "<p> <i>subst</i>. <i>f</i>. [Sil.: <strong>-gra-fi-a</strong>; din <strong>a dactilografia</strong>.] Acțiunea de a dactilografia și rezultatul ei. <strong>Obosise de atâta dactilografiere</strong>. </p>",
+    "active": 0,
+    "created_at": "2022-08-03 15:13:11"
+  },
+  {
+    "user_id": 9,
+    "dictionary_id": 5,
+    "name": "DACTILOGRÁMĂ, dactilográme,",
+    "predefinition": "DACTILOGRÁMĂ, dactilográme,",
+    "definition": "<p> <i>subst</i>. <i>f</i>. [Sil.:<strong> - lo-gra-;</strong> &lt; fr. <strong>dactylogramme.]</strong> 1) Amprentă lăsată de deget, ca mijloc de identificare în antropometrie. 2) Text dactilografiat.  </p>",
+    "active": 0,
+    "created_at": "2022-08-03 15:13:11"
+  },
+  {
+    "user_id": 9,
+    "dictionary_id": 5,
+    "name": "DACTILOGRIPÓZĂ, dactilogripoze,",
+    "predefinition": "DACTILOGRIPÓZĂ, dactilogripoze,",
+    "definition": "<p> <i>subst</i>. <i>f</i>. [&lt; fr. <strong>dactylogrypose</strong>.] <i>psih.</i> Atitudine vicioasă constând în încovoierea permanentă a degetelor. <strong>Era stăpânit de dactilogripoză</strong>. </p>",
+    "active": 0,
+    "created_at": "2022-08-03 15:13:11"
+  },
+  {
+    "user_id": 9,
+    "dictionary_id": 5,
+    "name": "DACTILOÍD, dactiloídă, dactiloízi, dactiloíde,",
+    "predefinition": "DACTILOÍD, dactiloídă, dactiloízi, dactiloíde,",
+    "definition": "<p> <i>adj.</i> [Sil.: <strong>-lo-id</strong>;<i> </i>&lt; fr. <strong>dactyloïde</strong>.] <i>biol. </i>Care este în formă de deget.  </p>",
+    "active": 0,
+    "created_at": "2022-08-03 15:13:11"
+  },
+  {
+    "user_id": 9,
+    "dictionary_id": 5,
+    "name": "DACTILOLÓGIC, dactilológică, dactilológici, dactilológice,",
+    "predefinition": "DACTILOLÓGIC, dactilológică, dactilológici, dactilológice,",
+    "definition": "<p> <i>adj. </i>[&lt; fr. <strong>dactylologique.</strong>] Care ţine de dactilologie; care se referă la dactilologie.  </p>",
+    "active": 0,
+    "created_at": "2022-08-03 15:13:11"
+  },
+  {
+    "user_id": 9,
+    "dictionary_id": 5,
+    "name": "DACTILOLOGÍE,",
+    "predefinition": "DACTILOLOGÍE,",
+    "definition": "<p> <i>subst</i>. <i>f</i>. [Art.: <strong>dactilologia</strong>; G.-D.: <strong>dactilologiei</strong>; &lt; fr <strong>dactylologie</strong>.] Procedeu utilizat de surdomuţi pentru a comunica între ei, care constă în efectuarea cu degetele a unor semne şi mişcări convenţionale, echivalente sunetelor limbii. <i>Sin</i>.: dactilofazie. <strong>Am observat că ei comunicau prin dactilologie</strong>.  </p>",
+    "active": 0,
+    "created_at": "2022-08-03 15:13:11"
+  },
+  {
+    "user_id": 9,
+    "dictionary_id": 5,
+    "name": "DACTILOMEGALÍE, dactilomegalíi,",
+    "predefinition": "DACTILOMEGALÍE, dactilomegalíi,",
+    "definition": "<p> <i>subst</i>. <i>f</i>. [Sil.: <strong>-li-e</strong>; art. <strong>dactilomegalia</strong>; G.-D.: <strong>dactilomegaliei</strong>; &lt; fr. <strong>dactylomégalie</strong>.] <i>med.</i> Hipertrofie a degetelor de la mână sau de la picioare.  </p>",
+    "active": 0,
+    "created_at": "2022-08-03 15:13:11"
+  },
+  {
+    "user_id": 9,
+    "dictionary_id": 5,
+    "name": "DACTILOMÉTRU, dactilométre,",
+    "predefinition": "DACTILOMÉTRU, dactilométre,",
+    "definition": "<p> <i>subst. n.</i> [&lt; fr. <strong>dactylomètre</strong>.] Aparat de înregistrare simultană a deplasării unui deget în trei direcţii spaţiale.  </p>",
+    "active": 0,
+    "created_at": "2022-08-03 15:13:11"
+  },
+  {
+    "user_id": 9,
+    "dictionary_id": 5,
+    "name": "DACTILONOMÍE, dactilonomíi,",
+    "predefinition": "DACTILONOMÍE, dactilonomíi,",
+    "definition": "<p> <i>subst</i>. <i>f</i>. [Art.: <strong>dactilonomia</strong>; G.-D.: <strong>dactilonomiei</strong>; &lt; fr.<strong> dactylonomie.</strong>] Mod de a calcula prin folosirea degetelor. <strong>Deși avea calculator la îndemână, folosea dactilonomia.</strong> </p>",
+    "active": 0,
+    "created_at": "2022-08-03 15:13:11"
+  },
+  {
+    "user_id": 9,
+    "dictionary_id": 5,
+    "name": "DACTILOPLASTÍE, dactiloplastíi,",
+    "predefinition": "DACTILOPLASTÍE, dactiloplastíi,",
+    "definition": "<p> <i>subst</i>. <i>f</i>.[Art.:<strong> dactiloplastia</strong>; G.- D.: <strong>dactiloplastiei</strong>; &lt; fr. <strong>dactyloplastie.]</strong> <i>chir.</i> Operaţie de chirurgie plastică pentru refacerea degetelor distruse.  </p>",
+    "active": 0,
+    "created_at": "2022-08-03 15:13:11"
+  },
+  {
+    "user_id": 9,
+    "dictionary_id": 5,
+    "name": "DACTILOPTÉR, dactiloptére,",
+    "predefinition": "DACTILOPTÉR, dactiloptére,",
+    "definition": "<p> <i>subst. n.</i> [Sil.: <strong>-lop-ter</strong>; &lt; fr. <strong>dactyloptère</strong>.] 1) <i>la pl</i>. Gen de peşti care au aripile pectorale foarte mari; 2)<i> </i>Peşte care face parte din acest gen.  </p>",
+    "active": 0,
+    "created_at": "2022-08-03 15:13:11"
+  },
+  {
+    "user_id": 9,
+    "dictionary_id": 5,
+    "name": "DACTILOSCÓP, dactiloscópi,",
+    "predefinition": "DACTILOSCÓP, dactiloscópi,",
+    "definition": "<p> <i>subst. m.</i>[&lt; germ. <strong>Daktiloskop</strong>.] <i>chir.</i> Specialist în dactiloscopie.  </p>",
+    "active": 0,
+    "created_at": "2022-08-03 15:13:11"
+  },
+  {
+    "user_id": 9,
+    "dictionary_id": 5,
+    "name": "DACTILOSCÓPIC, dactiloscópică, dactiloscópici, dactiloscópice,",
+    "predefinition": "DACTILOSCÓPIC, dactiloscópică, dactiloscópici, dactiloscópice,",
+    "definition": "<p> <i>adj.</i> [Sil.: <strong>-los-co-;</strong> &lt; fr. <strong>dactyloscopique.</strong>] Care se referă la dactiloscopie; propriu dactiloscopiei. <strong>Examinare dactiloscopică.</strong> </p>",
+    "active": 0,
+    "created_at": "2022-08-03 15:13:11"
+  },
+  {
+    "user_id": 9,
+    "dictionary_id": 5,
+    "name": "DACTILOSCOPÍE, dactiloscopíi,",
+    "predefinition": "DACTILOSCOPÍE, dactiloscopíi,",
+    "definition": "<p> <i>subst</i>. <i>f</i>. [Sil.: <strong>-los-co-;</strong> art.: <strong>dactiloscopia</strong>; G.-D.: <strong>dactiloscopiei</strong>; &lt; fr. <strong>dactyloscopie</strong>.] Metodă de identificare a persoanelor prin examinarea amprentelor digitale, cu aplicaţii mai ales în antroponometria judiciară şi în genetică. <strong>Dactiloscopia va identifica infractorul</strong>. </p>",
+    "active": 0,
+    "created_at": "2022-08-03 15:13:11"
+  },
+  {
+    "user_id": 9,
+    "dictionary_id": 5,
+    "name": "DÁJDIE dájdii,",
+    "predefinition": "DÁJDIE dájdii,",
+    "definition": "<p> <i>subst</i>. <i>f</i>. [Pl. şi: <strong>dắjdii</strong>; sil.: <strong>-di-e</strong>; art.: <strong>dajdia</strong>; G.-D.: <strong>dájdiei</strong>; &lt; sl. <strong>dazdă</strong>.] <i>înv</i>. Plată obligatorie (în bani sau în natură) vărsată de cetăţeni în bugetul statului. <i>Sin</i>.: dare.* <strong>Toți cetățenii trebuiau să plătească dajdie.</strong> </p>",
+    "active": 0,
+    "created_at": "2022-08-03 15:13:11"
+  },
+  {
+    "user_id": 9,
+    "dictionary_id": 5,
+    "name": "DÁJNIC, dájnică, dájnici, dájnice,",
+    "predefinition": "DÁJNIC, dájnică, dájnici, dájnice,",
+    "definition": "<p> <i>subst., adj. </i>[&lt; <strong>dajdie + </strong>suf.<strong> -nic</strong>.] <i>înv.</i> <strong>1</strong>.<i> subst. m. </i>Persoană obligată să plătească dajdie. <i>Sin.</i>: birnic. <strong>În Moldova erau sate în care nu era niciun dajnic. 2</strong><i>. adj.</i> (<i>despre obiecte, produse</i> <i>etc</i>.) Care trebuie să fie dat. </p>",
+    "active": 0,
+    "created_at": "2022-08-03 15:13:11"
+  },
+  {
+    "user_id": 9,
+    "dictionary_id": 5,
+    "name": "DAKÓTAS,",
+    "predefinition": "DAKÓTAS,",
+    "definition": "<p> <i>subst. m.</i> [&lt; fr. <strong>dakotas</strong>.] Populaţie amerindiană din America de Nord, care locuia în bazinul fluviului Missouri şi în prerii până aproape de Munţii Stâncoşi.  </p>",
+    "active": 0,
+    "created_at": "2022-08-03 15:13:11"
+  },
+  {
+    "user_id": 9,
+    "dictionary_id": 5,
+    "name": "A DALÁ, daléz,",
+    "predefinition": "DALÁ, daléz,",
+    "definition": "<p> <i>vb. tranz. </i>[&lt; fr. <strong>dalle</strong>.] <i>constr.</i> A acoperi cu dale. <i>Sin.:</i> a pava; a pietrui; a pardosi.* <strong>Au început să daleze aleea.</strong> </p>",
+    "active": 0,
+    "created_at": "2022-08-03 15:13:11"
+  },
+  {
+    "user_id": 9,
+    "dictionary_id": 5,
+    "name": "DALÁC,",
+    "predefinition": "DALÁC,",
+    "definition": "<p> <i>subst</i>. [&lt; tc. <strong>dalak</strong>.] <strong>1. dalacuri, </strong><i>subst. n.</i> <i>med</i>. Boală infecţioasă şi contagioasă (la animale şi la oameni), manifestată prin abcese pulmonare, gastrointestinale şi cutanate. <i>Sin</i>.: antrax; cărbune; răsfug; talan. <strong>A contractat dalacul. 2. dalaci, </strong><i>subst. m. </i>Plantă erbacee otrăvitoare din familia liliaceelor, de talie mică, ale cărei frunze se folosesc în medicina populară la tratarea acestei boli. <strong>Am tratat infecția cu dalac.</strong> </p>",
+    "active": 0,
+    "created_at": "2022-08-03 15:13:11"
+  },
+  {
+    "user_id": 9,
+    "dictionary_id": 5,
+    "name": "DALAI-LÁMA",
+    "predefinition": "DALAI-LÁMA",
+    "definition": "<p> <i>, subst. m.,</i> <i>invar.</i> [Sil.: <strong>-lai-;</strong> &lt; fr. <strong>dalaï-lama</strong>.] Şeful suprem al lamaismului, care, din sec. 17, a devenit şi şeful politic al Tibetului; marele Lama. <strong>Influența teocrației lui dalai-lama.</strong> </p>",
+    "active": 0,
+    "created_at": "2022-08-03 15:13:11"
+  },
+  {
+    "user_id": 9,
+    "dictionary_id": 5,
+    "name": "DALÁJ, daláje,",
+    "predefinition": "DALÁJ, daláje,",
+    "definition": "<p> <i>subst. n.</i> [&lt; fr. <strong>dallage</strong>.] 1) Ansamblu de dale cu care se acoperă un drum sau un teren, format din blocuri (de piatră, de lemn etc.) aşezate pe un pat de nisip sau de mortar. <i>Sin.:</i> caldarâm; pavaj; paviment. <strong>Cu greu au demontat pavajul vechi de o jumătate de secol.</strong> </p>",
+    "active": 0,
+    "created_at": "2022-08-03 15:13:11"
+  },
+  {
+    "user_id": 9,
+    "dictionary_id": 5,
+    "name": "DÁLĂ, dále,",
+    "predefinition": "DÁLĂ, dále,",
+    "definition": "<p> <i>subst.</i> <i>f.</i> [&lt; fr.<strong> dalle.</strong>] Placă (de piatră, de marmură, de ceramică etc.) folosită la pardositul și căptușitul zidurilor. <strong>Cărare pavată cu dale.</strong> </p>",
+    "active": 0,
+    "created_at": "2022-08-03 15:13:11"
+  },
+  {
+    "user_id": 9,
+    "dictionary_id": 5,
+    "name": "DALB, dálbă, dálbi, dálbe,",
+    "predefinition": "DALB, dálbă, dálbi, dálbe,",
+    "definition": "<p> <i>adj</i>. [&lt; <strong>de</strong>4 + <strong>alb</strong>.] <i>poet</i>. Care este alb-alb. <strong>Fulgi dalbi</strong>. </p>",
+    "active": 0,
+    "created_at": "2022-08-03 15:13:11"
+  },
+  {
+    "user_id": 9,
+    "dictionary_id": 5,
+    "name": "DALCAÚC, dalcaúci,",
+    "predefinition": "DALCAÚC, dalcaúci,",
+    "definition": "<p> <i>subst. m.</i> [&lt; tc. <strong>Dalkavuk</strong>.] 1) <i>fam</i>. Persoană care face scandal. <i>Sin.: </i>scandalagiu. <strong>Erau niște dalcauci la primărie</strong>.) 2) <i>înv.</i> Persoană care nu are o ocupație bine definită și umblă pe drumuri fără rost. <i>Sin.:</i> haimana. <strong>Transformarea lui într-o haimana aproape că nu putea fi oprită.</strong> 3) <i>peior.</i> Agent electoral.  </p>",
+    "active": 0,
+    "created_at": "2022-08-03 15:13:11"
+  },
+  {
+    "user_id": 9,
+    "dictionary_id": 5,
+    "name": "DÁLIE, dálii,",
+    "predefinition": "DÁLIE, dálii,",
+    "definition": "<p> <i>subst</i>. <i>f</i>. [Sil.: <strong>-li-e</strong>; art.: <strong>dalia</strong>; G.-D.: <strong>daliei</strong>; &lt; fr. <strong>dahlia</strong>.] Plantă decorativă cu florile în capitule mari de diferite culori. <i>Sin</i>.: gherghină.* <strong>I-a dăruit o gherghină</strong>. </p>",
+    "active": 0,
+    "created_at": "2022-08-03 15:13:11"
+  },
+  {
+    "user_id": 9,
+    "dictionary_id": 5,
+    "name": "DALMÁT, dalmátă, dalmáți, dalmáte,",
+    "predefinition": "DALMÁT, dalmátă, dalmáți, dalmáte,",
+    "definition": "<p> <i>adj., subst.</i> [&lt; fr. <strong>dalmate</strong>.] <strong>1. </strong><i>adj. </i>Care se referă la Dalmația sau la populația ei. <i>Sin.: </i>dalmatic<strong>. Poporul dalmat s-a stins ca unitate națională. 2. </strong><i>subst. m.</i> și <i>f.</i> Persoană care făcea parte din populația de bază a Dalmației. <strong>3. </strong><i>subst. f. mai ales art. </i>Limbă vorbită de dalmați.  </p>",
+    "active": 0,
+    "created_at": "2022-08-03 15:13:11"
+  },
+  {
+    "user_id": 9,
+    "dictionary_id": 5,
+    "name": "DALMÁTIC dalmátică, dalmátici, dalmátice",
+    "predefinition": "DALMÁTIC dalmátică, dalmátici, dalmátice",
+    "definition": "<p> <i>adj.</i><strong> </strong>[&lt; fr. <strong>dalmatique</strong>.] <i>și substantival</i> 1) Care ține de Dalmația; propriu Dalmației.<i> Sin.: </i>dalmat. <strong>Ținuturi dalmatice. </strong>2) <i>(despre țărmuri) </i>Care constă din fiorduri (ca urmare a pătrunderii apelor maritime în depresiunile montane în regiunile litoralului); format din fiorduri.  </p>",
+    "active": 0,
+    "created_at": "2022-08-03 15:13:11"
+  },
+  {
+    "user_id": 9,
+    "dictionary_id": 5,
+    "name": "DALMAȚIÁN, dalmațiéni,",
+    "predefinition": "DALMAȚIÁN, dalmațiéni,",
+    "definition": "<p> <i>subst</i>.<i>m.</i> [&lt; fr. <strong>dalmatien</strong>.] 1) <i>la pl. </i>Specie de câini cu părul scurt, de culoare albă cu pete mici negre sau maro. 2) Câine din această specie. <strong>Ador dalmațienii.</strong> </p>",
+    "active": 0,
+    "created_at": "2022-08-03 15:13:11"
+  },
+  {
+    "user_id": 9,
+    "dictionary_id": 5,
+    "name": "DÁLTĂ, dălţi,",
+    "predefinition": "DÁLTĂ, dălţi,",
+    "definition": "<p> <i>subst</i>. <i>f</i>. [&lt; sl. <strong>dlato</strong>.] Unealtă de oţel în formă de pană tăioasă, cu sau fără mâner, folosită la cioplit sau la scobit în lemn, în piatră etc. <strong>Lucrează cu dalta în lemn.</strong> </p>",
+    "active": 0,
+    "created_at": "2022-08-03 15:13:11"
+  },
+  {
+    "user_id": 9,
+    "dictionary_id": 5,
+    "name": "DALTONÍSM,",
+    "predefinition": "DALTONÍSM,",
+    "definition": "<p> <i>subst</i>. <i>n</i>. [&lt; fr. <strong>daltonisme</strong>.] Defect al vederii care constă în incapacitatea de a distinge culorile, în special roşul de verde. <strong>Ea suferă de daltonism</strong>. </p>",
+    "active": 0,
+    "created_at": "2022-08-03 15:13:11"
+  },
+  {
+    "user_id": 9,
+    "dictionary_id": 5,
+    "name": "DALTONÍST, daltonístă, daltoníşti, daltoníste,",
+    "predefinition": "DALTONÍST, daltonístă, daltoníşti, daltoníste,",
+    "definition": "<p> <i>subst</i>. <i>m</i>. şi <i>f</i>. [&lt; fr. <strong>daltoniste</strong>.] Persoană care suferă de daltonism. <strong>Copilul este daltonist</strong>. </p>",
+    "active": 0,
+    "created_at": "2022-08-03 15:13:11"
+  },
+  {
+    "user_id": 9,
+    "dictionary_id": 5,
+    "name": "DAM 1, damuri,",
+    "predefinition": "DAM 1, damuri,",
+    "definition": "<p> <i>subst. n. </i>[… Et. nec.] Joc specific sărbătorii ajunului Anului Nou, care constă în deghizarea unui grup de băieți în fete, în bătrâni sau bătrâne, cu scopul de a merge din casă în casă și a ura.<strong> Mi-au plăcut damurile în tinerețe</strong>.  </p>",
+    "active": 0,
+    "created_at": "2022-08-03 15:13:11"
+  },
+  {
+    "user_id": 9,
+    "dictionary_id": 5,
+    "name": "DAM 2, dámi,",
+    "predefinition": "DAM 2, dámi,",
+    "definition": "<p> <i>subst. n. </i>[&lt; germ.<strong> Dam; </strong>lat.<strong> dama</strong>.] <i>zool</i>. Specie de cerbi cu coarnele lăţite în formă de lopeţi. <i>Sin.:</i> cerb-lopătar.* <strong>În poieniță am văzut un dam</strong>.  </p>",
+    "active": 0,
+    "created_at": "2022-08-03 15:13:11"
+  },
+  {
+    "user_id": 9,
+    "dictionary_id": 5,
+    "name": "DAM 3,",
+    "predefinition": "DAM 3,",
+    "definition": "<p> <i>subst. n</i>. [&lt; tc. <strong>dam</strong>.] <i>reg.</i> Bordei pentru vite. ♦ Damuri de case: a) clădiri măreţe; b) rânduri de case. </p>",
+    "active": 0,
+    "created_at": "2022-08-03 15:13:11"
+  },
+  {
+    "user_id": 9,
+    "dictionary_id": 5,
+    "name": "DAMÁN,",
+    "predefinition": "DAMÁN,",
+    "definition": "<p> <i>subst. m.</i><strong> </strong>[&lt; fr. <strong>daman</strong>.] Mamifer ungulat erbivor,<strong> </strong>din Africa, cât un iepure, care trăiește în arbori sau pe stânci. <strong>Am văzut daman doar la televizor</strong>. </p>",
+    "active": 0,
+    "created_at": "2022-08-03 15:13:11"
+  },
+  {
+    "user_id": 9,
+    "dictionary_id": 5,
+    "name": "DAMÁR,",
+    "predefinition": "DAMÁR,",
+    "definition": "<p> <i>subst. n.</i><strong> </strong>[&lt; fr. <strong>dammar</strong>; germ. <strong>Dammar</strong>.] Rășină naturală de culoare albă-gălbuie cu nuanțe roșii sau negre<strong>,</strong> extrasă dintr-un arbore din Indonezia. <strong>Am folosit o cremă cu damar.</strong> </p>",
+    "active": 0,
+    "created_at": "2022-08-03 15:13:11"
+  },
+  {
+    "user_id": 9,
+    "dictionary_id": 5,
+    "name": "DAMÁSC,",
+    "predefinition": "DAMÁSC,",
+    "definition": "<p> <i>subst. n<strong>.</strong></i><strong> </strong>[&lt; it. <strong>damasco</strong>; lat. <strong>(a)damascus</strong>.] Țesătură cu desene în relief<strong>,</strong> folosită, mai ales, pentru confecționarea fețelor de masă și a cuverturilor.<strong> A așternut o față de masă din damasc.</strong> </p>",
+    "active": 0,
+    "created_at": "2022-08-03 15:13:11"
+  },
+  {
+    "user_id": 9,
+    "dictionary_id": 5,
+    "name": "DAMASCHÉTĂ, damaschéte,",
+    "predefinition": "DAMASCHÉTĂ, damaschéte,",
+    "definition": "<p> <i>subst</i>. <i>f</i>. [&lt; fr. <strong>damasquette</strong>; it. <strong>damaschetto</strong>.] Stofă de mătase veneţiană, renumită în sec. XVIII. <strong>Și-a cusut o rochie de bal din damaschetă</strong>.  </p>",
+    "active": 0,
+    "created_at": "2022-08-03 15:13:11"
+  },
+  {
+    "user_id": 9,
+    "dictionary_id": 5,
+    "name": "A DAMASCHINÁ, damaschinéz,",
+    "predefinition": "DAMASCHINÁ, damaschinéz,",
+    "definition": "<p> <i>vb. tranz.</i> [&lt; fr. <strong>damasquiner</strong>; it. <strong>damaschinare</strong>.] 1. (<i>mobile</i>) A îmbrăca în damasc. <strong>Și-a damaschinat scaunele din salon</strong>. 2. (<i>cuţite, casete etc.</i>) A incrusta cu firicele de aur sau de argint.  </p>",
+    "active": 0,
+    "created_at": "2022-08-03 15:13:11"
+  },
+  {
+    "user_id": 9,
+    "dictionary_id": 5,
+    "name": "DAMASCHINÁJ, damaschináje,",
+    "predefinition": "DAMASCHINÁJ, damaschináje,",
+    "definition": "<p> <i>subst. n. </i>[&lt; fr. <strong>damasquinage</strong>.] <i>arte plast.</i> Procedeu (de origine orientală) de încrustare a unor fire de aur sau de argint într-un obiect de fier sau de oţel. <strong>Iscusință în aplicarea damaschinajului.</strong> </p>",
+    "active": 0,
+    "created_at": "2022-08-03 15:13:11"
+  },
+  {
+    "user_id": 9,
+    "dictionary_id": 5,
+    "name": "DAMASCHINÁRE, damaschínắri,",
+    "predefinition": "DAMASCHINÁRE, damaschínắri,",
+    "definition": "<p> <i>subst</i>. <i>f</i>. [Din <strong>a damaschina</strong>.] Acţiunea de a damaschina şi rezultatul ei. </p>",
+    "active": 0,
+    "created_at": "2022-08-03 15:13:11"
+  },
+  {
+    "user_id": 9,
+    "dictionary_id": 5,
+    "name": "DAMASCHINÁT, damaschinátă, damaschináți, damaschináte,",
+    "predefinition": "DAMASCHINÁT, damaschinátă, damaschináți, damaschináte,",
+    "definition": "<p> <i>adj.</i> [Din <strong>a damaschina</strong>.] 1) <i>v. </i><strong>A DAMASCHINA. </strong>2) (<i>despre oţeluri sudate</i>) Care prezintă la suprafaţă desene în formă de vine şerpuitoare sau ramificate (asemănătoare cu cele făcute la săbiile de odinioară din Damasc.)  </p>",
+    "active": 0,
+    "created_at": "2022-08-03 15:13:11"
+  },
+  {
+    "user_id": 9,
+    "dictionary_id": 5,
+    "name": "DÁMĂ, dáme,",
+    "predefinition": "DÁMĂ, dáme,",
+    "definition": "<p> <i>subst</i>. <i>f</i>. [&lt; fr. <strong>dame</strong>; it. <strong>dama</strong>.] 1) <i>înv</i>. Femeie (de obicei, de la oraş) aparţinând păturilor privilegiate. <strong>Pălărie de damă</strong>. ♦ <strong>De damă</strong> femeiesc. 2) Piesa cea mai importantă, după rege, la jocul de şah. <i>Sin</i>.: regină.* 3) Carte de joc pe care este înfăţişată figura unei femei. <strong>A mers cu dama și a câștigat jocul.</strong> </p>",
+    "active": 0,
+    "created_at": "2022-08-03 15:13:11"
+  },
+  {
+    "user_id": 9,
+    "dictionary_id": 5,
+    "name": "DAMBLÁ, damblále,",
+    "predefinition": "DAMBLÁ, damblále,",
+    "definition": "<p> <i>subst. f.</i> [Art.: <strong>damblaua</strong>; G.-D.: <strong>damblalei</strong>; &lt; tc. <strong>dambla</strong>.] <i>pop.</i> Stare patologică constând în afectarea sistemului nervos, manifestată prin incapacitatea de a face mișcări voluntare. <i>Sin</i>.: paralizie.* <strong>L-a apucat damblaua</strong>. ♦ <strong>A lovi (pe cineva) damblaua</strong> a înnebuni. 2) Acces de furie cu năbădăi. 3) <i>fam.</i> Dorinț? (nest?vilit?) de a avea sau de a face ceva. ă (nestăvilită) de a avea sau de a face ceva. <strong>Damblaua bogatului era de a acapara cât mai mult pământ.</strong> ♦ <strong>A-și face damblaua</strong> a-și face cheful.  </p>",
+    "active": 0,
+    "created_at": "2022-08-03 15:13:11"
+  },
+  {
+    "user_id": 9,
+    "dictionary_id": 5,
+    "name": "A (SE) DAMBLAGÍ, (mă) damblagésc",
+    "predefinition": "DAMBLAGÍ, (mă) damblagésc",
+    "definition": "<p> <i>, vb. </i>[Din<strong> damblagiu </strong>(derivat regresiv).] <i>med. pop</i>. 1. <i>intranz., intranz. pronom. </i>A avea dambla. <strong>2. </strong><i>intranz. pronom.</i> <i>fam</i>. A-şi pierde puterile; a avea sănătatea şubredă. <strong>Cu anii, oamenii se damblagesc.</strong> </p>",
+    "active": 0,
+    "created_at": "2022-08-03 15:13:11"
+  },
+  {
+    "user_id": 9,
+    "dictionary_id": 5,
+    "name": "DAMBLAGÍRE, damblagíri,",
+    "predefinition": "DAMBLAGÍRE, damblagíri,",
+    "definition": "<p> <i>subst</i>. <i>f</i>. [Din <strong>a (se) damblagi</strong>.] <i>pop.</i> Acţiunea de a (se) damblagi şi rezultatul ei. </p>",
+    "active": 0,
+    "created_at": "2022-08-03 15:13:11"
+  },
+  {
+    "user_id": 9,
+    "dictionary_id": 5,
+    "name": "DAMBLAGÍT, damblagítă, damblagíți, damblagíte,",
+    "predefinition": "DAMBLAGÍT, damblagítă, damblagíți, damblagíte,",
+    "definition": "<p> <i>adj.</i> [Din <strong>a (se) damblagi</strong>.] <i>v. </i><strong>A (SE) DAMBLAGI.</strong> </p>",
+    "active": 0,
+    "created_at": "2022-08-03 15:13:11"
+  },
+  {
+    "user_id": 9,
+    "dictionary_id": 5,
+    "name": "DAMBLAGÍU, damblagíe, damblagíi,",
+    "predefinition": "DAMBLAGÍU, damblagíe, damblagíi,",
+    "definition": "<p> <i>adj.</i>, <i>subst. m.</i> și <i>f</i>. [&lt; <strong>dambla + </strong>suf<strong>. -giu</strong>.] 1) <i>pop. </i>(Persoană) care suferă de dambla. 2) <i>fam.</i> (Persoană) care are sănătatea şubredă. <strong>De atâta muncă grea, ajunse un om damblagiu.</strong> 3) <i>fig.</i> <i>fam.</i> (Persoană) care este ahtiată după ceva.  </p>",
+    "active": 0,
+    "created_at": "2022-08-03 15:13:11"
+  },
+  {
+    "user_id": 9,
+    "dictionary_id": 5,
+    "name": "DAMENVÁLS, damenválsuri,",
+    "predefinition": "DAMENVÁLS, damenválsuri,",
+    "definition": "<p> <i>subst. n.</i> [&lt; germ. <strong>Damenwahl</strong>.] Drept, posibilitate pe care o au femeile şi fetele de a-şi alege singure partenerii la dans. <strong>S-a anunțat un damenvals.</strong> </p>",
+    "active": 0,
+    "created_at": "2022-08-03 15:13:11"
+  },
+  {
+    "user_id": 9,
+    "dictionary_id": 5,
+    "name": "DAMF, dámfuri,",
+    "predefinition": "DAMF, dámfuri,",
+    "definition": "<p> <i>subst. n.</i> [&lt; germ. <strong>Dampf.]</strong> <i>pop. fam.</i> 1) Miros dezagreabil (de alcool) pe care îl exală cineva sau ceva. 2) Vapori de alcool. <strong>A simțit în preajmă un damf.</strong> </p>",
+    "active": 0,
+    "created_at": "2022-08-03 15:13:11"
+  },
+  {
+    "user_id": 9,
+    "dictionary_id": 5,
+    "name": "DAMICÉLĂ, damicéle,",
+    "predefinition": "DAMICÉLĂ, damicéle,",
+    "definition": "<p> <i>subst. f.</i> [&lt; it. <strong>damigella.] </strong><i>fam.,iron.</i> Damă (mai ales frumușică). <strong>A flirtat cu o damicelă</strong>. </p>",
+    "active": 0,
+    "created_at": "2022-08-03 15:13:11"
+  },
+  {
+    "user_id": 9,
+    "dictionary_id": 5,
+    "name": "DAMIÉR,",
+    "predefinition": "DAMIÉR,",
+    "definition": "<p> <i>subst. n.</i><strong> </strong>[&lt; fr. <strong>damier.</strong>] Motiv ornamental din suprafețe pătrate<strong>,</strong> alternate fie cromatic, fie ca aranjament. <strong>Un stil damier</strong>. </p>",
+    "active": 0,
+    "created_at": "2022-08-03 15:13:11"
+  },
+  {
+    "user_id": 9,
+    "dictionary_id": 5,
+    "name": "damigeánă, damigéne,",
+    "predefinition": "damigeánă, damigéne,",
+    "definition": "<p> <i>subst</i>. <i>f</i>. [&lt; it. <strong>damigiana</strong>.] Vas mare de sticlă, cu gâtul scurt, îmbrăcat, de obicei, într-o împletitură (de nuiele, de papură, de material plastic etc.), folosită la transportul sau păstrarea unor lichide. <strong>A umplut două damigene cu apă de izvor. </strong> </p>",
+    "active": 0,
+    "created_at": "2022-08-03 15:13:11"
+  },
+  {
+    "user_id": 9,
+    "dictionary_id": 5,
+    "name": "A DAMNÁ, damnéz,",
+    "predefinition": "DAMNÁ, damnéz,",
+    "definition": "<p> <i>vb. tranz.</i> [&lt; fr. <strong>damner</strong>; lat. <strong>damnare</strong>.] <i>livr</i>. (<i>în mitologia greco-romană și în religia creștină</i>) A condamna la chinurile infernului. <strong>L-a damnat pe el și pe toată familia lui.</strong> </p>",
+    "active": 0,
+    "created_at": "2022-08-03 15:13:11"
+  },
+  {
+    "user_id": 9,
+    "dictionary_id": 5,
+    "name": "DAMNÁBIL, damnábilă, damnábili, damnábile,",
+    "predefinition": "DAMNÁBIL, damnábilă, damnábili, damnábile,",
+    "definition": "<p> <i>adj.</i> [&lt; fr. <strong>damnable</strong>; lat. <strong>damnabilis.]</strong> (<i>despre persoane)</i> 1) Care merită să fie condamnat la chinurile iadului. <strong>Oamenii consideră că el este o persoană damnabilă.</strong> 2) Care merită să fie blestemat (de societate).  </p>",
+    "active": 0,
+    "created_at": "2022-08-03 15:13:11"
+  },
+  {
+    "user_id": 9,
+    "dictionary_id": 5,
+    "name": "DAMNÁT, damnátă, damnáți, damnáte,",
+    "predefinition": "DAMNÁT, damnátă, damnáți, damnáte,",
+    "definition": "<p> <i>adj.</i> [&lt; fr. <strong>damné</strong>; lat. <strong>damnatus.</strong> ] 1) <i>v. </i><strong>A DAMNA. 2</strong>) <i>lit. (despre personaje, poeţi)</i> Care depăşeşte condiţia umană obişnuită printr-o înzestrare deosebită (obţinută în urma unui pact cu diavolul sau ca manifestare aparentă a unor forţe malefice); care sfidează societatea. <strong>A devenit un damnat</strong>. </p>",
+    "active": 0,
+    "created_at": "2022-08-03 15:13:11"
+  },
+  {
+    "user_id": 9,
+    "dictionary_id": 5,
+    "name": "DAMNAȚIÚNE, damnațiúni,",
+    "predefinition": "DAMNAȚIÚNE, damnațiúni,",
+    "definition": "<p> <i>subst</i>. <i>f</i>. [&lt; fr. <strong>damnation</strong>; lat. <strong>damnatio, -onis</strong>.] 1) (<i>în mitologia greacă şi romană şi în religia creştină</i>) Osândire, condamnare la chinuri veşnice după moarte. 2) <i>lit.</i> Opoziţie a poetului (romantic) faţă de societate.  </p>",
+    "active": 0,
+    "created_at": "2022-08-03 15:13:11"
+  },
+  {
+    "user_id": 9,
+    "dictionary_id": 5,
+    "name": "DAN, dáni,",
+    "predefinition": "DAN, dáni,",
+    "definition": "<p> <i>subst. n. </i>[&lt; fr. <strong>dan.</strong>] <i>sport </i>(Grad de) calificare în ierarhia titularilor centurii negre în artele marţiale japoneze (judo, karate, aikido etc.).  </p>",
+    "active": 0,
+    "created_at": "2022-08-03 15:13:11"
+  },
+  {
+    "user_id": 9,
+    "dictionary_id": 5,
+    "name": "DANAÍDĂ1, danaíde",
+    "predefinition": "DANAÍDĂ1, danaíde",
+    "definition": "<p> <i>subst.</i> <i>f.</i> [Sil.: <strong>-na-i</strong>-; G.-D.:<strong> Danaidei; </strong>&lt; fr. <strong>Danaïdes. </strong>] 1) <i>mit. </i>Fiecare dintre cele 50 de fiice ale regelui Danaos al Argosului, care, pentru că şi-au ucis soţii în noaptea nunţii, au fost condamnate ca, după moarte, în infern, să toarne veşnic apă într-un vas fără fund. 2) <i>entom</i>. Fluture diurn din Africa, cu aripile viu colorate. <strong>Băiatul a desenat o danaidă.</strong> </p>",
+    "active": 0,
+    "created_at": "2022-08-03 15:13:11"
+  },
+  {
+    "user_id": 9,
+    "dictionary_id": 5,
+    "name": "DANAÍDĂ2, danaíde",
+    "predefinition": "DANAÍDĂ2, danaíde",
+    "definition": "<p> <i>subst.</i> <i>f.</i> [ Sil.: <strong>-na-i</strong>-; G.-D.:<strong> danaidei; </strong>&lt; germ. <strong>Danaiden.</strong>] <i>tehn. </i>Tub calibrat, montat la capătul unei conducte pentru a asigura un anumit debit constant al fluidului din conductă.  </p>",
+    "active": 0,
+    "created_at": "2022-08-03 15:13:11"
+  },
+  {
+    "user_id": 9,
+    "dictionary_id": 5,
+    "name": "DÁNĂ, dáne,",
+    "predefinition": "DÁNĂ, dáne,",
+    "definition": "<p> <i>subst. f.</i> [G.-D.: <strong>danei</strong>; &lt; ngr. <strong>dána.</strong>] 1) <i>nav.</i> Zonă a unui port situată de-a lungul unui chei sau, rar, în mijlocul unei ape navigabile, amenajată pentru acostarea navelor şi pentru manipularea mărfurilor. <strong>Nava s-a apropiat de dană</strong>.2) Magazie pentru depozitarea mărfurilor într-un port sau la vamă. 3) <i>nav.</i> Şlep sau grup de şlepuri acostate bord la bord în această zonă. <strong>În mijlocul acestei zone era și o dană veche. </strong>/ <i>Par.: </i>dună. </p>",
+    "active": 0,
+    "created_at": "2022-08-03 15:13:11"
+  },
+  {
+    "user_id": 9,
+    "dictionary_id": 5,
+    "name": "DÁNCE,",
+    "predefinition": "DÁNCE,",
+    "definition": "<p> <i>subst. n.</i> [Pr.: <strong>dăns</strong>; … &lt; engl. <strong>dance.</strong>] <i>și adjectival muz .</i>Stil de muzică de dans ce este caracterizat printr-un ritm alert şi care implică adesea producţii electronice. <strong>Asculta mai ales muzică dance.</strong>  </p>",
+    "active": 0,
+    "created_at": "2022-08-03 15:13:11"
+  },
+  {
+    "user_id": 9,
+    "dictionary_id": 5,
+    "name": "DANCING, dancinguri,",
+    "predefinition": "DANCING, dancinguri,",
+    "definition": "<p> <i>subst. n.</i> [Pr.: <strong>dănsing;</strong> &lt; engl. <strong>dancing (house);</strong> fr. <strong>dancing</strong>.] Local de petrecere unde se dansează. <strong>Rămasem uluit, când îmi văzusem casa transformată într-un dancing.</strong> </p>",
+    "active": 0,
+    "created_at": "2022-08-03 15:13:11"
+  },
+  {
+    "user_id": 9,
+    "dictionary_id": 5,
+    "name": "DANDANÁ, dandanále,",
+    "predefinition": "DANDANÁ, dandanále,",
+    "definition": "<p> <i>subst</i>. <i>f</i>. [Art.: <strong>dandanaua; </strong>G.-D. : <strong>dandanalei</strong>; &lt; tc. <strong>tantana</strong>.] <i>fam</i>. 1) Situaţie complicată şi neplăcută. <i>Sin</i>.: bucluc; belea; încurcătură; daraveră; pocinog; bai; râie. <strong>Nu trecu mult timp și altă danadana dădu peste el.</strong> 2) Gălăgie mare. <i>Sin</i>.: tămbălău; tălălău; dăndănaie.* <strong>Să vezi atunci ce dandana cu lupi bătrâni, cu-n fleac de ied</strong> (E. Cioclea). </p>",
+    "active": 0,
+    "created_at": "2022-08-03 15:13:11"
+  },
+  {
+    "user_id": 9,
+    "dictionary_id": 5,
+    "name": "DANDANÁIE,",
+    "predefinition": "DANDANÁIE,",
+    "definition": "<p> <i>subst</i>. <i>f</i>. <i>v. </i><strong>DĂNDĂNAIE.</strong> </p>",
+    "active": 0,
+    "created_at": "2022-08-03 15:13:11"
+  },
+  {
+    "user_id": 9,
+    "dictionary_id": 5,
+    "name": "DANDÍSM",
+    "predefinition": "DANDÍSM",
+    "definition": "<p> <i>subst. n.</i> [Pr.: <strong>dendism;</strong> &lt; fr. <strong>dandysme</strong>] Comportare de dandy; ținută de dandy.<strong>Lansarea unei cărți despre dandism însemna un gest de independență morală.</strong> </p>",
+    "active": 0,
+    "created_at": "2022-08-03 15:13:11"
+  },
+  {
+    "user_id": 9,
+    "dictionary_id": 5,
+    "name": "DÁNDY,",
+    "predefinition": "DÁNDY,",
+    "definition": "<p> <i>subst. m. invar.</i><strong> </strong>[Pr.: <strong>dăndi</strong>; art.: <strong>dandy-ul</strong>; &lt; fr.<strong>,</strong> engl. <strong>dandy</strong>.] 1) Tânăr elegant, cu maniere rafinate, îmbrăcat după ultima modă. <strong>Băiatul a devenit un dandy. </strong>2) <i>fam. depr. </i>Bărbat de o eleganță exagerată, ridicolă. <strong>Nu puteam suferi deprinderile urâte ale acestui dandy.</strong>  </p>",
+    "active": 0,
+    "created_at": "2022-08-03 15:13:11"
+  },
+  {
+    "user_id": 9,
+    "dictionary_id": 5,
+    "name": "DANÉZ, danéză, danézi, danéze,",
+    "predefinition": "DANÉZ, danéză, danézi, danéze,",
+    "definition": "<p> <i>adj</i>., <i>subst</i>. [&lt; it. <strong>danese</strong>.] <strong>1.</strong> <i>adj</i>. Care se referă la Danemarca sau la populaţia ei; privitor la Danemarca sau la populaţia ei. <strong>2.</strong> <i>subst</i>. <i>m</i>. şi <i>f</i>. Persoană care face parte din populaţia de bază a Danemarcii sau este originară din Danemarca. <strong>Am cunoscut un danez în călătorie</strong>. <strong>3.</strong> <i>subst</i>. <i>f</i>. <i>mai</i> <i>ales</i> <i>art</i>. Limba germană vorbită de danezi.  </p>",
+    "active": 0,
+    "created_at": "2022-08-03 15:13:11"
+  },
+  {
+    "user_id": 9,
+    "dictionary_id": 5,
+    "name": "DANG,",
+    "predefinition": "DANG,",
+    "definition": "<p> <i>interj</i>. [Onomat<i>.</i>] (<i>se</i> <i>foloseşte</i> <i>adesea</i> <i>repetat</i> <i>pentru</i> <i>a</i> <i>imita</i> <i>sunetul</i> <i>unui</i> <i>clopot</i> <i>sau</i> <i>alt</i> <i>sunet</i> <i>metalic</i>). <i>Sin</i>.: bang. <strong>Deodată, am auzit un dang!</strong> </p>",
+    "active": 0,
+    "created_at": "2022-08-03 15:13:11"
+  },
+  {
+    "user_id": 9,
+    "dictionary_id": 5,
+    "name": "DANGÁ, dangále",
+    "predefinition": "DANGÁ, dangále",
+    "definition": "<p> <i>subst. f.</i> [Art.: <strong>dangaua</strong>; G.-D.; <strong>dangalei</strong>; &lt; tc. <strong>danga</strong>.] 1) Semn făcut cu fierul înroșit pe pielea cailor sau a vitelor pentru a le putea recunoaște. <i>Sin</i>.: sagnă. <strong>Ani de zile purtase ca o danga stigmatul deportării. </strong>2) Unealtă din fier, cu ajutorul căreia sunt însemnate animalele domestice sau pieile pentru tăbăcire. <strong>A luat o danga și a făcut un semn pe pielea vițelului.</strong> </p>",
+    "active": 0,
+    "created_at": "2022-08-03 15:13:11"
+  },
+  {
+    "user_id": 9,
+    "dictionary_id": 5,
+    "name": "DÁNGĂT, dángăte,",
+    "predefinition": "DÁNGĂT, dángăte,",
+    "definition": "<p> <i>subst</i>. <i>n</i>. [&lt; <strong>dang</strong> + suf. <strong>-ăt</strong>.] Sunet (repetat) produs de clopot la mişcare bruscă. <strong>Ecoul dangătului.</strong> </p>",
+    "active": 0,
+    "created_at": "2022-08-03 15:13:11"
+  },
+  {
+    "user_id": 9,
+    "dictionary_id": 5,
+    "name": "DANIÁN, daniánă, daniéni, daniéne,",
+    "predefinition": "DANIÁN, daniánă, daniéni, daniéne,",
+    "definition": "<p> <i>subst. n.,</i> <i>adj.</i> [Sil.: <strong>-ni-an</strong>; &lt; fr. <strong>danien</strong>.] <i>geol</i>. <strong>1</strong>. <i>subst. n.</i> 1) Ultimul etaj al cretacicului, caracterizat prin anumite specii de lamelibranhiate, reptile, palmieri etc. 2)<strong> </strong>Serie de strate geologice din această perioadă. <strong>2. </strong><i>adj.</i> Care este specific ultimului etaj al cretacicului; care se referă la această perioadă.  </p>",
+    "active": 0,
+    "created_at": "2022-08-03 15:13:11"
+  },
+  {
+    "user_id": 9,
+    "dictionary_id": 5,
+    "name": "DÁNIE, dánii",
+    "predefinition": "DÁNIE, dánii",
+    "definition": "<p> <i> , subst</i>. <i>f</i>. [Sil.: <strong>-ni-e</strong>; art.: <strong>dania</strong>; G.-D.: <strong>dániei</strong>; &lt; sl. <strong>danije</strong>.] <i>înv</i>. 1) Obiect dăruit unei biserici sau mănăstiri. <strong>Mănăstirea primise o moșie de danie domnească.</strong> ♦ <strong>Hrisov</strong> <strong>(</strong><i>sau</i> <strong>act) de danie</strong> act prin care se întăreşte în scris o donaţie. <strong>A face danie (cuiva)</strong> a dărui averea (cuiva). 2) <i>rar </i>Obiect oferit cuiva sau primit de la cineva fără plată în semn de prietenie, de dragoste, de respect. <i>Sin.: </i>atenție; cadou; dar. <strong>Biblioteca a primit drept danie câteva zeci de cărți vechi. / </strong><i>Par.: </i>denie.  </p>",
+    "active": 0,
+    "created_at": "2022-08-03 15:13:11"
+  },
+  {
+    "user_id": 9,
+    "dictionary_id": 5,
+    "name": "DANS, dánsuri,",
+    "predefinition": "DANS, dánsuri,",
+    "definition": "<p> <i>subst</i>. <i>n</i>. [&lt; fr. <strong>danse</strong>.] Succesiune de mişcări ritmice executate în tactul unei melodii, constituind una dintre formele artei. <strong>Dans popular</strong>. </p>",
+    "active": 0,
+    "created_at": "2022-08-03 15:13:11"
+  },
+  {
+    "user_id": 9,
+    "dictionary_id": 5,
+    "name": "A DANSÁ, danséz,",
+    "predefinition": "DANSÁ, danséz,",
+    "definition": "<p> <i>vb</i>. [&lt; fr. <strong>danser</strong>.] <strong>1.</strong> <i>intranz</i>. A executa după muzică un dans. <i>Sin</i>.: a juca.* <strong>2.</strong> <i>tranz</i>. (<i>un</i> <i>anumit</i> <i>fel</i> <i>de</i> <i>dans</i>) A executa după tehnica respectivă. <strong>A dansa un vals</strong>. </p>",
+    "active": 0,
+    "created_at": "2022-08-03 15:13:11"
+  },
+  {
+    "user_id": 9,
+    "dictionary_id": 5,
+    "name": "DANSÁNT, dansántă, dansánţi, dansánte,",
+    "predefinition": "DANSÁNT, dansántă, dansánţi, dansánte,",
+    "definition": "<p> <i>adj</i>. [&lt; fr. <strong>dansant</strong>.] 1) Care se dansează. <strong>Muzică dansantă</strong>. 2) (<i>despre</i> <i>serate</i>, <i>petreceri</i> etc.) Care este cu dans; la care se dansează. <strong>A fost la o serată dansantă</strong>. / <i>Par.: </i>dansat. </p>",
+    "active": 0,
+    "created_at": "2022-08-03 15:13:11"
+  },
+  {
+    "user_id": 9,
+    "dictionary_id": 5,
+    "name": "DANSÁT, dansátă, dansáți, dansáte,",
+    "predefinition": "DANSÁT, dansátă, dansáți, dansáte,",
+    "definition": "<p> <i>adj. </i>[Din <strong>a dansa</strong>.] 1) v. A <strong>dansA</strong>.<i> </i>2) (<i>despre persoane</i>) Luat la dans de către cineva. <strong>Fata dansată era invidiată de celelalte fete. </strong>/ <i>Par.: </i>dansant. </p>",
+    "active": 0,
+    "created_at": "2022-08-03 15:13:11"
+  },
+  {
+    "user_id": 9,
+    "dictionary_id": 5,
+    "name": "DANSATÓR, dansatoáre, dansatóri, dansatoare,",
+    "predefinition": "DANSATÓR, dansatoáre, dansatóri, dansatoare,",
+    "definition": "<p> <i>subst</i>. <i>m</i>. şi <i>f</i>. [&lt; <strong>a dansa</strong> + suf. <strong>-tor</strong>.] 1) Persoană care dansează. <i>Sin.:</i> jucător.* <strong>Dansatorii au încins atmosfera la nuntă.</strong>2) Persoană a cărei profesiune este dansul.  </p>",
+    "active": 0,
+    "created_at": "2022-08-03 15:13:11"
+  },
+  {
+    "user_id": 9,
+    "dictionary_id": 5,
+    "name": "DANSOMÉTRU, dansométre,",
+    "predefinition": "DANSOMÉTRU, dansométre,",
+    "definition": "<p> <i>subst. n.</i> [Sil.: -tru; &lt; fr. <strong>dansomètre</strong>.] <i>tehn</i>. Aparat folosit la măsurarea golurilor invizibile de sub traversele dansante ale unei linii de cale ferată.  </p>",
+    "active": 0,
+    "created_at": "2022-08-03 15:13:11"
+  },
+  {
+    "user_id": 9,
+    "dictionary_id": 5,
+    "name": "A DANTElÁ, danteléz,",
+    "predefinition": "DANTElÁ, danteléz,",
+    "definition": "<p> <i>vb</i>. <i>tranz</i>. [&lt; fr. <strong>denteler</strong>.] (<i>obiecte</i> <i>de</i> <i>metal</i>, <i>de</i> <i>lemn</i>) A cresta pe margine dând aspectul unei dantele. <strong>Zăpada a dantelat geamul.</strong> </p>",
+    "active": 0,
+    "created_at": "2022-08-03 15:13:11"
+  },
+  {
+    "user_id": 9,
+    "dictionary_id": 5,
+    "name": "DANTELÁRE, dantelắri,",
+    "predefinition": "DANTELÁRE, dantelắri,",
+    "definition": "<p> <i>subst</i>. <i>f</i>. [Din <strong>a dantela</strong>.] Acțiunea de a dantela și rezultatul ei. </p>",
+    "active": 0,
+    "created_at": "2022-08-03 15:13:11"
+  },
+  {
+    "user_id": 9,
+    "dictionary_id": 5,
+    "name": "DANTELÁT, dantelátă, danteláți, danteláte,",
+    "predefinition": "DANTELÁT, dantelátă, danteláți, danteláte,",
+    "definition": "<p> <i>adj</i>. [Din <strong>a dantela</strong>.] <i>v<strong>.</strong></i><strong> A DANTELA.</strong> </p>",
+    "active": 0,
+    "created_at": "2022-08-03 15:13:11"
+  },
+  {
+    "user_id": 9,
+    "dictionary_id": 5,
+    "name": "DANTÉLĂ, dantéle,",
+    "predefinition": "DANTÉLĂ, dantéle,",
+    "definition": "<p> <i>subst</i>. <i>f</i>. [&lt; fr. <strong>dentelle</strong>.] Împletitură fină cu modele variate, folosită ca garnitură la lenjerie, rochii, perdele etc. <strong>Rochie cu dantelă</strong>. </p>",
+    "active": 0,
+    "created_at": "2022-08-03 15:13:11"
+  },
+  {
+    "user_id": 9,
+    "dictionary_id": 5,
+    "name": "DANTELĂRÍE, dantelăríi,",
+    "predefinition": "DANTELĂRÍE, dantelăríi,",
+    "definition": "<p> <i>subst</i>. <i>f</i>. [Art. <strong>dantelăria</strong>; G.-D.: <strong>dantelăriei</strong>; &lt; <strong>dantelă</strong> + suf. <strong>-ărie</strong>.] 1) Cantitate mare de dantele. 2) Diferite feluri de dantele. <strong>Rochia avea o dantelărie sofisticată</strong>. </p>",
+    "active": 0,
+    "created_at": "2022-08-03 15:13:11"
+  },
+  {
+    "user_id": 9,
+    "dictionary_id": 5,
+    "name": "DANTELÚRĂ, dantelúri,",
+    "predefinition": "DANTELÚRĂ, dantelúri,",
+    "definition": "<p> <i>subst. f.</i> [G.-D.: <strong>dantelurii</strong>; &lt; fr. <strong>dentelure</strong>.] 1) <i>arhit</i>. Ornamentaţie constând în crestături, colţişori, zimţi etc. 2) Margine dinţată. 3) <i>bot.</i> Totalitatea crestăturilor de pe marginea frunzelor. <strong>Era o plantă cu o dantelură frumoasă a frunzelor.</strong> 4) <i>filat.</i> Perforare a laturilor unei mărci, pentru a uşura desprinderea ei, care se exprimă prin numărul de dinţi pe 2 cm.  </p>",
+    "active": 0,
+    "created_at": "2022-08-03 15:13:11"
+  },
+  {
+    "user_id": 9,
+    "dictionary_id": 5,
+    "name": "DANTELÚȚĂ, dantelúțe,",
+    "predefinition": "DANTELÚȚĂ, dantelúțe,",
+    "definition": "<p> <i>subst. f.</i> … [&lt; <strong>dantelă</strong> + suf. <strong>-uță</strong>.] Diminutiv de la <strong>dantelă</strong>. <strong>Fața de masă avea o danteluță originală.</strong> </p>",
+    "active": 0,
+    "created_at": "2022-08-03 15:13:11"
+  },
+  {
+    "user_id": 9,
+    "dictionary_id": 5,
+    "name": "DANTÉSC, dantéscă, dantéști,",
+    "predefinition": "DANTÉSC, dantéscă, dantéști,",
+    "definition": "<p> <i>adj.</i> [&lt; fr. <strong>dantesque</strong>; it. <strong>dantesco</strong>.] Care aparţine lui Dante, care este caracteristic operei lui Dante. <strong>Abordare dantescă.</strong> </p>",
+    "active": 0,
+    "created_at": "2022-08-03 15:13:11"
+  },
+  {
+    "user_id": 9,
+    "dictionary_id": 5,
+    "name": "DANTÍSM,",
+    "predefinition": "DANTÍSM,",
+    "definition": "<p> <i>subst. n.</i> [&lt; it. <strong>dantisimo</strong>.] Cult pentru opera şi personalitatea lui Dante. ... </p>",
+    "active": 0,
+    "created_at": "2022-08-03 15:13:11"
+  },
+  {
+    "user_id": 9,
+    "dictionary_id": 5,
+    "name": "DANTOLÓG, dantológă, dantológi, dantológe,",
+    "predefinition": "DANTOLÓG, dantológă, dantológi, dantológe,",
+    "definition": "<p> <i>subst. m., f.</i> [&lt; it. <strong>dantologo</strong>.] <i>lit.</i> Specialist în dantologie. <strong>Un dantolog consacrat</strong>. </p>",
+    "active": 0,
+    "created_at": "2022-08-03 15:13:11"
+  },
+  {
+    "user_id": 9,
+    "dictionary_id": 5,
+    "name": "DANTOLOGÍE,",
+    "predefinition": "DANTOLOGÍE,",
+    "definition": "<p> <i>subst. f. </i>[Art.: <strong>dantologia</strong>; G.-D.: <strong>dantologiei</strong>; &lt; fr. <strong>dantologie</strong>; it. <strong>Dantologia.</strong>] <i>lit.</i> Studiu al vieţii şi operei lui Dante. .... <strong>Și-a susținut teza în dantologie.</strong> </p>",
+    "active": 0,
+    "created_at": "2022-08-03 15:13:11"
+  },
+  {
+    "user_id": 9,
+    "dictionary_id": 5,
+    "name": "DANTÚRĂ, dantúri,",
+    "predefinition": "DANTÚRĂ, dantúri,",
+    "definition": "<p> <i>subst</i>. <i>f</i>. [&lt; fr. <strong>denture</strong>.] 1) Totalitate a dinţilor unei persoane. 2) Felul în care sunt aranjaţi dinţii pe maxilar. <i>Sin</i>.: dentiţie.* 3) Ansamblul dinţilor unor organe de maşini. </p>",
+    "active": 0,
+    "created_at": "2022-08-03 15:13:11"
+  },
+  {
+    "user_id": 9,
+    "dictionary_id": 5,
+    "name": "DANUBIÁN, danubiánă, danubieni, danubiene,",
+    "predefinition": "DANUBIÁN, danubiánă, danubieni, danubiene,",
+    "definition": "<p> <i>adj.</i> [Sil<strong>.: -bi-an; </strong>&lt;<strong> </strong>fr.<strong> danubien.</strong>] 1) Care aparţine regiunii Dunării; care este situat în regiunea Dunării, care se referă la regiunea Dunării. <i>Sin</i>.: dunărean.* <strong>Un peisaj danubian</strong>. </p>",
+    "active": 0,
+    "created_at": "2022-08-03 15:13:11"
+  },
+  {
+    "user_id": 9,
+    "dictionary_id": 5,
+    "name": "DAR1,",
+    "predefinition": "DAR1,",
+    "definition": "<p> <i>conj</i>. [Var.: <strong>da</strong>; <strong>dară</strong>; et. nec.] 1) ( <i>(exprimă un raport adversativ și leagă două propoziții sau două părți de propoziție)</i> Da; însă; iar. <strong>A început să vorbească, dar lumea nu-l mai asculta</strong>. <strong>Toate erau bune și frumoase, dar neadevărate</strong>. 2) <i>(exprimă un raport conclusiv și leagă propoziții sau fraze)</i> Deci, aşadar, prin urmare. <strong>Voi accepta dar toate condițiile.</strong> 3) (<i>în legătură cu un imperativ exprimă nerăbdarea, încurajarea, dojana</i> etc). <strong>Dar spune odată!</strong> 3) (<i>înaintea unui cuvânt, care de obicei se repetă, întăreşte înţelesul acestuia</i>) <strong>I-au adus niște cireșe, dar cireșe!</strong> / <i>Par</i>.: doar. </p>",
+    "active": 0,
+    "created_at": "2022-08-03 15:13:11"
+  },
+  {
+    "user_id": 9,
+    "dictionary_id": 5,
+    "name": "DAR2, dáruri,",
+    "predefinition": "DAR2, dáruri,",
+    "definition": "<p> <i>subst</i>. <i>n</i>. [&lt; sl. <strong>darú</strong>.] 1) Obiect primit de la cineva sau oferit fără plată cuiva în semn de prietenie sau ca ajutor. <i>Sin</i>.: cadou; atenţie; prezent; peşcheş.* … <strong>Mi-a adus multe daruri din călătorie</strong>.♦ <strong>În dar</strong> fără plată; gratis. 2) Însuşire cu care se naşte cineva. <i>Sin</i>.: talent; har. <strong>Avea darul de a vindeca suflete omenești.</strong> ♦ <strong>A avea darul vorbirii</strong> a vorbi frumos; a fi bun orator. <strong>A avea (</strong><i>sau</i> <strong>a lua) darul beţiei</strong> a fi (sau a deveni) beţiv. 3) <i>bis</i>. <i>fig.</i> Fiecare dintre cele şapte taine ale bisericii ortodoxe.  </p>",
+    "active": 0,
+    "created_at": "2022-08-03 15:13:11"
+  },
+  {
+    "user_id": 9,
+    "dictionary_id": 5,
+    "name": "DARÁ, darále,",
+    "predefinition": "DARÁ, darále,",
+    "definition": "<p> <i>subst. f.</i> [Art.: <strong>daráua</strong>; G.-D.: <strong>darálei</strong>; &lt; tc. <strong>dara</strong>.] 1) Greutate a ambalajului, a recipientului, a vehiculului etc. în care se păstrează sau se transportă o marfă. <strong>Prețul mărfii fără dara. </strong>2) Greutate la cântar. / <i>Par.: </i>darac. </p>",
+    "active": 0,
+    "created_at": "2022-08-03 15:13:11"
+  },
+  {
+    "user_id": 9,
+    "dictionary_id": 5,
+    "name": "DARABÁNĂ, darabáne,",
+    "predefinition": "DARABÁNĂ, darabáne,",
+    "definition": "<p> <i>subst. f.</i> [G.-D.: <strong>darabanei</strong>; &lt; polon., ucr. <strong>taraban</strong>.] 1) <i>pop.</i> Tobă mică. <strong>Toată ziua bate darabana.</strong>2) <i>reg.</i> Smoală sau păcură folosită la ungerea osiei (la căruţă). </p>",
+    "active": 0,
+    "created_at": "2022-08-03 15:13:11"
+  },
+  {
+    "user_id": 9,
+    "dictionary_id": 5,
+    "name": "DARÁC, daráce,",
+    "predefinition": "DARÁC, daráce,",
+    "definition": "<p> <i>subst. n.</i> [&lt; bg. <strong>daraк</strong>; tc. <strong>darak</strong>.] 1) Unealtă pentru pieptănat lâna, cânepa sau inul, formată dintr-un sistem de piepteni, cu dinţi de oţel, montaţi pe un suport de fier. <i>Sin.:</i> scărmănătoare; cardă.* <strong>Seara mai dădea cânepa la darac</strong>. 2) <i>ind. text</i>. Mecanism format din două piese cu suprafeţe cilindrice, folosit la destrămarea fibrelor din lână, de celofibră, sintetice etc. / <i>Par.: </i>dara.<strong> </strong> </p>",
+    "active": 0,
+    "created_at": "2022-08-03 15:13:11"
+  },
+  {
+    "user_id": 9,
+    "dictionary_id": 5,
+    "name": "DARAVÉLĂ, daravéle,",
+    "predefinition": "DARAVÉLĂ, daravéle,",
+    "definition": "<p> <i>subst. f. v. </i><strong>DARAVERĂ.</strong> </p>",
+    "active": 0,
+    "created_at": "2022-08-03 15:13:11"
+  },
+  {
+    "user_id": 9,
+    "dictionary_id": 5,
+    "name": "DARAVÉRĂ, daravére,",
+    "predefinition": "DARAVÉRĂ, daravére,",
+    "definition": "<p> <i>subst. f.</i> [Var.: <strong>daravélă</strong>; &lt; <strong>dare</strong> + <strong>avere</strong>.] Situație complicată şi neplăcută. … <i>Sin</i>.: încurcătură; dandana; bucluc; belea; pocinog; bai; râie.*<strong> A nimerit într-o daraveră</strong>. </p>",
+    "active": 0,
+    "created_at": "2022-08-03 15:13:11"
+  },
+  {
+    "user_id": 9,
+    "dictionary_id": 5,
+    "name": "DÁRĂ,",
+    "predefinition": "DÁRĂ,",
+    "definition": "<p> <i>conj.</i> <i>v. </i><strong>DAR.</strong></p>",
+    "active": 0,
+    "created_at": "2022-08-03 15:13:11"
+  },
+  {
+    "user_id": 9,
+    "dictionary_id": 5,
+    "name": "DÁRĂMITE,",
+    "predefinition": "DÁRĂMITE,",
+    "definition": "<p> <i>conj.</i> [Var.: <strong>darmite; </strong>&lt; <strong>dar(ă) + mi + te</strong>.] <i>pop.</i> <i>(adaugă o idee nouă la cele spuse anterior</i>) Mai mult decât atâta; cu atât mai mult; dar încă.  </p>",
+    "active": 0,
+    "created_at": "2022-08-03 15:13:11"
+  },
+  {
+    "user_id": 9,
+    "dictionary_id": 5,
+    "name": "DÁRDĂ, dárde,",
+    "predefinition": "DÁRDĂ, dárde,",
+    "definition": "<p> <i>subst. f.</i> [&lt; fr. <strong>dard</strong>; pol. <strong>darda</strong>.] 1) (<i>în Evul Mediu</i>) Armă albă, ca o suliţă scurtă, prevăzută cu vârf de oţel. … <strong>Pe câmpul de bătaie albeau multe darde.</strong> </p>",
+    "active": 0,
+    "created_at": "2022-08-03 15:13:11"
+  }
+]

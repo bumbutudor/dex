@@ -89,8 +89,15 @@ Route::get('/insert-dictionary', function(){
 	// $storage_path = 'explicativ/explicativ_V.json';
 	// $storage_path = 'explicativ/explicativ_T.json';
 	// $storage_path = 'explicativ/explicativ_WXYZ.json';
-	$storage_path = 'explicativ/explicativ_I.json';
-	
+	// $storage_path = 'explicativ_new/explicativ_new_H.json';
+	// $storage_path = 'explicativ_new/explicativ_new_M1.json';
+	// $storage_path = 'explicativ_new/explicativ_new_I.json';
+	// $storage_path = 'explicativ_new/explicativ_new_E1.json';
+	// $storage_path = 'explicativ_new/explicativ_new_D24.json';
+	// $storage_path = 'explicativ_new/explicativ_new_M79.json';
+	// $storage_path = 'explicativ_new/explicativ_new_M79r.json'; // r = reparat
+	$storage_path = 'explicativ_new/explicativ_new_I2.json'; // I2 is Î
+ 	
 	$json = file_get_contents(storage_path($storage_path));
 	$objs = json_decode($json,true);
 	$i = 0;
@@ -101,7 +108,7 @@ Route::get('/insert-dictionary', function(){
 		DB::table('words')->insert($insertArr);
 		$i++;
 	}
-	echo 'Litera I a fost încărcata. '.$i.' cuvinte au fost adăugate.';
+	echo 'Litera M79 reparat a fost încărcata in dictionarul <em>Dicționar Explicativ al Limbii Române Actuale</em>. <br>Au fost adăugate '.$i.' cuvinte.';
 	// return Redirect::back()->with('success', 'Litera X a fost încărcată. '.$i.' cuvinte au fost adăugate.');
 });
 
