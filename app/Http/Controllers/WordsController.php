@@ -29,7 +29,7 @@ class WordsController extends Controller
 {
     public function index()
     {   
-        setlocale(LC_COLLATE, 'ro_RO.utf8');
+        setlocale(LC_COLLATE, 'utf8_bin');
 
         // get the words of the selected dictionary - added on 30 June 2022 by Tudor
         if (Request::has('dictionar')) {
@@ -109,6 +109,7 @@ class WordsController extends Controller
             'words' => new WordCollection(
                 Word::with('dictionary')
                     // ->orderByName()
+                    ->where('dictionary_id', '!=', '5') // 5 is the id of the dictionary "explicativ al limbii romane actuale"
                     ->orderBy('predefinition', 'ASC')
                     ->filter(Request::only('search', 'trashed'))
                     ->paginate()
