@@ -51,7 +51,7 @@ const Create = () => {
           href={route('words')}
           className="text-indigo-600 hover:text-indigo-700"
         >
-          Cuvinte
+          Articol lexicografic
         </InertiaLink>
         <span className="font-medium text-indigo-600"> /</span> Adaugă
       </h1>

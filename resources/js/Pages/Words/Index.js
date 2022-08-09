@@ -92,7 +92,7 @@ const Index = () => {
                 key={id}
                 className="text-indigo-900 hover:bg-indigo-200 focus-within:bg-indigo-200"
               >
-                <td className="border-t whitespace-nowrap text-xl font-bold"
+                <td className="border-t text-xl font-bold" // delete whitespace-nowrap className
                   title={dictionary ? dictionary.name : ''}
                 >
 

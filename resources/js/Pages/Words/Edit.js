@@ -268,13 +268,13 @@ const Edit = () => {
         {false &&
           <SmallButton className="btn-indigo ml-2"
             onClick={onShowConfirmModal}>
-            Adaugă un cuvânt instrus
+            Adaugă un articol lexicografic nou
           </SmallButton>
         }
 
         <SmallButton className="btn-indigo ml-2"
           onClick={onShowDialogWithButtons}>
-          Adaugă un cuvânt instrus
+          Adaugă un articol lexicografic
         </SmallButton>
 
         <ConfirmModal
@@ -330,7 +330,7 @@ const Edit = () => {
                 />
 
                 <div name="Definiție" className="w-full pb-8 pr-6">
-                  <h2 className="pb-2">Aici, la descrierea lexicografică, tăie textul necesar din stânga și lipeștel mai jos.</h2>
+                  <h2 className="pb-2">Aici, la descrierea lexicografică, decupează textul necesar din stânga și lipește-l mai jos.</h2>
 
                   <CKEditor
                     editor={ClassicEditor}
