@@ -99,7 +99,10 @@ Route::get('/insert-dictionary', function(){
 	// $storage_path = 'explicativ_new/explicativ_new_I2.json'; // I2 is Î
 	// $storage_path = 'explicativ_new/explicativ_new_A720.json'; // Livia
 	// $storage_path = 'explicativ_new/explicativ_new_M1016.json'; // Ana M10-M16
-	$storage_path = 'explicativ_new/explicativ_new_D510.json'; // Lidia D5-D10
+	// $storage_path = 'explicativ_new/explicativ_new_D510.json'; // Lidia D5-D10
+	// $storage_path = 'explicativ_new/explicativ_new_M14A.json'; // Ana missing page between M10-M16
+	// $storage_path = 'explicativ_new/explicativ_new_B1B8.json'; // Livia B full
+	$storage_path = 'explicativ_new/explicativ_new_A12A.json'; // Livia A missing pages
 
 	$json = file_get_contents(storage_path($storage_path));
 	$objs = json_decode($json,true);
