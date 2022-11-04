@@ -51,6 +51,16 @@ export default () => {
         "active": letter === "A"
       },
       {
+        "params": "dictionar=" + dictionary_id + "&litera=Ă",
+        "label": "Ă",
+        "active": letter === "Ă"
+      },
+      {
+        "params": "dictionar=" + dictionary_id + "&litera=Â",
+        "label": "Â",
+        "active": letter === "Â"
+      },
+      {
         "params": "dictionar=" + dictionary_id + "&litera=B",
         "label": "B",
         "active": letter === "B"
