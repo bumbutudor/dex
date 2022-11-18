@@ -9,6 +9,7 @@ use App\Http\Resources\WordResource;
 // use App\Http\Resources\UserWordCollection;
 use App\Http\Resources\WordDictionaryCollection;
 use App\Models\Word;
+use App\Models\Dictionary;
 // use App\Models\Account;
 use Inertia\Inertia;
 use Illuminate\Validation\Rule;
@@ -45,11 +46,8 @@ class WordsController extends Controller
                         ->paginate(50)
                         ->appends(Request::all())
                 ),
-                'dictionaries' => new WordDictionaryCollection(
-                    Auth::user()->account->dictionaries()->get()
-                ),
-                'dictionary_count' => Word::where('dictionary_id','=',Request::get('dictionar'))->count(),
-                'dictionary_id' => Request::get('dictionar'),
+                'dictionaries' => Dictionary::withCount('words')->get(),
+                'dictionary_count' => Word::count(),
             ]);
         }
 
@@ -66,12 +64,8 @@ class WordsController extends Controller
                         ->paginate(50)
                         ->appends(Request::all())
                 ),
-                'dictionaries' => new WordDictionaryCollection(
-                    Auth::user()->account->dictionaries()->get()
-                ),
-                'dict_uzual_count' => Word::where('dictionary_id','=','1')->count(),
-                'dict_sinonime_count' => Word::where('dictionary_id','=','2')->count(),
-                'dict_sensuri_noi_count' => Word::where('dictionary_id','=','4')->count(),
+                'dictionaries' => Dictionary::withCount('words')->get(),
+                'dictionary_count' => Word::count(),
 
             ]);
         }
@@ -91,12 +85,8 @@ class WordsController extends Controller
                     ->paginate(50)
                     ->appends(Request::all())
             ),
-            'dict_uzual_count' => Word::where('dictionary_id','=','1')->count(),
-            'dict_sinonime_count' => Word::where('dictionary_id','=','2')->count(),
-            'dict_sensuri_noi_count' => Word::where('dictionary_id','=','4')->count(),
-            'dictionaries' => new WordDictionaryCollection(
-                Auth::user()->account->dictionaries()->get()
-            ),
+            'dictionaries' => Dictionary::withCount('words')->get(),
+            'dictionary_count' => Word::count(),
 
         ]);
     }
@@ -115,11 +105,11 @@ class WordsController extends Controller
                     ->paginate()
                     ->appends(Request::all())
             ),
+            'dictionaries' => Dictionary::withCount('words')->get(),
+            'dictionary_count' => Word::count(),
             'wordOfTheDay' => Word::with('dictionary')
                     ->firstWhere('ID', generateRandomNumberEachDay()),
-            'dict_uzual_count' => Word::where('dictionary_id','=','1')->count(),
-            'dict_sinonime_count' => Word::where('dictionary_id','=','2')->count(),
-            'dict_sensuri_noi_count' => Word::where('dictionary_id','=','4')->count(),
+           
         ]);
     }
 
