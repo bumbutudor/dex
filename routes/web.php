@@ -103,22 +103,23 @@ Route::get('/insert-dictionary', function(){
 	// $storage_path = 'explicativ_new/explicativ_new_M14A.json'; // Ana missing page between M10-M16
 	// $storage_path = 'explicativ_new/explicativ_new_B1B8.json'; // Livia B full
 	// $storage_path = 'explicativ_new/explicativ_new_A12A.json'; // Livia A missing pages
-
-	// main block
 	// $storage_path = 'explicativ_new/explicativ_new_D11D22.json'; // Livia D full
 
-	// $json = file_get_contents(storage_path($storage_path));
-	// $objs = json_decode($json,true);
-	// $i = 0;
-	// foreach ($objs as $obj)  {
-	// 	foreach ($obj as $key => $value) {
-	// 		$insertArr[str_slug($key,'_')] = $value;
-	// 	} 
-	// 	DB::table('words')->insert($insertArr);
-	// 	$i++;
-	// }
-	// echo 'Litera '.$storage_path.'  a fost încărcata in dictionarul <em>Dicționar Explicativ al Limbii Române Actuale</em>. <br>Au fost adăugate '.$i.' cuvinte.';
-	
+	// main block
+	$storage_path = 'explicativ_new/explicativ_new_M17M28.json'; // Ana M17-M28 full
+
+	$json = file_get_contents(storage_path($storage_path));
+	$objs = json_decode($json,true);
+	$i = 0;
+	foreach ($objs as $obj)  {
+		foreach ($obj as $key => $value) {
+			$insertArr[str_slug($key,'_')] = $value;
+		} 
+		DB::table('words')->insert($insertArr);
+		$i++;
+	}
+	echo 'Litera '.$storage_path.'  a fost încărcata in dictionarul <em>Dicționar Explicativ al Limbii Române Actuale</em>. <br>Au fost adăugate '.$i.' cuvinte.';
+	// end main block
 	
 	// return Redirect::back()->with('success', 'Litera X a fost încărcată. '.$i.' cuvinte au fost adăugate.');
 });
