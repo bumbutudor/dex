@@ -1,0 +1,803 @@
+[
+  {
+    "user_id": 10,
+    "dictionary_id": 5,
+    "name": "K,",
+    "predefinition": "K,",
+    "definition": "<p> <i>subst</i>. <i>m. invar. </i>1) A paisprezecea literă a alfabetului limbii române.<strong> Cuvântul </strong><i><strong>kaki </strong></i><strong>începe cu litera „k”.</strong> 2<strong>)</strong> Semn grafic pentru această literă. 3) Sunet notat cu această literă. <strong>Scrie un „k” majuscul.</strong> </p>",
+    "active": 0,
+    "created_at": "2022-11-25 08:37:18"
+  },
+  {
+    "user_id": 10,
+    "dictionary_id": 5,
+    "name": "KABÚKI,",
+    "predefinition": "KABÚKI,",
+    "definition": "<p> <i>subst. n</i>. [&lt; engl., fr. <strong>kabuki.</strong>] Gen de teatru tradiţional japonez, în care dialogul alternează cu părţi psalmodiate sau cântate şi cu intermedii de balet.  </p>",
+    "active": 0,
+    "created_at": "2022-11-25 08:37:18"
+  },
+  {
+    "user_id": 10,
+    "dictionary_id": 5,
+    "name": "KAGHEBÉ,",
+    "predefinition": "KAGHEBÉ,",
+    "definition": "<p> <i>subst. n</i>. [Abr. de la <strong>K[omitet</strong>] <strong>G[osudarstvennoi</strong>] <strong>B[ezopasnosti</strong>]<strong>.</strong>] Organ de stat în fosta Uniune Sovietică, având sarcina de a apăra organizarea politică, economică şi socială a statului comunist. <strong>Agenți ai kaghebe-ului.</strong> </p>",
+    "active": 0,
+    "created_at": "2022-11-25 08:37:18"
+  },
+  {
+    "user_id": 10,
+    "dictionary_id": 5,
+    "name": "KAGHEBÍST, kaghebístă, kaghebíşti, kaghebíste,",
+    "predefinition": "KAGHEBÍST, kaghebístă, kaghebíşti, kaghebíste,",
+    "definition": "<p> <i>adj., subst. </i>[&lt; <strong>kaghebe</strong> + suf. <strong>-ist.</strong>] <strong>1. </strong><i>adj.<strong> </strong></i>Care ține de kaghebe; propriu kaghebe-ului. <strong>Modelul kaghebist al conducerii organelor de presă și televiziune de către oameni perfect controlați.</strong> <strong>2.</strong><i> subst. f., adj</i>.<strong> </strong>1) (Persoană) care a fost angajată la kaghebe. 2) (Persoană) care a colaborat cu kaghebe-ul. <strong>În armată erau infiltrați și kaghebiști.</strong> </p>",
+    "active": 0,
+    "created_at": "2022-11-25 08:37:18"
+  },
+  {
+    "user_id": 10,
+    "dictionary_id": 5,
+    "name": "KAINÍT,",
+    "predefinition": "KAINÍT,",
+    "definition": "<p> <i>subst</i>. <i>n</i>. [Sil.: <strong>ka-i-nit</strong>; &lt; fr. <strong>kainit</strong>; gr. <strong>kainos</strong>.] Sare compusă din sulfat de magneziu şi clorură hidratată de potasiu, folosită la fabricarea îngrăşămintelor minerale. </p>",
+    "active": 0,
+    "created_at": "2022-11-25 08:37:18"
+  },
+  {
+    "user_id": 10,
+    "dictionary_id": 5,
+    "name": "KÁIZER1, káizeri,",
+    "predefinition": "KÁIZER1, káizeri,",
+    "definition": "<p> <i>subst</i>. <i>m</i>. [Sil.: <strong>kai-zer</strong>; &lt; germ. <strong>Kaiser</strong>.] <i>ist</i>. 1) Împărat german. 2) Persoană care purta acest titlu. <strong>Avea u aer de kaizer arogant.</strong> </p>",
+    "active": 0,
+    "created_at": "2022-11-25 08:37:18"
+  },
+  {
+    "user_id": 10,
+    "dictionary_id": 5,
+    "name": "KÁIZER2,",
+    "predefinition": "KÁIZER2,",
+    "definition": "<p> <i>subst</i>. <i>n</i>. [Sil.: <strong>kai-zer</strong>; &lt; germ. <strong>Kaiser</strong>.] Piept de porc afumat şi fiert. <strong>Avea în farfurie două felii de kaizer perpelit pe grătar.</strong> </p>",
+    "active": 0,
+    "created_at": "2022-11-25 08:37:18"
+  },
+  {
+    "user_id": 10,
+    "dictionary_id": 5,
+    "name": "KAKEMÓNO,",
+    "predefinition": "KAKEMÓNO,",
+    "definition": "<p> <i>subst</i>. <i>n</i>. [&lt; fr. <strong>kakémono</strong>.] (<i>în</i> <i>Japonia</i>) Pictură executată în tuş sau în culori de apă, pe rulouri de mătase, de pai de orez sau de hârtie, care se atârnă în lung pe pereţi. </p>",
+    "active": 0,
+    "created_at": "2022-11-25 08:37:18"
+  },
+  {
+    "user_id": 10,
+    "dictionary_id": 5,
+    "name": "KAKÍ1,",
+    "predefinition": "KAKÍ1,",
+    "definition": "<p> <i>adj. invar. </i>și<i> substantival</i> [&lt; fr. <strong>kaki</strong>.]<i>.</i>Care este de culoare galben-cafenie cu nuanțe verzui. <strong>Pulovere de tip militar de culoare kaki.</strong> </p>",
+    "active": 0,
+    "created_at": "2022-11-25 08:37:18"
+  },
+  {
+    "user_id": 10,
+    "dictionary_id": 5,
+    "name": "KÁKI2,",
+    "predefinition": "KÁKI2,",
+    "definition": "<p> <i>subst. m</i>. [&lt; fr. <strong>kaki</strong>.]1) Arbore sau arbust, originar din Japonia, care rodește fructe de culoare portocalie, având aspectul unei tomate, cu pulpa moale şi dulce. 2) Fructul acestui arbore. <i>Sin</i>.: caisă japoneză. <strong>Kaki sunt bogate în beta-caroten și minerale.</strong> </p>",
+    "active": 0,
+    "created_at": "2022-11-25 08:37:18"
+  },
+  {
+    "user_id": 10,
+    "dictionary_id": 5,
+    "name": "KALANCHOE,",
+    "predefinition": "KALANCHOE,",
+    "definition": "<p> <i>subst. f.</i> [&lt; fr., engl. <strong>kalanchoe</strong>.] <i>bot</i>. Nume dat mai multor specii de plante tropicale suculente, din familia crasulaceelor, cu frunze opuse, cărnoase şi cu flori roşii, galbene-oranj sau violete. <strong>Kalanchoea este întrebuințată în medicina populară.</strong> </p>",
+    "active": 0,
+    "created_at": "2022-11-25 08:37:18"
+  },
+  {
+    "user_id": 10,
+    "dictionary_id": 5,
+    "name": "KALÁŞNIKOV,",
+    "predefinition": "KALÁŞNIKOV,",
+    "definition": "<p> <i>subst</i>. <i>n</i>. [&lt; rus. <strong>kalaşnikov</strong>.] <i>milit</i>. Puşcă-mitralieră de fabricaţie rusească. <strong>Banditul a tras câteva rafale dintr-un kalașnicov, ucigând și rănind mai mulți oameni.</strong> </p>",
+    "active": 0,
+    "created_at": "2022-11-25 08:37:18"
+  },
+  {
+    "user_id": 10,
+    "dictionary_id": 5,
+    "name": "KÁLIU,",
+    "predefinition": "KÁLIU,",
+    "definition": "<p> <i>subst</i>. <i>n</i>. [&lt; germ. <strong>Kalium</strong>.] Metal alcalin moale, de culoare albă-argintie, foarte reactiv, care în natură se găseşte sub formă de săruri şi se întrebuinţează ca îngrăşământ agricol sau la fabricarea sticlei: <i>Sin</i>.: potasiu.* </p>",
+    "active": 0,
+    "created_at": "2022-11-25 08:37:18"
+  },
+  {
+    "user_id": 10,
+    "dictionary_id": 5,
+    "name": "KALÓNG,",
+    "predefinition": "KALÓNG,",
+    "definition": "<p> <i>subst</i>. <i>m</i>. [Cf. amer. <strong>kalong</strong>.] <i>zool</i>. Liliac din Asia tropicală, considerat cel mai mare din lume, care ziua doarme în arbori, agăţat cu capul în jos, iar seara se deplasează în plantaţii pentru a se hrăni cu fructe. </p>",
+    "active": 0,
+    "created_at": "2022-11-25 08:37:18"
+  },
+  {
+    "user_id": 10,
+    "dictionary_id": 5,
+    "name": "KAMÁLA,",
+    "predefinition": "KAMÁLA,",
+    "definition": "<p> <i>subst</i>. <i>n</i>. [&lt; fr. <strong>kamala</strong>.] (<i>în</i> <i>India</i>) 1) Arbore ale cărui fructe furnizează o pulbere de culoare roşie-portocalie. 2) Pulbere obţinută din fructele acestui arbore folosită ca vermifug şi colorant. </p>",
+    "active": 0,
+    "created_at": "2022-11-25 08:37:18"
+  },
+  {
+    "user_id": 10,
+    "dictionary_id": 5,
+    "name": "KÁMI,",
+    "predefinition": "KÁMI,",
+    "definition": "<p> <i>subst. m</i>. <i>pl</i>. [&lt; fr. <strong>kami</strong>.] Nume generic dat spiritelor, forţelor şi fenomenelor supranaturale. <strong>Se zice că sanctuarul șintoist este lăcașul unui kami. </strong> </p>",
+    "active": 0,
+    "created_at": "2022-11-25 08:37:18"
+  },
+  {
+    "user_id": 10,
+    "dictionary_id": 5,
+    "name": "KAMIKÁZE,",
+    "predefinition": "KAMIKÁZE,",
+    "definition": "<p> <i>subst</i>., <i>adj</i>. [&lt; fr. <strong>kamikaze</strong>.] <strong>1. </strong><i>subst</i>. <i>n</i>. (<i>la</i> <i>japonezi</i> <i>în</i> <i>al</i> <i>doilea</i> <i>război</i> <i>mondial</i>) Avion de luptă încărcat cu exploziv, pilotat de un voluntar, care cădea asupra ţintei. <strong>Un kamikaze cu mai multe bombe la bord avea drept țintă un aeroport. 2. </strong><i>subst</i>. <i>m</i>. Persoană care se sacrifică într-o acţiune de atac deosebit de periculoasă (chiar sinucigașă). <strong>La ieșirea din moschee, cei doi kamikaze au declanșat explozibilul pe care îl purtau asupra lor, ucigând mai mulți oameni. 3.</strong><i> adj.<strong> </strong>invar. </i>Care este de o temeritate sinucigaşă. <strong>Al doilea atentat kamikaze s-a produs în Nigeria, în numai 24 de ore.</strong> </p>",
+    "active": 0,
+    "created_at": "2022-11-25 08:37:18"
+  },
+  {
+    "user_id": 10,
+    "dictionary_id": 5,
+    "name": "KÁNA,",
+    "predefinition": "KÁNA,",
+    "definition": "<p> <i>subst. f. invar</i>. [&lt; cf. fr. <strong>kana</strong>.] Semn silabic în scrierea japoneză. </p>",
+    "active": 0,
+    "created_at": "2022-11-25 08:37:18"
+  },
+  {
+    "user_id": 10,
+    "dictionary_id": 5,
+    "name": "KÁPPA,",
+    "predefinition": "KÁPPA,",
+    "definition": "<p> <i>subst</i>. <i>m</i>. [&lt; gr. <strong>kappa</strong>.] 1) Numele celei de a zecea litere a alfabetului grecesc (şi neogrec), corespunzând sunetului „k”. 2) Sunetul notat cu această literă.  </p>",
+    "active": 0,
+    "created_at": "2022-11-25 08:37:18"
+  },
+  {
+    "user_id": 10,
+    "dictionary_id": 5,
+    "name": "KARAOKE,",
+    "predefinition": "KARAOKE,",
+    "definition": "<p> <i>subst.</i> <i>n</i>. [&lt; engl., fr<strong>. karaoke</strong>.] Formă de divertisment, în special in baruri şi cluburi, in care mai multe persoane cântă pe rând, la microfon, melodii cunoscute, peste un negativ, citind versurile de pe un monitor. <strong>Era moderator de karaoke într-un club.</strong> </p>",
+    "active": 0,
+    "created_at": "2022-11-25 08:37:18"
+  },
+  {
+    "user_id": 10,
+    "dictionary_id": 5,
+    "name": "KARATÉ,",
+    "predefinition": "KARATÉ,",
+    "definition": "<p> <i>subst</i>. <i>n</i>. [&lt; fr. <strong>karaté</strong>.] 1) Metodă de luptă, de origine japoneză, care face apel în atac sau apărare doar la mijloace naturale. <strong>Un curs de karate. </strong>2) Disciplină sportivă in care se aplică această metodă. <strong>Campion la karate.</strong>  </p>",
+    "active": 0,
+    "created_at": "2022-11-25 08:37:18"
+  },
+  {
+    "user_id": 10,
+    "dictionary_id": 5,
+    "name": "KARATÉKA,",
+    "predefinition": "KARATÉKA,",
+    "definition": "<p> <i>subst. m. </i>şi<i> f. invar</i>. [&lt; fr. <strong>karatéka</strong>.] <i>sport</i> Sportiv care practică karate. <i>Sin</i>.: karatist.* <strong>Lovitură de karateka.</strong> </p>",
+    "active": 0,
+    "created_at": "2022-11-25 08:37:18"
+  },
+  {
+    "user_id": 10,
+    "dictionary_id": 5,
+    "name": "KARATÍST, karatíşti,",
+    "predefinition": "KARATÍST, karatíşti,",
+    "definition": "<p> <i>subst. m</i>. [&lt; <strong>karate </strong>+ suf. <strong>-ist</strong>.] <i>sport</i> Sportiv care practică karate. <i>Sin</i>.: karateka.* <strong>Chimono de karatist.</strong> </p>",
+    "active": 0,
+    "created_at": "2022-11-25 08:37:18"
+  },
+  {
+    "user_id": 10,
+    "dictionary_id": 5,
+    "name": "KATAKÁNA,",
+    "predefinition": "KATAKÁNA,",
+    "definition": "<p> <i>subst</i>. <i>n</i>. [&lt;  germ. <strong>Katakana</strong>.] (<i>la</i> <i>japonezi</i>) Sistem de semne derivat din scrierea chineză. </p>",
+    "active": 0,
+    "created_at": "2022-11-25 08:37:18"
+  },
+  {
+    "user_id": 10,
+    "dictionary_id": 5,
+    "name": "KATÁNA,",
+    "predefinition": "KATÁNA,",
+    "definition": "<p> katáne<i>,</i> <i>n</i>. [&lt; jap. <strong>katana.]</strong> Sabie lungă şi curbă cu care luptau samuraii. <strong>Încă nu ajunsese să țină în mână katana.</strong> </p>",
+    "active": 0,
+    "created_at": "2022-11-25 08:37:18"
+  },
+  {
+    "user_id": 10,
+    "dictionary_id": 5,
+    "name": "KÁTHARSIS,",
+    "predefinition": "KÁTHARSIS,",
+    "definition": "<p> <i>subst</i>.<i> n.</i> [&lt; gr. <strong>katharsis.]</strong> Noţiune a esteticii lui Aristotel referitoare la acţiunea purificatoare a artei, în special a tragediei, asupra pasiunilor omeneşti. <strong>Și în zilele noastre ne exorcizăm, ca spectatori de teatru, prin katharsisul unei emoții. </strong> </p>",
+    "active": 0,
+    "created_at": "2022-11-25 08:37:18"
+  },
+  {
+    "user_id": 10,
+    "dictionary_id": 5,
+    "name": "KEA,",
+    "predefinition": "KEA,",
+    "definition": "<p> <i>subst. m. invar</i>. [Cf. germ. <strong>Kea</strong>.] <i>ornit.</i> Papagal din Noua Zeelandă, care trăieşte în munţi, hrănindu-se cu plante.<strong> </strong> </p>",
+    "active": 0,
+    "created_at": "2022-11-25 08:37:18"
+  },
+  {
+    "user_id": 10,
+    "dictionary_id": 5,
+    "name": "KENOTRÓN, kenotroáne,",
+    "predefinition": "KENOTRÓN, kenotroáne,",
+    "definition": "<p> <i>subst</i>. <i>n</i>. [&lt; fr. <strong>kénotron</strong>.] Tub electric cu doi electrozi folosit pentru redresarea curentului alternativ de înaltă tensiune. </p>",
+    "active": 0,
+    "created_at": "2022-11-25 08:37:18"
+  },
+  {
+    "user_id": 10,
+    "dictionary_id": 5,
+    "name": "KERAMÍT,",
+    "predefinition": "KERAMÍT,",
+    "definition": "<p> <i>subst</i>. <i>n</i>. [&lt; fr. <strong>kéramite</strong>.] Gresie ceramică obţinută prin arderea amestecului de argilă refractară cu marnă dolomitică, folosită la fabricarea dalelor de pavaj.<strong> </strong> </p>",
+    "active": 0,
+    "created_at": "2022-11-25 08:37:18"
+  },
+  {
+    "user_id": 10,
+    "dictionary_id": 5,
+    "name": "KERDOMÉTRU, kerdométre,",
+    "predefinition": "KERDOMÉTRU, kerdométre,",
+    "definition": "<p> <i>subst</i>. <i>n</i>. [&lt; fr. <strong>kerdomètre.</strong>] <i>telec</i>. Aparat pentru măsurarea nivelului de zgomot pe liniile telefonice.  </p>",
+    "active": 0,
+    "created_at": "2022-11-25 08:37:18"
+  },
+  {
+    "user_id": 10,
+    "dictionary_id": 5,
+    "name": "KERITERAPÍE,",
+    "predefinition": "KERITERAPÍE,",
+    "definition": "<p> <i>subst</i>. <i>f</i>. [Art.: <strong>keriterapia</strong>; G.-D.: <strong>keriterapiei</strong>; &lt; fr. <strong>kerithérapie</strong>.] Tratament medical prin băi de parafină.  </p>",
+    "active": 0,
+    "created_at": "2022-11-25 08:37:18"
+  },
+  {
+    "user_id": 10,
+    "dictionary_id": 5,
+    "name": "KEROSÉN,",
+    "predefinition": "KEROSÉN,",
+    "definition": "<p> <i>subst</i>. <i>n</i>. [&lt; engl., it. <i>kerosene</i><strong>.</strong>] Combustibil pe bază de petrol, întrebuințat, mai ales, la motoarele cu reacție. <strong>Pentru că avea prea puțin kerosen, lampa trosnea. </strong> </p>",
+    "active": 0,
+    "created_at": "2022-11-25 08:37:18"
+  },
+  {
+    "user_id": 10,
+    "dictionary_id": 5,
+    "name": "KÉTA,",
+    "predefinition": "KÉTA,",
+    "definition": "<p> <i>subst</i>. <i>f</i>. <i>invar.</i> [&lt; rus. <strong>keta</strong>.] Specie de peşte teleostean care trăieşte în mările din Extremul Orient şi din care se obţin icrele de Manciuria. </p>",
+    "active": 0,
+    "created_at": "2022-11-25 08:37:18"
+  },
+  {
+    "user_id": 10,
+    "dictionary_id": 5,
+    "name": "KETCH,",
+    "predefinition": "KETCH,",
+    "definition": "<p> <i>subst. n</i>. [Pr.: <strong>checi;</strong> &lt; engl. <strong>ketch</strong>.] <i>nav</i>. Navă de mici dimensiuni, cu vele şi cu doi arbori inegali. <strong>A traversat oceanul pe un ketch. / </strong><i>Par.: </i>kitsch. </p>",
+    "active": 0,
+    "created_at": "2022-11-25 08:37:18"
+  },
+  {
+    "user_id": 10,
+    "dictionary_id": 5,
+    "name": "KÉTCHUP,",
+    "predefinition": "KÉTCHUP,",
+    "definition": "<p> <i>subst. n</i>. [Pr.: <strong>chéciap</strong>; engl. &lt; <strong>ketchup</strong>.] <i>ind. alim</i>. Sos (picant) preparat din suc de roşii, oţet şi mirodenii. <strong>Preferă cartofi-pai cu ketchup și muștar. </strong> </p>",
+    "active": 0,
+    "created_at": "2022-11-25 08:37:18"
+  },
+  {
+    "user_id": 10,
+    "dictionary_id": 5,
+    "name": "KHOL,",
+    "predefinition": "KHOL,",
+    "definition": "<p> <i>subst. n. </i>[&lt; fr. <strong>khol.</strong>] Fard de culoare închisă, pentru ochi, folosit, mai ales, de orientali. <strong>Pe lângă calitatea de înfrumuseţare a ochiului, kholul avea şi proprietatea de a proteja ochii de vânt şi nisip. </strong> </p>",
+    "active": 0,
+    "created_at": "2022-11-25 08:37:18"
+  },
+  {
+    "user_id": 10,
+    "dictionary_id": 5,
+    "name": "KÍCKBOXING,",
+    "predefinition": "KÍCKBOXING,",
+    "definition": "<p> <i>subst. n</i>. [&lt; engl. <strong>kick-boxing</strong>.] <i>sport</i> Sport asemănător cu boxul, în care se dau lovituri şi cu mâinile şi cu picioarele. <strong>Am început să iau lecții de kickboxing. </strong> </p>",
+    "active": 0,
+    "created_at": "2022-11-25 08:37:18"
+  },
+  {
+    "user_id": 10,
+    "dictionary_id": 5,
+    "name": "A KIDNAPÁ, kidnapéz,",
+    "predefinition": "KIDNAPÁ, kidnapéz,",
+    "definition": "<p> <i>vb</i>.<i> tranz.</i> [&lt; amer. <strong>to kidnap,</strong> după fr. <strong>kidnapper</strong>.] (<i>persoane, mai ales copii</i>) A răpi (în scopuri politice sau pentru răscumpărare).  </p>",
+    "active": 0,
+    "created_at": "2022-11-25 08:37:18"
+  },
+  {
+    "user_id": 10,
+    "dictionary_id": 5,
+    "name": "KIDNÁPPER, kidnápperi,",
+    "predefinition": "KIDNÁPPER, kidnápperi,",
+    "definition": "<p> <i>subst. m</i>. [Pr.: <strong>chídnăpăr</strong>; &lt; amer. <strong>kidnapper</strong>.] Autor al unui kidnapping.  </p>",
+    "active": 0,
+    "created_at": "2022-11-25 08:37:18"
+  },
+  {
+    "user_id": 10,
+    "dictionary_id": 5,
+    "name": "KIDNÁPPING,",
+    "predefinition": "KIDNÁPPING,",
+    "definition": "<p> <i>subst. n</i>. [Pr.: <strong>chídnăping</strong>; &lt; engl. <strong>kidnapping</strong>.] Răpire de persoane, în special de copii, cu scopul de a obţine o răscumpărare sau de a teroriza. <strong>Tentativă de kidnapping.</strong> </p>",
+    "active": 0,
+    "created_at": "2022-11-25 08:37:18"
+  },
+  {
+    "user_id": 10,
+    "dictionary_id": 5,
+    "name": "KIESELGUHR,",
+    "predefinition": "KIESELGUHR,",
+    "definition": "<p> <i>subst. n. </i><strong>[</strong>Pr.: <strong>chízălgur; &lt; </strong>germ<strong>. Kieselgur.] </strong>Rocă silicioasă, uşoară şi poroasă, formată prin depunerea cochiliilor unor alge monocelulare. <i>Sin.:</i> pămânţel; diatomit.* </p>",
+    "active": 0,
+    "created_at": "2022-11-25 08:37:18"
+  },
+  {
+    "user_id": 10,
+    "dictionary_id": 5,
+    "name": "KIL, kíle,",
+    "predefinition": "KIL, kíle,",
+    "definition": "<p> <i>subst. n</i>. [Var.: <strong>kilo, kilă</strong>; &lt; fr. kilo.] <i>pop</i>. Unitate de măsură pentru greutate, egală cu o mie de grame. <i>Sin.:</i> kilogram.* </p>",
+    "active": 0,
+    "created_at": "2022-11-25 08:37:18"
+  },
+  {
+    "user_id": 10,
+    "dictionary_id": 5,
+    "name": "KÍLĂ, kíle,",
+    "predefinition": "KÍLĂ, kíle,",
+    "definition": "<p> <i>subst. f</i>. <i>v</i>. <strong>KIL.</strong> </p>",
+    "active": 0,
+    "created_at": "2022-11-25 08:37:18"
+  },
+  {
+    "user_id": 10,
+    "dictionary_id": 5,
+    "name": "KÍLO1,",
+    "predefinition": "KÍLO1,",
+    "definition": "<p> <i> subst. f</i>. <i>v</i>. <strong>KIL.</strong> </p>",
+    "active": 0,
+    "created_at": "2022-11-25 08:37:18"
+  },
+  {
+    "user_id": 10,
+    "dictionary_id": 5,
+    "name": "KÍLO2-,",
+    "predefinition": "KÍLO2-,",
+    "definition": "<p> Element de compunere însemnând „o mie”, „de o mie de ori”.  </p>",
+    "active": 0,
+    "created_at": "2022-11-25 08:37:18"
+  },
+  {
+    "user_id": 10,
+    "dictionary_id": 5,
+    "name": "KILLER, killeri,",
+    "predefinition": "KILLER, killeri,",
+    "definition": "<p> <i>subst</i>. <i>m</i>. [Pr.: <strong>chílăr</strong>; &lt; engl. <strong>killer</strong>.] Ucigaş plătit. <strong>Killerul angajat a confundat victima.</strong> </p>",
+    "active": 0,
+    "created_at": "2022-11-25 08:37:18"
+  },
+  {
+    "user_id": 10,
+    "dictionary_id": 5,
+    "name": "KILOAMPÉR, kiloampéri,",
+    "predefinition": "KILOAMPÉR, kiloampéri,",
+    "definition": "<p> <i>subst. m</i>. [Sil.: -<strong>lo-am;</strong> &lt; fr. <strong>kiloampère.</strong>] Unitate de măsură pentru intensitatea electrică, egală cu o mie de amperi. </p>",
+    "active": 0,
+    "created_at": "2022-11-25 08:37:18"
+  },
+  {
+    "user_id": 10,
+    "dictionary_id": 5,
+    "name": "KILOBYTE, kilobyti",
+    "predefinition": "KILOBYTE, kilobyti",
+    "definition": "<p> <i>subst. m</i>. [Pr.: <strong>chílobáit;</strong> &lt; engl. <strong>kilobyte.</strong>] <i>inform</i>. Unitate de măsură pentru memorie, egală cu 1024 de bytes. </p>",
+    "active": 0,
+    "created_at": "2022-11-25 08:37:18"
+  },
+  {
+    "user_id": 10,
+    "dictionary_id": 5,
+    "name": "KILOCALORIÉ, kilocaloríi,",
+    "predefinition": "KILOCALORIÉ, kilocaloríi,",
+    "definition": "<p> <i>subst</i>. <i>f</i>. [&lt; fr. <strong>kilocalorie</strong>.] Unitate de măsură pentru energia termică, egală cu 1000 de calorii. </p>",
+    "active": 0,
+    "created_at": "2022-11-25 08:37:18"
+  },
+  {
+    "user_id": 10,
+    "dictionary_id": 5,
+    "name": "KILOGRÁM, kilográme,",
+    "predefinition": "KILOGRÁM, kilográme,",
+    "definition": "<p> <i>subst</i>. <i>n</i>. [&lt; fr. <strong>kilogramme</strong>.] Unitate de măsură pentru masă, egală cu 1000 de grame. <i>Sin.:</i> kil. ♦ <strong>Kilogram-forţă</strong> unitate de măsură pentru forţă egală cu greutatea unui corp cu masa de un kilogram. </p>",
+    "active": 0,
+    "created_at": "2022-11-25 08:37:18"
+  },
+  {
+    "user_id": 10,
+    "dictionary_id": 5,
+    "name": "KILOHÉRTZ, kilohértzi,",
+    "predefinition": "KILOHÉRTZ, kilohértzi,",
+    "definition": "<p> <i>subst</i>. <i>m</i>. [Pr.: <strong>kilohérţ</strong>; &lt; fr. <strong>kilohertz</strong>.] Unitate de măsură pentru frecvenţă, egală cu 1000 de hertzi. </p>",
+    "active": 0,
+    "created_at": "2022-11-25 08:37:18"
+  },
+  {
+    "user_id": 10,
+    "dictionary_id": 5,
+    "name": "Kilolítru, kilolítri,",
+    "predefinition": "Kilolítru, kilolítri,",
+    "definition": "<p> <i>subst</i>. <i>m</i>. [&lt; fr. <strong>kilolitre</strong>.] Unitate de măsură pentru capacităţi, egală cu 1000 de litri. </p>",
+    "active": 0,
+    "created_at": "2022-11-25 08:37:18"
+  },
+  {
+    "user_id": 10,
+    "dictionary_id": 5,
+    "name": "A KILOMETRÁ, kilometréz,",
+    "predefinition": "KILOMETRÁ, kilometréz,",
+    "definition": "<p> <i>vb. tranz</i>. [Sil.: -<strong>me-tra</strong>; &lt; fr. <strong>kilometrer</strong>.] 1) (<i>distanţe</i>) A marca cu borne kilometrice din lungul căii de comunicaţie. 2) (<i>o distanţă</i>) A măsura în kilometri.  </p>",
+    "active": 0,
+    "created_at": "2022-11-25 08:37:18"
+  },
+  {
+    "user_id": 10,
+    "dictionary_id": 5,
+    "name": "KILOMETRÁRE, kilometrắri,",
+    "predefinition": "KILOMETRÁRE, kilometrắri,",
+    "definition": "<p> <i>subst</i>. <i>f</i>. [Din <strong>a kilometra</strong>.] Acţiunea de a kilometra şi rezultatul ei. </p>",
+    "active": 0,
+    "created_at": "2022-11-25 08:37:18"
+  },
+  {
+    "user_id": 10,
+    "dictionary_id": 5,
+    "name": "KILOMETRÁT, kilometrátă, kilometráţi, kilometráte,",
+    "predefinition": "KILOMETRÁT, kilometrátă, kilometráţi, kilometráte,",
+    "definition": "<p> <i>adj</i>. <i>f.</i> [ Din <strong>a kilometra</strong>.] <i>v.</i> <strong>A KILOMETRA</strong>. </p>",
+    "active": 0,
+    "created_at": "2022-11-25 08:37:18"
+  },
+  {
+    "user_id": 10,
+    "dictionary_id": 5,
+    "name": "KILOMETRÁJ, kilometráje,",
+    "predefinition": "KILOMETRÁJ, kilometráje,",
+    "definition": "<p> <i>subst</i>. <i>n</i>. [&lt; fr. <strong>kilométrage</strong>.] 1) Distanţă în kilometri parcursă de un vehicul într-un anumit timp. <strong>Șoferii scriau informația despre kilometraj într-un registru special. </strong>2) Instrument montat la unele vehicule care înregistrează distanţa parcursă sau viteza lui de deplasare. <strong>Acul de kilometraj înțepenise la gradația zero. </strong>3) Măsurare în kilometri a unei distanţe parcurse. <strong>Borna de kilometraj de pe marginea drumului lipsea.</strong> </p>",
+    "active": 0,
+    "created_at": "2022-11-25 08:37:18"
+  },
+  {
+    "user_id": 10,
+    "dictionary_id": 5,
+    "name": "KILOMÉTRIC, kilométrică, kilométrici, kilométrice,",
+    "predefinition": "KILOMÉTRIC, kilométrică, kilométrici, kilométrice,",
+    "definition": "<p> <i>adj</i>. [&lt; fr. <strong>kilométrique</strong>.] 1) Care ţine de kilometru; propriu kilometrului. <strong>Cifrele de pe contorul kilometric trebuie să fie clar vizibile. </strong>2) <i>fig</i>. Care are o lungime mare; foarte lung. <strong>Discurs său kilometric obosise publicul.</strong> </p>",
+    "active": 0,
+    "created_at": "2022-11-25 08:37:18"
+  },
+  {
+    "user_id": 10,
+    "dictionary_id": 5,
+    "name": "KILOMÉTRU, kilométri,",
+    "predefinition": "KILOMÉTRU, kilométri,",
+    "definition": "<p> <i>subst</i>. <i>m</i>. [&lt; fr. <strong>kilométre</strong>.] Unitate de măsură pentru distanţe, egală cu 1000 de metri. </p>",
+    "active": 0,
+    "created_at": "2022-11-25 08:37:18"
+  },
+  {
+    "user_id": 10,
+    "dictionary_id": 5,
+    "name": "KILOTÓNĂ, kilotóne,",
+    "predefinition": "KILOTÓNĂ, kilotóne,",
+    "definition": "<p> <i>subst. f.</i> [&lt; fr. <strong>kilotonne</strong>.] Unitate de măsură pentru masă, egală cu o mie de tone.  </p>",
+    "active": 0,
+    "created_at": "2022-11-25 08:37:18"
+  },
+  {
+    "user_id": 10,
+    "dictionary_id": 5,
+    "name": "KILOVÁR,",
+    "predefinition": "KILOVÁR,",
+    "definition": "<p> <i>subst. m. </i>[&lt; fr., engl. <strong>kilovar.</strong>] Unitate de măsură pentru puterea reactivă egală cu 1000 de vari. / <i>Par.: </i>kilowatt.  </p>",
+    "active": 0,
+    "created_at": "2022-11-25 08:37:18"
+  },
+  {
+    "user_id": 10,
+    "dictionary_id": 5,
+    "name": "KILOVÓLT, kilovólţi,",
+    "predefinition": "KILOVÓLT, kilovólţi,",
+    "definition": "<p> <i>subst</i>. <i>m</i>. [&lt; fr. <strong>kilovolt</strong>.] Unitate de măsură pentru tensiunea electrică, egală cu 1000 de volţi. </p>",
+    "active": 0,
+    "created_at": "2022-11-25 08:37:18"
+  },
+  {
+    "user_id": 10,
+    "dictionary_id": 5,
+    "name": "KILOWÁTT, kilowáţi,",
+    "predefinition": "KILOWÁTT, kilowáţi,",
+    "definition": "<p> <i>subst</i>. <i>m</i>. [&lt; fr. <strong>kilowatt.</strong>] Unitate de măsură pentru putere, egală cu 1000 de waţi. ♦ <strong>Kilowatt-oră</strong> unitate de măsură pentru energia produsă într-o oră de un sistem cu putere de un kilowatt. / <i>Par</i>.: kilovar. </p>",
+    "active": 0,
+    "created_at": "2022-11-25 08:37:18"
+  },
+  {
+    "user_id": 10,
+    "dictionary_id": 5,
+    "name": "KILT, kílturi,",
+    "predefinition": "KILT, kílturi,",
+    "definition": "<p> <i>subst</i>. <i>n</i>. [&lt; engl., fr. <strong>kilt</strong>.] Fustă scurtă, plisată, din stofă cadrilată, care face parte din costumul tradiţional al scoţienilor. <strong>Era îmbrăcat într-un kilt lung până la gambe.</strong> </p>",
+    "active": 0,
+    "created_at": "2022-11-25 08:37:18"
+  },
+  {
+    "user_id": 10,
+    "dictionary_id": 5,
+    "name": "KIMBERLÍT,",
+    "predefinition": "KIMBERLÍT,",
+    "definition": "<p> <i>subst</i>. <i>n</i>. [&lt; fr. <strong>kimberlite</strong>.] Rocă eruptivă de culoare închisă conţinând uneori cristale de diamant. </p>",
+    "active": 0,
+    "created_at": "2022-11-25 08:37:18"
+  },
+  {
+    "user_id": 10,
+    "dictionary_id": 5,
+    "name": "KIMONÓ, kimonóuri,",
+    "predefinition": "KIMONÓ, kimonóuri,",
+    "definition": "<p> <i>subst</i>. <i>n</i>. <i>v</i>. <strong>CHIMONO</strong>. </p>",
+    "active": 0,
+    "created_at": "2022-11-25 08:37:18"
+  },
+  {
+    "user_id": 10,
+    "dictionary_id": 5,
+    "name": "KINESCÓP, kinescoápe,",
+    "predefinition": "KINESCÓP, kinescoápe,",
+    "definition": "<p> <i>subst</i>. <i>n</i>. <i>v</i>. <strong>CINESCOP</strong>. </p>",
+    "active": 0,
+    "created_at": "2022-11-25 08:37:18"
+  },
+  {
+    "user_id": 10,
+    "dictionary_id": 5,
+    "name": "KINESTÉZIC, kinestézică, kinestézici, kinestézice,",
+    "predefinition": "KINESTÉZIC, kinestézică, kinestézici, kinestézice,",
+    "definition": "<p> <i>adj. </i>[&lt; fr. <strong>kinesthésique.</strong>] Care ţine de kinestezie; propriu kinesteziei. <strong>Strategii de învăţare potrivite stilului kinestezic. </strong> </p>",
+    "active": 0,
+    "created_at": "2022-11-25 08:37:18"
+  },
+  {
+    "user_id": 10,
+    "dictionary_id": 5,
+    "name": "KINESTEZÍE,",
+    "predefinition": "KINESTEZÍE,",
+    "definition": "<p> <i>subst. f. </i>[Art.: <strong>kinestezia;</strong> G.-D.: <strong>kinesteziei;</strong> &lt; fr. <strong>kinesthésie.</strong>] Totalitate a senzaţiilor care reflectă mişcările corpului omenesc şi ale părţilor acestuia. <strong>Kinestezia simțurilor.</strong> </p>",
+    "active": 0,
+    "created_at": "2022-11-25 08:37:18"
+  },
+  {
+    "user_id": 10,
+    "dictionary_id": 5,
+    "name": "KINETOTERAPEÚT, kinetoterapeúți,",
+    "predefinition": "KINETOTERAPEÚT, kinetoterapeúți,",
+    "definition": "<p> <i> subst</i>. <i>m</i>. [Sil.: <strong>-pe-ut; </strong>&lt; <strong>kineto</strong>[<strong>terapie] + terapeut</strong>.] Specialist în kinetoterapie. <strong>E nevoie de o bună colaborare între pacient și kinetoterapeut.</strong> </p>",
+    "active": 0,
+    "created_at": "2022-11-25 08:37:18"
+  },
+  {
+    "user_id": 10,
+    "dictionary_id": 5,
+    "name": "KINETOTERAPÍE,",
+    "predefinition": "KINETOTERAPÍE,",
+    "definition": "<p> <i>subst. f</i>. [Art.: <strong>kinetoterapia;</strong> G.-D.: <strong>kinetoterapiei</strong>; &lt; fr. <strong>kinetothérapie</strong>.] <i>med</i>. Ansamblu de tratamente pentru redarea funcţiei unor părţi ale corpului prin mobilizare, la persoanele accidentate sau bolnave. <strong>Gestionarea durerii este importantă în kinetoterapie.</strong> </p>",
+    "active": 0,
+    "created_at": "2022-11-25 08:37:18"
+  },
+  {
+    "user_id": 10,
+    "dictionary_id": 5,
+    "name": "KIT, kíturi,",
+    "predefinition": "KIT, kíturi,",
+    "definition": "<p> <i>subst. n</i>. [&lt; engl. <strong>kit</strong>.]1) Set de instrumente, materiale necesare pentru un anume scop. <strong>Am nevoie de un kit pentru instruire în programare</strong>. 2) Ansamblul pieselor detaşabile componente ale unui obiect, însoţite de o schemă de montaj.  </p>",
+    "active": 0,
+    "created_at": "2022-11-25 08:37:18"
+  },
+  {
+    "user_id": 10,
+    "dictionary_id": 5,
+    "name": "KITSCH,",
+    "predefinition": "KITSCH,",
+    "definition": "<p> <i>subst</i>. <i>n</i>. [Pr.: <strong>chici</strong>; &lt; germ.<strong> Kitsch.</strong>] 1) Creaţie, pretins artistică, lipsită de originalitate. <strong>Kitsch-ul devenit folclor a speriat pe toţi etnologii.</strong><i><strong> </strong></i>2) Obiect (tablou, carte etc.) de proastă calitate. <strong>Decor kitsch. / </strong><i>Par.: </i>ketch. </p>",
+    "active": 0,
+    "created_at": "2022-11-25 08:37:18"
+  },
+  {
+    "user_id": 10,
+    "dictionary_id": 5,
+    "name": "A KITSCHIZÁ, kitschizéz",
+    "predefinition": "KITSCHIZÁ, kitschizéz",
+    "definition": "<p> <i>vb. tr</i>. [Pr.: a <strong>chiciza;</strong> &lt; <strong>kitsch </strong>+ suf. -<strong>iza</strong>.] (<i>opere de artă</i>) A realiza într-o formă lipsită de originalitate. </p>",
+    "active": 0,
+    "created_at": "2022-11-25 08:37:18"
+  },
+  {
+    "user_id": 10,
+    "dictionary_id": 5,
+    "name": "KITSCHIZÁRE, kitschizắri,",
+    "predefinition": "KITSCHIZÁRE, kitschizắri,",
+    "definition": "<p> <i>subst</i>. <i>f</i>. [Pr.: <strong>chicizare; </strong>din <strong>a kitschiza</strong>.] Acţiunea de a kitschiza şi rezultatul ei. </p>",
+    "active": 0,
+    "created_at": "2022-11-25 08:37:18"
+  },
+  {
+    "user_id": 10,
+    "dictionary_id": 5,
+    "name": "KIŞ-MIŞ,",
+    "predefinition": "KIŞ-MIŞ,",
+    "definition": "<p> <i>subst. n. invar</i>. [&lt; rus. <strong>kишмиш</strong>.] Soi de viţă-de-vie cu ciorchinii răsfiraţi şi cu boabele albe sau negre, alungite, fără seminţe, folosit la obţinerea stafidelor. </p>",
+    "active": 0,
+    "created_at": "2022-11-25 08:37:18"
+  },
+  {
+    "user_id": 10,
+    "dictionary_id": 5,
+    "name": "KIWANO,",
+    "predefinition": "KIWANO,",
+    "definition": "<p> <i>subst. n.</i> [Et. nec.] Fruct originar din Africa, de culoare galben-portocalie, având gustul o combinaţie între banane, castraveţi şi lămâi, folosit, în special, pentru înfrumuseţarea meselor.  </p>",
+    "active": 0,
+    "created_at": "2022-11-25 08:37:18"
+  },
+  {
+    "user_id": 10,
+    "dictionary_id": 5,
+    "name": "KÍWI,",
+    "predefinition": "KÍWI,",
+    "definition": "<p> <i>subst</i>. <i>f</i>. <i>invar. </i>[&lt; fr. <strong>kiwi</strong>.] 1) Pasăre nocturnă de talie medie, cu aripile atrofiate, cu ciocul lung şi ascuţit, cu pene flocoase, care se hrăneşte cu larve şi insecte, fiind răspândită numai în Noua Zeelandă. 2) Fruct parfumat al unei plante din familia lianelor, coaja flocoasă a căruia se aseamănă cu penele acestei păsări. <strong>Kiwi este bogat în antioxidanți. </strong>3) Băutură preparată din acest fruct. <strong>Un pahar de kiwi.</strong> </p>",
+    "active": 0,
+    "created_at": "2022-11-25 08:37:18"
+  },
+  {
+    "user_id": 10,
+    "dictionary_id": 5,
+    "name": "KNOCKOUT, knockauturi,",
+    "predefinition": "KNOCKOUT, knockauturi,",
+    "definition": "<p> <i>subst. n.</i> [Pr.: <strong>nócaut</strong>.] <i>v.</i> <strong>CNOCAUT.</strong> </p>",
+    "active": 0,
+    "created_at": "2022-11-25 08:37:18"
+  },
+  {
+    "user_id": 10,
+    "dictionary_id": 5,
+    "name": "KNOW-HOW,",
+    "predefinition": "KNOW-HOW,",
+    "definition": "<p> <i>subst. n.</i> [Art.: <strong>know-how-ul</strong>; pr.: <strong>nău-hau</strong>; &lt; engl. <strong>know-how</strong>.] 1) Ansamblu de informaţii şi de experienţă privind fabricarea unui produs, implementarea unui proces tehnologic nou etc. 2) Cunoştinţe de specialitate nebrevetate; secret profesional. <strong>Know-how-ul firmei.</strong> </p>",
+    "active": 0,
+    "created_at": "2022-11-25 08:37:18"
+  },
+  {
+    "user_id": 10,
+    "dictionary_id": 5,
+    "name": "KOÁLA,",
+    "predefinition": "KOÁLA,",
+    "definition": "<p> <i>subst. f.</i> <i>invar. </i>[Sil.: <strong>ko-a</strong>-; &lt; fr. <strong>koala</strong>.] <i>zool.</i> Mamifer căţărător, din ordinul marsupialelor, asemănător cu un ursuleţ, care trăieşte în pădurile umede din Australia, hrănindu-se cu frunze de eucalipt. <i>Sin</i>.: urs australian. <strong>Scoase din șosetuță un ursuleț koala de pluș.</strong> </p>",
+    "active": 0,
+    "created_at": "2022-11-25 08:37:18"
+  },
+  {
+    "user_id": 10,
+    "dictionary_id": 5,
+    "name": "KÓDAK,",
+    "predefinition": "KÓDAK,",
+    "definition": "<p> <i>subst. n.</i> [&lt; engl. <strong>kodak</strong>.] Aparat de fotografiat (mic). <strong>Poze kodak.</strong> </p>",
+    "active": 0,
+    "created_at": "2022-11-25 08:37:18"
+  },
+  {
+    "user_id": 10,
+    "dictionary_id": 5,
+    "name": "KÓKA,",
+    "predefinition": "KÓKA,",
+    "definition": "<p> <i>subst. n. </i>[&lt; jap. <strong>koka</strong>.] <i>sport</i> Decizie de arbitru care acordă unui jucător trei puncte pentru executarea unui procedeu. </p>",
+    "active": 0,
+    "created_at": "2022-11-25 08:37:18"
+  },
+  {
+    "user_id": 10,
+    "dictionary_id": 5,
+    "name": "KRAFT, kráfturi,",
+    "predefinition": "KRAFT, kráfturi,",
+    "definition": "<p> <i>subst. n.</i> [&lt; germ. <strong>Kraft</strong>.] Hârtie foarte tare, utilizată pentru ambalaje, izolări etc. <strong>Hârtie kraft pentru saci.</strong> </p>",
+    "active": 0,
+    "created_at": "2022-11-25 08:37:18"
+  },
+  {
+    "user_id": 10,
+    "dictionary_id": 5,
+    "name": "KRIPTÓN,",
+    "predefinition": "KRIPTÓN,",
+    "definition": "<p> <i>subst</i>. <i>n</i>. [&lt; fr. <strong>krypton</strong>.] Element chimic din familia gazelor rare, incolor, fără miros şi fără gust, folosit la umplerea becurilor şi a tuburilor electronice. </p>",
+    "active": 0,
+    "created_at": "2022-11-25 08:37:18"
+  },
+  {
+    "user_id": 10,
+    "dictionary_id": 5,
+    "name": "KUMITÉ,",
+    "predefinition": "KUMITÉ,",
+    "definition": "<p> <i>subst. m. invar</i>. [&lt; jap. <strong>kumite</strong>.] Luptă marţială, de origine japoneză, care constă dintr-o înlănţuire de mişcări de atac şi de apărare, cu mai mulţi adversari. <strong>Competiții de kumite. </strong> </p>",
+    "active": 0,
+    "created_at": "2022-11-25 08:37:18"
+  },
+  {
+    "user_id": 10,
+    "dictionary_id": 5,
+    "name": "KUNG-FU,",
+    "predefinition": "KUNG-FU,",
+    "definition": "<p> <i>subst. n. invar</i>. [&lt; chin. <strong>kung-fu</strong>.] Stil de arte marţiale chinezezesc, caracterizat prin mişcări asemănătoare cu karate. </p>",
+    "active": 0,
+    "created_at": "2022-11-25 08:37:18"
+  },
+  {
+    "user_id": 10,
+    "dictionary_id": 5,
+    "name": "KURD, kúrdă, kurzi, kúrde,",
+    "predefinition": "KURD, kúrdă, kurzi, kúrde,",
+    "definition": "<p> <i>adj</i>., <i>subst</i>. [ &lt; fr. <strong>kurd.</strong>] <strong>1.</strong> <i>subst</i>. <i>m</i>. şi <i>f</i>. Persoană care aparţine unui popor ce trăieşte în Turcia, Iran, Irak, Siria, Afganistan şi Pakistan. <strong>2.</strong> <i>adj</i>. Care aparţine unui popor ce trăieşte în Turcia, Iran, Irak şi alte state. <strong>Manifestanții cereau recunoașterea statului kurd.</strong> </p>",
+    "active": 0,
+    "created_at": "2022-11-25 08:37:18"
+  },
+  {
+    "user_id": 10,
+    "dictionary_id": 5,
+    "name": "KURSÁAL, kursáale,",
+    "predefinition": "KURSÁAL, kursáale,",
+    "definition": "<p> <i>subst. m.</i> [&lt; germ. <strong>Kursaal</strong>.] 1) Aşezământ într-o staţiune termală, care oferă în timpul curei recrearea şi odihna în saloane de lectură şi de divertisment. <strong>A doua jimătate a zilei o petrecea în kursaal.</strong> 2) Local public, cu restaurant, cu săli pentru jocuri de noroc, de dans etc. <strong>În oraș a apărut un nou kursaal. </strong><i>Sin</i>.: cazino. </p>",
+    "active": 0,
+    "created_at": "2022-11-25 08:37:18"
+  },
+  {
+    "user_id": 10,
+    "dictionary_id": 5,
+    "name": "KYRIE, kyrii,",
+    "predefinition": "KYRIE, kyrii,",
+    "definition": "<p> <i>subst. f.</i> [Art.: <strong>kyria</strong>; G.-D.: <strong>kyriei;</strong> &lt; fr. <strong>kyrie</strong>.] <i>muz. bis</i>. 1) Invocare a lui Dumnezeu. 2) Cântec solemn religios. 3) Început al unei invocații într-o misă cântată.  </p>",
+    "active": 0,
+    "created_at": "2022-11-25 08:37:18"
+  }
+]
