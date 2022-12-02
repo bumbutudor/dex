@@ -109,7 +109,7 @@ Route::get('/insert-dictionary', function(){
 	// $storage_path = 'explicativ_new/explicativ_new_K.json'; // Cristian K full
 
 	// main block
-	$storage_path = 'explicativ_new/explicativ_new_O1O6.json'; // Livia O full
+	$storage_path = 'explicativ_new/explicativ_new_C2C24.json'; // Livia O full
 
 	$json = file_get_contents(storage_path($storage_path));
 	$objs = json_decode($json,true);
