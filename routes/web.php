@@ -107,9 +107,11 @@ Route::get('/insert-dictionary', function(){
 	// $storage_path = 'explicativ_new/explicativ_new_M17M28.json'; // Ana M17-M28 full
 	// $storage_path = 'explicativ_new/explicativ_new_L1L12.json'; // Cristian L1-L12 full
 	// $storage_path = 'explicativ_new/explicativ_new_K.json'; // Cristian K full
+	// $storage_path = 'explicativ_new/explicativ_new_OX.json'; // Livia O full
+	$storage_path = 'explicativ_new/explicativ_new_C2C24.json'; // Ecaterina C2-C24 full
 
 	// main block
-	$storage_path = 'explicativ_new/explicativ_new_C2C24.json'; // Livia O full
+	$storage_path = 'explicativ_new/explicativ_new_E2E13.json'; // Maria E2-E13 full
 
 	$json = file_get_contents(storage_path($storage_path));
 	$objs = json_decode($json,true);
