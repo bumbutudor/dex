@@ -38,20 +38,22 @@ const Index = () => {
           <span className="hidden md:inline"> un cuvânt nou</span>
         </InertiaLink>
       </div> */}
-      <div className="flex items-center justify-between">
-        <DictionaryTab
-          text='Toate cuvintele din dicționarele încărcate'
-          link='?all=0'
-          link_id={0}
-        />
-        {dictionaries.map(({ id, name }) => (
+      <div className="max-w-full mx-auto bg-white rounded mb-2">
+        <div className="overflow-x-auto flex p-2">
           <DictionaryTab
-            key={id}
-            text={name}
-            link={`?dictionar=${id}`}
-            link_id={id}
+            text='Toate cuvintele din dicționarele încărcate'
+            link='?all=0'
+            link_id={0}
           />
-        ))}
+          {dictionaries.map(({ id, name }) => (
+            <DictionaryTab
+              key={id}
+              text={name}
+              link={`?dictionar=${id}`}
+              link_id={id}
+            />
+          ))}
+        </div>
       </div>
 
       {params.has('dictionar') && dictionaryID && (
@@ -59,6 +61,7 @@ const Index = () => {
           <LetterFilter />
         </div>
       )}
+
 
 
 

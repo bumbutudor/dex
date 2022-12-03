@@ -17,8 +17,8 @@ export default ({ link_id, link, text }) => {
   }
 
   const textClasses = classNames({
-    'text-indigo-700 text-xl font-bold': isActive,
-    'text-indigo-500 text-xl': !isActive
+    'text-indigo-700 text-lg font-bold leading-5': isActive,
+    'text-indigo-500 text-lg leading-5': !isActive
   });
 
   const linkClasses = classNames({
@@ -27,7 +27,7 @@ export default ({ link_id, link, text }) => {
   });
 
   return (
-    <div className="mb-4 max-w-xs min-h-full">
+    <div className="mb-4 w-64 flex-none">
       {/* <InertiaLink href={route(link, id)} className={linkClasses}> */}
       <InertiaLink href={link} className={linkClasses}>
         <div id={link} className={textClasses}>{text}</div>
