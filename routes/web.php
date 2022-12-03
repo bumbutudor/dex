@@ -110,9 +110,10 @@ Route::get('/insert-dictionary', function(){
 	// $storage_path = 'explicativ_new/explicativ_new_OX.json'; // Livia O full
 	// $storage_path = 'explicativ_new/explicativ_new_C2C24.json'; // Ecaterina C2-C24 full
 	// $storage_path = 'explicativ_new/explicativ_new_E2E13.json'; // Maria E2-E13 full
+	// $storage_path = 'explicativ_new/explicativ_new_F1F10.json'; // Maria F1-F10 full kek
 
 	// main block
-	$storage_path = 'explicativ_new/explicativ_new_F1F10.json'; // Maria F1-F10 full kek
+	$storage_path = 'explicativ_new/explicativ_new_G1G6.json'; // Maria G1-G6 full
 
 	$json = file_get_contents(storage_path($storage_path));
 	$objs = json_decode($json,true);
