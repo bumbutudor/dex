@@ -1,9 +1,11 @@
 import React from 'react';
-import { InertiaLink } from '@inertiajs/inertia-react';
+import { InertiaLink, usePage } from '@inertiajs/inertia-react';
 import classNames from 'classnames';
 import { round } from 'lodash';
 
 const LetterLink = ({ active, label, params }) => {
+
+  const { auth } = usePage().props;
   const className = classNames(
     [
       'mr-1 mb-1',
@@ -18,8 +20,10 @@ const LetterLink = ({ active, label, params }) => {
       'bg-indigo-300 text-indigo-700 text-xl font-bold': active
     }
   );
+
+  const whatPath = auth.user ? '/cuvinte?' : '/?';
   return (
-    <InertiaLink className={className} href={window.location.origin + "/cuvinte?" + params}>
+    <InertiaLink className={className} href={window.location.origin + whatPath + params}>
       <span dangerouslySetInnerHTML={{ __html: label }}></span>
     </InertiaLink>
   );
