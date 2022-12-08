@@ -17,9 +17,9 @@ export default function GuestLayout({ title, children }) {
           </div>
           <div className="flex flex-grow overflow-hidden">
             <GuestMainMenu className="flex-shrink-0 hidden w-56 p-4 overflow-y-auto bg-indigo-800 md:block" />
-            
+
             {/* To reset scroll region (https://inertiajs.com/pages#scroll-regions) add `scroll-region="true"` to div below */}
-            <div className="w-full px-6 py-6 overflow-hidden overflow-y-auto md:px-12">
+            <div className="w-full px-2 py-4 overflow-hidden overflow-y-auto md:px-4">
               {/* <FlashMessages /> */}
               {children}
             </div>

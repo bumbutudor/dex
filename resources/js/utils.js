@@ -1,19 +1,43 @@
 import $ from 'jquery';
 
+// added on 2022-12-08 by Tudor
+// convert html to text but preserve line breaks
+export function htmlToText(html) {
+  if (!html) return ('');
+  let text = html;
+  text = text.replace(/\n/gi, "");
+  text = text.replace(/<style([\s\S]*?)<\/style>/gi, "");
+  text = text.replace(/<script([\s\S]*?)<\/script>/gi, "");
+  text = text.replace(/<a.*?href="(.*?)[\?\"].*?>(.*?)<\/a.*?>/gi, " $2 $1 ");
+  text = text.replace(/<\/div>/gi, "\n");
+  text = text.replace(/<\/li>/gi, "\n");
+  text = text.replace(/<li.*?>/gi, "  *  ");
+  text = text.replace(/<\/ul>/gi, "\n");
+  text = text.replace(/<\/p>/gi, "\n");
+  text = text.replace(/<br\s*[\/]?>/gi, "\n");
+  text = text.replace(/<[^>]+>/gi, "");
+  text = text.replace(/^\s*/gim, "");
+  text = text.replace(/ ,/gi, ",");
+  text = text.replace(/ +/gi, " ");
+  text = text.replace(/\n+/gi, "\n");
+  text = text.replaceAll("&nbsp;", " ");
+  return text;
+};
+
 export function html_substring(str, start, length) {
   var countTags = 0;
   var returnString = "";
   var writeLetters = 0;
   while (!((writeLetters >= length) && (countTags == 0))) {
-      var letter = str.charAt(start + writeLetters);
-      if (letter == "<") {
-          countTags++;
-      }
-      if (letter == ">") {
-          countTags--;
-      }
-      returnString += letter;
-      writeLetters++;
+    var letter = str.charAt(start + writeLetters);
+    if (letter == "<") {
+      countTags++;
+    }
+    if (letter == ">") {
+      countTags--;
+    }
+    returnString += letter;
+    writeLetters++;
   }
   return returnString;
 }

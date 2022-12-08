@@ -93,23 +93,45 @@ class WordsController extends Controller
 
     // for @guest
     public function view()
-    {
+    {   
+        if (Request::has('dictionar')) {
+            return Inertia::render('Words/View', [
+                'filters' => Request::all('search', 'trashed'),
+                'words' => new WordCollection(
+                    Word::with('dictionary')
+                        ->where('dictionary_id', Request::get('dictionar'))
+                        ->where('predefinition', 'LIKE', Request::get('litera') . '%')
+                        // ->orderByName()
+                        // ->where('dictionary_id', '!=', '5') // 5 is the id of the dictionary "explicativ al limbii romane actuale"
+                        ->orderBy('predefinition', 'ASC')
+                        ->filter(Request::only('search', 'trashed'))
+                        ->paginate(5)
+                        ->appends(Request::all())
+                ),
+                'dictionaries' => Dictionary::withCount('words')->get(),
+                'dictionary_count' => Word::count(),
+                'wordOfTheDay' => Word::with('dictionary')
+                        ->firstWhere('ID', generateRandomNumberEachDay()),
+            
+            ]);
+        }
+
         return Inertia::render('Words/View', [
             'filters' => Request::all('search', 'trashed'),
             'words' => new WordCollection(
                 Word::with('dictionary')
-                    // ->orderByName()
+                    
                     ->where('dictionary_id', '!=', '5') // 5 is the id of the dictionary "explicativ al limbii romane actuale"
                     ->orderBy('predefinition', 'ASC')
                     ->filter(Request::only('search', 'trashed'))
-                    ->paginate()
+                    ->paginate(5)
                     ->appends(Request::all())
             ),
             'dictionaries' => Dictionary::withCount('words')->get(),
             'dictionary_count' => Word::count(),
             'wordOfTheDay' => Word::with('dictionary')
                     ->firstWhere('ID', generateRandomNumberEachDay()),
-           
+        
         ]);
     }
 
