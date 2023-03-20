@@ -26,7 +26,7 @@ class WordStoreRequest extends FormRequest
     public function rules()
     {
         return [
-            'name' => ['nullable', 'max:100'],
+            'name' => ['nullable', 'max:300'],
             'dictionary_id' => ['required', Rule::exists('dictionaries', 'id')->where(function ($query) {
                 $query->where('account_id', Auth::user()->account_id);
             })],
