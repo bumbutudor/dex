@@ -9,7 +9,7 @@ export default function Layout({ title, children }) {
   return (
     <div>
       <Helmet titleTemplate="%s | DEX" title={title} />
-      <div className="flex flex-col">
+      <div className="flex flex-col font-sans2">
         <div className="flex flex-col h-screen">
           <div className="md:flex">
             <TopHeader />

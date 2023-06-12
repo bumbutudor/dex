@@ -128,7 +128,7 @@ const Index = () => {
                   <InertiaLink
                     tabIndex="-1"
                     href={route('words.edit', id)}
-                    className="flex items-center px-6 py-4 focus:text-indigo focus:outline-none"
+                    className=" items-center px-6 py-4 focus:text-indigo focus:outline-none"
                   >
 
                     {definition ? parse(definition) : ''}

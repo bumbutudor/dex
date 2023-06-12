@@ -17,13 +17,13 @@ export default ({ link_id, link, text }) => {
   }
 
   const textClasses = classNames({
-    'text-indigo-700 text-lg font-bold leading-5': isActive,
-    'text-indigo-500 text-lg leading-5': !isActive
+    'text-indigo-700': isActive,
+    'text-indigo-500': !isActive
   });
 
   const linkClasses = classNames({
-    'flex items-center text-center h-16 border border-solid border-indigo-600 rounded group py-2 px-4 rounded-md bg-indigo-300': isActive,
-    'flex items-center text-center h-16 border border-solid border-indigo-600 rounded group py-2 px-4 rounded-md hover:font-bold  hover:bg-indigo-200': !isActive
+    'flex items-center text-center h-12 border border-solid border-indigo-600 rounded group py-2 px-2 rounded-md bg-indigo-300': isActive,
+    'flex items-center text-center h-12 border border-solid border-indigo-600 rounded group py-2 px-2 rounded-md hover:font-bold  hover:bg-indigo-200': !isActive
   });
 
   return (
