@@ -1,5 +1,26 @@
 import $ from 'jquery';
 
+
+// added on 2023-06-12 by Tudor
+// add italic to abbreviations
+export function addItalicsToAbbr(inputString) {
+  // Regular expression to match alphanumeric characters followed by a period
+  const abbrRegex = /(\b[A-Za-z]+\b\.)(?=\W|$)/g;
+
+
+  const outputString = inputString.replace(abbrRegex, function (match) {
+    return `<i>${match}</i>`;
+  });
+
+  // Return the output string wrapped in a span tag
+  return `<span>${outputString}</span>`;
+}
+
+// Example usage
+// let stringWithAbbr = "A ABANDONA tr. – A REVENI itr.";
+// console.log(addItalicsToAbbr(stringWithAbbr));
+
+
 // added on 2022-12-08 by Tudor
 // convert html to text but preserve line breaks
 export function htmlToText(html) {

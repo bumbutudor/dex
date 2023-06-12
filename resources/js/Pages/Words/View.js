@@ -4,7 +4,7 @@ import GuestPagination from '@/Shared/GuestPagination';
 import parse from 'html-react-parser';
 import GuestLayout from '@/Shared/GuestLayout';
 import $ from 'jquery';
-import { searchClickedWord } from '@/utils';
+import { searchClickedWord, addItalicsToAbbr } from '@/utils';
 import DictionaryTab from '@/Shared/DictionaryTab';
 import LetterFilter from '@/Shared/LetterFilter';
 
@@ -69,7 +69,7 @@ const View = () => {
             {data.map(({ id, name, definition }) => (
               <div className="px-4 w-full w-3xl py-2 border-b border-gray-400" key={id} label="cuvant">
                 <h1 className="text-lg w-full">
-                  <a className="font-bold word">{name ? name = name.replace(/\n/g, " ") : ''}</a>
+                  <a className="font-bold word">{name ? name = parse(addItalicsToAbbr(name.replace(/\n/g, " "))) : ''}</a>
                 </h1>
                 <div className="text-lg w-full leading-6 definition">{parse(definition.split('<p>&nbsp;</p>').join(''))}</div>
               </div>

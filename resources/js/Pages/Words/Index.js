@@ -5,7 +5,7 @@ import Icon from '@/Shared/Icon';
 import Pagination from '@/Shared/Pagination';
 import SearchFilter from '@/Shared/SearchFilter';
 import parse from 'html-react-parser';
-import { html_substring } from '@/utils';
+import { html_substring, addItalicsToAbbr } from '@/utils';
 import DictionaryTab from '@/Shared/DictionaryTab';
 import LetterFilter from '@/Shared/LetterFilter';
 
@@ -103,7 +103,7 @@ const Index = () => {
                     href={route('words.edit', id)}
                     className="flex items-center px-6 py-4 focus:text-indigo-700 focus:outline-none"
                   >
-                    {name}
+                    {name ? parse(addItalicsToAbbr(name)) : ""}
                     {deleted_at && (
                       <Icon
                         name="trash"
