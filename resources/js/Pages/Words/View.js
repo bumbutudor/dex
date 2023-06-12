@@ -26,7 +26,9 @@ const View = () => {
   let cuvant_titlu = wordOfTheDay.name;
   let definitie = wordOfTheDay.definition;
   let dictionar_name = wordOfTheDay.dictionary.name;
+  const image = wordOfTheDay.other;
 
+  // console.log(image);
   // console.log(links);
   const params = new URLSearchParams(window.location.search);
   const dictionaryID = params.get('dictionar');
@@ -36,54 +38,68 @@ const View = () => {
       <div className="flex gap-4">
         <div className="grid grid-cols-1 max-h-60">
           {dictionaries.map(({ id, name }) => (
-            <DictionaryTab
-              key={id}
-              text={name}
-              link={`?dictionar=${id}`}
-              link_id={id}
-            />
+            <div>
+              <DictionaryTab
+                key={id}
+                text={name}
+                link={`?dictionar=${id}`}
+                link_id={id}
+              />
+              {/* {id == dictionaryID && (
+                <div className="w-56">
+                  <div className="w-full">
+                    <LetterFilter />
+                  </div>
+                </div>
+              )} */}
+            </div>
+
           ))}
-          <div className="w-56">
-            {params.has('dictionar') && dictionaryID && (
+          {params.has('dictionar') && dictionaryID && (
+            <div className="w-56">
               <div className="w-full">
                 <LetterFilter />
+              </div>
+            </div>
+          )}
+        </div>
+
+        <div className="flex-1 overflow-y-auto max-w-3xl">
+          <div className="shadow-md bg-white" label="cuvinte">
+            {data.map(({ id, name, definition }) => (
+              <div className="px-4 w-full w-3xl py-2 border-b border-gray-400" key={id} label="cuvant">
+                <h1 className="text-lg w-full">
+                  <a className="font-bold word">{name ? name = name.replace(/\n/g, " ") : ''}</a>
+                </h1>
+                <div className="text-lg w-full leading-6 definition">{parse(definition.split('<p>&nbsp;</p>').join(''))}</div>
+              </div>
+            ))}
+
+            {data.length === 0 && (
+              <tr>
+                <td className="px-6 py-4 border-t" colSpan="4">
+                  N-am găsit nimic.
+                </td>
+              </tr>
+            )}
+            {links.length > 3 && (
+              <div className="px-4 w-full py-2" >
+                <GuestPagination links={links} />
               </div>
             )}
           </div>
         </div>
 
-        <div className="flex-1 overflow-y-auto max-w-3xl shadow-md">
-          {data.map(({ id, name, definition }) => (
-            <div className="px-4 w-full bg-white w-3xl py-2 border-b border-gray-400" key={id} label="cuvant">
-              <h1 className="text-lg w-full">
-                <a className="font-bold word">{name ? name = name.replace(/\n/g, " ") : ''}</a>
-              </h1>
-              <div className="text-lg w-full w-3xl leading-6 definition">{parse(definition.split('<p>&nbsp;</p>').join(''))}</div>
-            </div>
-          ))}
-
-          {data.length === 0 && (
-            <tr>
-              <td className="px-6 py-4 border-t" colSpan="4">
-                N-am găsit nimic.
-              </td>
-            </tr>
-          )}
-          <div className="px-4 w-full bg-white w-3xl py-2 border" >
-            <GuestPagination links={links} />
-          </div>
-        </div>
-
-        <div className="flex-1 max-w-sm w-full">
+        <div className="flex-1 max-w-xs w-full">
           <div className="w-full py-4 px-6  border border-indigo-200 rounded bg-orange-100 mb-2" label="cuvant">
             <h3 className="mb-2 text-lg italic text-indigo-900">Cuvântul zilei:</h3>
-            <h1 className="text-3xl pb-2 w-full">
+            <h1 className="text-2xl pb-2 w-full">
               <a className="font-bold"> {cuvant_titlu ? cuvant_titlu = cuvant_titlu.replace(/\n/g, " ") : ''} </a>
             </h1>
-            <div className="text-xl w-full pr-5 leading-6"> {definitie ? parse(definitie) : ''} </div>
+            <div className="text-lg w-full leading-6"> {definitie ? parse(definitie.split('<p>&nbsp;</p>').join('')) : ''} </div>
             <div className="text-xs pt-2 italic text-gray-500"> {dictionar_name ? dictionar_name : ''} </div>
             <div className="w-full py-4 px-6" label="imagine">
-              <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/64/Foods_%28cropped%29.jpg/250px-Foods_%28cropped%29.jpg" alt="random image" />
+              {image && <img src={image.split('img: ').join('')} alt="random image" />}
             </div>
           </div>
         </div>
