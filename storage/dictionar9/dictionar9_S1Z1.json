@@ -1,0 +1,3953 @@
+[
+  {
+    "user_id": 8,
+    "dictionary_id": 9,
+    "name": "SOBRU",
+    "predefinition": "SOBRU",
+    "definition": "<p> <i>adj. </i>grav, serios; <strong>a deveni </strong>~ ► a lăsa şaga (la o parte), a-i ajunge cuiva de şagă. </p>",
+    "active": 0,
+    "created_at": "2023-11-21 09:06:12"
+  },
+  {
+    "user_id": 8,
+    "dictionary_id": 9,
+    "name": "A SOCOTI",
+    "predefinition": "SOCOTI",
+    "definition": "<p> <i>vb. </i>a gândi, a crede, a considera; ► a fi de părere că…, a-şi da cu socoteala că …, a găsi (a crede, a socoti) de cuviinţă. </p>",
+    "active": 0,
+    "created_at": "2023-11-21 09:06:12"
+  },
+  {
+    "user_id": 8,
+    "dictionary_id": 9,
+    "name": "SOCOTIT",
+    "predefinition": "SOCOTIT",
+    "definition": "<p> <i>adj. </i>1) aşezat, calculat, cumpătat, chibzuit; ► aşezat la minte (la cap), cu scaun la cap, cu capul pe umeri, cu socoteală, cu judecată sănătoasă, cu mintea trează (întreagă); <strong>a deveni mai ~ </strong>► a prinde la minte; 2) numărat; ► cu număr (cu socoteală). </p>",
+    "active": 0,
+    "created_at": "2023-11-21 09:06:12"
+  },
+  {
+    "user_id": 8,
+    "dictionary_id": 9,
+    "name": "SOL",
+    "predefinition": "SOL",
+    "definition": "<p> <i>m. </i>delegat, împuternicit, mesager, reprezentant; <strong>ca </strong>~ <strong>al cuiva </strong>► din partea cuiva, în numele cuiva, în locul cuiva. </p>",
+    "active": 0,
+    "created_at": "2023-11-21 09:06:12"
+  },
+  {
+    "user_id": 8,
+    "dictionary_id": 9,
+    "name": "A SOLICITA",
+    "predefinition": "SOLICITA",
+    "definition": "<p> <i>vb</i>. 1) a cere, a reclama, a revendica; <strong>~ imposibilul </strong>► a cere (şi) luna de pe cer; <strong>~ cu insistenţă </strong>► a umbla (a veni, a merge) cu jalba în proţap, a ruga de toţi dumnezeii; <strong>~ lămuriri </strong>► a lua (a apuca, a ţine) pe cineva de guler, a lua (a înhăţa) pe cineva de gât, a cere cuiva socoteală (cont, seamă). </p>",
+    "active": 0,
+    "created_at": "2023-11-21 09:06:12"
+  },
+  {
+    "user_id": 8,
+    "dictionary_id": 9,
+    "name": "SOLICITAT",
+    "predefinition": "SOLICITAT",
+    "definition": "<p> <i>adj. </i>căutat; <strong>a fi ~ </strong>(<i>despre mărfuri</i>); ► a avea căutare. </p>",
+    "active": 0,
+    "created_at": "2023-11-21 09:06:12"
+  },
+  {
+    "user_id": 8,
+    "dictionary_id": 9,
+    "name": "TEMEINIC",
+    "predefinition": "TEMEINIC",
+    "definition": "<p> <i>adv. </i>solid, serios, fundamental; ► cu (de) nădejde, cu judecată. </p>",
+    "active": 0,
+    "created_at": "2023-11-21 09:06:12"
+  },
+  {
+    "user_id": 8,
+    "dictionary_id": 9,
+    "name": "SOLID",
+    "predefinition": "SOLID",
+    "definition": "<p> <i>adv. </i>serios, temeinic, fundamental; ► cu (de) nădejde, cu judecată. </p>",
+    "active": 0,
+    "created_at": "2023-11-21 09:06:12"
+  },
+  {
+    "user_id": 8,
+    "dictionary_id": 9,
+    "name": "SOLIDAR",
+    "predefinition": "SOLIDAR",
+    "definition": "<p> <i>adj. </i>înfrăţit, unit; <strong>a fi </strong>~ <strong>cu cineva </strong>►a fi alături de cineva, a fi mână în mână cu cineva. </p>",
+    "active": 0,
+    "created_at": "2023-11-21 09:06:12"
+  },
+  {
+    "user_id": 8,
+    "dictionary_id": 9,
+    "name": "SOLITAR",
+    "predefinition": "SOLITAR",
+    "definition": "<p> <i>adj. </i>izolat, retras, singuratic; ► la o (de-o) parte, într-o parte, în lături, de unul singur, singur cuc<i>.</i> </p>",
+    "active": 0,
+    "created_at": "2023-11-21 09:06:12"
+  },
+  {
+    "user_id": 8,
+    "dictionary_id": 9,
+    "name": "SOLUŢIE",
+    "predefinition": "SOLUŢIE",
+    "definition": "<p> <i>f. </i>ieşire; <strong>a nu avea altă </strong>~ ► a nu (mai) avea încotro. </p>",
+    "active": 0,
+    "created_at": "2023-11-21 09:06:12"
+  },
+  {
+    "user_id": 8,
+    "dictionary_id": 9,
+    "name": "A SOLUŢIONA",
+    "predefinition": "SOLUŢIONA",
+    "definition": "<p> <i>vb. </i>a rezolva; <strong>~ o problemă complicată </strong>► a tăia nodul gordian. </p>",
+    "active": 0,
+    "created_at": "2023-11-21 09:06:12"
+  },
+  {
+    "user_id": 8,
+    "dictionary_id": 9,
+    "name": "SOMN",
+    "predefinition": "SOMN",
+    "definition": "<p> <i>n.</i>: <strong>a-i fi tare ~ </strong>► a dormi de-a-n picioarele (pe picioare), a i se închide cuiva ochii, a pica (a nu mai putea) de somn, a-l doborî (a-l da gata) somnul. </p>",
+    "active": 0,
+    "created_at": "2023-11-21 09:06:12"
+  },
+  {
+    "user_id": 8,
+    "dictionary_id": 9,
+    "name": "A SOMNOLA",
+    "predefinition": "SOMNOLA",
+    "definition": "<p> <i>vb. livr. </i>a dormita, a moţăi, a piroti, a picoti; ► a-i veni cuiva moş Ene pe la gene. </p>",
+    "active": 0,
+    "created_at": "2023-11-21 09:06:12"
+  },
+  {
+    "user_id": 8,
+    "dictionary_id": 9,
+    "name": "SOMNOROS",
+    "predefinition": "SOMNOROS",
+    "definition": "<p> <i>adj. </i>1) adormit <i>fig</i>.; ► cu somnul pe gene; 2) (<i>despre ochi</i>) ► cârpiţi (lipiţi) de somn. </p>",
+    "active": 0,
+    "created_at": "2023-11-21 09:06:12"
+  },
+  {
+    "user_id": 8,
+    "dictionary_id": 9,
+    "name": "A SORTA",
+    "predefinition": "SORTA",
+    "definition": "<p> <i>vb. </i>a alege, a selecţiona, a selecta, a tria; ► a alege brânza (urda) din zer; <strong>~ ce e mai bun </strong>► a alege pe (după) sprânceană. </p>",
+    "active": 0,
+    "created_at": "2023-11-21 09:06:12"
+  },
+  {
+    "user_id": 8,
+    "dictionary_id": 9,
+    "name": "A SOSI",
+    "predefinition": "SOSI",
+    "definition": "<p> <i>vb. </i>a veni; ~ <strong>pe neaşteptate </strong>► a cădea ca o bombă, a cădea (a pica) din cer, a cădea pe capul cuiva, a-i cădea cuiva belea pe cap, a cădea cu hârzobul din cer, a pica (a fi picat) (ca) din lună (nori, stele), a-i pica cuiva plocon. </p>",
+    "active": 0,
+    "created_at": "2023-11-21 09:06:12"
+  },
+  {
+    "user_id": 8,
+    "dictionary_id": 9,
+    "name": "SOŢ",
+    "predefinition": "SOŢ",
+    "definition": "<p> <i>m. </i>bărbat; ► capul familiei, talpa casei. </p>",
+    "active": 0,
+    "created_at": "2023-11-21 09:06:12"
+  },
+  {
+    "user_id": 8,
+    "dictionary_id": 9,
+    "name": "A SPARGE",
+    "predefinition": "SPARGE",
+    "definition": "<p> <i>vb. </i>a sfărâma; ► a face praf, a face zob, a face (mici, mii de) fărâme. </p>",
+    "active": 0,
+    "created_at": "2023-11-21 09:06:12"
+  },
+  {
+    "user_id": 8,
+    "dictionary_id": 9,
+    "name": "A SE SPARGE",
+    "predefinition": "SPARGE",
+    "definition": "<p> <i>vb. </i>a se sfărâma; ► a se face praf, a se face zob, a se face (mici, mii de) fărâme. </p>",
+    "active": 0,
+    "created_at": "2023-11-21 09:06:12"
+  },
+  {
+    "user_id": 8,
+    "dictionary_id": 9,
+    "name": "A SE SPÂNZURA",
+    "predefinition": "SPÂNZURA",
+    "definition": "<p> <i>vb. </i>a se strangula; ► a-şi pune ştreangul de gât. </p>",
+    "active": 0,
+    "created_at": "2023-11-21 09:06:12"
+  },
+  {
+    "user_id": 8,
+    "dictionary_id": 9,
+    "name": "SPECTACULOS",
+    "predefinition": "SPECTACULOS",
+    "definition": "<p> <i>adj. </i>uimitor, impresionant, senzaţional; ► în stil mare, de efect, de senzaţie. </p>",
+    "active": 0,
+    "created_at": "2023-11-21 09:06:12"
+  },
+  {
+    "user_id": 8,
+    "dictionary_id": 9,
+    "name": "A SPERA",
+    "predefinition": "SPERA",
+    "definition": "<p> <i>vb. </i>a crede, a nădăjdui; ► a trage nădejde, a-şi face iluzii. </p>",
+    "active": 0,
+    "created_at": "2023-11-21 09:06:12"
+  },
+  {
+    "user_id": 8,
+    "dictionary_id": 9,
+    "name": "A SPERIA",
+    "predefinition": "SPERIA",
+    "definition": "<p> <i>vb. </i>a înfricoşa, a înspăimânta, a îngrozi; ► a băga spaima în cineva, a băga în boală (în boale, în toate boalele) pe cineva, a băga cuiva frica (spaima) în oase, a băga (a vârî) pe cineva în sperieţi (în toţi sperieţii, în răcori, în fiori, în groază, în spaimă, în năbădăi), a băga pe cineva în draci (în toţi dracii), a umple pe cineva de groază (de frică), a răci inima cuiva. </p>",
+    "active": 0,
+    "created_at": "2023-11-21 09:06:12"
+  },
+  {
+    "user_id": 8,
+    "dictionary_id": 9,
+    "name": "A SE SPERIA",
+    "predefinition": "SPERIA",
+    "definition": "<p> <i>vb. </i>a se înfricoşa, a se înspăimânta, a se îngrozi; ► a-i trece cuiva rece prin inimă (prin spate), a-l strânge pe cineva în spate, a-i trece cuiva un şarpe rece prin sân (prin inimă), a tremura de frică, a i se lăsa (cuiva) inima în călcâie, a i se face inima cât un purice, a-l apuca (a-l lua) pe cineva groaza, a intra frica (groaza, spaima) în cineva, a-i sări cuiva inima (din loc), a-i îngheţa cuiva ficaţii, a-i tremura (şi) fundul, da holera în cineva, a i se sui părul în vârful capului, a i se încreţi cuiva carnea pe trup (de groază, de spaimă), a-l trece pe cineva (toate) răcorile, a-i îngheţa (a i se slei) cuiva sângele în vine, a se speria de moarte, a-l cuprinde pe cineva fiorii, a i se face (a i se zburli) cuiva părul (chica) măciucă (în cap, în vârful capului), a-i fi cuiva inima (tot) rece, a i se răci cuiva inima, a fi mai mult mort decât viu, a-i intra cuiva frica (fiori, groaza, spaima) în oase (în inimă), a înlemni (a îngălbeni) de frică, a-i trece cuiva un sloi de gheaţă prin inimă (prin spinare), a-l trece pe cineva fiori de spaimă, a trage o spaimă (o sperietură), a-i trece (a-i da cuiva) un fier (ars, roşu) prin inimă, a arde focul la tălpile picioarelor cuiva, a-şi face nălucă, a-i intra cuiva raţa în traistă, a trage o spaimă, a o băga pe mânecă. </p>",
+    "active": 0,
+    "created_at": "2023-11-21 09:06:12"
+  },
+  {
+    "user_id": 8,
+    "dictionary_id": 9,
+    "name": "SPERIAT",
+    "predefinition": "SPERIAT",
+    "definition": "<p> <i>adj. </i>înspăimântat, înfricoşat; <strong>foarte </strong>~ ► cu frica în sân. </p>",
+    "active": 0,
+    "created_at": "2023-11-21 09:06:12"
+  },
+  {
+    "user_id": 8,
+    "dictionary_id": 9,
+    "name": "SPERIOS",
+    "predefinition": "SPERIOS",
+    "definition": "<p> <i>adj</i>. fricos, temător; ► slab de înger; <strong>a fi foarte ~ </strong>► a se teme şi de umbra lui, a trăi cu frica în sân. </p>",
+    "active": 0,
+    "created_at": "2023-11-21 09:06:12"
+  },
+  {
+    "user_id": 8,
+    "dictionary_id": 9,
+    "name": "SPLENDID",
+    "predefinition": "SPLENDID",
+    "definition": "<p> <i>adj. </i>superb; ► rupt din soare, ca în (din) poveste (poveşti). </p>",
+    "active": 0,
+    "created_at": "2023-11-21 09:06:12"
+  },
+  {
+    "user_id": 8,
+    "dictionary_id": 9,
+    "name": "SPIRITUAL",
+    "predefinition": "SPIRITUAL",
+    "definition": "<p> <i>adj. </i>imaterial, ideal; ► fără (de) materie. </p>",
+    "active": 0,
+    "created_at": "2023-11-21 09:06:12"
+  },
+  {
+    "user_id": 8,
+    "dictionary_id": 9,
+    "name": "SPRIJIN",
+    "predefinition": "SPRIJIN",
+    "definition": "<p> <i>n. </i>protecţie; <strong>cu ~ ► </strong>cu spate tare; <strong>a avea </strong>~ ► a avea spate (tare). </p>",
+    "active": 0,
+    "created_at": "2023-11-21 09:06:12"
+  },
+  {
+    "user_id": 8,
+    "dictionary_id": 9,
+    "name": "A SPRIJINI",
+    "predefinition": "SPRIJINI",
+    "definition": "<p> <i>vb. </i>1) a ajuta, a ajutora, a susţine; ► a fi de ajutor, a veni în ajutor, a-şi da concursul, a da (a întinde) o mână de ajutor, a întinde (cuiva) mâna (mâinile), a-i face cuiva un bine, a pune un cuvânt (bun) pentru cineva, a arunca un cuvânt pentru cineva, a pune o vorbă bună pentru cineva, a face o intervenţie pentru cineva, a pune umărul (pieptul) pentru cineva, a pune umărul (la roată), a da (a împinge) la roată, a face pomană cu cineva; 2) a apăra, a susţine; ► a lua cuiva apărarea, a-i lua (a-i ţine) cuiva parte (partea), a face zid împrejurul cuiva, a pleda cauza cuiva. </p>",
+    "active": 0,
+    "created_at": "2023-11-21 09:06:12"
+  },
+  {
+    "user_id": 8,
+    "dictionary_id": 9,
+    "name": "A SE SPRIJINI",
+    "predefinition": "SPRIJINI",
+    "definition": "<p> <i>vb. </i>a se baza, a se întemeia; ► a avea ca temei, a avea ceva la bază. </p>",
+    "active": 0,
+    "created_at": "2023-11-21 09:06:12"
+  },
+  {
+    "user_id": 8,
+    "dictionary_id": 9,
+    "name": "SPRINTEN",
+    "predefinition": "SPRINTEN",
+    "definition": "<p> <i>adj. </i>iute, vioi, ager; ► ca fulgerul, ca un fulger, bun (iute) de picior (de picioare), (iute) ca o suveică (ca suveica), iute ca prâsnelul, plin de suflet; <strong>a fi </strong>~ ► a fi numai vână. </p>",
+    "active": 0,
+    "created_at": "2023-11-21 09:06:12"
+  },
+  {
+    "user_id": 8,
+    "dictionary_id": 9,
+    "name": "A SPUN/E",
+    "predefinition": "SPUNE",
+    "definition": "<p> <i>vb. </i>a zice, a vorbi; ~ <strong>minciuni </strong>► a îndruga (la) verzi şi uscate, a înşira (la) gogoşi, a pune goange, a cârpi o minciună, a le spune calde, a tăia la piroane, a le spune calde, a mânca praz (haram, borş, ciuperci, rahat); ~ <strong>direct </strong>► a spune (a declara) fără înconjur, a spune lucrurilor pe nume; ~ <strong>multe </strong>► a dezlega sacul; <strong>~ spontan ► </strong>a spune ce-i vine pe limbă; <strong>nu </strong>~ <strong>(nimic) </strong>► a tăcea din gură, a tăcea chitic, a tăcea ca melcul (molcom), a rămâne mut, a-şi înghiţi limba, a închide gura, a nu avea limbă, a-şi ţine gura, a-şi pune gard la gură, a-i pieri cuiva (a-şi pierde) graiul (glasul), a-i pieri cuiva cuvintele (de) pe buze; <strong>a continua să ~ă ► </strong>a spune înainte; <strong>se spune </strong>► (aşa) umblă vorba. </p>",
+    "active": 0,
+    "created_at": "2023-11-21 09:06:12"
+  },
+  {
+    "user_id": 8,
+    "dictionary_id": 9,
+    "name": "A STA",
+    "predefinition": "STA",
+    "definition": "<p> <i>vb. </i>1) a şedea; ~ <strong>degeaba </strong>► a rezema pereţii (peretele), a sta cu braţele încrucişate, a sta cu mâinile în brâu (în buzunare, în sân, în şolduri, încrucişate), a sta ca o mireasă; ~ <strong>nemişcat </strong>► a sta (a şedea) ca o cloşcă, a sta (a şedea) ciotcă, a sta ca un ţap logodit, a sta (ca un) sfânt, a sta (a rămâne, a se ţine) locului (pe loc); <strong>~ singur </strong>► a sta ca un huhurez (ca huhurezul); 2) a se afla, a se găsi, a fi; <strong>~ undeva </strong>► a-i sticli ochii pe undeva; ~ <strong>la închisoare </strong>► a înfrunta ocna (puşcăria, temniţa), a sta la dubă (la dubală, la răcoare, la prinsoare). </p>",
+    "active": 0,
+    "created_at": "2023-11-21 09:06:12"
+  },
+  {
+    "user_id": 8,
+    "dictionary_id": 9,
+    "name": "A SE STABILI",
+    "predefinition": "STABILI",
+    "definition": "<p> <i>vb. </i>a se instala, a se statornici, a se aşeza; ► a prinde rădăcini (rădăcină), a-şi afla locul, a-şi face cuib, a prinde (undeva) picior. </p>",
+    "active": 0,
+    "created_at": "2023-11-21 09:06:12"
+  },
+  {
+    "user_id": 8,
+    "dictionary_id": 9,
+    "name": "A STAGNA",
+    "predefinition": "STAGNA",
+    "definition": "<p> <i>vb. </i>► a rămâne (a sta, a zăcea) baltă, a sta pe loc. </p>",
+    "active": 0,
+    "created_at": "2023-11-21 09:06:12"
+  },
+  {
+    "user_id": 8,
+    "dictionary_id": 9,
+    "name": "STAGNARE",
+    "predefinition": "STAGNARE",
+    "definition": "<p> <i>f. </i>oprire; ► rămânere pe loc, rămânere în urmă. </p>",
+    "active": 0,
+    "created_at": "2023-11-21 09:06:12"
+  },
+  {
+    "user_id": 8,
+    "dictionary_id": 9,
+    "name": "STARE",
+    "predefinition": "STARE",
+    "definition": "<p> <i>f. </i>situaţie; <strong>a fi în ~ proastă </strong>► a fi într-un hal fără (de) hal, a fi în ultimul grad, a fi ca vai de lume, a fi vai (şi amar) de…; <strong>în orice </strong>(<i>despre persoane</i>) ► viu sau mort. <strong>START </strong> <i>n. </i>început; ► punct de plecare (de pornire); <strong>din ~ </strong>► din primul moment, din capul locului. </p>",
+    "active": 0,
+    "created_at": "2023-11-21 09:06:12"
+  },
+  {
+    "user_id": 8,
+    "dictionary_id": 9,
+    "name": "A SE STATORNICI",
+    "predefinition": "STATORNICI",
+    "definition": "<p> <i>vb. </i>a se stabili, a se aşeza, a se instala; ► a prinde rădăcini (rădăcină), a-şi afla locul, a-şi face cuib, a prinde (undeva) picior. </p>",
+    "active": 0,
+    "created_at": "2023-11-21 09:06:12"
+  },
+  {
+    "user_id": 8,
+    "dictionary_id": 9,
+    "name": "A STĂPÂNI",
+    "predefinition": "STĂPÂNI",
+    "definition": "<p> <i>vb. </i>1) administra, a cârmui, a guverna, a conduce, a domni; ► a fi la putere, a ţine frânele ţării (împărăţiei), a duce (a purta) steagul, a pune ţara la cale; </p>",
+    "active": 0,
+    "created_at": "2023-11-21 09:06:12"
+  },
+  {
+    "user_id": 8,
+    "dictionary_id": 9,
+    "name": "a-şi",
+    "predefinition": "a-şi",
+    "definition": "<p> 2) a domina; ► a ţine (a pune) pe cineva sub papuc (picior); 3) a înfrâna, a reţine; ~ <strong>plânsul </strong>► a-şi înghiţi lacrimile (plânsul); <strong>a-şi </strong>~ <strong>un sentiment </strong>► a-şi muşca buzele (limba). </p>",
+    "active": 0,
+    "created_at": "2023-11-21 09:06:12"
+  },
+  {
+    "user_id": 8,
+    "dictionary_id": 9,
+    "name": "A SE STĂPÂNI",
+    "predefinition": "STĂPÂNI",
+    "definition": "<p> <i>vb. </i>a se abţine, a se reţine, a se înfrâna; ► a-şi ţine (a-şi păstra) firea, a-şi păstra cumpătul, a-şi pune frâu, a înghiţi în sec. </p>",
+    "active": 0,
+    "created_at": "2023-11-21 09:06:12"
+  },
+  {
+    "user_id": 8,
+    "dictionary_id": 9,
+    "name": "STĂPÂNIR/E",
+    "predefinition": "STĂPÂNIRE",
+    "definition": "<p> <i>f. </i>posesiune; <strong>în </strong>~<strong>ea cuiva </strong>► pe mâna (pe mâinile) cuiva. </p>",
+    "active": 0,
+    "created_at": "2023-11-21 09:06:12"
+  },
+  {
+    "user_id": 8,
+    "dictionary_id": 9,
+    "name": "STĂPÂNIT",
+    "predefinition": "STĂPÂNIT",
+    "definition": "<p> <i>adj. </i>reţinut, echilibrat, calm; ► cu stăpânire de sine, cu sânge rece; <strong>a fi </strong>~ ► a fi stăpân pe sine, a nu-şi pierde cumpătul. </p>",
+    "active": 0,
+    "created_at": "2023-11-21 09:06:12"
+  },
+  {
+    "user_id": 8,
+    "dictionary_id": 9,
+    "name": "A STĂRUI",
+    "predefinition": "STĂRUI",
+    "definition": "<p> <i>vb.</i>1) se încăpăţâna, a se îndărătnici, a se ambiţiona; ► a se pune la ambiţie, a o ţine morţiş (întruna), a (o) ţine una (şi bună), a şti una şi bună, a o ţine înainte, a pune cornul în pământ; 2) a insista; ► a bate monedă pe ceva, a-i da zor cu. </p>",
+    "active": 0,
+    "created_at": "2023-11-21 09:06:12"
+  },
+  {
+    "user_id": 8,
+    "dictionary_id": 9,
+    "name": "STĂRUITOR",
+    "predefinition": "STĂRUITOR",
+    "definition": "<p> <i>adj. </i>insistent; <strong>a fi foarte ~ ► </strong>a intra (a se băga, a se vârî) în sufletul cuiva, a umbla cu jalba în proţap. </p>",
+    "active": 0,
+    "created_at": "2023-11-21 09:06:12"
+  },
+  {
+    "user_id": 8,
+    "dictionary_id": 9,
+    "name": "STÂNGACI",
+    "predefinition": "STÂNGACI",
+    "definition": "<p> <i>adj. </i>neîndemânatic; <strong>a fi ~ </strong>► a călca în (prin) străchini. </p>",
+    "active": 0,
+    "created_at": "2023-11-21 09:06:12"
+  },
+  {
+    "user_id": 8,
+    "dictionary_id": 9,
+    "name": "STÂRV",
+    "predefinition": "STÂRV",
+    "definition": "<p> <i>n</i>. cadavru, leş, corp, hoit; ► rămăşiţele pământeşti (trupeşti). </p>",
+    "active": 0,
+    "created_at": "2023-11-21 09:06:12"
+  },
+  {
+    "user_id": 8,
+    "dictionary_id": 9,
+    "name": "STIHIE",
+    "predefinition": "STIHIE",
+    "definition": "<p> <i>f. </i>calamitate, catastrofă, prăpăd, dezastru; ► mânia lui Dumnezeu (Domnului, cerului), prăpădul pământului (Domnului, lui Dumnezeu), prăpădenia pământului (a lui Dumnezeu). </p>",
+    "active": 0,
+    "created_at": "2023-11-21 09:06:12"
+  },
+  {
+    "user_id": 8,
+    "dictionary_id": 9,
+    "name": "A STIMA",
+    "predefinition": "STIMA",
+    "definition": "<p> <i>vb. </i>a respecta, a onora, a cinsti; ► a purta cinstea cuiva, a căuta (a căta) cuiva în obraz. </p>",
+    "active": 0,
+    "created_at": "2023-11-21 09:06:12"
+  },
+  {
+    "user_id": 8,
+    "dictionary_id": 9,
+    "name": "A STIMULA",
+    "predefinition": "STIMULA",
+    "definition": "<p> <i>vb. </i>a îndemna, a impulsiona; a îmboldi <i>fig</i>.; ► a da ghes, a da cu boldul în cineva, a da cuiva bolduri, a da avânt, a da cuiva aripi, a-i da cuiva apă la moară, a sili la drum. </p>",
+    "active": 0,
+    "created_at": "2023-11-21 09:06:12"
+  },
+  {
+    "user_id": 8,
+    "dictionary_id": 9,
+    "name": "A STINGHERI",
+    "predefinition": "STINGHERI",
+    "definition": "<p> <i>vb. </i>a jena, a incomoda, a deranja; ► a nu da pace cuiva, a-i sta (a fi) cuiva ca un ghimpe (un spin) în ochi (în inimă, în coastă), a sta (a şedea) pe capul cuiva, a-i sta (a-i şedea) cuiva pe cap (în spinare), a încurca locul (lumea, zilele); <strong>a nu ~ pe cineva ► </strong>a se duce de pe capul cuiva, a lăsa pe cineva în pace (în plata Domnului, în plata lui Dumnezeu, încolo), a lăsa pe cineva (să se scalde) în apele lui, a lăsa pe cineva în ploile lui. </p>",
+    "active": 0,
+    "created_at": "2023-11-21 09:06:12"
+  },
+  {
+    "user_id": 8,
+    "dictionary_id": 9,
+    "name": "STINGHERIT",
+    "predefinition": "STINGHERIT",
+    "definition": "<p> <i>adj. </i>incomodat; <strong>a fi ~ de cineva </strong>► a nu (mai) avea loc de cineva. </p>",
+    "active": 0,
+    "created_at": "2023-11-21 09:06:12"
+  },
+  {
+    "user_id": 8,
+    "dictionary_id": 9,
+    "name": "STRADAL",
+    "predefinition": "STRADAL",
+    "definition": "<p> <i>adj. </i>► de stradă. </p>",
+    "active": 0,
+    "created_at": "2023-11-21 09:06:12"
+  },
+  {
+    "user_id": 8,
+    "dictionary_id": 9,
+    "name": "A STRANGULA",
+    "predefinition": "STRANGULA",
+    "definition": "<p> <i>vb. </i>a gâtui, a sugruma; ► a strânge de gât pe cineva. </p>",
+    "active": 0,
+    "created_at": "2023-11-21 09:06:12"
+  },
+  {
+    "user_id": 8,
+    "dictionary_id": 9,
+    "name": "A SE STRANGULA",
+    "predefinition": "STRANGULA",
+    "definition": "<p> <i>vb. </i>a se spânzura; ► a-şi pune ştreangul de gât. </p>",
+    "active": 0,
+    "created_at": "2023-11-21 09:06:12"
+  },
+  {
+    "user_id": 8,
+    "dictionary_id": 9,
+    "name": "STRANIU",
+    "predefinition": "STRANIU",
+    "definition": "<p> <i>adj. </i>bizar, ciudat; sucit <i>fig</i>.; ► ieşit din comun; <strong>a fi </strong>~ ► a fi nu ştiu cum (pe dos), a fi cu (a avea) sticleţi (în cap), a-i cânta cuiva sticleţii (în cap), a-i lipsi o doagă. </p>",
+    "active": 0,
+    "created_at": "2023-11-21 09:06:12"
+  },
+  {
+    "user_id": 8,
+    "dictionary_id": 9,
+    "name": "SRAŞNIC",
+    "predefinition": "SRAŞNIC",
+    "definition": "<p> <i>adj. </i>groaznic, grozav, înfiorător; ► de moarte, de spaimă, de groază, ţi-i mai mare groaza (să…); <strong>mai ~ </strong>► şi mai şi. </p>",
+    "active": 0,
+    "created_at": "2023-11-21 09:06:12"
+  },
+  {
+    "user_id": 8,
+    "dictionary_id": 9,
+    "name": "A STRĂBATE",
+    "predefinition": "STRĂBATE",
+    "definition": "<p> <i>vb. </i>a răzbate, a pătrunde; <strong>► </strong>a-şi face loc, a-şi croi drum, a pune piciorul undeva (la cineva), a-şi rupe cale (cărare, drum); <strong>~ în liniile inamicului ► </strong>a rupe (a sparge) frontul. </p>",
+    "active": 0,
+    "created_at": "2023-11-21 09:06:12"
+  },
+  {
+    "user_id": 8,
+    "dictionary_id": 9,
+    "name": "STRĂDANIE",
+    "predefinition": "STRĂDANIE",
+    "definition": "<p> <i>f. </i>efort, osteneală, trudă; <strong>cu ~ </strong>► din răsputeri, pe opinteală; <strong>cu mare ~ </strong>► pe rupte(le). </p>",
+    "active": 0,
+    "created_at": "2023-11-21 09:06:12"
+  },
+  {
+    "user_id": 8,
+    "dictionary_id": 9,
+    "name": "A SE STRĂDUI",
+    "predefinition": "STRĂDUI",
+    "definition": "<p> <i>vb. </i>a se sili, a se sforţa; ► a depune efort, a face tot posibilul (şi imposibilul) să…, a prinde foc cu gura, a face totul, a face în toate chipurile, a se prăpădi (a se omorî) cu firea, a da din mâini şi din picioare, a se pune în cap şi în picioare, a-i ieşi cuiva ochii din cap, a da din coate, a-şi da (toată) silinţa (osteneala toate silinţele), a-şi pune (toată) puterea (toate puterile), a-şi ieşi din piele; ~ <strong>zadarnic </strong>► a umbla după borta vântului, a se zbate ca peştele pe uscat (ca musca în pânza păianjenului). </p>",
+    "active": 0,
+    "created_at": "2023-11-21 09:06:12"
+  },
+  {
+    "user_id": 8,
+    "dictionary_id": 9,
+    "name": "A STRĂJUI",
+    "predefinition": "STRĂJUI",
+    "definition": "<p> <i>vb. </i>a păzi, a apăra; a veghea <i>înv.</i>; ► a face (a ţine) strajă, a fi (a sta, a se pune) (de) strajă (pază). </p>",
+    "active": 0,
+    "created_at": "2023-11-21 09:06:12"
+  },
+  {
+    "user_id": 8,
+    "dictionary_id": 9,
+    "name": "STRĂLUCIT",
+    "predefinition": "STRĂLUCIT",
+    "definition": "<p> <i>adv. </i>excelent, admirabil, minunat; ► de minune, cu brio. </p>",
+    "active": 0,
+    "created_at": "2023-11-21 09:06:12"
+  },
+  {
+    "user_id": 8,
+    "dictionary_id": 9,
+    "name": "A SE STRĂMUTA",
+    "predefinition": "STRĂMUTA",
+    "definition": "<p> <i>vb. </i>a se muta; ~ <strong>des </strong>► a se muta ca ţiganul cu cortul (cu şatra). </p>",
+    "active": 0,
+    "created_at": "2023-11-21 09:06:12"
+  },
+  {
+    "user_id": 8,
+    "dictionary_id": 9,
+    "name": "STRĂVECHI",
+    "predefinition": "STRĂVECHI",
+    "definition": "<p> <i>adj. </i>► din moşi-strămoşi, din vremea veche, din bătrâni, de demult, din vechime, de pe vremuri (de mult apuse), de ani şi ani, de sute (mii) de ani, vechi ca pământul, de când e lumea, din vremea lui han-tătar. </p>",
+    "active": 0,
+    "created_at": "2023-11-21 09:06:12"
+  },
+  {
+    "user_id": 8,
+    "dictionary_id": 9,
+    "name": "STRĂVEZIU",
+    "predefinition": "STRĂVEZIU",
+    "definition": "<p> <i>adj. </i>curat, limpede, pur; <strong>foarte ~ ► </strong>limpede (curat) vioară (cum e vioara, ca vioara), limpede (curat) ca lacrima. </p>",
+    "active": 0,
+    "created_at": "2023-11-21 09:06:12"
+  },
+  {
+    "user_id": 8,
+    "dictionary_id": 9,
+    "name": "STRÂMB",
+    "predefinition": "STRÂMB",
+    "definition": "<p> <i>adj. </i>1) sucit; ► drept ca funia în sac (în traistă); 2) oblic, pieziş; ► într-o (la o) parte. </p>",
+    "active": 0,
+    "created_at": "2023-11-21 09:06:12"
+  },
+  {
+    "user_id": 8,
+    "dictionary_id": 9,
+    "name": "A SE STRÂMBA",
+    "predefinition": "STRÂMBA",
+    "definition": "<p> <i>vb. </i>a se afecta, a se strâmba, a se sclifosi, a se fandosi, a se maimuţări; a se fasoli, a se marghioli <i>pop</i>.; ► a face mutre (fasoane, mofturi, nazuri, graţii). </p>",
+    "active": 0,
+    "created_at": "2023-11-21 09:06:12"
+  },
+  {
+    "user_id": 8,
+    "dictionary_id": 9,
+    "name": "STRÂNGĂTOR",
+    "predefinition": "STRÂNGĂTOR",
+    "definition": "<p> <i>adj. </i>econom, cruţător; <strong>a fi ~ </strong>► a strânge bani albi pentru zile negre. </p>",
+    "active": 0,
+    "created_at": "2023-11-21 09:06:12"
+  },
+  {
+    "user_id": 8,
+    "dictionary_id": 9,
+    "name": "A STRÂNGE",
+    "predefinition": "STRÂNGE",
+    "definition": "<p> <i>vb. </i>(<i>bani</i>) 1) a aduna, a agonisi, a economisi; ► a face economii, a lega (a strânge) băierile pungii, a (-şi) pune pielea pe băţ (pe ciomag), a strânge bani la ciorap, a pune la chimir (la ciorap), a aduna bani albi pentru zile negre, a pune la (de) o parte, a lega două-n tei; 2) a aduna, a colecta; ► a pune mână de la mână. </p>",
+    "active": 0,
+    "created_at": "2023-11-21 09:06:12"
+  },
+  {
+    "user_id": 8,
+    "dictionary_id": 9,
+    "name": "A SE STRÂNGE",
+    "predefinition": "STRÂNGE",
+    "definition": "<p> <i>vb. </i>1) a se ghemui, a se chirci; ► a se face ghem (cârlig, mototol), a se face mârcă (la pământ); <strong>~ de frică </strong>►a se face ţâră; 2) a se aduna, a se aglomera, a se îngrămădi; <strong>~ în număr mare </strong>► a se aduna ca la urs, a se aduna (a se strânge, a se îngrămădi) ca muştele la miere, a se strânge (a se aduna, </p>",
+    "active": 0,
+    "created_at": "2023-11-21 09:06:12"
+  },
+  {
+    "user_id": 8,
+    "dictionary_id": 9,
+    "name": "STRÂNS",
+    "predefinition": "STRÂNS",
+    "definition": "<p> <i>adj</i>. chircit, ghemuit; ► cu genunchii la gură, pe vine. </p>",
+    "active": 0,
+    "created_at": "2023-11-21 09:06:12"
+  },
+  {
+    "user_id": 8,
+    "dictionary_id": 9,
+    "name": "A SE STRECURA",
+    "predefinition": "STRECURA",
+    "definition": "<p> <i>vb. </i>a se furişa, a se fofila; ► a-şi face loc. </p>",
+    "active": 0,
+    "created_at": "2023-11-21 09:06:12"
+  },
+  {
+    "user_id": 8,
+    "dictionary_id": 9,
+    "name": "A STRICA",
+    "predefinition": "STRICA",
+    "definition": "<p> <i>vb. </i>a distruge, a deregla; ► a (-i) face de petrecanie; <strong>~ ordinea ► </strong>a da peste cap. </p>",
+    "active": 0,
+    "created_at": "2023-11-21 09:06:12"
+  },
+  {
+    "user_id": 8,
+    "dictionary_id": 9,
+    "name": "A SE STRICA",
+    "predefinition": "STRICA",
+    "definition": "<p> <i>vb. </i>a se deregla, a se degrada, a se deteriora, a se defecta, a se uza; ► a ieşi din funcţie (din funcţiune, din uz). </p>",
+    "active": 0,
+    "created_at": "2023-11-21 09:06:12"
+  },
+  {
+    "user_id": 8,
+    "dictionary_id": 9,
+    "name": "A STRIGA",
+    "predefinition": "STRIGA",
+    "definition": "<p> <i>vb</i>. 1) a ţipa, a răcni; ~ <strong>foarte tare </strong>► a striga (a ţipa) ca din (în) gură de şarpe, a striga din toţi bojocii, a striga să-şi rupă beregata, a striga (a răcni, a ţipa) cât îl ţine gura, a striga (a răcni, a ţipa) în gura mare; 2) a ţipa, a răcni, a se răsti; a se stropşi <i>pop.</i>; ► a ridica glasul (tonul), a bate din picior (picioare), a face gură (mare, largă). </p>",
+    "active": 0,
+    "created_at": "2023-11-21 09:06:12"
+  },
+  {
+    "user_id": 8,
+    "dictionary_id": 9,
+    "name": "A STRIVI",
+    "predefinition": "STRIVI",
+    "definition": "<p> <i>vb. </i>a turti; ► a face armonică. </p>",
+    "active": 0,
+    "created_at": "2023-11-21 09:06:12"
+  },
+  {
+    "user_id": 8,
+    "dictionary_id": 9,
+    "name": "A STRUNI",
+    "predefinition": "STRUNI",
+    "definition": "<p> <i>vb. </i>a domoli, a înfrâna; ► a ţine pe cineva în frâu (în şapte frâie, în nouă frâie, în strună, în hăţuri), a pune cuiva căpăstru (stavilă), a ţine din scurt, a face militărie cu cineva. </p>",
+    "active": 0,
+    "created_at": "2023-11-21 09:06:12"
+  },
+  {
+    "user_id": 8,
+    "dictionary_id": 9,
+    "name": "A STUDIA",
+    "predefinition": "STUDIA",
+    "definition": "<p> <i>vb</i>. 1) a învăţa; ► a-şi face studiile, a face (a se pune pe, a se ţine de) carte, a lua lecţii; ~ <strong>cu sârguinţă </strong>► a mânca cărţile; 2) a analiza, a cerceta, a examina; <strong>~ amănunţit </strong>► a (o) întoarce (şi) pe o parte (pe o faţă) şi pe alta, a despica (a tăia) firul (de păr) în patru (în şapte, în nouă), a trece (a cerne, a da) (şi) prin ciur şi prin dârmon (prin sită, prin veşcă<strong>)</strong>; <strong>~ profund </strong>► a intra în miezul lucrurilor; <strong>~ succesiv </strong>► a trece în revistă; <strong>~ cu privirea </strong>► a cântări din ochi, a măsura din ochi (cu ochiul); <strong>~ atent cu privirea </strong>► a privi (a măsura cu ochii) pe cineva de sus în (până) jos şi de jos în (până) sus; 3) <i>(o cerere) </i>a analiza, a considera; ► a da curs. </p>",
+    "active": 0,
+    "created_at": "2023-11-21 09:06:12"
+  },
+  {
+    "user_id": 8,
+    "dictionary_id": 9,
+    "name": "STUPID",
+    "predefinition": "STUPID",
+    "definition": "<p> <i>adj. </i>prost, incapabil, tâmpit; ► bătut în (la) cap, îngust la minte, cu mintea scurtă, fără (de) minte, bătut (lovit, trăsnit) cu leuca (în cap), fără cap, strâmt la minte, tare de cap, cu mintea strâmtă, greu de (la) cap, slab de minte, cap de tigvă, părul lung şi mintea scurtă, puţin la minte, sărac cu duhul; <strong>foarte ~ </strong>► deştept ca oaia, un prost şi jumătate, prost ca noaptea, prost ca napul, prost ca o cizmă; <strong>a fi foarte ~ </strong>a-i mânca cuiva câinii din traistă, a da în gropi (de prost ce e), a avea minte de vrabie, a fi bun de tăiat mămăliga, a fi orb de minte, a avea capul ca dovleacul, a nu şti să lege nici două-n tei. </p>",
+    "active": 0,
+    "created_at": "2023-11-21 09:06:12"
+  },
+  {
+    "user_id": 8,
+    "dictionary_id": 9,
+    "name": "A SUBAPRECIA",
+    "predefinition": "SUBAPRECIA",
+    "definition": "<p> <i>vb. </i>(<i>ceva</i>) a subestima, a minimaliza; ► a lua ceva în glumă. </p>",
+    "active": 0,
+    "created_at": "2023-11-21 09:06:12"
+  },
+  {
+    "user_id": 8,
+    "dictionary_id": 9,
+    "name": "A SUBESTIMA",
+    "predefinition": "SUBESTIMA",
+    "definition": "<p> <i>vb. </i>(<i>ceva</i>) a subaprecia, a minimaliza; ► a lua ceva în glumă. </p>",
+    "active": 0,
+    "created_at": "2023-11-21 09:06:12"
+  },
+  {
+    "user_id": 8,
+    "dictionary_id": 9,
+    "name": "SUBIT",
+    "predefinition": "SUBIT",
+    "definition": "<p> <i>adv. </i>brusc, deodată, instantaneu; ► dintr-o dată, pe neaşteptate, fără (de) veste, ca prin farmec, într-o bună zi (dimineaţă). </p>",
+    "active": 0,
+    "created_at": "2023-11-21 09:06:12"
+  },
+  {
+    "user_id": 8,
+    "dictionary_id": 9,
+    "name": "A SUBJUGA",
+    "predefinition": "SUBJUGA",
+    "definition": "<p> <i>vb. </i>a aservi, a înrobi, a supune; ► a îndoi grumazul, a pune piciorul pe grumazul cuiva, a muia cuiva gârbiţa, a pune şaua pe cineva, a apleca în jug, a pune în (sub) jug, a pune în genunchi, a pune în obezi, a se face stăpân, a pune stăpânire pe ceva (pe cineva), a pune cizma (ciubota) (pe o altă ţară). </p>",
+    "active": 0,
+    "created_at": "2023-11-21 09:06:12"
+  },
+  {
+    "user_id": 8,
+    "dictionary_id": 9,
+    "name": "A SUBLINIA",
+    "predefinition": "SUBLINIA",
+    "definition": "<p> <i>vb. </i>a accentua, a evidenţia, a reliefa, a insista; ► a pune accentul pe ceva, a pune în lumină, a scoate (a pune) în evidenţă (în relief, în valoare), a atrage atenţia, a pune pedala pe… </p>",
+    "active": 0,
+    "created_at": "2023-11-21 09:06:12"
+  },
+  {
+    "user_id": 8,
+    "dictionary_id": 9,
+    "name": "SUBORDONAT",
+    "predefinition": "SUBORDONAT",
+    "definition": "<p> <i>adj. </i>dependent; <strong>a fi </strong>~ <strong>cuiva </strong>► a fi la discreţia cuiva, a fi la voia cuiva, a fi (a sta, a porni) la remorca (edecul) cuiva. </p>",
+    "active": 0,
+    "created_at": "2023-11-21 09:06:12"
+  },
+  {
+    "user_id": 8,
+    "dictionary_id": 9,
+    "name": "SUBSTANȚIAL",
+    "predefinition": "SUBSTANȚIAL",
+    "definition": "<p> <i>adj. </i>fundamental, radical, esenţial, principial, capital; ► de căpetenie, de bază, din temelie, din (până) în temelii. </p>",
+    "active": 0,
+    "created_at": "2023-11-21 09:06:12"
+  },
+  {
+    "user_id": 8,
+    "dictionary_id": 9,
+    "name": "A SUBŢIA",
+    "predefinition": "SUBŢIA",
+    "definition": "<p> <i>vb</i>. a dilua, a rări; <strong>~ laptele (vinul, rachiul…) ► </strong>a boteza laptele (vinul, rachiul…) <i>fam</i>. </p>",
+    "active": 0,
+    "created_at": "2023-11-21 09:06:12"
+  },
+  {
+    "user_id": 8,
+    "dictionary_id": 9,
+    "name": "SUBŢIRE",
+    "predefinition": "SUBŢIRE",
+    "definition": "<p> <i>adj.: </i> <strong>foarte </strong>~ ► cât (ca, de) o muchie de cuţit. </p>",
+    "active": 0,
+    "created_at": "2023-11-21 09:06:12"
+  },
+  {
+    "user_id": 8,
+    "dictionary_id": 9,
+    "name": "A SE SUCCEDA",
+    "predefinition": "SUCCEDA",
+    "definition": "<p> <i>vb. </i>a se perinda; ► a se ţine lanţ. </p>",
+    "active": 0,
+    "created_at": "2023-11-21 09:06:12"
+  },
+  {
+    "user_id": 8,
+    "dictionary_id": 9,
+    "name": "SUCCESIV",
+    "predefinition": "SUCCESIV",
+    "definition": "<p> <i>adv. </i>1) alternativ, periodic; ► cu rândul, (rând) pe rând, când unul când altul; 2) consecutiv; ► la rând, pe rând, rând pe rând, rânduri-rânduri, de-a rândul, în şir, în valuri, valuri-valuri, câte unul-unul, unul câte unul; 3) treptat; ► picătură cu picătură, pas cu pas, pe rând, rând pe rând, la rând, rânduri-rânduri, de la o zi la alta. </p>",
+    "active": 0,
+    "created_at": "2023-11-21 09:06:12"
+  },
+  {
+    "user_id": 8,
+    "dictionary_id": 9,
+    "name": "SUCCINT",
+    "predefinition": "SUCCINT",
+    "definition": "<p> <i>adv. </i>concis, laconic, lapidar; ► pe (în) scurt, scurt şi cuprinzător, scurt pe doi, în două (în câteva, în puţine) cuvinte (vorbe), într-un cuvânt. </p>",
+    "active": 0,
+    "created_at": "2023-11-21 09:06:12"
+  },
+  {
+    "user_id": 8,
+    "dictionary_id": 9,
+    "name": "A SUCI",
+    "predefinition": "SUCI",
+    "definition": "<p> <i>vb. </i>a răsuci, a învârti; ► a face sul. </p>",
+    "active": 0,
+    "created_at": "2023-11-21 09:06:12"
+  },
+  {
+    "user_id": 8,
+    "dictionary_id": 9,
+    "name": "A SE SUCI",
+    "predefinition": "SUCI",
+    "definition": "<p> <i>vb. </i>a se învârti, a se fâţâi, a se foi; ► a avea mâncărici. </p>",
+    "active": 0,
+    "created_at": "2023-11-21 09:06:12"
+  },
+  {
+    "user_id": 8,
+    "dictionary_id": 9,
+    "name": "SUCIT",
+    "predefinition": "SUCIT",
+    "definition": "<p> <i>adj. </i>strâmb; ► drept ca funia în sac (în traistă). </p>",
+    "active": 0,
+    "created_at": "2023-11-21 09:06:12"
+  },
+  {
+    "user_id": 8,
+    "dictionary_id": 9,
+    "name": "A SUCOMBA",
+    "predefinition": "SUCOMBA",
+    "definition": "<p> <i>vb. livr</i>. a muri, a deceda, a pieri, a răposa; a se stinge, a adormi <i>fig.</i>; a se sfârşi <i>pop</i>.; ► a înceta din viaţă, a-şi pierde viaţa (zilele), a se duce pe lumea cealaltă, a închide ochii, a pune (a încrucişa) mâinile pe piept, a bea (a primi) paharul morţii, a-l înghiţi pământul, a întinde picioarele, a ieşi cu picioarele înainte, a-şi lepăda potcoavele, a-şi da duhul (sufletul, obştescul sfârşit, otpustul), a da mâna cu moartea, a-i pieri cuiva piuitul, a se petrece din lumea aceasta, a trece în cealaltă lume, a pune faţa la pământ, a părăsi (a trece) lumea, a-i pica cuiva steaua, a-şi găsi undeva mormântul (moartea), a intra în mormânt (pământ), a-şi da (a-şi răsturna) ochii peste cap, a cădea mort, a se duce pe drum neîntors (pe cale neîntoarsă), a i se curma (a i se isprăvi) cuiva zilele, a nu mai călca iarbă verde, a-l lua (a-l ierta, a-l strânge) pe cineva Dumnezeu, a-i cânta veşnica pomenire, a-i cânta popa aghiosul, a-l lua moartea (benga, aghiuţa), a-şi da răsuflarea de pe urmă, a i se împlini sorocul, a-i sosi cuiva ceasul (veleatul), a-i suna ceasul (scândura), a-i ieşi sufletul, a se strămuta de aici (din viaţă), a-şi da ultimul suspin, a da pielea (ortul) popii, a se face (a fi) oale şi urceoare (ulcele); ~ <strong>repede, uşor </strong>► a muri ca un pui de găină; ~ <strong>prematur </strong>► a muri cu zile; ~ <strong>de bătrâneţe </strong>► a muri de moarte bună; ~ <strong>nu se ştie pe unde </strong>► a-şi lăsa (a-şi lepăda) pe undeva pielea (potcoavele), a-i putrezi (a-i rămâne) cuiva oasele (ciolanele) pe undeva; ~ <strong>tragic </strong>► a-şi găsi moartea (mormântul), a cădea jertfă, a-şi frânge (a-şi rupe) gâtul. </p>",
+    "active": 0,
+    "created_at": "2023-11-21 09:06:12"
+  },
+  {
+    "user_id": 8,
+    "dictionary_id": 9,
+    "name": "A SUFERI",
+    "predefinition": "SUFERI",
+    "definition": "<p> <i>vb. </i>1) a îndura, a răbda; ► a înghiţi (cu) noduri, a bea paharul până-n (la) fund, a fi topor de oase, a trece prin foc şi prin apă, a-şi purta (a-şi duce) crucea (până la capăt), a bea cupa amărăciunilor (până la fund), a-şi înghiţi amarul, a i se topi inima cuiva, a-i fi amar, a avea ceva pe inimă, a înghiţi hapul (un hap, găluşca, sarmaua), a o înghiţi; <strong>a nu mai putea </strong>~ ► a-i ajunge cuiva cuţitul la os; ~ <strong>de foame </strong>► a mânca (a se hrăni cu) răbdări prăjite, a sta cu dinţii la stele, a strânge cureaua; 2) a suporta, a tolera; <strong>a nu putea </strong>~ ► a se sătura până în gât, a nu înghiţi pe cineva, a nu mistui pe cineva sau ceva, a nu avea ochi să vadă pe cineva, a-i sta (a-i fi drag) cuiva ca sarea-n ochi; 3) a se chinui; <strong>~ îngrozitor </strong>► a se chinui de moarte. </p>",
+    "active": 0,
+    "created_at": "2023-11-21 09:06:12"
+  },
+  {
+    "user_id": 8,
+    "dictionary_id": 9,
+    "name": "SUFERIND",
+    "predefinition": "SUFERIND",
+    "definition": "<p> <i>adj</i>. bolnav, nesănătos; beteag <i>pop</i>.; <strong>a fi (a se simţi) ~ ► </strong>a-i fi cuiva rău, a nu-i fi bine, a nu se simţi bine, a sta la pat; <strong>a fi ~ uşor </strong>► a duce boala pe picioare; <strong>a fi foarte (grav) ~ </strong>► a fi bolnav pe moarte, a se zbate de moarte, a se zbate în ghearele morţii, a se afla între viaţă şi moarte, a fi pe patul de moarte (morţii), a trage de moarte, a fi în gura morţii, a fi (a ajunge) cu un picior în mormânt (în groapă), a fi pe marginea mormântului, a nu mai avea mult; nici cu viii, nici cu morţii. </p>",
+    "active": 0,
+    "created_at": "2023-11-21 09:06:12"
+  },
+  {
+    "user_id": 8,
+    "dictionary_id": 9,
+    "name": "SUFERINŢĂ",
+    "predefinition": "SUFERINŢĂ",
+    "definition": "<p> <i>f. </i>supărare, durere; <strong>a avea o </strong>~ ► a avea (a simţi) un ghimpe la (în) inimă. </p>",
+    "active": 0,
+    "created_at": "2023-11-21 09:06:12"
+  },
+  {
+    "user_id": 8,
+    "dictionary_id": 9,
+    "name": "SUFICIENT",
+    "predefinition": "SUFICIENT",
+    "definition": "<p> <i>adv. </i>destul, îndeajuns; ► de ajuns; <strong>a mânca ~ </strong>► a mânca pe săturate (de saţ). </p>",
+    "active": 0,
+    "created_at": "2023-11-21 09:06:12"
+  },
+  {
+    "user_id": 8,
+    "dictionary_id": 9,
+    "name": "A SE SUFOCA",
+    "predefinition": "SUFOCA",
+    "definition": "<p> <i>vb. </i>a se înăbuşi, a se asfixia; ► a i se urca un nod în gât. </p>",
+    "active": 0,
+    "created_at": "2023-11-21 09:06:12"
+  },
+  {
+    "user_id": 8,
+    "dictionary_id": 9,
+    "name": "A SUGE",
+    "predefinition": "SUGE",
+    "definition": "<p> <i>vb. </i>a bea, a trage; a pili <i>pop</i>.; ► a trage (a lua) la măsea (la mustaţă), a-şi pili (a-şi stropi) măseaua, a mângâia plosca, a umbla (a fi) cu plosca (cu ţuica) la (în) nas, a avea boala suptului, a se unge pe gât; <strong>~ foarte mult </strong>► a da cu paharul, a se trece din pahare (din băut), a bea de usucă, a face (burta bute şi) gura pâlnie, a face gâtul (gura) leică şi pântecele balercă, a-şi bea (şi) minţile, a-şi bea şi cămaşa, a se întâlni cu Sf. Paraschiva, a sufla în fundul oalei. </p>",
+    "active": 0,
+    "created_at": "2023-11-21 09:06:12"
+  },
+  {
+    "user_id": 8,
+    "dictionary_id": 9,
+    "name": "A SUGERA",
+    "predefinition": "SUGERA",
+    "definition": "<p> <i>vb. </i>► a face aluzie, a vorbi de funie în casa spânzuratului, a bate şaua (ca) să priceapă (să înţeleagă) iapa (calul). </p>",
+    "active": 0,
+    "created_at": "2023-11-21 09:06:12"
+  },
+  {
+    "user_id": 8,
+    "dictionary_id": 9,
+    "name": "A SUGRUMA",
+    "predefinition": "SUGRUMA",
+    "definition": "<p> <i>vb. </i>a gâtui, a strangula; ► a strânge pe cineva de gât. </p>",
+    "active": 0,
+    "created_at": "2023-11-21 09:06:12"
+  },
+  {
+    "user_id": 8,
+    "dictionary_id": 9,
+    "name": "A SE SUPĂRA",
+    "predefinition": "SUPĂRA",
+    "definition": "<p> <i>vb. </i>1) a se înfuria, a se enerva, a se mânia; ► a-şi ieşi din răboj (afară), a-i sări cuiva ţandăra (ţâfna, muştarul), a-şi ieşi din fire (din sărite, din pepeni, din balamale, din răbdări, din ţâţâni, din minţi), a scoate luleaua de la ciubuc, a-şi pierde cumpătul (răbdarea, stăpânirea de sine), a-i veni cuiva muştarul la nas, a-i ieşi cuiva muştarul pe nas, a-i da cuiva dracul cu coada pe la nas, a-i tremura cuiva nasul, a-i veni nebunia, a se face foc (şi pară), a se face borş, a-i da borşul în foc, a fierbe (a turba) de mânie, a-şi pierde sărita, a-şi face sânge rău, a face spumă (spume) la gură, a vedea roşu, a i se face roşu (negru, negru-verde, verde, galben) înaintea ochilor, a i se urca (a-i da, a-i năvăli, a i se ridica, a i se sui) sângele la cap (la creieri, în faţă, în obraz, în vârful capului), a fierbe (a clocoti) sângele în cineva, a-i veni cuiva toţi dracii, a se face leu-paraleu, a se face catran (de mânie, de supărare), a scoate coarne, a i se aprinde cuiva pârjol înaintea ochilor, a tuna şi a fulgera, a-i fugi cuiva pământul de sub picioare, a mânca cuie (piroane) (de mânie, de furie), a fierbe de mânie, a i se sui piperul la nas, a-şi lua piper în nări, a i se umfla cuiva pipota, a-şi vărsa veninul; a-i sări (cuiva) bâzdâcul <i>fam.</i>; a i se întoarce cuiva rânza pe dos <i>reg</i>.; <strong>~ uşor </strong>► a avea rânză fierbinte; <strong>a nu ~ </strong>► a-şi păstra cumpătul (sângele rece, calmul); 2) <i>(mai ales despre copii) </i>a se bosumfla, a se îmbufna; ► a face bot, a întoarce buza pe dos, a sta buzău, a şedea botos, a lăsa buza (în jos), a pune buza în jos, a se supăra nevoie mare. </p>",
+    "active": 0,
+    "created_at": "2023-11-21 09:06:12"
+  },
+  {
+    "user_id": 8,
+    "dictionary_id": 9,
+    "name": "SUPĂRARE",
+    "predefinition": "SUPĂRARE",
+    "definition": "<p> <i>f. </i>1) necaz, neplăcere; <strong>a avea o ~ </strong>► a da de belea (bucluc), a-şi găsi beleaua, a-i cădea cuiva beleaua pe cap, a o păţi (bună), a păţi una bună, a-l strânge pe cineva opinca, a nu-i fi cuiva moale, a intra la apă; <strong>a cauza cuiva o ~ ► </strong>a-i face rău, a face cuiva bucata (felul), a i-o face bună (lată, cu vârf), a-i face cuiva una (bună), a face cuiva un pustiu de bine; 2) suferinţă, durere; <strong>a avea o </strong>~► a avea (a simţi) un ghimpe la (în) inimă. </p>",
+    "active": 0,
+    "created_at": "2023-11-21 09:06:12"
+  },
+  {
+    "user_id": 8,
+    "dictionary_id": 9,
+    "name": "SUPĂRAT",
+    "predefinition": "SUPĂRAT",
+    "definition": "<p> 1. <i>adj.: </i> <strong>a fi </strong>~ <strong>pe cineva </strong>► a avea necaz pe cineva, a purta pică (ranchiună) cuiva, a-i purta cuiva ponos, a ţine pe cineva mânie (supărare); <strong>a fi foarte </strong>~ ► a avea catran la inimă, a plesni maiul în el (de…); 2. <i>adv</i>. încruntat, chiorâş, duşmănos, cruciş, ponciş; ► cu răutate, cu duşmănie, cu încruntare; <strong>a privi ~ </strong>► a privi (a se uita) pe sub sprâncene. </p>",
+    "active": 0,
+    "created_at": "2023-11-21 09:06:12"
+  },
+  {
+    "user_id": 8,
+    "dictionary_id": 9,
+    "name": "SUPĂRĂCIOS",
+    "predefinition": "SUPĂRĂCIOS",
+    "definition": "<p> <i>adj</i>. irascibil, iritabil, nervos; ► iute (grabnic, rău) la mânie, iute ca piperul; <strong>a fi ~ </strong>► a avea (a fi în) nervi, a fi cu nasul de ceară, a nu şti (a nu înţelege) de glumă. </p>",
+    "active": 0,
+    "created_at": "2023-11-21 09:06:12"
+  },
+  {
+    "user_id": 8,
+    "dictionary_id": 9,
+    "name": "SUPERB",
+    "predefinition": "SUPERB",
+    "definition": "<p> <i>adj. </i>splendid; ► rupt din soare, ca în (din) poveste (poveşti). </p>",
+    "active": 0,
+    "created_at": "2023-11-21 09:06:12"
+  },
+  {
+    "user_id": 8,
+    "dictionary_id": 9,
+    "name": "SUPERFICIAL",
+    "predefinition": "SUPERFICIAL",
+    "definition": "<p> 1. <i>adj., adv. </i>grăbit, prost; ► de mântuială, pe deasupra, la suprafaţă; 2. <i>adv</i>. rapid, fugitiv; ► din treacăt. </p>",
+    "active": 0,
+    "created_at": "2023-11-21 09:06:12"
+  },
+  {
+    "user_id": 8,
+    "dictionary_id": 9,
+    "name": "SUPERIOR",
+    "predefinition": "SUPERIOR",
+    "definition": "<p> <i>adj. </i>deosebit, select, superior, rar; ► tot unul şi unul, de soi, de elită, de calitate, de rasă, pe ales(e), într-ales, pasăre rară, numărul unu. <strong> A SUPLINI </strong> <i>vb. </i>a înlocui; ► a ţine locul cuiva, a ţine loc de ceva. </p>",
+    "active": 0,
+    "created_at": "2023-11-21 09:06:12"
+  },
+  {
+    "user_id": 8,
+    "dictionary_id": 9,
+    "name": "A SUPORTA",
+    "predefinition": "SUPORTA",
+    "definition": "<p> <i>vb. </i>a suferi, a tolera; <strong>a nu putea </strong>~ ► a se sătura până în gât, a nu înghiţi pe cineva, a nu mistui pe cineva sau ceva, a nu avea ochi să vadă pe cineva, a-i sta (a-i fi drag) cuiva ca sarea-n ochi. </p>",
+    "active": 0,
+    "created_at": "2023-11-21 09:06:12"
+  },
+  {
+    "user_id": 8,
+    "dictionary_id": 9,
+    "name": "A SUPRAVEGHEA",
+    "predefinition": "SUPRAVEGHEA",
+    "definition": "<p> <i>vb. </i>a urmări; ► a sta cu ochii pe cineva, a lua cuiva seama, a nu scăpa pe cineva (ceva) din ochi (vedere), a nu slăbi pe cineva, a ţine sub supraveghere. </p>",
+    "active": 0,
+    "created_at": "2023-11-21 09:06:12"
+  },
+  {
+    "user_id": 8,
+    "dictionary_id": 9,
+    "name": "A SUPRAVIEŢUI",
+    "predefinition": "SUPRAVIEŢUI",
+    "definition": "<p> <i>vb. </i>a scăpa; ► a scăpa (a rămâne) cu sufletul în oase, a scăpa (a rămâne) cu zile, a scăpa cu viaţă (cu zile), a rămâne printre cei vii. </p>",
+    "active": 0,
+    "created_at": "2023-11-21 09:06:12"
+  },
+  {
+    "user_id": 8,
+    "dictionary_id": 9,
+    "name": "A SUPUNE",
+    "predefinition": "SUPUNE",
+    "definition": "<p> <i>vb. </i>a subjuga, a aservi, a înrobi; ► a îndoi grumazul, a pune piciorul pe grumazul cuiva, a muia cuiva gârbiţa, a pune şaua pe cineva, a apleca în jug, a pune în (sub) jug, a pune în genunchi, a pune în obezi, a se face stăpân, a pune stăpânire pe ceva (pe cineva), a pune cizma (ciubota) (pe o altă ţară). </p>",
+    "active": 0,
+    "created_at": "2023-11-21 09:06:12"
+  },
+  {
+    "user_id": 8,
+    "dictionary_id": 9,
+    "name": "A SE SUPUNE",
+    "predefinition": "SUPUNE",
+    "definition": "<p> <i>vb. </i>1) a se pleca, a se închina, a ceda; ► a-şi pleca capul (fruntea, grumazul, genunchii), a cădea (a se arunca) la picioarele cuiva, a săruta picioarele cuiva; 2) a asculta; ► a da ascultare cuiva, a înţelege (a şti) de cuvântul cuiva; 3) a se resemna, a accepta, a se împăca; ► a se împăca (a fi împăcat) cu soarta, a-şi purta crucea. </p>",
+    "active": 0,
+    "created_at": "2023-11-21 09:06:12"
+  },
+  {
+    "user_id": 8,
+    "dictionary_id": 9,
+    "name": "SUPUS",
+    "predefinition": "SUPUS",
+    "definition": "<p> <i>adj. </i>ascultător, smerit plecat; <strong>a fi </strong>~ ► a-şi îndoi spinarea. </p>",
+    "active": 0,
+    "created_at": "2023-11-21 09:06:12"
+  },
+  {
+    "user_id": 8,
+    "dictionary_id": 9,
+    "name": "SUR",
+    "predefinition": "SUR",
+    "definition": "<p> <i>adj. </i>cenuşiu, plumburiu; ► de plumb. </p>",
+    "active": 0,
+    "created_at": "2023-11-21 09:06:12"
+  },
+  {
+    "user_id": 8,
+    "dictionary_id": 9,
+    "name": "A SURÂDE",
+    "predefinition": "SURÂDE",
+    "definition": "<p> <i>vb. </i>a zâmbi; <strong>► </strong>a miji a râs (a râde); ~ <strong>silit ► </strong>a zâmbi subţire. </p>",
+    "active": 0,
+    "created_at": "2023-11-21 09:06:12"
+  },
+  {
+    "user_id": 8,
+    "dictionary_id": 9,
+    "name": "SURD",
+    "predefinition": "SURD",
+    "definition": "<p> <i>adj. </i>hipoacuzic <i>med.</i>; ► tare (fudul) de urechi (de-o ureche) <i>iron.</i>; <strong>a fi ~ ► </strong>a avea bumbac (vată) în urechi, a auzi greu. </p>",
+    "active": 0,
+    "created_at": "2023-11-21 09:06:12"
+  },
+  {
+    "user_id": 8,
+    "dictionary_id": 9,
+    "name": "A SURMONTA",
+    "predefinition": "SURMONTA",
+    "definition": "<p> <i>vb. livr. </i>a depăşi, a învinge; <strong>~ greutăţile </strong>► a ieşi (a ajunge) la mal (la liman), a o scoate la capăt, a încăleca pe nevoie. </p>",
+    "active": 0,
+    "created_at": "2023-11-21 09:06:12"
+  },
+  {
+    "user_id": 8,
+    "dictionary_id": 9,
+    "name": "A SURPRINDE",
+    "predefinition": "SURPRINDE",
+    "definition": "<p> <i>vb. </i>a prinde, a descoperi; a zăpsi <i>reg.</i>; <strong>~ uşor </strong>► a prinde (a lua) pe cineva ca din oală; <strong>~ asupra faptului </strong>► a prinde pe cineva cu raţa în traistă, a prinde pe cineva cu ocaua mică; <strong>~ minţind ► </strong>a prinde pe cineva cu mâţa-n sac, a prinde cu minciuna, a da (a face) pe cineva de minciună, a prinde pe cineva cu ocaua mică. </p>",
+    "active": 0,
+    "created_at": "2023-11-21 09:06:12"
+  },
+  {
+    "user_id": 8,
+    "dictionary_id": 9,
+    "name": "SURPRINZĂTOR",
+    "predefinition": "SURPRINZĂTOR",
+    "definition": "<p> <i>adj. </i>neaşteptat, neprevăzut; ► peste (sub) aşteptări, care întrece aşteptările, la care nu te aşteptai. </p>",
+    "active": 0,
+    "created_at": "2023-11-21 09:06:12"
+  },
+  {
+    "user_id": 8,
+    "dictionary_id": 9,
+    "name": "SUS",
+    "predefinition": "SUS",
+    "definition": "<p> <i>adv. </i> <strong>foarte </strong>~ ► până în (la) nori. </p>",
+    "active": 0,
+    "created_at": "2023-11-21 09:06:12"
+  },
+  {
+    "user_id": 8,
+    "dictionary_id": 9,
+    "name": "A SUSPECTA",
+    "predefinition": "SUSPECTA",
+    "definition": "<p> <i>vb. </i>a bănui ► a avea bănuieli, a lua pe cineva la ochi. </p>",
+    "active": 0,
+    "created_at": "2023-11-21 09:06:12"
+  },
+  {
+    "user_id": 8,
+    "dictionary_id": 9,
+    "name": "A SUSPINA",
+    "predefinition": "SUSPINA",
+    "definition": "<p> <i>vb. </i>a ofta; ~ <strong>profund </strong>► a ofta (a suspina, a geme) din băierile inimii, din adâncul sufletului. </p>",
+    "active": 0,
+    "created_at": "2023-11-21 09:06:12"
+  },
+  {
+    "user_id": 8,
+    "dictionary_id": 9,
+    "name": "A SUSTRAGE",
+    "predefinition": "SUSTRAGE",
+    "definition": "<p> <i>vb</i>. a fura, a lua; a şterpeli <i>fam</i>.; ► a-i sufla cuiva ceva (de sub nas), a întinde mâna la ceva; a trage (a da, a face) la stânga <i>fam</i>.; <strong>~ totul </strong>► a băga mâinile până-n coate; <strong>~ foarte mult </strong>► a fura ca în (într-o) pădure. </p>",
+    "active": 0,
+    "created_at": "2023-11-21 09:06:12"
+  },
+  {
+    "user_id": 8,
+    "dictionary_id": 9,
+    "name": "A SUSŢINE",
+    "predefinition": "SUSŢINE",
+    "definition": "<p> <i>vb. </i>1) a ajuta, a ajutora, a sprijini; ► a fi de ajutor, a veni în ajutor, a-şi da concursul, a da (a întinde) o mână de ajutor, a întinde cuiva mâna (mâinile), a-i face cuiva un bine, a pune un cuvânt (bun) pentru cineva, a arunca un cuvânt pentru cineva, a pune o vorbă bună pentru cineva, a face o intervenţie pentru cineva, a pune umărul (pieptul) pentru cineva, a pune umărul (la roată), a da (a împinge) la roată, a face pomană cu cineva; 2) a apăra, a sprijini; ► a lua cuiva apărarea, a-i lua (a-i ţine) cuiva parte (partea), a face zid împrejurul cuiva, a pleda cauza cuiva. </p>",
+    "active": 0,
+    "created_at": "2023-11-21 09:06:12"
+  },
+  {
+    "user_id": 8,
+    "dictionary_id": 9,
+    "name": "A SUSURA",
+    "predefinition": "SUSURA",
+    "definition": "<p> <i>vb</i>. (<i>despre păduri</i>) a foşni; ► a-şi bate frunza. </p>",
+    "active": 0,
+    "created_at": "2023-11-21 09:06:12"
+  },
+  {
+    "user_id": 8,
+    "dictionary_id": 9,
+    "name": "SUVERAN",
+    "predefinition": "SUVERAN",
+    "definition": "<p> <i>m. </i>monarh; ► cap încoronat. </p>",
+    "active": 0,
+    "created_at": "2023-11-21 09:06:12"
+  },
+  {
+    "user_id": 8,
+    "dictionary_id": 9,
+    "name": "ȘANSĂ",
+    "predefinition": "ȘANSĂ",
+    "definition": "<p> <i>f</i>. noroc; <strong>► </strong>sorţi de izbândă. </p>",
+    "active": 0,
+    "created_at": "2023-11-21 09:06:12"
+  },
+  {
+    "user_id": 8,
+    "dictionary_id": 9,
+    "name": "ŞARLATAN",
+    "predefinition": "ŞARLATAN",
+    "definition": "<p> <i>m. </i>escroc; ► vânzător de piei de cloşcă. </p>",
+    "active": 0,
+    "created_at": "2023-11-21 09:06:12"
+  },
+  {
+    "user_id": 8,
+    "dictionary_id": 9,
+    "name": "A ŞCHIOPĂTA",
+    "predefinition": "ŞCHIOPĂTA",
+    "definition": "<p> <i>vb</i>. <strong>► </strong>a trage piciorul. </p>",
+    "active": 0,
+    "created_at": "2023-11-21 09:06:12"
+  },
+  {
+    "user_id": 8,
+    "dictionary_id": 9,
+    "name": "A ŞEDEA",
+    "predefinition": "ŞEDEA",
+    "definition": "<p> <i>vb</i>. 1) a se aşeza; <strong>► </strong>a sta jos, a lua loc, a şedea (a se aşeza, a sta) greceşte; 2) a sta; ~ <strong>degeaba </strong>► a rezema pereţii (peretele), a sta cu braţele încrucişate, a sta cu mâinile în brâu (în buzunare (în sân, în şolduri, încrucişate), a sta ca o mireasă; ~ <strong>nemişcat </strong>► a sta (a şedea) ca o cloşcă, a sta (a şedea) ciotcă, a sta ca un ţap logodit, a sta (ca un) sfânt, a sta (a rămâne, a se ţine) locului (pe loc); ~ <strong>singur </strong>► a sta ca un huhurez (ca huhurezul). </p>",
+    "active": 0,
+    "created_at": "2023-11-21 09:06:12"
+  },
+  {
+    "user_id": 8,
+    "dictionary_id": 9,
+    "name": "ŞEF",
+    "predefinition": "ŞEF",
+    "definition": "<p> <i>m</i>. conducător, căpetenie; <strong>► </strong>mai-marele. </p>",
+    "active": 0,
+    "created_at": "2023-11-21 09:06:12"
+  },
+  {
+    "user_id": 8,
+    "dictionary_id": 9,
+    "name": "ŞERPUIT",
+    "predefinition": "ŞERPUIT",
+    "definition": "<p> <i>adj</i>. cotit, întortocheat; <strong>► </strong>în zigzag. </p>",
+    "active": 0,
+    "created_at": "2023-11-21 09:06:12"
+  },
+  {
+    "user_id": 8,
+    "dictionary_id": 9,
+    "name": "A ŞFICHIUI",
+    "predefinition": "ŞFICHIUI",
+    "definition": "<p> <i>vb</i>. a ironiza, a zeflemesi; a înţepa <i>fig.</i>; <strong>► </strong>a lua peste picior (în şfichi, în râs, în balon, în căruţă, în bătaie de joc, în batjocură, în derâdere, în băşcălie, în pleasna biciului, în zeflemea), a-i trage cuiva un şfichi, a înţepa cu limba, a da pe (prin) pârlitură, a-i trage cuiva un ibrişin pe la nas, a face glume (haz) pe seama cuiva, a-şi bate joc, a atinge pe cineva unde-l doare, a pune cuiva degetul pe rană, a arunca săgeţi (veninoase) la adresa cuiva. </p>",
+    "active": 0,
+    "created_at": "2023-11-21 09:06:12"
+  },
+  {
+    "user_id": 8,
+    "dictionary_id": 9,
+    "name": "ŞI",
+    "predefinition": "ŞI",
+    "definition": "<p> <i>adv. </i>încă; ► pe lângă asta, în afară de asta, în plus (de…), plus la asta (la toate acestea, la astea), pe deasupra. </p>",
+    "active": 0,
+    "created_at": "2023-11-21 09:06:12"
+  },
+  {
+    "user_id": 8,
+    "dictionary_id": 9,
+    "name": "A ŞICANA",
+    "predefinition": "ŞICANA",
+    "definition": "<p> <i>vb. </i>a sâcâi, a agasa, a necăji, a cicăli; a tracasa <i>livr</i>.; ► a scoate cuiva peri albi (suri), a (-i) scoate cuiva sufletul, a bate (a munci) pe cineva la cap, a bate (a umfla) capul cuiva, a face cuiva capul calendar, a roade cuiva urechile (capul), a-i împuia cuiva capul, a-i toca cuiva la ureche (la cap), a toca pe cineva la cap, a intra (a se vârî) în sufletul cuiva, a sta (lăstun, piatră) pe capul cuiva, a-i sta cuiva pe cap, a sta răcilă pe cineva, a nu da (a nu lăsa în) pace, a face cuiva zile fripte, a face cuiva şicane. </p>",
+    "active": 0,
+    "created_at": "2023-11-21 09:06:12"
+  },
+  {
+    "user_id": 8,
+    "dictionary_id": 9,
+    "name": "ŞIRET",
+    "predefinition": "ŞIRET",
+    "definition": "<p> <i>adj</i>. şmecher, hâtru, viclean; <strong>► </strong>dat dracului (naibii), pui (fecior, fiu) de lele, bună marfă!, l-a înţărcat Scaraoţchi (dracul); <strong>a fi </strong>~ <strong>► </strong>a fi dracul pe uscat, a avea ochi de vulpe (pisică), a-i juca ochii în cap. </p>",
+    "active": 0,
+    "created_at": "2023-11-21 09:06:12"
+  },
+  {
+    "user_id": 8,
+    "dictionary_id": 9,
+    "name": "ŞIRETENIE",
+    "predefinition": "ŞIRETENIE",
+    "definition": "<p> <i>f. </i>viclenie; <strong>cu </strong>~ <strong>► </strong>cu un sul (un plan) subţire. </p>",
+    "active": 0,
+    "created_at": "2023-11-21 09:06:12"
+  },
+  {
+    "user_id": 8,
+    "dictionary_id": 9,
+    "name": "ŞMECHER",
+    "predefinition": "ŞMECHER",
+    "definition": "<p> <i>adj</i>. şiret, hâtru, viclean; <strong>► </strong>dat dracului (naibii), pui (fecior, fiu) de lele, bună marfă!, l-a înţărcat Scaraoţchi (dracul); <strong>a fi </strong>~ <strong>► </strong>a fi dracul pe uscat, a avea ochi de vulpe (pisică), a-i juca ochii în cap. </p>",
+    "active": 0,
+    "created_at": "2023-11-21 09:06:12"
+  },
+  {
+    "user_id": 8,
+    "dictionary_id": 9,
+    "name": "ŞOPTIT",
+    "predefinition": "ŞOPTIT",
+    "definition": "<p> <i>adv. </i>încet; ► în surdină, în şoaptă, cu jumătate de gură (de glas), cu gura pe jumătate, cu glas scăzut, ceva mai moale. </p>",
+    "active": 0,
+    "created_at": "2023-11-21 09:06:12"
+  },
+  {
+    "user_id": 8,
+    "dictionary_id": 9,
+    "name": "A ŞOVĂI",
+    "predefinition": "ŞOVĂI",
+    "definition": "<p> <i>vb</i>. a ezita, a pregeta, a se îndoi; ► a-i veni greu, a sta pe gânduri, a sta la îndoială (în cumpănă), a-i fi cuiva calea în cruce, a-i fi cuiva inima îndoită, a pune ceva la îndoială, a pune ceva sub semnul întrebării, a fi în nedumerire, a fi (a sta) în dubiu, a fi (a se afla) în dilemă; (ba) că(-i) teacă, (ba) că(-i) pungă. </p>",
+    "active": 0,
+    "created_at": "2023-11-21 09:06:12"
+  },
+  {
+    "user_id": 8,
+    "dictionary_id": 9,
+    "name": "ŞOVĂIELNIC",
+    "predefinition": "ŞOVĂIELNIC",
+    "definition": "<p> <i>adv., adj. </i>ezitant, indecis, nehotărât; ► cu jumătate de gură (de glas, de inimă), cu inima pe jumătate; că(-i)hâr, că(-i) mâr; hâr încoace, hâr încolo. </p>",
+    "active": 0,
+    "created_at": "2023-11-21 09:06:12"
+  },
+  {
+    "user_id": 8,
+    "dictionary_id": 9,
+    "name": "A ŞPERŢUI",
+    "predefinition": "ŞPERŢUI",
+    "definition": "<p> <i>vb. </i>a mitui; a cumpăra <i>fig.</i>; ► a da mită (şperţ), a împinge bani cuiva, a unge osia ca să nu scârţâie (carul), a unge osia (ochii), a unge pe cineva cu miere; a da la mână (la labă) <i>pop.</i> </p>",
+    "active": 0,
+    "created_at": "2023-11-21 09:06:12"
+  },
+  {
+    "user_id": 8,
+    "dictionary_id": 9,
+    "name": "A ŞTI",
+    "predefinition": "ŞTI",
+    "definition": "<p> <i>vb</i>. 1) a cunoaşte; ► a avea ştiinţă, a avea cunoştinţă de…, a fi la curent; <strong>a nu ~ ► </strong>a nu şti nici cu spatele, a nu avea habar de ceva, a nu avea () idee despre cineva (despre ceva); <strong>a nu ~ nimic </strong>► a nu şti (a nu zice) () boabă, a nu şti () boacă, a nu şti buche (două buchii), a fi nul la…; a nu şti nici şapte, nici opt; a şti cât au uitat alţii <i>fam</i>.; <strong>nu ştiu ► </strong>întreabă-mă, să te întreb; <strong>~ multe ► </strong>a şti şi toaca din cer; <strong>~ foarte bine </strong>► a cunoaşte de aproape pe cineva, a cunoaşte pe cineva ca pe un cal breaz, a şti toate măruntaiele din cineva (din ceva), a şti (a cunoaşte) pe cineva (ceva) pe degete (pe cele zece degete), a avea (a-i fi) ceva în degetul cel mic; <strong>~ firea cuiva </strong>► a şti (a cunoaşte) moarea cuiva; <strong>~ bine un loc </strong>► a şti toate potecile; <strong>a nu-l ~ nimeni ► </strong>a nu-l şti (a nu-l afla, a nu-l auzi, a nu-l simţi) nici pământul; <strong>a nu se</strong> </p>",
+    "active": 0,
+    "created_at": "2023-11-21 09:06:12"
+  },
+  {
+    "user_id": 8,
+    "dictionary_id": 9,
+    "name": "~ despre cineva ►",
+    "predefinition": "~ despre cineva ►",
+    "definition": "<p> a pierde (a nu mai şti de, a nu mai da de) urmele cuiva; 2) a se pricepe; ► a-l ajunge (a-l duce) pe cineva mintea (capul) la ceva, a-l duce (a-l tăia) pe cineva capul. </p>",
+    "active": 0,
+    "created_at": "2023-11-21 09:06:12"
+  },
+  {
+    "user_id": 8,
+    "dictionary_id": 9,
+    "name": "ŞTIUT",
+    "predefinition": "ŞTIUT",
+    "definition": "<p> <i>vb</i>. cunoscut; <strong>a deveni </strong>~ (<i>despre ştiri, zvonuri</i>) ► a-i ajunge cuiva la ureche (la urechea cuiva), a se duce vestea de ceva. </p>",
+    "active": 0,
+    "created_at": "2023-11-21 09:06:12"
+  },
+  {
+    "user_id": 8,
+    "dictionary_id": 9,
+    "name": "A ŞTRENGĂRI",
+    "predefinition": "ŞTRENGĂRI",
+    "definition": "<p> <i>vb</i>. <strong>► </strong>a-şi face de cap, a se ţine de şotii (de năzbâtii, de ştrengării, de pozne, de năzdrăvănii, de boroboaţe, de ghiduşii). </p>",
+    "active": 0,
+    "created_at": "2023-11-21 09:06:12"
+  },
+  {
+    "user_id": 8,
+    "dictionary_id": 9,
+    "name": "ȘTRENGĂRIȚĂ",
+    "predefinition": "ȘTRENGĂRIȚĂ",
+    "definition": "<p> <i>f</i>. <strong>► </strong>zgâtie de fată, drăcuşor de fată. </p>",
+    "active": 0,
+    "created_at": "2023-11-21 09:06:12"
+  },
+  {
+    "user_id": 8,
+    "dictionary_id": 9,
+    "name": "TABAC",
+    "predefinition": "TABAC",
+    "definition": "<p> <i>n. </i>tutun; ► buruiana (iarba, tămâia) dracului. </p>",
+    "active": 0,
+    "created_at": "2023-11-21 09:06:12"
+  },
+  {
+    "user_id": 8,
+    "dictionary_id": 9,
+    "name": "TACITURN",
+    "predefinition": "TACITURN",
+    "definition": "<p> <i>adj. </i>tăcut; ► scump (scurt, zgârcit) la vorbă; <strong>a fi </strong>~ ► a şedea ca găina între lemne; <strong>a deveni </strong>~ ► a se strânge în sine; <strong>a fi foarte </strong>~ ► a-şi înghiţi limba, a avea gura pecetluită, a tăcea (a fi mut) ca pământul. </p>",
+    "active": 0,
+    "created_at": "2023-11-21 09:06:12"
+  },
+  {
+    "user_id": 8,
+    "dictionary_id": 9,
+    "name": "TAINIC",
+    "predefinition": "TAINIC",
+    "definition": "<p> 1. <i>adj. </i>secret, enigmatic, misterios; ► închis (ferecat) cu şapte peceţi, cu porţile (uşile) închise; 2. <i>adv. </i>1) confidenţial, secret; ► în taină, între patru ochi (pereţi), faţă în faţă, tête-à-tête; 2) discret, tiptil; ► pe ascuns, pe furiş, pe nesimţite, pe nevăzute, pe neştiute, pe neobservate. </p>",
+    "active": 0,
+    "created_at": "2023-11-21 09:06:12"
+  },
+  {
+    "user_id": 8,
+    "dictionary_id": 9,
+    "name": "TALENTAT",
+    "predefinition": "TALENTAT",
+    "definition": "<p> <i>adj. </i>înzestrat, dotat; ► de talent, cu har (dumnezeiesc), cu vocaţie; <strong>este ~ ► </strong>i-a pus Dumnezeu mâna pe creştet (pe cap). </p>",
+    "active": 0,
+    "created_at": "2023-11-21 09:06:12"
+  },
+  {
+    "user_id": 8,
+    "dictionary_id": 9,
+    "name": "TARDIV",
+    "predefinition": "TARDIV",
+    "definition": "<p> <i>adv. </i>târziu; ► în ceasul al unsprezecelea; <strong>prea </strong>~ ► la (către) spartul târgului (stânii), a treia zi după scripturi. </p>",
+    "active": 0,
+    "created_at": "2023-11-21 09:06:12"
+  },
+  {
+    "user_id": 8,
+    "dictionary_id": 9,
+    "name": "TARE",
+    "predefinition": "TARE",
+    "definition": "<p> <i>adv. </i>puternic; ► din toate puterile, din răsputeri, din toate puterile, din rărunchi, din fundul rărunchilor. </p>",
+    "active": 0,
+    "created_at": "2023-11-21 09:06:12"
+  },
+  {
+    "user_id": 8,
+    "dictionary_id": 9,
+    "name": "TARTAR",
+    "predefinition": "TARTAR",
+    "definition": "<p> <i>n. livr. </i>infern, iad; gheenă <i>livr</i>.; ► împărăţia întunericului, matca focului. </p>",
+    "active": 0,
+    "created_at": "2023-11-21 09:06:12"
+  },
+  {
+    "user_id": 8,
+    "dictionary_id": 9,
+    "name": "A TĂBĂRÎ",
+    "predefinition": "TĂBĂRÎ",
+    "definition": "<p> <i>vb. </i>a se năpusti, a năvăli, a se repezi; ► a da năvală (buzna, hala, iama, valma), a da chiorâş prin ceva; <strong>~ asupra cuiva ► </strong>a da pe cineva tavă (tava). </p>",
+    "active": 0,
+    "created_at": "2023-11-21 09:06:12"
+  },
+  {
+    "user_id": 8,
+    "dictionary_id": 9,
+    "name": "A TĂCEA",
+    "predefinition": "TĂCEA",
+    "definition": "<p> <i>vb. </i>a amuţi; a muţi <i>pop</i>.; ► a-şi pune frâu la limbă, a-şi ţine (băga) limba în gură, a-şi ţine limba după dinţi, a-şi înghiţi limba, a-şi pune gard (lacăt) la gură, a nu scoate vorbă (niciun cuvânt), a-şi pune strajă (stvilă) gurii, a-şi strânge gura, a-şi pune botniţă la gură, a tăcea chitic (molcom, mâlc), a tăcea ca peştele (ca un peşte, ca melcul, ca pământul, ca un mut), a tăcea ca porcul în păpuşoi (în cucuruz), tac (tacu) mă cheamă, a nu zice (nici) două, a-şi păzi gura (limba), a rămâne mut, a-şi ţine gura (limba, pliscul, clonţul), a i se lega limba, a i se încleşta fălcile (gura), a-i pieri (a pierde, a i se curma) graiul, a nu zice (a nu spune) (nici) cârc (mârc), a nu zice (nici) pis, fără a zice pis, a lua apă în gură, a-i sta ceasul; a nu zice nici da, nici ba; a nu ridica pliscul <i>fam.</i>; a-şi strânge leoarba acasă <i>depr.</i>; <strong>taci! </strong>► ţine-ţi (tacă-ţi) clan- ţa!, lasă vorba!; <strong>a face pe cineva să tacă </strong>► a închide cuiva gura, a-i scurta cuiva vorba, a i-o scurta. <strong> </strong> </p>",
+    "active": 0,
+    "created_at": "2023-11-21 09:06:12"
+  },
+  {
+    "user_id": 8,
+    "dictionary_id": 9,
+    "name": "TĂCERE",
+    "predefinition": "TĂCERE",
+    "definition": "<p> <i>f. </i>tihnă, pace, calm, acalmie, linişte; ► linişte şi pace, mişcare; ~ <strong>totală </strong>► linişte (tăcere) de mormânt (mormântală), doarme şi pământul sub om. </p>",
+    "active": 0,
+    "created_at": "2023-11-21 09:06:12"
+  },
+  {
+    "user_id": 8,
+    "dictionary_id": 9,
+    "name": "TĂCUT",
+    "predefinition": "TĂCUT",
+    "definition": "<p> <i>adj. </i>taciturn; ► scump (scurt, zgârcit) la vorbă; <strong>a fi </strong>~ ► a şedea ca găina între lemne; <strong>a deveni </strong>~ ► a se strânge în sine; <strong>a fi foarte </strong>~ ► a-şi înghiţi limba, a avea gura pecetluită, a tăcea (a fi mut) ca pământul. </p>",
+    "active": 0,
+    "created_at": "2023-11-21 09:06:12"
+  },
+  {
+    "user_id": 8,
+    "dictionary_id": 9,
+    "name": "A TĂIA",
+    "predefinition": "TĂIA",
+    "definition": "<p> <i>vb. </i>1) a omorî, a ucide, a asasina; ► a vărsa sânge, a şterge (a rade) pe cineva de pe faţa pământului, a trece (a lua, a trage) în (sub, prin) sabie pe cineva, a trece pe sub (prin) ascuţişul săbiei (fierului), a scoate pe cineva din viaţă (dintre cei vii), a frânge cuiva gâtul, a face harcea-parcea. </p>",
+    "active": 0,
+    "created_at": "2023-11-21 09:06:12"
+  },
+  {
+    "user_id": 8,
+    "dictionary_id": 9,
+    "name": "A TĂIFĂSUI",
+    "predefinition": "TĂIFĂSUI",
+    "definition": "<p> <i>vb. </i>a flecări, a trăncăni, a pălăvrăgi; ► a-i toca gura bureţi, a-i merge (a-i toca, a-i umbla) gura ca o meliţă (ca o moară hodorogită, ca o pupăză, ca o râşniţă, ca o morişcă), a bate apa în piuă (să se aleagă untul), a sta la (de) poveşti, a se apuca de poveşti, a sta la o parolă (la palavre), a mânca praz (haram, borş, ciuperci, rahat), a spune vrute şi nevrute (multe şi mărunte), a vorbi câte în lună şi-n stele, a avea (a prinde) spor la vorbă, a nu-i mai sta cuiva gura, a fi slobod la (de) gură, a da drumul gurii, a pune ţara la cale, a sta la taifas (la taclale, la vorbă), a vorbi fără rost, a spune baliverne, a înşira verzi şi uscate, a îndruga (a toca) (la) verzi şi uscate, a înşira moşi pe (şi) groşi, a înşira moşi păroşi, a spune braşoave, a da cu meliţa, a bate din gură degeaba, a se înnădi la vorbă, a toca câte-n lună şi-n soare, a lungi vorba, a se lua cu vorba, a se lăsa furat de vorbă; a spune ce-l taie capul <i>fam.</i>; a şedea cu cineva la lafuri <i>fam. rar.</i> </p>",
+    "active": 0,
+    "created_at": "2023-11-21 09:06:12"
+  },
+  {
+    "user_id": 8,
+    "dictionary_id": 9,
+    "name": "A TĂINUI",
+    "predefinition": "TĂINUI",
+    "definition": "<p> <i>vb. </i>a ascunde; ► a trece ceva sub tăcere. </p>",
+    "active": 0,
+    "created_at": "2023-11-21 09:06:12"
+  },
+  {
+    "user_id": 8,
+    "dictionary_id": 9,
+    "name": "A TĂRĂGĂNA",
+    "predefinition": "TĂRĂGĂNA",
+    "definition": "<p> <i>vb. </i>a amâna, a lungi, a tergiversa; ► a lăsa de azi pemâine, a lăsa de pe o zi pe alta, a da zi după zi. </p>",
+    "active": 0,
+    "created_at": "2023-11-21 09:06:12"
+  },
+  {
+    "user_id": 8,
+    "dictionary_id": 9,
+    "name": "TÂLHAR",
+    "predefinition": "TÂLHAR",
+    "definition": "<p> <i>m. </i>hoţ, pungaş; ► mână-lungă; <strong>a fi ~ </strong>► a avea mână lungă, a avea degete lungi, a fi lung de mână (dedegete, de gheare), a fi lung în degete (în gheare), a avea mâini piperate. </p>",
+    "active": 0,
+    "created_at": "2023-11-21 09:06:12"
+  },
+  {
+    "user_id": 8,
+    "dictionary_id": 9,
+    "name": "TÂMPIT",
+    "predefinition": "TÂMPIT",
+    "definition": "<p> <i>adj. </i>prost, incapabil, stupid; ► bătut în (la) cap, îngust la minte, cu mintea scurtă, fără (de) minte, bătut (lovit, trăsnit) cu leuca (în cap), fără cap, strâmt la minte, tare de cap, cu mintea strâmtă, greu de (la) cap, slab de minte, cap de tigvă, părul lung şi mintea scurtă, puţin la minte, sărac cu duhul; <strong>foarte ~ </strong>► deştept ca oaia, un prost şi jumătate, prost ca noaptea, prost ca napul, prost ca o cizmă; <strong>a fi foarte ~ </strong>a-i mânca cuiva câinii din traistă, a da în gropi (de prost ce e), a avea minte de vrabie, a fi bun de tăiat mămăliga, a fi orb de minte, a avea capul ca dovleacul, a nu şti să lege nici două-n tei. </p>",
+    "active": 0,
+    "created_at": "2023-11-21 09:06:12"
+  },
+  {
+    "user_id": 8,
+    "dictionary_id": 9,
+    "name": "TÂNĂR",
+    "predefinition": "TÂNĂR",
+    "definition": "<p> <i>adj., m. </i>nevârstnic; june <i>rar</i>; ► în floarea vârstei; <strong>foarte ~ </strong>► mic de zile, jilav la (sub) nas, cu caş la gură, abia ieşit din găoace, cu muci la nas. </p>",
+    "active": 0,
+    "created_at": "2023-11-21 09:06:12"
+  },
+  {
+    "user_id": 8,
+    "dictionary_id": 9,
+    "name": "A SE TÂNGUI",
+    "predefinition": "TÂNGUI",
+    "definition": "<p> <i>vb. </i>a se plânge, a se jelui; ► a-şi vărsa amarul, a-şi spune păsul (durerea etc.). </p>",
+    "active": 0,
+    "created_at": "2023-11-21 09:06:12"
+  },
+  {
+    "user_id": 8,
+    "dictionary_id": 9,
+    "name": "A TÂNJI",
+    "predefinition": "TÂNJI",
+    "definition": "<p> <i>vb. </i>a se topi, a se prăpădi <i>fig</i>.; ► a duce dorul cuiva, a-i fi dor de cineva. </p>",
+    "active": 0,
+    "created_at": "2023-11-21 09:06:12"
+  },
+  {
+    "user_id": 8,
+    "dictionary_id": 9,
+    "name": "A TÂRCOLI",
+    "predefinition": "TÂRCOLI",
+    "definition": "<p> <i>vb. rar </i>► a da târcoale, a da rotocoale cuiva (la ceva). </p>",
+    "active": 0,
+    "created_at": "2023-11-21 09:06:12"
+  },
+  {
+    "user_id": 8,
+    "dictionary_id": 9,
+    "name": "TÂRFĂ",
+    "predefinition": "TÂRFĂ",
+    "definition": "<p> <i>f</i>. damă, cocotă, prostituată; madamă <i>peior.</i>; curvă <i>pop.</i>; ► femeie de stradă. </p>",
+    "active": 0,
+    "created_at": "2023-11-21 09:06:12"
+  },
+  {
+    "user_id": 8,
+    "dictionary_id": 9,
+    "name": "A SE TÂRGUI",
+    "predefinition": "TÂRGUI",
+    "definition": "<p> <i>vb. </i>a se tocmi; ► a sta la tocmeală. </p>",
+    "active": 0,
+    "created_at": "2023-11-21 09:06:12"
+  },
+  {
+    "user_id": 8,
+    "dictionary_id": 9,
+    "name": "TÂRZIU",
+    "predefinition": "TÂRZIU",
+    "definition": "<p> <i>adv. </i>tardiv; ► în ceasul al unsprezecelea; <strong>prea </strong>~► la (către) spartul târgului (stânii), a treia zi după scripturi. </p>",
+    "active": 0,
+    "created_at": "2023-11-21 09:06:12"
+  },
+  {
+    "user_id": 8,
+    "dictionary_id": 9,
+    "name": "TEAFĂR",
+    "predefinition": "TEAFĂR",
+    "definition": "<p> <i>adj. </i>sănătos, zdravăn; <strong>foarte ~ </strong>► sănătos tun; <strong>a fi ~ </strong>► a fi (a se simţi) bine, a fi (a-i merge) bine cu sănătatea, a fi tare de coş; <strong>a fi perfect ~ </strong>► a nu avea nici pe dracul, a nu avea nici pe naiba <i>peior. </i> </p>",
+    "active": 0,
+    "created_at": "2023-11-21 09:06:12"
+  },
+  {
+    "user_id": 8,
+    "dictionary_id": 9,
+    "name": "TEAMĂ",
+    "predefinition": "TEAMĂ",
+    "definition": "<p> <i>f</i>. frică; <strong>fără ~ </strong>► cu pieptul deschis. </p>",
+    "active": 0,
+    "created_at": "2023-11-21 09:06:12"
+  },
+  {
+    "user_id": 8,
+    "dictionary_id": 9,
+    "name": "TEMĂTOR",
+    "predefinition": "TEMĂTOR",
+    "definition": "<p> <i>adj</i>. fricos, sperios; ► slab de înger; <strong>a fi foarte ~ </strong>► a se teme şi de umbra lui, a trăi cu frica în sân. </p>",
+    "active": 0,
+    "created_at": "2023-11-21 09:06:12"
+  },
+  {
+    "user_id": 8,
+    "dictionary_id": 9,
+    "name": "A SE TEME",
+    "predefinition": "TEME",
+    "definition": "<p> <i>vb. </i>► a-i fi frică, a trăi cu frica (spaima) în sân, a duce (a lua, a-i purta, a şti de) frica cuiva, a fi cu frica în spate (în sân), a-i tremura cuiva balamalele; ~ <strong>foarte tare de cineva </strong>► a se teme de cineva ca de dracul (ca dracul de tămâie). </p>",
+    "active": 0,
+    "created_at": "2023-11-21 09:06:12"
+  },
+  {
+    "user_id": 8,
+    "dictionary_id": 9,
+    "name": "TEMEINIC",
+    "predefinition": "TEMEINIC",
+    "definition": "<p> <i>adv. </i>solid, serios, fundamental; ► cu (de) nădejde, cu judecată. </p>",
+    "active": 0,
+    "created_at": "2023-11-21 09:06:12"
+  },
+  {
+    "user_id": 8,
+    "dictionary_id": 9,
+    "name": "A SE TEMPERA",
+    "predefinition": "TEMPERA",
+    "definition": "<p> <i>vb. </i>a se linişti, a se calma, a se potoli; a se muia <i>fig</i>.; ► a i se muia cuiva gura, a o lăsa mai moale (mai domol, mai la pas), a vorbi cu o jumătate de ton (mai jos), a bate în retragere. </p>",
+    "active": 0,
+    "created_at": "2023-11-21 09:06:12"
+  },
+  {
+    "user_id": 8,
+    "dictionary_id": 9,
+    "name": "TEMPORAR",
+    "predefinition": "TEMPORAR",
+    "definition": "<p> <i>adj. </i>vremelnic, trecător, efemer; ► de moment. </p>",
+    "active": 0,
+    "created_at": "2023-11-21 09:06:12"
+  },
+  {
+    "user_id": 8,
+    "dictionary_id": 9,
+    "name": "A TENTA",
+    "predefinition": "TENTA",
+    "definition": "<p> <i>vb. </i>1) a momi, a ademeni, a ispiti; ► a întinde (a pune) cuiva o cursă (cursa, un laţ), a atrage pe cineva în cursă, a prinde pe cineva în plasă, a da cuiva cu ceva pe la nas. </p>",
+    "active": 0,
+    "created_at": "2023-11-21 09:06:12"
+  },
+  {
+    "user_id": 8,
+    "dictionary_id": 9,
+    "name": "A TERGIVERSA",
+    "predefinition": "TERGIVERSA",
+    "definition": "<p> <i>vb. </i>a amâna, a lungi, a tergiversa; ► a lăsa de azi pe mâine, a lăsa de pe o zi pe alta, a da zi după zi. </p>",
+    "active": 0,
+    "created_at": "2023-11-21 09:06:12"
+  },
+  {
+    "user_id": 8,
+    "dictionary_id": 9,
+    "name": "A TERMINA",
+    "predefinition": "TERMINA",
+    "definition": "<p> <i>vb. </i>a finaliza, a sfârşi, a încheia; ► a pune capăt (punct) la ceva, a o scoate la capăt (la cap, la căpătâi) cu ceva, a o duce la capăt, a da de capăt (de cap, de căpătâi) la ceva, a da gata, a duce la bun sfârşit, a pune sfârşit, a ieşi (a ajunge) la liman, a pune punctul pe i . </p>",
+    "active": 0,
+    "created_at": "2023-11-21 09:06:12"
+  },
+  {
+    "user_id": 8,
+    "dictionary_id": 9,
+    "name": "A SE TERMINA",
+    "predefinition": "TERMINA",
+    "definition": "<p> <i>vb. </i>a se sfârşi, a se isprăvi, a se încheia; ► a lua sfârşit (capăt). </p>",
+    "active": 0,
+    "created_at": "2023-11-21 09:06:12"
+  },
+  {
+    "user_id": 8,
+    "dictionary_id": 9,
+    "name": "TEXTUAL",
+    "predefinition": "TEXTUAL",
+    "definition": "<p> <i>adv. </i>exact, întocmai, literal; ► ad litteram, cuvânt cu cuvânt, literă cu literă. </p>",
+    "active": 0,
+    "created_at": "2023-11-21 09:06:12"
+  },
+  {
+    "user_id": 8,
+    "dictionary_id": 9,
+    "name": "TICĂLOS",
+    "predefinition": "TICĂLOS",
+    "definition": "<p> <i>adj., m. </i>netrebnic, nemernic, derbedeu; lepădătură <i>fig</i>.; ► om (bun) de nimic, porc-de-câine, drojdia (pleava, gunoiul) societăţii, poamă bună, bună poamă; <strong>a fi mare ~ ► </strong>a nu-l primi (a nu-l răbda, a nu-l ţine) pe cineva (nici)<strong> </strong>pământul. </p>",
+    "active": 0,
+    "created_at": "2023-11-21 09:06:12"
+  },
+  {
+    "user_id": 8,
+    "dictionary_id": 9,
+    "name": "A TICSI",
+    "predefinition": "TICSI",
+    "definition": "<p> <i>vb. </i>a îngrămădi, a înghesui; ► a pune claie peste grămadă. </p>",
+    "active": 0,
+    "created_at": "2023-11-21 09:06:12"
+  },
+  {
+    "user_id": 8,
+    "dictionary_id": 9,
+    "name": "TICSIT",
+    "predefinition": "TICSIT",
+    "definition": "<p> <i>adj. </i>îngrămădit, înghesuit; ► ca sarmalele. </p>",
+    "active": 0,
+    "created_at": "2023-11-21 09:06:12"
+  },
+  {
+    "user_id": 8,
+    "dictionary_id": 9,
+    "name": "TIHNĂ",
+    "predefinition": "TIHNĂ",
+    "definition": "<p> <i>f. </i>tăcere, pace, calm, acalmie, linişte; ► linişte şi pace, mişcare; ~ <strong>totală </strong>► linişte (tăcere) de mormânt (mormântală), doarme şi pământul sub om. </p>",
+    "active": 0,
+    "created_at": "2023-11-21 09:06:12"
+  },
+  {
+    "user_id": 8,
+    "dictionary_id": 9,
+    "name": "TIHNIT",
+    "predefinition": "TIHNIT",
+    "definition": "<p> <i>adj. </i>liniştit, netulburat; <strong>a fi ~ ► </strong>a avea pace. </p>",
+    "active": 0,
+    "created_at": "2023-11-21 09:06:12"
+  },
+  {
+    "user_id": 8,
+    "dictionary_id": 9,
+    "name": "TIMID",
+    "predefinition": "TIMID",
+    "definition": "<p> <i>adj. </i>ruşinos, sfios; <strong>foarte </strong>~ ► ruşinos ca o fată mare; <strong>a fi ~ ► </strong>a şedea ca o fată mare. </p>",
+    "active": 0,
+    "created_at": "2023-11-21 09:06:12"
+  },
+  {
+    "user_id": 8,
+    "dictionary_id": 9,
+    "name": "TINEREŢE",
+    "predefinition": "TINEREŢE",
+    "definition": "<p> <i>f. </i>adolescenţă; juneţe <i>rar</i>; ► primăvara vieţii; <strong>în </strong>~ ► în vremea mea (ta…). </p>",
+    "active": 0,
+    "created_at": "2023-11-21 09:06:12"
+  },
+  {
+    "user_id": 8,
+    "dictionary_id": 9,
+    "name": "A TIPĂRI",
+    "predefinition": "TIPĂRI",
+    "definition": "<p> <i>vb. </i>a publica, a edita; ► a da publicităţii, a trage la tipar. </p>",
+    "active": 0,
+    "created_at": "2023-11-21 09:06:12"
+  },
+  {
+    "user_id": 8,
+    "dictionary_id": 9,
+    "name": "A SE TIPĂRI",
+    "predefinition": "TIPĂRI",
+    "definition": "<p> <i>vb. </i>a apărea, a se publica, a se edita; ► a ieşi de sub tipar, a vedea lumina tiparului; a ieşi la lumină <i>înv.</i> </p>",
+    "active": 0,
+    "created_at": "2023-11-21 09:06:12"
+  },
+  {
+    "user_id": 8,
+    "dictionary_id": 9,
+    "name": "TIPTIL",
+    "predefinition": "TIPTIL",
+    "definition": "<p> <i>adv. </i>1) încet; ► în vârful (pe vârfurile) degetelor (picioarelor); 2) tainic, discret; ► pe ascuns, pe furiş, pe nesimţite, pe nevăzute, pe neştiute, pe neobservate. </p>",
+    "active": 0,
+    "created_at": "2023-11-21 09:06:12"
+  },
+  {
+    "user_id": 8,
+    "dictionary_id": 9,
+    "name": "A TIRANIZA",
+    "predefinition": "TIRANIZA",
+    "definition": "<p> <i>vb. </i>a asupri, a oprima, a exploata; ► a suge sângele cuiva (din cineva), a-i lua cuiva pielea (şapte, nouă piei) de pe el. </p>",
+    "active": 0,
+    "created_at": "2023-11-21 09:06:12"
+  },
+  {
+    "user_id": 8,
+    "dictionary_id": 9,
+    "name": "TITLU",
+    "predefinition": "TITLU",
+    "definition": "<p> <i>n. </i>rang, grad; <strong>fără </strong>~ ► de rând. </p>",
+    "active": 0,
+    "created_at": "2023-11-21 09:06:12"
+  },
+  {
+    "user_id": 8,
+    "dictionary_id": 9,
+    "name": "A TOASTA",
+    "predefinition": "TOASTA",
+    "definition": "<p> <i>vb. </i>► a ridica paharul un toast, a ţine un toast. </p>",
+    "active": 0,
+    "created_at": "2023-11-21 09:06:12"
+  },
+  {
+    "user_id": 8,
+    "dictionary_id": 9,
+    "name": "A SE TOCMI",
+    "predefinition": "TOCMI",
+    "definition": "<p> <i>vb. </i>a se târgui; ► a sta la tocmeală. </p>",
+    "active": 0,
+    "created_at": "2023-11-21 09:06:12"
+  },
+  {
+    "user_id": 8,
+    "dictionary_id": 9,
+    "name": "TOLERA",
+    "predefinition": "TOLERA",
+    "definition": "<p> <i>vb. </i>a suporta, a suferi; <strong>a nu putea </strong>~ ► a se sătura până în gât, a nu înghiţi pe cineva, a nu mistui pe cineva sau ceva, a nu avea ochi să vadă pe cineva, a-i sta (a-i fi drag) cuiva ca sarea-n ochi. </p>",
+    "active": 0,
+    "created_at": "2023-11-21 09:06:12"
+  },
+  {
+    "user_id": 8,
+    "dictionary_id": 9,
+    "name": "TOT",
+    "predefinition": "TOT",
+    "definition": "<p> 1. <i>adv</i>. absolut, integral, totalmente, tot, complet(amente); ► în întregime, cu (în, întru) totul, cu desăvârşire, în totalitate, pe deplin, pe de-a întregul, de sus (şi) până jos, de istov; 2. <i>pron.</i>: <strong>absolut </strong>~ ► până la un bob de linte, până la ultimul sfanţ, până-ntr-un cap (capăt) de aţă, câte-n lună şi-n stele (în soare); <strong>cu toţii </strong>► de la vlădică până la opincă, mic şi mare; cu mic, cu mare. </p>",
+    "active": 0,
+    "created_at": "2023-11-21 09:06:12"
+  },
+  {
+    "user_id": 8,
+    "dictionary_id": 9,
+    "name": "TOTAL",
+    "predefinition": "TOTAL",
+    "definition": "<p> <i>adv</i>. 1) absolut, integral, totalmente, tot, complet(amente); ► în întregime, cu (în, întru) totul, cu desăvârşire, în totalitate, pe deplin, pe de-a întregul, de sus (şi) până jos, de istov; 2) ► fără rezervă, cu trup şi suflet; 3) ► din cap până în picioare. </p>",
+    "active": 0,
+    "created_at": "2023-11-21 09:06:12"
+  },
+  {
+    "user_id": 8,
+    "dictionary_id": 9,
+    "name": "TOTALMENTE",
+    "predefinition": "TOTALMENTE",
+    "definition": "<p> <i>adv</i>. 1) absolut, integral, total, tot, complet(amente); ► în întregime, cu (în, întru) totul, cu desăvârşire, în totalitate, pe deplin, pe de-a întregul, de sus (şi) până jos, de istov; 2) ► fără rezervă, cu trup şi suflet; 3) ► din cap până în picioare. </p>",
+    "active": 0,
+    "created_at": "2023-11-21 09:06:12"
+  },
+  {
+    "user_id": 8,
+    "dictionary_id": 9,
+    "name": "TOTDEAUNA",
+    "predefinition": "TOTDEAUNA",
+    "definition": "<p> <i>adv. </i>mereu, veşnic, pururi; ► în veci (de veci), în veac, în veac de veac, cât veacul, pentru veşnicie, la infinit, de-a pururi, cât e lumea (şi pământul). </p>",
+    "active": 0,
+    "created_at": "2023-11-21 09:06:12"
+  },
+  {
+    "user_id": 8,
+    "dictionary_id": 9,
+    "name": "TOTUNA",
+    "predefinition": "TOTUNA",
+    "definition": "<p> <i>adv. </i>egal, similar; <strong>e </strong>~ ► e tot un drac <i>peior.</i> </p>",
+    "active": 0,
+    "created_at": "2023-11-21 09:06:12"
+  },
+  {
+    "user_id": 8,
+    "dictionary_id": 9,
+    "name": "TOTUŞI",
+    "predefinition": "TOTUŞI",
+    "definition": "<p> <i>conj. </i>însă, dar; ► cu toate acestea. </p>",
+    "active": 0,
+    "created_at": "2023-11-21 09:06:12"
+  },
+  {
+    "user_id": 8,
+    "dictionary_id": 9,
+    "name": "A TORTURA",
+    "predefinition": "TORTURA",
+    "definition": "<p> <i>vb. </i>a căzni, a chinui, a schingiui; ► a trage pe roată. </p>",
+    "active": 0,
+    "created_at": "2023-11-21 09:06:12"
+  },
+  {
+    "user_id": 8,
+    "dictionary_id": 9,
+    "name": "A TRACASA",
+    "predefinition": "TRACASA",
+    "definition": "<p> <i>vb. livr. </i>a sâcâi, a agasa, a necăji, a cicăli, a şicana; ► a scoate cuiva peri albi (suri), a (-i) scoate cuiva sufletul, a bate (a munci) pe cineva la cap, a bate (a umfla) capul cuiva, a face cuiva capul calendar, a roade cuiva urechile (capul), a-i împuia cuiva capul, a-i toca cuiva la ureche (la cap), a toca pe cineva la cap, a intra (a se vârî) în sufletul cuiva, a sta (lăstun, piatră) pe capul cuiva, a-i sta cuiva pe cap, a sta răcilă pe cineva, a nu da (a nu lăsa în) pace, a face cuiva zile fripte, a face cuiva şicane. </p>",
+    "active": 0,
+    "created_at": "2023-11-21 09:06:12"
+  },
+  {
+    "user_id": 8,
+    "dictionary_id": 9,
+    "name": "TRADIŢIE",
+    "predefinition": "TRADIŢIE",
+    "definition": "<p> <i>f. </i>obicei, datină; ► legea pământului (a locului). </p>",
+    "active": 0,
+    "created_at": "2023-11-21 09:06:12"
+  },
+  {
+    "user_id": 8,
+    "dictionary_id": 9,
+    "name": "A TRAGE",
+    "predefinition": "TRAGE",
+    "definition": "<p> <i>vb. </i>a bea, a suge; a pili <i>pop</i>.; ► a trage (a lua) la măsea (la mustaţă), a-şi pili (a-şi stropi) măseaua, a mângâia plosca, a umbla (a fi) cu plosca (cu ţuica) la (în) nas, a avea boala suptului, a se unge pe gât; <strong>~ foarte mult </strong>► a da cu paharul, a se trece din pahare (din băut), a bea de usucă, a face (burta bute şi) gura pâlnie, a face gâtul (gura) leică şi pântecele balercă, a-şi bea (şi) minţile, a-şi bea şi cămaşa, a se întâlni cu Sf. Paraschiva, a sufla în fundul oalei. </p>",
+    "active": 0,
+    "created_at": "2023-11-21 09:06:12"
+  },
+  {
+    "user_id": 8,
+    "dictionary_id": 9,
+    "name": "TRAI",
+    "predefinition": "TRAI",
+    "definition": "<p> <i>n. </i>existenţă, viaţă; ~ <strong>uşor </strong>► zile albe, trai pe vătrai <i>pop. fam.</i>; ~ <strong>greu </strong>► pâine amară; un trai şi un vătrai, trai cu vătrai <i>pop. fam.</i> </p>",
+    "active": 0,
+    "created_at": "2023-11-21 09:06:12"
+  },
+  {
+    "user_id": 8,
+    "dictionary_id": 9,
+    "name": "TRAINIC",
+    "predefinition": "TRAINIC",
+    "definition": "<p> <i>adj. </i>durabil, rezistent; <strong>foarte ~ </strong>► de granit, tare ca piatra (ca oţelul), de oţel; <strong>a fi ~ </strong>► a (o) duce (a o ţine) la tăvăleală. </p>",
+    "active": 0,
+    "created_at": "2023-11-21 09:06:12"
+  },
+  {
+    "user_id": 8,
+    "dictionary_id": 9,
+    "name": "A TRANSCRIE",
+    "predefinition": "TRANSCRIE",
+    "definition": "<p> <i>vb. </i>a copia; ► a scrie (a trece) pe curat. </p>",
+    "active": 0,
+    "created_at": "2023-11-21 09:06:12"
+  },
+  {
+    "user_id": 8,
+    "dictionary_id": 9,
+    "name": "A SE TRANSFORMA",
+    "predefinition": "TRANSFORMA",
+    "definition": "<p> <i>vb. </i>a se schimba, a se modifica; ► a lua un nou aspect (o nouă formă). </p>",
+    "active": 0,
+    "created_at": "2023-11-21 09:06:12"
+  },
+  {
+    "user_id": 8,
+    "dictionary_id": 9,
+    "name": "A TRANSMITE",
+    "predefinition": "TRANSMITE",
+    "definition": "<p> <i>vb. </i>a preda; ► a da în primire. </p>",
+    "active": 0,
+    "created_at": "2023-11-21 09:06:12"
+  },
+  {
+    "user_id": 8,
+    "dictionary_id": 9,
+    "name": "A TRANSPIRA",
+    "predefinition": "TRANSPIRA",
+    "definition": "<p> <i>vb. </i>a asuda; ~ <strong>abundent </strong>► a-l trece (a-l cuprinde) pe cineva (toate) năduşelile (sudorile). </p>",
+    "active": 0,
+    "created_at": "2023-11-21 09:06:12"
+  },
+  {
+    "user_id": 8,
+    "dictionary_id": 9,
+    "name": "TRANSPIRAT",
+    "predefinition": "TRANSPIRAT",
+    "definition": "<p> <i>adj. </i>asudat; <strong>a fi foarte </strong>~ ► a fi (numai o) apă. </p>",
+    "active": 0,
+    "created_at": "2023-11-21 09:06:12"
+  },
+  {
+    "user_id": 8,
+    "dictionary_id": 9,
+    "name": "A TRANSPORTA",
+    "predefinition": "TRANSPORTA",
+    "definition": "<p> <i>vb. </i>a duce; <strong>~ pe cineva cu forţa </strong>► a lua (a apuca) pe cineva de guler. </p>",
+    "active": 0,
+    "created_at": "2023-11-21 09:06:12"
+  },
+  {
+    "user_id": 8,
+    "dictionary_id": 9,
+    "name": "TRANŞANT",
+    "predefinition": "TRANŞANT",
+    "definition": "<p> <i>adv</i>. categoric, ferm; ► sus şi tare, scurt şi cuprinzător. </p>",
+    "active": 0,
+    "created_at": "2023-11-21 09:06:12"
+  },
+  {
+    "user_id": 8,
+    "dictionary_id": 9,
+    "name": "A TRATA",
+    "predefinition": "TRATA",
+    "definition": "<p> <i>vb. </i>1) a se purta; ~ <strong>cu asprime </strong>► a-şi întoarce cojocul pe dos (pe partea cealaltă), a lua pe cineva cu resteul; ~ <strong>cu menajamente </strong>► a lua (a o lua) (pe cineva) cu binişorul (cu binele, cu frumosul, cu încetişorul); ~ <strong>cu atenţie </strong>► a umbla (a se purta) cu mănuşi; 2) a cinsti, a ospăta, a servi; ► a face (o) cinste, a da (a oferi) o masă (un dineu, un ospăţ); 3) a vindeca, a lecui; ► a pune pe picioare, a aduce pe cineva la viaţă; 4) a discuta, a dezbate; ► a pune (a aduce) pe tapet, a pune problema; ~ <strong>în detaliu ► </strong>a (o) întoarce şi pe o parte (faţă) şi pe alta. </p>",
+    "active": 0,
+    "created_at": "2023-11-21 09:06:12"
+  },
+  {
+    "user_id": 8,
+    "dictionary_id": 9,
+    "name": "TRATATIVE",
+    "predefinition": "TRATATIVE",
+    "definition": "<p> <i>f. pl. </i>negocieri <i>pl.</i>; <strong>a fi în </strong>~ ► a fi în vorbă. </p>",
+    "active": 0,
+    "created_at": "2023-11-21 09:06:12"
+  },
+  {
+    "user_id": 8,
+    "dictionary_id": 9,
+    "name": "A TRĂDA",
+    "predefinition": "TRĂDA",
+    "definition": "<p> <i>vb. </i>1) a descoperi, a demasca; ► a da în vileag (pe faţă), a da de gol, a scoate (a smulge, a rupe, a lua, a ridica) cuiva masca, a da pe cineva de sminteală, a face cuiva sminteală, a prinde cu minciuna, a scoate pe cineva în prăjină (în proţap); 2) (<i>soţul sau soţia</i>) a înşela; a încornora <i>fig.</i>; a schimba <i>pop.</i>; ► a pune coarne, a călca credinţa conjugală. </p>",
+    "active": 0,
+    "created_at": "2023-11-21 09:06:12"
+  },
+  {
+    "user_id": 8,
+    "dictionary_id": 9,
+    "name": "A SE TRĂDA",
+    "predefinition": "TRĂDA",
+    "definition": "<p> <i>vb. </i>a se descoperi, a se demasca; ► a-şi scoate (a-şi lepăda, a-şi arunca) masca, a-şi da arama pe faţă, a-şi da în petic, a se da de gol, a se da pe faţă, a-şi scoate (a-şi arăta) ghearele. </p>",
+    "active": 0,
+    "created_at": "2023-11-21 09:06:12"
+  },
+  {
+    "user_id": 8,
+    "dictionary_id": 9,
+    "name": "TRĂDĂTOR",
+    "predefinition": "TRĂDĂTOR",
+    "definition": "<p> <i>m. </i>► coadă de topor. </p>",
+    "active": 0,
+    "created_at": "2023-11-21 09:06:12"
+  },
+  {
+    "user_id": 8,
+    "dictionary_id": 9,
+    "name": "A TRĂI",
+    "predefinition": "TRĂI",
+    "definition": "<p> <i>vb. </i>1) a exista; a vieţui <i>pop</i>.; ► a-şi duce (a-şi petrece) veacul; <strong>a mai ~ ► </strong>a se ţine sufletul în cineva, a se ţine viu (în viaţă, cu zile); <strong>cât voi ~ ► </strong>câte zile voi avea; 2) : ~ <strong>foarte bine </strong>► a trăi pe picior mare, a trăi (a fi, a se simţi) ca în pântecul mamei, a trăi ca pe pământul făgăduinţei, a trăi ca peştele în apă, a fi (a trăi, a se afla ca) în sânul lui Avram (lui Dumnezeu), a trăi ca găina la moară, a trăi ca ursul la prisacă, a-i curge cuiva numai miere, a trăi ca câinele la stână, a trăi ca (un) bimbaşă, a ţine casă mare; ~ <strong>mult </strong>► a trăi până la adânci bătrâneţe, a trăi cât lumea (cât pământul, cât un veac de om); ~ <strong>cinstit </strong>► a trăi cu cinste; ~ <strong>liniştit şi fără griji </strong>► a trăi pe moale (şi la cald), a-şi trăi traiul; ~ <strong>cu speranţa </strong>► a se mângâia cu gândul; ~ <strong>dezordonat </strong>► a face noaptea zi şi ziua noapte, a face din noapte zi; ~ <strong>greu </strong>► a umbla cu cerşitul, a trage mâţa de coadă, a o duce (a-i fi) greu, a trage din greu a trage în (la) ham, a trăi în (mare) nevoie, a-i merge cuiva rău, a trăi ca pe mărăcini, a petrece (a trăi) ca câinele în car, a-şi cârpi viaţa (traiul), a trăi ca viermele în hrean (în rădăcina hreanului); ~ <strong>în sărăcie </strong>► a trăi cu pâine şi apă, a se zbate (a o duce, a trăi) ca peştele pe uscat, a trăi de azi pe mâine; ~ <strong>modest </strong>► abia a-şi ţine zilele; 3) a convieţui, a coabita; a vieţui <i>pop</i>.; ► a ţine (a face) casă cu cineva, a duce viaţa în comun cu cineva, a mânca (pâine şi sare) dintr-un blid cu cineva, a mânca toţi o pâine şi o sare; ~ <strong>în mare dragoste </strong>► a trăi (a se iubi) ca doi porumbei; ~ <strong>în duşmănie </strong>► a duce casă rea cu cineva, a fi la colţi cu cineva, a trăi (a se înţelege) ca câinele (ca şoarecele) cu pisica (cu porcii). </p>",
+    "active": 0,
+    "created_at": "2023-11-21 09:06:12"
+  },
+  {
+    "user_id": 8,
+    "dictionary_id": 9,
+    "name": "TRĂNCĂNEALĂ",
+    "predefinition": "TRĂNCĂNEALĂ",
+    "definition": "<p> <i>f</i>. pălăvrăgeală, flecăreală, vorbărie; ► vorbe de clacă, vorbă lungă (multă), vorbe goale, zeamă de vorbe, zeamă lungă, apă de ploaie; treanca-fleanca <i>reg</i>. </p>",
+    "active": 0,
+    "created_at": "2023-11-21 09:06:12"
+  },
+  {
+    "user_id": 8,
+    "dictionary_id": 9,
+    "name": "A TRĂNCĂNI",
+    "predefinition": "TRĂNCĂNI",
+    "definition": "<p> <i>vb. </i>a pălăvrăgi, a flecări, a tăifăsui; ► a-i toca gura bureţi, a-i merge (a-i toca, a-i umbla) gura ca o meliţă (ca o moară hodorogită, ca o pupăză, ca o râşniţă, ca o morişcă), a bate apa în piuă (să se aleagă untul), a sta la (de) poveşti, a se apuca de poveşti, a sta la o parolă (la palavre), a mânca praz (haram, borş, ciuperci, rahat), a spune vrute şi nevrute (multe şi mărunte), a vorbi câte în lună şi-n stele, a avea (a prinde) spor la vorbă, a nu-i mai sta cuiva gura, a fi slobod la (de) gură, a da drumul gurii, a pune ţara la cale, a sta la taifas (la taclale, la vorbă), a vorbi fără rost, a spune baliverne, a înşira verzi şi uscate, a îndruga (a toca) (la) verzi şi uscate, a înşira moşi pe (şi) groşi, a înşira moşi păroşi, a spune braşoave, a da cu meliţa, a bate din gură degeaba, a se înnădi la vorbă, a toca câte-n lună şi-n soare, a lungi vorba, a se lua cu vorba, a se lăsa furat de vorbă; a spune ce-l taie capul <i>fam.</i>; a şedea cu cineva la lafuri <i>fam. rar.</i> </p>",
+    "active": 0,
+    "created_at": "2023-11-21 09:06:12"
+  },
+  {
+    "user_id": 8,
+    "dictionary_id": 9,
+    "name": "TRÂNDAV",
+    "predefinition": "TRÂNDAV",
+    "definition": "<p> <i>adj</i>., <i>m</i>. leneş, puturos; ► rău de lucru, lă-mă-mamă; <strong>foar- te ~ ► </strong>(un) leneş şi jumătate, leneş de pute (din urma lui); <strong>a fi foarte ~ ► </strong>a puţi locul (sub cineva), a-i puţi şi urma, a-l mânca pe cineva viermii (de viu). </p>",
+    "active": 0,
+    "created_at": "2023-11-21 09:06:12"
+  },
+  {
+    "user_id": 8,
+    "dictionary_id": 9,
+    "name": "A TRÂNDĂVI",
+    "predefinition": "TRÂNDĂVI",
+    "definition": "<p> <i>vb. </i>a lenevi; ► a sta degeaba, a sta pe cuptor, a face umbră pământului, a pierde timpul (vremea), a sta (a şedea) cloşcă, a se muta de pe vatră pe cuptor, a nu lua (ridica) un pai de jos, a cloci pe vatră, a sprijini pereţii (gardurile), a tăia frunze la câini, a prinde muşte, a paşte bobocii, a căsca gura, a umbla gură cască, a fi (un) Tândală, a sta cu ochii în tavan, a arde gazul de pomană (degeaba), a sta cu braţele încrucişate, a sta cu mâinile în brâu (în şolduri), a sta cu mâinile (încrucişate) la piept, a sta cu burta la pământ (la soare), a sta (a şedea) cu mâinile subsuoară (subsuori), a-şi prăji burta la soare, a trage chiulul, a sta picior peste picior, a sta (a zăcea) pe cuptor. </p>",
+    "active": 0,
+    "created_at": "2023-11-21 09:06:12"
+  },
+  {
+    "user_id": 8,
+    "dictionary_id": 9,
+    "name": "A TRÂNTI",
+    "predefinition": "TRÂNTI",
+    "definition": "<p> <i>vb. </i>a doborî, a răsturna, a prăbuşi; ► a da jos, a culca (a da, a aşterne, a trânti) la pământ, a face pe cineva (ceva) plavie, a da (a face, a pune) pe cineva grămadă (jos), a da pe cineva peste cap. </p>",
+    "active": 0,
+    "created_at": "2023-11-21 09:06:12"
+  },
+  {
+    "user_id": 8,
+    "dictionary_id": 9,
+    "name": "A SE TRÂNTI",
+    "predefinition": "TRÂNTI",
+    "definition": "<p> <i>vb. </i>a se lupta; ► a se lua la trântă. </p>",
+    "active": 0,
+    "created_at": "2023-11-21 09:06:12"
+  },
+  {
+    "user_id": 8,
+    "dictionary_id": 9,
+    "name": "TRÂNTOR",
+    "predefinition": "TRÂNTOR",
+    "definition": "<p> <i>m. </i>parazit; ► (un) linge-blide, om de nimic. </p>",
+    "active": 0,
+    "created_at": "2023-11-21 09:06:12"
+  },
+  {
+    "user_id": 8,
+    "dictionary_id": 9,
+    "name": "TREBUINCIOS",
+    "predefinition": "TREBUINCIOS",
+    "definition": "<p> <i>adj. </i>folositor, util, necesar, bun; ► de trebuinţă, de folos, de lipsă; <strong>foarte ~ ► </strong>ca sarea în bucate, de neapărată nevoie, de prima necesitate, de cea mai mare necesitate. </p>",
+    "active": 0,
+    "created_at": "2023-11-21 09:06:12"
+  },
+  {
+    "user_id": 8,
+    "dictionary_id": 9,
+    "name": "TREBUINŢĂ",
+    "predefinition": "TREBUINŢĂ",
+    "definition": "<p> <i>n</i>. folos; <strong>a(-i) fi de ~ </strong>► a(-i) prinde cuiva bine. </p>",
+    "active": 0,
+    "created_at": "2023-11-21 09:06:12"
+  },
+  {
+    "user_id": 8,
+    "dictionary_id": 9,
+    "name": "TREAZ",
+    "predefinition": "TREAZ",
+    "definition": "<p> <i>adj. </i>neadormit; <strong>a rămâne </strong>~ ► a-şi speria somnul. </p>",
+    "active": 0,
+    "created_at": "2023-11-21 09:06:12"
+  },
+  {
+    "user_id": 8,
+    "dictionary_id": 9,
+    "name": "TRECĂTOR",
+    "predefinition": "TRECĂTOR",
+    "definition": "<p> <i>adj. </i>vremelnic, temporar, efemer; ► de moment. </p>",
+    "active": 0,
+    "created_at": "2023-11-21 09:06:12"
+  },
+  {
+    "user_id": 8,
+    "dictionary_id": 9,
+    "name": "A TRECE",
+    "predefinition": "TRECE",
+    "definition": "<p> <i>vb. </i>(<i>pe undeva</i>) a da, a se abate; ► a-şi face drum (cale), a da cu nasul pe undeva, a da o raită. </p>",
+    "active": 0,
+    "created_at": "2023-11-21 09:06:12"
+  },
+  {
+    "user_id": 8,
+    "dictionary_id": 9,
+    "name": "A SE TRECE",
+    "predefinition": "TRECE",
+    "definition": "<p> <i>vb. </i>a îmbătrâni; ► a avansa (a înainta) în vârstă, a-i ieşi cuiva peri albi, a-l ajunge zilele (anii), a-l atinge (a-l vizita) bătrâneţile, a-şi pierde prospeţimea (<i>mai ales despre femei</i>), a-şi trăi traiul (şi a-şi mânca mălaiul), a i se apropia (a i se strânge) cuiva funia de (la) par, a împleti gâţă (cosiţă) albă. </p>",
+    "active": 0,
+    "created_at": "2023-11-21 09:06:12"
+  },
+  {
+    "user_id": 8,
+    "dictionary_id": 9,
+    "name": "TRECUT",
+    "predefinition": "TRECUT",
+    "definition": "<p> <i>n. ► </i>ziua de ieri. </p>",
+    "active": 0,
+    "created_at": "2023-11-21 09:06:12"
+  },
+  {
+    "user_id": 8,
+    "dictionary_id": 9,
+    "name": "A TREIERA",
+    "predefinition": "TREIERA",
+    "definition": "<p> <i>vb. </i>(<i>cereale</i>) a vântura ► a da la lopată. </p>",
+    "active": 0,
+    "created_at": "2023-11-21 09:06:12"
+  },
+  {
+    "user_id": 8,
+    "dictionary_id": 9,
+    "name": "A TREMURA",
+    "predefinition": "TREMURA",
+    "definition": "<p> <i>vb. </i>a dârdâi; ~ <strong>de frig </strong>► a clănţăni din măsele, a face (a tăia) cuie, a face (la) piroane (şi cuie); ~ <strong>de frică ► </strong>a tremura carnea pe cineva; ~ <strong>tare </strong>► a tremura vargă (ca varga). </p>",
+    "active": 0,
+    "created_at": "2023-11-21 09:06:12"
+  },
+  {
+    "user_id": 8,
+    "dictionary_id": 9,
+    "name": "TREPTAT",
+    "predefinition": "TREPTAT",
+    "definition": "<p> <i>adv. </i>succesiv; ► picătură cu picătură, pas cu pas, pe rând, rând pe rând, la rând, rânduri-rânduri, de la o zi la alta. </p>",
+    "active": 0,
+    "created_at": "2023-11-21 09:06:12"
+  },
+  {
+    "user_id": 8,
+    "dictionary_id": 9,
+    "name": "A SE TREZI",
+    "predefinition": "TREZI",
+    "definition": "<p> <i>vb. </i>a se deştepta, a se scula; ► a deschide ochii, a face ochi; ~ <strong>devreme </strong>► a se scula cu noaptea în cap, a se scula ca huhurezul. </p>",
+    "active": 0,
+    "created_at": "2023-11-21 09:06:12"
+  },
+  {
+    "user_id": 8,
+    "dictionary_id": 9,
+    "name": "A TRIA",
+    "predefinition": "TRIA",
+    "definition": "<p> <i>vb. </i>a alege, a selecta, a selecţiona, a sorta; ► a alege brânza (urda) din zer; <strong>~ ce e mai bun </strong>► a alege pe (după) sprânceană. </p>",
+    "active": 0,
+    "created_at": "2023-11-21 09:06:12"
+  },
+  {
+    "user_id": 8,
+    "dictionary_id": 9,
+    "name": "TRIST",
+    "predefinition": "TRIST",
+    "definition": "<p> <i>adj. </i>1) abătut, amărât, indispus, mâhnit, deprimat, descurajat; ► cu nasul (lăsat) în jos, fără chef, rău (prost) dispus, ca o pisică (mâţă, găină) plouată, ca o curcă plouată (beată), întors pe dos, cu fundul (cu dosul) în sus, cu susul în jos; <strong>a fi ~ ► </strong>a nu-i fi toţi boii acasă, a nu-i arde de glumă, a nu avea chef (de vorbă, de glumă), a nu fi (a nu se simţi) în apele sale, a nu fi în toate apele, a avea leşie pe suflet, a nu fi în duşi buni, a fi în duşi răi, a se scula pe piciorul stâng, a fi în (a avea) toane rele, a nu fi în toane bune, parcă i s-au înecat corăbiile; <strong>a fi foarte ~ </strong>► a avea (a-i fi cuiva) inima neagră; 2) necăjit, îndurerat; ► sfârşit (sfâşiat) la inimă, plin (înecat) de lacrimi; <strong>a fi ~ </strong>► a-l durea pe cineva inima (su- fletul), a-i sângera cuiva inima, a i se sfârşi cuiva inima, a fi cu inima frântă (friptă), plânge (şi) pământul sub el; 3) jalnic, deplorabil, lamentabil; ► de jale, (vrednic) de plâns (de milă); <strong>într-o stare ~ă </strong>► într-un hal fără de hal. </p>",
+    "active": 0,
+    "created_at": "2023-11-21 09:06:12"
+  },
+  {
+    "user_id": 8,
+    "dictionary_id": 9,
+    "name": "TRIVIAL",
+    "predefinition": "TRIVIAL",
+    "definition": "<p> <i>adj. livr. </i>indecent, vulgar, obscen, necuviincios; scabros <i>livr</i>.; ► fără perdea, cu piper, de mahala, fără înconjur. </p>",
+    "active": 0,
+    "created_at": "2023-11-21 09:06:12"
+  },
+  {
+    "user_id": 8,
+    "dictionary_id": 9,
+    "name": "A TROPĂI",
+    "predefinition": "TROPĂI",
+    "definition": "<p> <i>vb. </i>a tropoti <i>pop</i>.; ► a bate din picioare. </p>",
+    "active": 0,
+    "created_at": "2023-11-21 09:06:12"
+  },
+  {
+    "user_id": 8,
+    "dictionary_id": 9,
+    "name": "TRUDĂ",
+    "predefinition": "TRUDĂ",
+    "definition": "<p> <i>f. </i>strădanie, osteneală, efort; <strong>cu ~ </strong>► din răsputeri, pe opinteală; <strong>cu mare ~ </strong>► pe rupte(le). </p>",
+    "active": 0,
+    "created_at": "2023-11-21 09:06:12"
+  },
+  {
+    "user_id": 8,
+    "dictionary_id": 9,
+    "name": "A SE TRUDI",
+    "predefinition": "TRUDI",
+    "definition": "<p> <i>vb. </i>a se chinui, a se necăji, a se osteni, a se căzni; ► a-şi stupi sufletul, a-i ieşi cuiva sufletul, a-şi da osteneala. </p>",
+    "active": 0,
+    "created_at": "2023-11-21 09:06:12"
+  },
+  {
+    "user_id": 8,
+    "dictionary_id": 9,
+    "name": "A SE TURMENTA",
+    "predefinition": "TURMENTA",
+    "definition": "<p> <i>vb. </i>a se ameţi, a se chercheli, a se îmbăta; ► a fura (a lua, a prinde) luleaua neamţului (cu zale cu tot), a lua (aprinde) prepeliţa (purceaua) de coadă (de nas), a se face cocă, a i se urca cuiva (vinul) la (în) cap, a lovi (a se sui) la cap, a-l ajunge pe cineva băutura (vinul), a face burta butie şi gura pâlnie, a nu se ţine (a fi slab) la băutură; a fi cu ţuica-n nas <i>pop</i>.; ~ <strong>foarte tare </strong>► a se îmbăta turtă (criţă, lulea, tun, clei), a se cocli turtă, a se ţine abia pe picioare, a nu nimeri drumul (uşa), a nu vedea pe unde calcă (de beat ce e), a i se împletici picioarele, a merge pe două (şapte) cărări, a i se împletici limba (în gură). </p>",
+    "active": 0,
+    "created_at": "2023-11-21 09:06:12"
+  },
+  {
+    "user_id": 8,
+    "dictionary_id": 9,
+    "name": "TURMENTAT",
+    "predefinition": "TURMENTAT",
+    "definition": "<p> <i>adj</i>. ameţit, beat, cherchelit; <strong>a fi ~ </strong>► a merge (a umbla) drept ca neamţul, a umbla pe şapte (pe două) cărări, a da cu căciula în câini; <strong>a fi foarte ~ </strong>► a fi beat mort (turtă, criţă, tun, lemn, frânt, cuc, lulea, tei, ciocârlan, tâlv), a fi în patru iţe. </p>",
+    "active": 0,
+    "created_at": "2023-11-21 09:06:12"
+  },
+  {
+    "user_id": 8,
+    "dictionary_id": 9,
+    "name": "A TURTI",
+    "predefinition": "TURTI",
+    "definition": "<p> <i>vb. </i>a strivi; ► a face armonică. </p>",
+    "active": 0,
+    "created_at": "2023-11-21 09:06:12"
+  },
+  {
+    "user_id": 8,
+    "dictionary_id": 9,
+    "name": "TUTUN",
+    "predefinition": "TUTUN",
+    "definition": "<p> <i>n. </i>tabac; ► buruiana (iarba, tămâia) dracului. </p>",
+    "active": 0,
+    "created_at": "2023-11-21 09:06:12"
+  },
+  {
+    "user_id": 8,
+    "dictionary_id": 9,
+    "name": "ŢĂRAN",
+    "predefinition": "ŢĂRAN",
+    "definition": "<p> <i>m. </i>sătean, câmpean; <strong>► </strong>de la coarnele plugului, din popor, (get-beget) coada vacii. </p>",
+    "active": 0,
+    "created_at": "2023-11-21 09:06:12"
+  },
+  {
+    "user_id": 8,
+    "dictionary_id": 9,
+    "name": "ŢĂRĂNIME",
+    "predefinition": "ŢĂRĂNIME",
+    "definition": "<p> <i>f. </i>mojicime <i>înv</i>.; opincă <i>fig</i>.; <strong>► </strong>talpa ţării, talpa casei. </p>",
+    "active": 0,
+    "created_at": "2023-11-21 09:06:12"
+  },
+  {
+    "user_id": 8,
+    "dictionary_id": 9,
+    "name": "ŢEASTĂ",
+    "predefinition": "ŢEASTĂ",
+    "definition": "<p> <i>f</i>. scăfârlie, tigvă, căpăţână <i>pop</i>.; ► cutie craniană. </p>",
+    "active": 0,
+    "created_at": "2023-11-21 09:06:12"
+  },
+  {
+    "user_id": 8,
+    "dictionary_id": 9,
+    "name": "A SE ȚICNI",
+    "predefinition": "ȚICNI",
+    "definition": "<p> <i>vb. </i>a se sminti, a înnebuni; a se aliena <i>livr</i>.; ► a-şi pierde minţile (mintea), a-şi sări din minţi, a-i sări o rotiţă cuiva, a-şi ieşi din minţi, a-şi ieşi (a sări) de pe şină, a-i rătăci cuiva mintea (minţile), a nu fi în toate minţile (în toată mintea), a i se tulbura (a i se întuneca) minţile (mintea), a se tulbura (a se strica) la cap, a mânca ceapa-ciorii, a bea gaz, a mânca măselariţă (mătrăgună, ciuperci, laur); <strong>doar nu m-am ţicnit </strong>► doar n-am mâncat ciuperci (mătrăgună, măselariţă), doar n-am băut gaz, că (încă) nu mi-am pierdut mintea (minţile). </p>",
+    "active": 0,
+    "created_at": "2023-11-21 09:06:12"
+  },
+  {
+    "user_id": 8,
+    "dictionary_id": 9,
+    "name": "ŢICNIT",
+    "predefinition": "ŢICNIT",
+    "definition": "<p> <i>adv. </i>alienat, nebun, dement, smintit; ► stricat la cap, ieşit (scos) din minţi, fără (de) minte (de minţi), bun de (dus la) balamuc, ţicnit la cap, tulbure (scrântit, ţicnit) la minte, lovit (bătut, pălit, trăsnit) cu leuca (în cap), (cam) într-o ureche (într-o doagă, într-o dungă), hop de-o (pe-o) parte; furat de minţi <i>rar</i>; <strong>a fi ~ </strong>► a nu fi sănătos (la minte), a-i lipsi o doagă, a avea igrasie la cap (la mansardă), a aluneca într-o parte, a avea (o) păsărică (păsărele) în (la) cap (sub pălărie), a fi botezat de un popă beat, a fi lovit cu praştia (de praştie) (la cap), a nu fi în toate minţile, a fi deranjat la mansardă, a fi cam hop pe-o parte, a fi (cam) într-o parte, a fi într-o dungă, (parcă) a mâncat bureţi (ciuperci); <strong>doar nu sunt ~ </strong>► doar n-am băut gaz. </p>",
+    "active": 0,
+    "created_at": "2023-11-21 09:06:12"
+  },
+  {
+    "user_id": 8,
+    "dictionary_id": 9,
+    "name": "A ŢINE",
+    "predefinition": "ŢINE",
+    "definition": "<p> <i>vb. </i>1) a aparţine, a depinde; ► a face parte din…; 2) a se prelungi, a continua, a dura; ► a-şi urma cursul; <strong>~ prea mult timp </strong>► a se întinde (ca o pomană ţigănească); 3) a întreţine; ► a duce (a purta) pe cineva în spinare, a purta de grijă; 4) a apuca, a prinde; ► a pune mâna (laba, gheara) pe cineva (pe ceva); ~ <strong>cu forţa </strong>► a lua (a apuca, a ţine) pe cineva de guler. </p>",
+    "active": 0,
+    "created_at": "2023-11-21 09:06:12"
+  },
+  {
+    "user_id": 8,
+    "dictionary_id": 9,
+    "name": "A ŢINTI",
+    "predefinition": "ŢINTI",
+    "definition": "<p> vb. a ochi, a viza; <strong>► </strong>a lua (puşca) la ochi (la cătare), a lua în buza tunului, a pune (o armă) la ochi, a pune ochiul (pe cineva sau ceva), a da chiorâş la (în) ceva <i>înv</i>.; <strong>~ o pasăre ► </strong>a lua pasărea din zbor. </p>",
+    "active": 0,
+    "created_at": "2023-11-21 09:06:12"
+  },
+  {
+    "user_id": 8,
+    "dictionary_id": 9,
+    "name": "A ŢINTUI",
+    "predefinition": "ŢINTUI",
+    "definition": "<p> <i>vb. </i>1) a pironi; ► a bate în cuie; 2) a imobiliza, a pironi; ► a lega burduf (cobză, fedeleş, butuc, curmei). </p>",
+    "active": 0,
+    "created_at": "2023-11-21 09:06:12"
+  },
+  {
+    "user_id": 8,
+    "dictionary_id": 9,
+    "name": "A ŢIPA",
+    "predefinition": "ŢIPA",
+    "definition": "<p> <i>vb</i>. 1) a striga, a răcni; ~ <strong>foarte tare </strong>► a striga (a ţipa) ca din (în) gură de şarpe, a striga din toţi bojocii, a striga să-şi rupă beregata, a striga (a răcni, a ţipa) cât îl ţine gura, a striga (a răcni, a ţipa) în gura mare; 2) a striga, a răcni, a se răsti; a se stropşi <i>pop.</i>; ► a ridica glasul (tonul), a bate din picior (picioare), a face gură (mare, largă). </p>",
+    "active": 0,
+    "created_at": "2023-11-21 09:06:12"
+  },
+  {
+    "user_id": 8,
+    "dictionary_id": 9,
+    "name": "A UCI/DE",
+    "predefinition": "UCIDE",
+    "definition": "<p> <i>vb. </i>a omorî, a asasina; ► a şterge (a rade) pe cineva de pe faţa pământului, a lua (a ridica, a răpune, a curma) cuiva sufletul (zilele, viaţa, piuitul), a scoate pe cineva din viaţă (dintre cei vii), a-i scurta cuiva cărările, a-i face cuiva seama, a vărsa sânge, a vărsa sângele (maţele) cuiva, a ridica cuiva viaţa (zilele), a răsuci (a frânge) cuiva gâtul, a trimite pe cineva pe cealaltă lume (la moarte, în rai, în iad), a vârî pe cineva (de viu) în groapă (în mormânt, în pământ), a zbura cuiva capul (creierii), a face felul, a-i lua cuiva mirul, a-i pune cuiva capul sub picior, a crăpa capul cuiva, a-i face de petrecanie, a da cuiva otpustul, a se scălda în sânge, a face moarte de om, a veni cuiva de hac, a da gata, a-i da măruntaiele (maţele) afară, a trece (a lua, a trage) în (sub, prin) sabie (platoş) pe cineva, a trece pe sub (prin) ascuţişul săbiei (fierului), a face harcea-parcea; <strong>a nu-l ~ </strong>► a lăsa pe cineva cu zile (în viaţă), a-i lăsa zilele, a-i cruţa viaţa; <strong>vei fi ~s </strong>► unde-ţi stau picioarele acolo îţi va sta capul. </p>",
+    "active": 0,
+    "created_at": "2023-11-21 09:06:12"
+  },
+  {
+    "user_id": 8,
+    "dictionary_id": 9,
+    "name": "UCIGAŞ",
+    "predefinition": "UCIGAŞ",
+    "definition": "<p> <i>m. </i>asasin, criminal; <strong>a fi </strong>~ ► a fi setos de sânge, a fi omul sângelui. </p>",
+    "active": 0,
+    "created_at": "2023-11-21 09:06:12"
+  },
+  {
+    "user_id": 8,
+    "dictionary_id": 9,
+    "name": "UD",
+    "predefinition": "UD",
+    "definition": "<p> <i>adj.: </i> <strong>foarte </strong>~ ► ud (murat) ca un şoarece, ud până la piele; <strong>a fi </strong>~ ► a se face (a fi) ciuculete. </p>",
+    "active": 0,
+    "created_at": "2023-11-21 09:06:12"
+  },
+  {
+    "user_id": 8,
+    "dictionary_id": 9,
+    "name": "A SE UDA",
+    "predefinition": "UDA",
+    "definition": "<p> <i>vb. </i>a se urina; ► a-şi face nevoile. </p>",
+    "active": 0,
+    "created_at": "2023-11-21 09:06:12"
+  },
+  {
+    "user_id": 8,
+    "dictionary_id": 9,
+    "name": "A UIMI",
+    "predefinition": "UIMI",
+    "definition": "<p> <i>vb. </i>a impresiona, a frapa; ► a face (a produce) impresie, a face efect, a face figură bună, a face furori; a rupe inima târgului <i>iron.</i>; ~ <strong>puternic ► </strong>a-i lua cuiva ochii (văzul, vederile), a lăsa pe cineva lat (cu gura căscată), a zgudui sufletul; a da gata… <i>pop.</i>; <strong>a nu ~ ► </strong>a lăsa pe cineva rece. </p>",
+    "active": 0,
+    "created_at": "2023-11-21 09:06:12"
+  },
+  {
+    "user_id": 8,
+    "dictionary_id": 9,
+    "name": "A SE UIMI",
+    "predefinition": "UIMI",
+    "definition": "<p> <i>vb. </i>a se minuna, a se mira; ► a rămâne (a sta, a privi, a se uita) cu gura căscată, a rămâne tablou, a face (a deschide) ochii mari (cât cepele), a privi cu ochi mari, a-şi face cruce cu stânga, a-i sta cuiva mintea în loc. </p>",
+    "active": 0,
+    "created_at": "2023-11-21 09:06:12"
+  },
+  {
+    "user_id": 8,
+    "dictionary_id": 9,
+    "name": "UIMITOR",
+    "predefinition": "UIMITOR",
+    "definition": "<p> <i>adj. </i>impresionant, spectaculos, senzaţional; ► în stil mare, de efect, de senzaţie. </p>",
+    "active": 0,
+    "created_at": "2023-11-21 09:06:12"
+  },
+  {
+    "user_id": 8,
+    "dictionary_id": 9,
+    "name": "A UITA",
+    "predefinition": "UITA",
+    "definition": "<p> <i>vb. </i>1) ► a da uitării, a nu ţine minte, a nu-şi mai aduce aminte; ~ <strong>foarte repede </strong>► a uita de la mână până la gură; <strong>a nu </strong>~ <strong>- dată </strong>► a păstra amintirea cuiva (a ceva), a păstra pe cineva (ceva) în amintire; 2) a scăpa; ► a trece cu vederea, a nu lua în seamă, a nu ţine seama; 3) ► a trage (a trece) cu buretele peste ceva, a şterge cu buretele ceva, a şterge de pe răboj; ~ <strong>uşor </strong>► a scrie pe apă (pe nisip). </p>",
+    "active": 0,
+    "created_at": "2023-11-21 09:06:12"
+  },
+  {
+    "user_id": 8,
+    "dictionary_id": 9,
+    "name": "A SE UITA",
+    "predefinition": "UITA",
+    "definition": "<p> <i>vb. </i>a privi; ► a-şi îndrepta ochii (privirea, privirile) asupra cuiva (a ceva); ~ <strong>repede </strong>► a-şi arunca ochii, a arunca o privire (o ochire, a căutătură); ~ <strong>cu dragoste </strong>► a i se scurge ochii după cineva (ceva), a mânca pe cineva din ochi, a se uita la cineva ca la un cireş copt, a înghiţi pe cineva din ochi (cu ochii), a sorbi pe cineva din ochi (cu privirea), a face cuiva ochi dulci; ~ <strong>cu dispreţ </strong>► a lua (a privi) pe cineva de sus; ~ <strong>fix </strong>► a nu-şi lua ochii de la (de pe) cineva (ceva), a înfige ochii; ~ <strong>concentrat </strong>► a rămâne (a sta) cu ochii ţintă, a rămâne cu ochii ţaglă, a înfige ochii; ~ <strong>ruşinat </strong>► a coborî ochii (privirea, privirile), a lăsa ochii în jos (în pământ); ~ <strong>cu regret </strong>► a privi (a se uita) cu jind la ceva; ~ <strong>în sus </strong>► a-şi înălţa ochii; ~ <strong>mirat </strong>► a căsca gura (la ceva sau la cineva), a ridica sprâncenele (din sprâncene), a face (a deschide) ochii mari; ~ <strong>insistent </strong>► a pironi (a fixa, a ţintui) cu privirea (cu ochii), a nu-şi mai putea lua ochii de la cineva, a-i fugi cuiva ochii după cineva, a se uita (a privi) lung la cineva (la ceva); <strong>~ în grabă </strong>►a privi din fugă, a-şi arunca privirile, a arunca o privire; ~ <strong>pe furiş </strong>► a trage cu ochiul, a trage (a privi) cu coada ochiului, a se uita (a pândi) pe sub sprâncene, a privi (a se uita) chiorâş, a fura pe cineva cu ochii; </p>",
+    "active": 0,
+    "created_at": "2023-11-21 09:06:12"
+  },
+  {
+    "user_id": 8,
+    "dictionary_id": 9,
+    "name": "neconcentrat",
+    "predefinition": "neconcentrat",
+    "definition": "<p> ~ ► a privi în gol, a privi cu ochii pierduţi, a privi (a se uita) fără de ţintă; ~ <strong>nepăsător </strong>► a privi cu ochi de piatră; a privi de sub oghial <i>reg</i>.; ~ <strong>cu duşmănie </strong>► a se uita urât la cineva; ~ <strong>întruna </strong>(la cineva, la ceva) ► a nu slăbi din ochi pe cineva (ceva); ~ <strong>de jur împrejur </strong>► a-şi face ochii roată, a-şi roti (a-şi învârti) ochii (privirea); ~ <strong>cu jind </strong>► a se uita ca pisica la tigaie, a se uita ca mâţa la peşte; ~ <strong>dârz </strong>► a înfrunta privirea (privirile, căutăturile). </p>",
+    "active": 0,
+    "created_at": "2023-11-21 09:06:12"
+  },
+  {
+    "user_id": 8,
+    "dictionary_id": 9,
+    "name": "UITAT",
+    "predefinition": "UITAT",
+    "definition": "<p> <i>adj. </i>► dat uitării. </p>",
+    "active": 0,
+    "created_at": "2023-11-21 09:06:12"
+  },
+  {
+    "user_id": 8,
+    "dictionary_id": 9,
+    "name": "UITUC",
+    "predefinition": "UITUC",
+    "definition": "<p> <i>adj. </i>uitător <i>rar</i>; <strong>a fi </strong>~ ► a avea memorie scurtă. </p>",
+    "active": 0,
+    "created_at": "2023-11-21 09:06:12"
+  },
+  {
+    "user_id": 8,
+    "dictionary_id": 9,
+    "name": "ULTERIOR",
+    "predefinition": "ULTERIOR",
+    "definition": "<p> <i>adv. </i>apoi; ► după aceea, pe urmă. </p>",
+    "active": 0,
+    "created_at": "2023-11-21 09:06:12"
+  },
+  {
+    "user_id": 8,
+    "dictionary_id": 9,
+    "name": "A UMBLA",
+    "predefinition": "UMBLA",
+    "definition": "<p> <i>vb. </i>a merge; ~ <strong>fără folos </strong>► a umbla fără rost, a roade papucii degeaba, a bate (a umbla) calea mânzului, a ţine calea, a umbla cu capul în traistă (între urechi), a umbla după potcoave de cai morţi, a umbla după cai morţi să le ia potcoavele, a umbla după borta vântului; <strong>~ mult ► </strong>a-şi bate (a-şi rupe) picioarele, a umbla cu opinci de fier; ~ <strong>repede </strong>► a umbla ca o fofează; ~ <strong>fără nicio treabă </strong>► a căsca gura la cineva (la ceva); ~ <strong>fără grijă </strong>►a umbla cu flori la pălărie; ~ <strong>abătut </strong>► a umbla (a merge) ca după mort; ~ <strong>împiedicându- se </strong>► a umbla ca o găină beată. </p>",
+    "active": 0,
+    "created_at": "2023-11-21 09:06:12"
+  },
+  {
+    "user_id": 8,
+    "dictionary_id": 9,
+    "name": "A UMBRI",
+    "predefinition": "UMBRI",
+    "definition": "<p> <i>vb. </i>a adumbri; ► a face (a ţine) umbră. </p>",
+    "active": 0,
+    "created_at": "2023-11-21 09:06:12"
+  },
+  {
+    "user_id": 8,
+    "dictionary_id": 9,
+    "name": "A UMILI",
+    "predefinition": "UMILI",
+    "definition": "<p> <i>vb. </i>a înjosi; ► a pune în genunchi pe cineva, a călca pe cineva în picioare, a face din cal măgar, a trece pe cineva prin (sub) furcile caudine. </p>",
+    "active": 0,
+    "created_at": "2023-11-21 09:06:12"
+  },
+  {
+    "user_id": 8,
+    "dictionary_id": 9,
+    "name": "A SE UMILI",
+    "predefinition": "UMILI",
+    "definition": "<p> <i>vb. </i>a se înjosi; ► a-şi pleca fruntea (capul, grumazul, genunchii, nasul), a cădea în genunchi în faţa cuiva, a cădea (a se arunca) la picioarele cuiva, a săruta cuiva picioarele; a face act de penitenţă <i>livr</i>. </p>",
+    "active": 0,
+    "created_at": "2023-11-21 09:06:12"
+  },
+  {
+    "user_id": 8,
+    "dictionary_id": 9,
+    "name": "UMILIT",
+    "predefinition": "UMILIT",
+    "definition": "<p> <i>adj. </i>înjosit, ruşinat; ► cu coada între picioare (între vine), cu capul plecat, cu nasul (cu ochii) în jos, ca o mâţă (o pisică) plouată. </p>",
+    "active": 0,
+    "created_at": "2023-11-21 09:06:12"
+  },
+  {
+    "user_id": 8,
+    "dictionary_id": 9,
+    "name": "UNDEVA",
+    "predefinition": "UNDEVA",
+    "definition": "<p> <i>adv. </i>► (până) cine ştie unde, în lume, pe faţa pământului. </p>",
+    "active": 0,
+    "created_at": "2023-11-21 09:06:12"
+  },
+  {
+    "user_id": 8,
+    "dictionary_id": 9,
+    "name": "A UNELT/I",
+    "predefinition": "UNELTI",
+    "definition": "<p> <i>vb. </i>a urzi, a complota, a conspira; ► a săpa groapa cuiva, a pune (ceva) la cale, a trage sforile, a ţese pânzele; ~ <strong>cu multă dibăcie </strong>► a lucra în foi de viţă; <strong>~eşte </strong>► tace şi coace (şi face). </p>",
+    "active": 0,
+    "created_at": "2023-11-21 09:06:12"
+  },
+  {
+    "user_id": 8,
+    "dictionary_id": 9,
+    "name": "UNEORI",
+    "predefinition": "UNEORI",
+    "definition": "<p> <i>adv. </i>câteodată, rareori, rar; ► când şi când, în răstimpuri, din vreme în vreme, din când în când, din timp în timp, (pe) la soroace, din răstimp în răstimp, la zile mari, de joi până mai (de) apoi, din an în Paşti, din Paşti în Paşti, din Paşti în Crăciun. </p>",
+    "active": 0,
+    "created_at": "2023-11-21 09:06:12"
+  },
+  {
+    "user_id": 8,
+    "dictionary_id": 9,
+    "name": "A SE UNI",
+    "predefinition": "UNI",
+    "definition": "<p> <i>vb. </i>1) a se asocia, a se întovărăşi; a se prinde <i>pop</i>. ► a face corp comun cu cineva, a face cor (cu alţii), a pune pânza în stative cu cineva, a se pune în plug cu cineva, a băga (a-şi pune) boii (vitele) în plug cu cineva, a intra (a se pune) în cârd cu cineva, a intra în cârdăşie (în haită) cu cineva, a face cârdăşie cu cineva; 2) a se contopi; ► a fi una. </p>",
+    "active": 0,
+    "created_at": "2023-11-21 09:06:12"
+  },
+  {
+    "user_id": 8,
+    "dictionary_id": 9,
+    "name": "UNIC",
+    "predefinition": "UNIC",
+    "definition": "<p> <i>adj. </i>incomparabil, neasemănat, neasemuit; ► fără (de) seamăn, fără seamă, fără pereche, fără asemănare, fără egal, numărul unu; <strong>a fi </strong>~ ► a nu-şi afla (a nu avea) pereche, a nu (mai) avea seamăn (pe lume). </p>",
+    "active": 0,
+    "created_at": "2023-11-21 09:06:12"
+  },
+  {
+    "user_id": 8,
+    "dictionary_id": 9,
+    "name": "UNIC",
+    "predefinition": "UNIC",
+    "definition": "<p> <i>adj. </i>neasemuit, incomparabil, inegalabil, excepţional; ► fără de seamăn; <strong>a fi </strong>~ ► a nu (mai) avea seamăn (pe lume), a nu avea soţ. </p>",
+    "active": 0,
+    "created_at": "2023-11-21 09:06:12"
+  },
+  {
+    "user_id": 8,
+    "dictionary_id": 9,
+    "name": "UNIT",
+    "predefinition": "UNIT",
+    "definition": "<p> <i>adj. </i>solidar, înfrăţit; <strong>a fi </strong>~ <strong>cu cineva </strong>► a fi alături de cineva, a fi mână în mână cu cineva. </p>",
+    "active": 0,
+    "created_at": "2023-11-21 09:06:12"
+  },
+  {
+    "user_id": 8,
+    "dictionary_id": 9,
+    "name": "A URGENTA",
+    "predefinition": "URGENTA",
+    "definition": "<p> <i>vb. </i>a grăbi, a accelera, a iuţi; ► a băga gaz <i>pop.</i> </p>",
+    "active": 0,
+    "created_at": "2023-11-21 09:06:12"
+  },
+  {
+    "user_id": 8,
+    "dictionary_id": 9,
+    "name": "A URINA",
+    "predefinition": "URINA",
+    "definition": "<p> <i>vb. </i>a se uda; ► a-şi face nevoile. </p>",
+    "active": 0,
+    "created_at": "2023-11-21 09:06:12"
+  },
+  {
+    "user_id": 8,
+    "dictionary_id": 9,
+    "name": "A URÎ",
+    "predefinition": "URÎ",
+    "definition": "<p> <i>vb. </i>a duşmăni, a vrăjmăşi; a pizmui <i>înv</i>.; ► a(-i) purta cuiva pică (râcă), a purta (a ţine) cuiva sâmbetele, a nu se uita la cineva, a privi pe cineva cu ochi răi, a ţine cuiva (pe cineva) mânie. </p>",
+    "active": 0,
+    "created_at": "2023-11-21 09:06:12"
+  },
+  {
+    "user_id": 8,
+    "dictionary_id": 9,
+    "name": "A SE URÎ",
+    "predefinition": "URÎ",
+    "definition": "<p> <i>vb. </i>a se dezgusta, a se plictisi, a se sătura; a se lehămeti <i>reg</i>.; ► a fi sătul de, a i se face lehamete (scârbă, silă, greaţă), a-i fi cuiva urât, a-i fi lehamite, a-i sta în gât, a i se înăcri cuiva sufletul (inima) de cineva (de ceva), a-i fi greu de cineva (de ceva); a-i fi (a i se face) cuiva scârbă, a-l prinde (a-l cuprinde) pe cineva scârba (o scârbă) <i>reg</i>.; ~ <strong>tare </strong>(<strong>de cineva</strong>) ► a se sătura de ceva (de cineva) ca de mere acre (pădureţe), a se sătura de cineva până în gât (până peste cap). </p>",
+    "active": 0,
+    "created_at": "2023-11-21 09:06:12"
+  },
+  {
+    "user_id": 8,
+    "dictionary_id": 9,
+    "name": "A URMA",
+    "predefinition": "URMA",
+    "definition": "<p> <i>vb. </i>1) a asculta; ► a se lua după capul cuiva, a se uita în gura cuiva; 2) a continua; ► a(-i) da înainte (cu…). </p>",
+    "active": 0,
+    "created_at": "2023-11-21 09:06:12"
+  },
+  {
+    "user_id": 8,
+    "dictionary_id": 9,
+    "name": "A URMĂRI",
+    "predefinition": "URMĂRI",
+    "definition": "<p> <i>vb. </i>1) a fugări; ► a nu slăbi din goană, a fi pe urmele cuiva; 2) a pândi; ► a sta la (de) pândă, a merge pe urmele cuiva, a se ţine de pasul cuiva, a se lua după cineva, a şedea ca lupul la răspântie; 3) a privi; ~ pe cineva care se depărtează ► a petrece pe cineva cu ochii (cu privirea); 4) a supraveghea; ► a sta cu ochii pe cineva, a lua cuiva seama, a nu scăpa pe cineva (ceva) din ochi (din vedere), a nu slăbi pe cineva. </p>",
+    "active": 0,
+    "created_at": "2023-11-21 09:06:12"
+  },
+  {
+    "user_id": 8,
+    "dictionary_id": 9,
+    "name": "URSUZ",
+    "predefinition": "URSUZ",
+    "definition": "<p> <i>adj. </i>nemulţumit, posac, posomorât; ► zbârcit ca un arici; <strong>a fi ~ </strong>► a strâmba (a cârni) din nas, a încreţi (a încrunta) sprâncenele, (parcă) îi tot ninge şi-i plouă (întruna). </p>",
+    "active": 0,
+    "created_at": "2023-11-21 09:06:12"
+  },
+  {
+    "user_id": 8,
+    "dictionary_id": 9,
+    "name": "A URZ/I",
+    "predefinition": "URZI",
+    "definition": "<p> <i>vb. </i>a unelti, a conspira, a complota; ► a săpa groapa cuiva, a pune ceva la cale, a trage sforile, a ţese pânzele; ~ <strong>cu multă dibăcie </strong>► a lucra în foi de viţă; <strong>~eşte </strong>► tace şi coace (şi face). </p>",
+    "active": 0,
+    "created_at": "2023-11-21 09:06:12"
+  },
+  {
+    "user_id": 8,
+    "dictionary_id": 9,
+    "name": "A SE USCA",
+    "predefinition": "USCA",
+    "definition": "<p> <i>vb. </i>a slăbi; a se ofili <i>fig.</i>; ► ► a se trage la faţă (la obraji, la chip); <strong>~ foarte tare </strong>► a se face pastramă, a se topi (a se usca, a se pierde) pe (din) picioare, a se face scoabă, a fi (a se usca, a rămâne) ca scândura, a se preface în moaşte, a se face iască. </p>",
+    "active": 0,
+    "created_at": "2023-11-21 09:06:12"
+  },
+  {
+    "user_id": 8,
+    "dictionary_id": 9,
+    "name": "UŞOR",
+    "predefinition": "UŞOR",
+    "definition": "<p> 1. <i>adv. </i>1) facil, lesne; ► ca untul, cu înlesnire, cu uşurinţă, cu facilitate, fără greutate; <strong>foarte </strong>~ ► cu ochii închişi, ca pe mâneca cămăşii; 2) repede; ► din două cuvinte (vorbe), dintr-o vorbă, dintr-un cuvânt; 2. <i>adj. </i>simplu, elementar; <strong>foarte </strong>~ ► doi şi cu doi fac patru, simplu ca buna ziua; <strong>lucru ~ ► </strong>floare la ureche. </p>",
+    "active": 0,
+    "created_at": "2023-11-21 09:06:12"
+  },
+  {
+    "user_id": 8,
+    "dictionary_id": 9,
+    "name": "A UŞURA",
+    "predefinition": "UŞURA",
+    "definition": "<p> <i>vb. </i>a facilita, a înlesni; ► a-i netezi cuiva calea (drumul). </p>",
+    "active": 0,
+    "created_at": "2023-11-21 09:06:12"
+  },
+  {
+    "user_id": 8,
+    "dictionary_id": 9,
+    "name": "UŞURATIC",
+    "predefinition": "UŞURATIC",
+    "definition": "<p> <i>adj. </i>nesocotit, fluşturatic, frivol; <strong>a fi </strong>~ ► a sări gardurile (peste garduri). </p>",
+    "active": 0,
+    "created_at": "2023-11-21 09:06:12"
+  },
+  {
+    "user_id": 8,
+    "dictionary_id": 9,
+    "name": "UTIL",
+    "predefinition": "UTIL",
+    "definition": "<p> <i>adj. </i>folositor, bun, necesar, trebuincios; ► de trebuinţă, de folos, de lipsă; <strong>foarte ~ ► </strong>ca sarea în bucate, de neapărată nevoie, de prima necesitate, de cea mai mare necesitate; <strong>a fi ~ </strong>► a(-i) prinde cuiva bine, a(-i) fi de folos. </p>",
+    "active": 0,
+    "created_at": "2023-11-21 09:06:12"
+  },
+  {
+    "user_id": 8,
+    "dictionary_id": 9,
+    "name": "A UTILIZA",
+    "predefinition": "UTILIZA",
+    "definition": "<p> <i>vb. </i>a folosi, a întrebuinţa; a uzita <i>livr.</i>; ► a face uz; ~ <strong>zilnic </strong>(<i>o haină) </i>► a lua la purtare. </p>",
+    "active": 0,
+    "created_at": "2023-11-21 09:06:12"
+  },
+  {
+    "user_id": 8,
+    "dictionary_id": 9,
+    "name": "A SE UTILIZA",
+    "predefinition": "UTILIZA",
+    "definition": "<p> <i>vb. </i>a se aplica, a se folosi, a se întrebuinţa; ► (<i>despre legi</i>, <i>dispoziţii </i>etc.) a intra în vigoare; <strong>a nu ~ </strong>► (<i>despre o lege, un tratat </i>etc.) a rămâne (a deveni) literă moartă. </p>",
+    "active": 0,
+    "created_at": "2023-11-21 09:06:12"
+  },
+  {
+    "user_id": 8,
+    "dictionary_id": 9,
+    "name": "A UZA",
+    "predefinition": "UZA",
+    "definition": "<p> <i>vb. </i>a rupe, a ferfeniţi, a distruge; ► a face (a rupe) ferfeniţă, a face praf. </p>",
+    "active": 0,
+    "created_at": "2023-11-21 09:06:12"
+  },
+  {
+    "user_id": 8,
+    "dictionary_id": 9,
+    "name": "A SE UZA",
+    "predefinition": "UZA",
+    "definition": "<p> <i>vb. </i>1) a se deregla, a se degrada, a se deteriora, a se defecta, a se strica; ► a ieşi din funcţie (din funcţiune, din uz); 2) a se învechi; ► a-şi trăi traiul, a ieşi din uz. </p>",
+    "active": 0,
+    "created_at": "2023-11-21 09:06:12"
+  },
+  {
+    "user_id": 8,
+    "dictionary_id": 9,
+    "name": "UZAT",
+    "predefinition": "UZAT",
+    "definition": "<p> <i>adj. </i>► ieşit (scos) din uz. </p>",
+    "active": 0,
+    "created_at": "2023-11-21 09:06:12"
+  },
+  {
+    "user_id": 8,
+    "dictionary_id": 9,
+    "name": "A UZITA",
+    "predefinition": "UZITA",
+    "definition": "<p> <i>vb. </i>a utiliza, a folosi, a întrebuinţa; ► a face uz; ~ <strong>zilnic </strong>(<i>o haină) </i>► a lua la purtare. </p>",
+    "active": 0,
+    "created_at": "2023-11-21 09:06:12"
+  },
+  {
+    "user_id": 8,
+    "dictionary_id": 9,
+    "name": "A UZURPA",
+    "predefinition": "UZURPA",
+    "definition": "<p> <i>vb. </i>a lua, a abuza; ► a se face stăpân pe ceva. </p>",
+    "active": 0,
+    "created_at": "2023-11-21 09:06:12"
+  },
+  {
+    "user_id": 8,
+    "dictionary_id": 9,
+    "name": "VAG",
+    "predefinition": "VAG",
+    "definition": "<p> 1. <i>adj. </i>neclar, confuz, încurcat, imprecis; <strong>a fi ~ </strong>► a nu avea nici cap, nici coadă; 2. <i>adv. </i>neclar, confuz; ► ca prin (în) vis. </p>",
+    "active": 0,
+    "created_at": "2023-11-21 09:06:12"
+  },
+  {
+    "user_id": 8,
+    "dictionary_id": 9,
+    "name": "VAGABOND",
+    "predefinition": "VAGABOND",
+    "definition": "<p> <i>m. </i>derbedeu, haimana, golan; ► vântură-lume, vântură-ţară, pierde-vară, fluieră-vânt, teleleu-Tănase, bate-poduri (drumuri). </p>",
+    "active": 0,
+    "created_at": "2023-11-21 09:06:12"
+  },
+  {
+    "user_id": 8,
+    "dictionary_id": 9,
+    "name": "A VAGABONDA",
+    "predefinition": "VAGABONDA",
+    "definition": "<p> <i>vb. </i>a hoinări, a pribegi, a rătăci, a colinda; ► a umbla haimana (frunza, lela, în dorul lelii, creanga, de frunza frăsinelului, handralău, de florile mărului, de flori de cuc, meleagurile, haihui, teleleu (Tănase), huci-marginea, cu cortul), a bate (a ţine, a păzi) drumul (drumurile), a bate (a ţine) prundurile (podurile, pragurile, uliţele, străzile), a bate târgurile (ţările), a bate crânguri (prunduri), a umbla pe coclauri (cu cortul), a umbla ca un cotoi, a pleca în dorul lelii, a umbla prin lume, a nu- şi (mai) strânge picioarele (de pe drumuri), a umbla prin lume, a cutreiera lumea, a lua lumea de-a lungul (şi de-a latul). </p>",
+    "active": 0,
+    "created_at": "2023-11-21 09:06:12"
+  },
+  {
+    "user_id": 8,
+    "dictionary_id": 9,
+    "name": "VALABIL",
+    "predefinition": "VALABIL",
+    "definition": "<p> <i>adj. </i>valid, aplicabil; <strong>a fi ~ ► </strong>a rămâne (a fi, a sta) în picioare. </p>",
+    "active": 0,
+    "created_at": "2023-11-21 09:06:12"
+  },
+  {
+    "user_id": 8,
+    "dictionary_id": 9,
+    "name": "VALET",
+    "predefinition": "VALET",
+    "definition": "<p> <i>m. </i>lacheu; ► băiat (fecior) de casă. </p>",
+    "active": 0,
+    "created_at": "2023-11-21 09:06:12"
+  },
+  {
+    "user_id": 8,
+    "dictionary_id": 9,
+    "name": "VALID",
+    "predefinition": "VALID",
+    "definition": "<p> <i>adj. </i>valabil, aplicabil; <strong>a fi ~ ► </strong>a rămâne (a fi, a sta) în picioare. </p>",
+    "active": 0,
+    "created_at": "2023-11-21 09:06:12"
+  },
+  {
+    "user_id": 8,
+    "dictionary_id": 9,
+    "name": "VALOAR/E",
+    "predefinition": "VALOARE",
+    "definition": "<p> <i>f. </i>importanţă, însemnătate; <strong>a avea </strong>~ ► a trage (greu) în cumpănă (la cântar); <strong>fără ~ ► </strong>de mâna a doua (a şaptea, a paisprezecea), tot doi bani (lei) şi un ort, de nimic; <strong>a fi de ~ea cuiva </strong>► a fi de talia cuiva. </p>",
+    "active": 0,
+    "created_at": "2023-11-21 09:06:12"
+  },
+  {
+    "user_id": 8,
+    "dictionary_id": 9,
+    "name": "A VALORA",
+    "predefinition": "VALORA",
+    "definition": "<p> <i>vb</i>. a preţui, a face, a costa; ~ <strong>foarte mult </strong>► a valora cât un colţ de ţară; <strong>a nu </strong>~ <strong>nimic </strong>► a nu face nici (cât) o ceapă degerată, a nu plăti niciun zlot (rău) în ochii cuiva, a nu face (a nu plăti) un baraboi (un ban chior, doi bani, două parale), a costa doi bani (două parale), a nu face parale (para (chioară, putredă), (nici) două parale, niciun fir de tort), a nu face nici de-un potroc, a nu avea valoare, a nu face nici pe dracul. </p>",
+    "active": 0,
+    "created_at": "2023-11-21 09:06:12"
+  },
+  {
+    "user_id": 8,
+    "dictionary_id": 9,
+    "name": "VALOROS",
+    "predefinition": "VALOROS",
+    "definition": "<p> <i>adj. </i>1<strong>) </strong>important, însemnat, preţios; <strong>a fi foarte </strong>~ ► a fi fără (de) preţ, a nu avea preţ; 2) scump, preţios; ► de preţ, de valoare, de calitate, de muzeu. </p>",
+    "active": 0,
+    "created_at": "2023-11-21 09:06:12"
+  },
+  {
+    "user_id": 8,
+    "dictionary_id": 9,
+    "name": "VAN",
+    "predefinition": "VAN",
+    "definition": "<p> <i>adj</i>. inutil, zadarnic; ► fără nicio (vreo) ispravă, fără (de) rost. </p>",
+    "active": 0,
+    "created_at": "2023-11-21 09:06:12"
+  },
+  {
+    "user_id": 8,
+    "dictionary_id": 9,
+    "name": "VARIAT",
+    "predefinition": "VARIAT",
+    "definition": "<p> <i>adj</i>. divers, diferit, felurit;► fel de fel, de toată mâna, de tot neamul, de toate neamurile, de tot felul. </p>",
+    "active": 0,
+    "created_at": "2023-11-21 09:06:12"
+  },
+  {
+    "user_id": 8,
+    "dictionary_id": 9,
+    "name": "VAST",
+    "predefinition": "VAST",
+    "definition": "<p> <i>adj. </i>1) nemărginit, necuprins, imens, incomensurabil; ► fără (de) margini, de necuprins, fără (de) hotar (hotare); 2) ► de mare anvergură, pe plan mare. </p>",
+    "active": 0,
+    "created_at": "2023-11-21 09:06:12"
+  },
+  {
+    "user_id": 8,
+    "dictionary_id": 9,
+    "name": "VĂDIT",
+    "predefinition": "VĂDIT",
+    "definition": "<p> <i>adj. </i>clar, evident; ► bătător la ochi, la mintea omului (cocoşului), limpede (clar) ca lumina zilei; cum te văd şi cum mă vezi <i>fam</i>.; <strong>a fi ~ </strong>► a sări în ochi; <strong>este ~ </strong>► se înţelege de la sine, e cu ochi şi cu sprâncene. </p>",
+    "active": 0,
+    "created_at": "2023-11-21 09:06:12"
+  },
+  {
+    "user_id": 8,
+    "dictionary_id": 9,
+    "name": "A VĂMUI",
+    "predefinition": "VĂMUI",
+    "definition": "<p> <i>vb. </i>► a pune vamă. </p>",
+    "active": 0,
+    "created_at": "2023-11-21 09:06:12"
+  },
+  {
+    "user_id": 8,
+    "dictionary_id": 9,
+    "name": "A VĂRSA",
+    "predefinition": "VĂRSA",
+    "definition": "<p> <i>vb. </i>a vomita, a voma; ~ <strong>tare </strong>► a da (mâncare) la boboci <i>iron</i>., a-şi vărsa (şi) maţele (măruntaiele). </p>",
+    "active": 0,
+    "created_at": "2023-11-21 09:06:12"
+  },
+  {
+    "user_id": 8,
+    "dictionary_id": 9,
+    "name": "VÂLVĂ",
+    "predefinition": "VÂLVĂ",
+    "definition": "<p> <i>f. </i>agitaţie, zarvă, gălăgie; <strong>cu mare </strong>~ ► cu surle şi trâmbiţe (trompete). </p>",
+    "active": 0,
+    "created_at": "2023-11-21 09:06:12"
+  },
+  {
+    "user_id": 8,
+    "dictionary_id": 9,
+    "name": "VÂNJOS",
+    "predefinition": "VÂNJOS",
+    "definition": "<p> <i>adj. </i>puternic, voinic, viguros; ► în putere (în puteri), fără splină, tare (bun) de vână, de bronz; <strong>foarte ~ </strong>► mare şi tare, tare şi mare, sparge piatra în palmă; <strong>a fi ~</strong> </p>",
+    "active": 0,
+    "created_at": "2023-11-21 09:06:12"
+  },
+  {
+    "user_id": 8,
+    "dictionary_id": 9,
+    "name": "a fi foarte~",
+    "predefinition": "a fi foarte~",
+    "definition": "<p> ► a avea sânge în vine, a fi de şapte palme în piept, a fi tare de vârtute; ► a sfărâma piatra, a rupe mâţa în două. </p>",
+    "active": 0,
+    "created_at": "2023-11-21 09:06:12"
+  },
+  {
+    "user_id": 8,
+    "dictionary_id": 9,
+    "name": "A VÂNTURA",
+    "predefinition": "VÂNTURA",
+    "definition": "<p> <i>vb. </i>(<i>cereale</i>) a treiera ► a da la lopată. </p>",
+    "active": 0,
+    "created_at": "2023-11-21 09:06:12"
+  },
+  {
+    "user_id": 8,
+    "dictionary_id": 9,
+    "name": "VÂRSTNIC",
+    "predefinition": "VÂRSTNIC",
+    "definition": "<p> <i>adj. </i>bătrân; ► înaintat în vârstă, vechi (înaintat) în zile, în etate, nins de ani (de vreme); <strong>a fi foarte ~ </strong>a fi uitat de moarte, a fi încărcat de ani, a fi cu un picior în mormânt, a fi cu un picior în groapă (şi cu unul afară), a fi (a ajunge) pe marginea mormântului (gropii), a nu mai avea mult, a fi mâncat pâine din multe cuptoare, a fi mâncat mulţi Paşti (Crăciuni). </p>",
+    "active": 0,
+    "created_at": "2023-11-21 09:06:12"
+  },
+  {
+    "user_id": 8,
+    "dictionary_id": 9,
+    "name": "A VÂSLI",
+    "predefinition": "VÂSLI",
+    "definition": "<p> <i>vb. </i>a lopăta; ► a trage la rame (din lopată). </p>",
+    "active": 0,
+    "created_at": "2023-11-21 09:06:12"
+  },
+  {
+    "user_id": 8,
+    "dictionary_id": 9,
+    "name": "VECHI",
+    "predefinition": "VECHI",
+    "definition": "<p> <i>adj. </i>învechit, perimat, desuet; vetust <i>livr</i>.; ► ieşit din uz, de modă veche, din (de la) moşi-strămoşi, din vremea veche, din bătrâni, de demult, din vechime, de pe vremuri (de mult apuse), de ani şi ani, de sute (mii) de ani, vechi ca pământul, de când e lumea, din vremea lui han-tătar. </p>",
+    "active": 0,
+    "created_at": "2023-11-21 09:06:12"
+  },
+  {
+    "user_id": 8,
+    "dictionary_id": 9,
+    "name": "VECIN",
+    "predefinition": "VECIN",
+    "definition": "<p> <i>adj. </i>învecinat; ► de alături. </p>",
+    "active": 0,
+    "created_at": "2023-11-21 09:06:12"
+  },
+  {
+    "user_id": 8,
+    "dictionary_id": 9,
+    "name": "VECINĂTATE",
+    "predefinition": "VECINĂTATE",
+    "definition": "<p> <i>f. </i>împrejurime, vecinătate; <strong>în (prin) ~ </strong>► în (prin) vecini, în (prin) preajmă. </p>",
+    "active": 0,
+    "created_at": "2023-11-21 09:06:12"
+  },
+  {
+    "user_id": 8,
+    "dictionary_id": 9,
+    "name": "A VEDEA",
+    "predefinition": "VEDEA",
+    "definition": "<p> <i>vb.: </i>~ <strong>neclar </strong>►a vedea (a zări) ca prin sită (prin ciur, prin pânză, prin ceaţă), a avea orbul găinilor; <strong>a nu </strong>~ <strong>nimic </strong>(<strong>din cauza întunericului</strong>) ► a-şi da cu degetele în ochi; 2) a sesiza, a observa; <strong>fără ~ </strong>► pe nesimţite. </p>",
+    "active": 0,
+    "created_at": "2023-11-21 09:06:12"
+  },
+  {
+    "user_id": 8,
+    "dictionary_id": 9,
+    "name": "A SE VEDEA",
+    "predefinition": "VEDEA",
+    "definition": "<p> <i>vb. </i>►a călca (a trece, a păşi) cuiva pragul; ~ <strong>prea des </strong>► a roade cuiva pragul. </p>",
+    "active": 0,
+    "created_at": "2023-11-21 09:06:12"
+  },
+  {
+    "user_id": 8,
+    "dictionary_id": 9,
+    "name": "A VEGHEA",
+    "predefinition": "VEGHEA",
+    "definition": "<p> <i>vb. </i>1) ► a sta treaz, a face noaptea zi, a face din noapte zi; 2) a sta la căpătâiul cuiva. </p>",
+    "active": 0,
+    "created_at": "2023-11-21 09:06:12"
+  },
+  {
+    "user_id": 8,
+    "dictionary_id": 9,
+    "name": "VEGHETOR",
+    "predefinition": "VEGHETOR",
+    "definition": "<p> <i>m. rar </i>► înger păzitor. </p>",
+    "active": 0,
+    "created_at": "2023-11-21 09:06:12"
+  },
+  {
+    "user_id": 8,
+    "dictionary_id": 9,
+    "name": "A VENI",
+    "predefinition": "VENI",
+    "definition": "<p> <i>vb. </i>1) a sosi; ~ <strong>pe neaşteptate </strong>► a cădea ca o bombă, a cădea (a pica) din cer, a cădea pe capul cuiva, a-i cădea cuiva belea pe cap, a cădea cu hârzobul din cer, a pica (a fi picat) (ca) din lună (nori, stele), a-i pica cuiva plocon; 2) a vizita; ► a bate la uşă, a bate la uşa cuiva, a călca (a trece, a păşi) cuiva pragul, a trece pragul casei cuiva; ~ <strong>prea des </strong>► a roade cuiva pragul; <strong>~ repede, în grabă </strong>► a da o fugă (o raită). </p>",
+    "active": 0,
+    "created_at": "2023-11-21 09:06:12"
+  },
+  {
+    "user_id": 8,
+    "dictionary_id": 9,
+    "name": "VERBAL",
+    "predefinition": "VERBAL",
+    "definition": "<p> <i>adv. </i>oral; ► prin viu grai, prin vorbă (cuvânt). </p>",
+    "active": 0,
+    "created_at": "2023-11-21 09:06:12"
+  },
+  {
+    "user_id": 8,
+    "dictionary_id": 9,
+    "name": "A VERIFICA",
+    "predefinition": "VERIFICA",
+    "definition": "<p> <i>vb. </i>(<i>pe cineva</i>) a controla, a încerca; ► a pune la încercare. </p>",
+    "active": 0,
+    "created_at": "2023-11-21 09:06:12"
+  },
+  {
+    "user_id": 8,
+    "dictionary_id": 9,
+    "name": "VERITABIL",
+    "predefinition": "VERITABIL",
+    "definition": "<p> <i>adj. </i>adevărat, neaoş; ► get-beget, în toată puterea cuvântului. </p>",
+    "active": 0,
+    "created_at": "2023-11-21 09:06:12"
+  },
+  {
+    "user_id": 8,
+    "dictionary_id": 9,
+    "name": "VERSAT",
+    "predefinition": "VERSAT",
+    "definition": "<p> <i>adj. </i>încercat, experimentat; ► lup bătrân; <strong>a fi ~ </strong>►a fi uns cu toate unsorile. </p>",
+    "active": 0,
+    "created_at": "2023-11-21 09:06:12"
+  },
+  {
+    "user_id": 8,
+    "dictionary_id": 9,
+    "name": "VERTICAL",
+    "predefinition": "VERTICAL",
+    "definition": "<p> <i>adj. </i>drept; ► (drept) ca lumânarea. </p>",
+    "active": 0,
+    "created_at": "2023-11-21 09:06:12"
+  },
+  {
+    "user_id": 8,
+    "dictionary_id": 9,
+    "name": "VERTIJ",
+    "predefinition": "VERTIJ",
+    "definition": "<p> <i>n. </i>ameţeală; <strong>a avea ~uri </strong>► a se învârti casa (locul, pământul) cu cineva, a i se face galben înaintea ochilor, a i se învârti capul. </p>",
+    "active": 0,
+    "created_at": "2023-11-21 09:06:12"
+  },
+  {
+    "user_id": 8,
+    "dictionary_id": 9,
+    "name": "VESEL",
+    "predefinition": "VESEL",
+    "definition": "<p> <i>adj. </i>1) bucuros, mulţumit, voios; <strong>a fi foarte ~ </strong>► a nu-şi mai găsi loc (locul) (de bucurie, de veselie), a nu-şi mai încăpea în piele, a nu-l mai încăpea (pe cineva) pielea, a nu-l mai ţine (pe cineva) locul, a i se umple inima de bucurie, a fi cu inima uşoară, a-i zburda cuiva inima; 2) hazliu, amuzant, comic; ► de râs, cu haz; de toată nostimada <i>fam.</i> </p>",
+    "active": 0,
+    "created_at": "2023-11-21 09:06:12"
+  },
+  {
+    "user_id": 8,
+    "dictionary_id": 9,
+    "name": "A SE VESELI",
+    "predefinition": "VESELI",
+    "definition": "<p> <i>vb. </i>1) a se amuza, a se distra, a se desfăta, a se înveseli; ► a-şi face de urât, a face haz; 2) a se bucura, a jubila; ► a râde inima (în cineva), a-i râde (cuiva) inima (ochii, faţa), a-i râde (a-i zâmbi) cuiva mustaţa, a-i părea bine; <strong>~ foarte tare </strong>► a sări (în sus) de bucurie, a sări până în pod (de bucurie), a nu mai putea de bucurie, a se simţi în al şaptelea (al nouălea) cer, a-i sălta inima (sufletul) de bucurie, a bate (a da) din pinteni (din călcâie). </p>",
+    "active": 0,
+    "created_at": "2023-11-21 09:06:12"
+  },
+  {
+    "user_id": 8,
+    "dictionary_id": 9,
+    "name": "VESELIE",
+    "predefinition": "VESELIE",
+    "definition": "<p> <i>f. </i>voioşie; ► voie bună. </p>",
+    "active": 0,
+    "created_at": "2023-11-21 09:06:12"
+  },
+  {
+    "user_id": 8,
+    "dictionary_id": 9,
+    "name": "VEST",
+    "predefinition": "VEST",
+    "definition": "<p> <i>n. </i>apus, occident; ► soare-apune. </p>",
+    "active": 0,
+    "created_at": "2023-11-21 09:06:12"
+  },
+  {
+    "user_id": 8,
+    "dictionary_id": 9,
+    "name": "A VESTI",
+    "predefinition": "VESTI",
+    "definition": "<p> <i>vb. </i>a anunţa, a comunica, a informa, a înştiinţa; ► a da cuiva de ştire (de veste), a lăsa (a trimite) vorbă, a pune la curent, a aduce la cunoştinţă, a spune cuiva două vorbe. </p>",
+    "active": 0,
+    "created_at": "2023-11-21 09:06:12"
+  },
+  {
+    "user_id": 8,
+    "dictionary_id": 9,
+    "name": "VESTIT",
+    "predefinition": "VESTIT",
+    "definition": "<p> <i>adj. </i>renumit, ilustru, faimos, celebru; <strong>a deveni ~ </strong>► a culege lauri, a i se duce (a-i merge) cuiva vestea. </p>",
+    "active": 0,
+    "created_at": "2023-11-21 09:06:12"
+  },
+  {
+    "user_id": 8,
+    "dictionary_id": 9,
+    "name": "VEŞNIC",
+    "predefinition": "VEŞNIC",
+    "definition": "<p> <i>adv. </i>mereu, totdeauna, pururi; ► în veci (de veci), în veac, în veac de veac, cât veacul, pentru veşnicie, la infinit, de-a pururi, cât e lumea (şi pământul). </p>",
+    "active": 0,
+    "created_at": "2023-11-21 09:06:12"
+  },
+  {
+    "user_id": 8,
+    "dictionary_id": 9,
+    "name": "VETUST",
+    "predefinition": "VETUST",
+    "definition": "<p> <i>adj</i>. <i>livr</i>. învechit, perimat, vechi, desuet; ► ieşit din uz, de modă veche, din (de la) moşi-strămoşi, din vremea veche, din bătrâni, de demult, din vechime, de pe vremuri (de mult apuse), de ani şi ani, de sute (mii) de ani, vechi ca pământul. </p>",
+    "active": 0,
+    "created_at": "2023-11-21 09:06:12"
+  },
+  {
+    "user_id": 8,
+    "dictionary_id": 9,
+    "name": "VIAŢ/Ă",
+    "predefinition": "VIAŢĂ",
+    "definition": "<p> <i>f. </i>1) existenţă, trai; ~ <strong>uşoară </strong>► zile albe, trai pe vătrai <i>pop. fam.</i>; ~ <strong>grea </strong>► pâine amară; un trai şi un vătrai, trai cu vătrai <i>pop. fam.</i>; 2) : <strong>~a de dincolo de moarte ► </strong>cea (ceea) lume, lumea cealaltă (de apoi), celălalt tărâm. </p>",
+    "active": 0,
+    "created_at": "2023-11-21 09:06:12"
+  },
+  {
+    "user_id": 8,
+    "dictionary_id": 9,
+    "name": "VICLEAN",
+    "predefinition": "VICLEAN",
+    "definition": "<p> <i>adj. </i>şiret, hâtru, şmecher; <strong>► </strong>dat dracului (naibii), pui (fecior, fiu) de lele, bună marfă!, l-a înţărcat Scaraoţchi (dracul); <strong>a fi </strong>~ <strong>► </strong>a fi dracul pe uscat, a avea ochi de vulpe (pisică), a-i juca ochii în cap. </p>",
+    "active": 0,
+    "created_at": "2023-11-21 09:06:12"
+  },
+  {
+    "user_id": 8,
+    "dictionary_id": 9,
+    "name": "VICLENIE",
+    "predefinition": "VICLENIE",
+    "definition": "<p> <i>f. </i>şiretenie; <strong>cu </strong>~ <strong>► </strong>cu un sul (un plan) subţire. </p>",
+    "active": 0,
+    "created_at": "2023-11-21 09:06:12"
+  },
+  {
+    "user_id": 8,
+    "dictionary_id": 9,
+    "name": "VIGILENT",
+    "predefinition": "VIGILENT",
+    "definition": "<p> <i>adj. </i>atent, prudent; <strong>a fi ~ </strong>► a se pune în gardă, a fi cu băgare de seamă; <strong>a fi foarte ~ </strong>► a fi cu ochii în patru, a-şi deschide ochii (şi urechile) în patru. </p>",
+    "active": 0,
+    "created_at": "2023-11-21 09:06:12"
+  },
+  {
+    "user_id": 8,
+    "dictionary_id": 9,
+    "name": "VIGILENŢĂ",
+    "predefinition": "VIGILENŢĂ",
+    "definition": "<p> <i>f. </i>prudenţă, atenţie; ► luare-aminte, băgare de seamă. </p>",
+    "active": 0,
+    "created_at": "2023-11-21 09:06:12"
+  },
+  {
+    "user_id": 8,
+    "dictionary_id": 9,
+    "name": "VIGOAR/E",
+    "predefinition": "VIGOARE",
+    "definition": "<p> <i>f. </i>putere, forţă; <strong>a pierde </strong>~<strong>ea </strong>► a i se muia (a-i slăbi) cuiva balamalele, a nu-l mai ajuta (a nu-l mai ţine) pe cineva balamalele; <strong>fără </strong>~ ► făr (pic de) viaţă. </p>",
+    "active": 0,
+    "created_at": "2023-11-21 09:06:12"
+  },
+  {
+    "user_id": 8,
+    "dictionary_id": 9,
+    "name": "VIGUROS",
+    "predefinition": "VIGUROS",
+    "definition": "<p> <i>adj. </i>puternic, voinic, vânjos; ► în putere (în puteri), tare (bun) de vână, fără splină, de bronz; <strong>foarte </strong>~► mare şi tare, tare şi mare, sparge piatra în palmă; <strong>a fi </strong>~ ► a avea sânge în vine, a fi de şapte palme în piept, a fi tare de vârtute; <strong>a fi foarte </strong>~ ► a sfărâma piatra, a rupe mâţa în două. </p>",
+    "active": 0,
+    "created_at": "2023-11-21 09:06:12"
+  },
+  {
+    "user_id": 8,
+    "dictionary_id": 9,
+    "name": "VIITOR",
+    "predefinition": "VIITOR",
+    "definition": "<p> <i>n. ► </i>ziua de mâine. </p>",
+    "active": 0,
+    "created_at": "2023-11-21 09:06:12"
+  },
+  {
+    "user_id": 8,
+    "dictionary_id": 9,
+    "name": "A VINDE",
+    "predefinition": "VINDE",
+    "definition": "<p> <i>vb.</i>: ~ <strong>la licitaţie </strong>► a umbla (a vinde) cu toba, a-i bate cuiva toba; ~ <strong>foarte repede </strong>► a vinde ca pâinea (cea) caldă. </p>",
+    "active": 0,
+    "created_at": "2023-11-21 09:06:12"
+  },
+  {
+    "user_id": 8,
+    "dictionary_id": 9,
+    "name": "A VINDECA",
+    "predefinition": "VINDECA",
+    "definition": "<p> <i>vb. </i>a lecui, a trata; ► a pune pe picioare, a aduce pe cineva la viaţă. </p>",
+    "active": 0,
+    "created_at": "2023-11-21 09:06:12"
+  },
+  {
+    "user_id": 8,
+    "dictionary_id": 9,
+    "name": "A SE VINDECA",
+    "predefinition": "VINDECA",
+    "definition": "<p> <i>vb. </i>a se însănătoşi, a se întrema, a se lecui; ► a se face bine (sănătos), a se pune (a fi) pe (în) picioare, a se ridica din morţi, a (mai) prinde (a căpăta) suflet (la inimă), a prinde viaţă (faţă, putere, puteri), a reveni la viaţă, a-şi veni în fire, a se face voinic (puternic). </p>",
+    "active": 0,
+    "created_at": "2023-11-21 09:06:12"
+  },
+  {
+    "user_id": 8,
+    "dictionary_id": 9,
+    "name": "VINOVAT",
+    "predefinition": "VINOVAT",
+    "definition": "<p> <i>adj. </i>culpabil <i>jur</i>.; <strong>a se simţi </strong>~ ► a se simţi (a se şti) cu musca pe căciulă; <strong>a se face </strong>~ ► a cădea în vină; <strong>a fi ~ de o crimă </strong>► a avea mâinile pătate de sânge. </p>",
+    "active": 0,
+    "created_at": "2023-11-21 09:06:12"
+  },
+  {
+    "user_id": 8,
+    "dictionary_id": 9,
+    "name": "VIOI",
+    "predefinition": "VIOI",
+    "definition": "<p> <i>adj. </i>iute, sprinten, ager; ► ca fulgerul, ca un fulger, bun (iute) de picior (de picioare), (iute) ca o suveică (ca suveica), iute ca prâsnelul, plin de suflet; <strong>a fi </strong>~ ► a fi numai vână. </p>",
+    "active": 0,
+    "created_at": "2023-11-21 09:06:12"
+  },
+  {
+    "user_id": 8,
+    "dictionary_id": 9,
+    "name": "A VIOLA",
+    "predefinition": "VIOLA",
+    "definition": "<p> <i>vb. </i>a silui; ► a-şi bate joc de cineva. </p>",
+    "active": 0,
+    "created_at": "2023-11-21 09:06:12"
+  },
+  {
+    "user_id": 8,
+    "dictionary_id": 9,
+    "name": "VIOLENT",
+    "predefinition": "VIOLENT",
+    "definition": "<p> <i>adj. </i>agresiv, bătăios; <strong>a deveni ~ </strong>► a-şi arăta unghiile. </p>",
+    "active": 0,
+    "created_at": "2023-11-21 09:06:12"
+  },
+  {
+    "user_id": 8,
+    "dictionary_id": 9,
+    "name": "A VIRA",
+    "predefinition": "VIRA",
+    "definition": "<p> <i>vb. </i>a coti, a cârni; ► a lua curba. </p>",
+    "active": 0,
+    "created_at": "2023-11-21 09:06:12"
+  },
+  {
+    "user_id": 8,
+    "dictionary_id": 9,
+    "name": "VISARE",
+    "predefinition": "VISARE",
+    "definition": "<p> <i>f. </i>reverie; ► uitare de sine. </p>",
+    "active": 0,
+    "created_at": "2023-11-21 09:06:12"
+  },
+  {
+    "user_id": 8,
+    "dictionary_id": 9,
+    "name": "VITAL",
+    "predefinition": "VITAL",
+    "definition": "<p> <i>adj. </i>indispensabil; ► de primă necesitate, de cea mai mare necesitate, de neapărată nevoie, ca sarea în bucate. </p>",
+    "active": 0,
+    "created_at": "2023-11-21 09:06:12"
+  },
+  {
+    "user_id": 8,
+    "dictionary_id": 9,
+    "name": "VITEAZ",
+    "predefinition": "VITEAZ",
+    "definition": "<p> <i>adj. </i>brav; <strong>a fi foarte </strong>~► a se acoperi de glorie. </p>",
+    "active": 0,
+    "created_at": "2023-11-21 09:06:12"
+  },
+  {
+    "user_id": 8,
+    "dictionary_id": 9,
+    "name": "VITREG",
+    "predefinition": "VITREG",
+    "definition": "<p> <i>adj. </i>(<i>despre părinţi</i>, <i>fraţi</i>, <i>surori</i>) ► de scoarţă. </p>",
+    "active": 0,
+    "created_at": "2023-11-21 09:06:12"
+  },
+  {
+    "user_id": 8,
+    "dictionary_id": 9,
+    "name": "A VIZA",
+    "predefinition": "VIZA",
+    "definition": "<p> <i>vb. </i>a ochi, a ţinti; ► a lua (puşca) la ochi (la cătare), a lua în buza tunului, a pune (o armă) la ochi, a pune ochiul (pe cineva sau ceva), a da chiorâş la (în) ceva <i>înv</i>.; <strong>~ o pasăre ► </strong>a lua pasărea din zbor.</p>",
+    "active": 0,
+    "created_at": "2023-11-21 09:06:12"
+  },
+  {
+    "user_id": 8,
+    "dictionary_id": 9,
+    "name": "VIZAVI",
+    "predefinition": "VIZAVI",
+    "definition": "<p> <i>adv. </i>► faţă în faţă, poartă-n poartă. </p>",
+    "active": 0,
+    "created_at": "2023-11-21 09:06:12"
+  },
+  {
+    "user_id": 8,
+    "dictionary_id": 9,
+    "name": "A VIZITA",
+    "predefinition": "VIZITA",
+    "definition": "<p> <i>vb. </i>a veni; ► a bate la uşă, a bate la uşa cuiva, a călca (a trece, a păşi) cuiva pragul, a trece pragul casei cuiva; ~ <strong>prea des </strong>► a roade cuiva pragul; <strong>~ repede, în grabă ► a da o fugă (o raită). </strong></p>",
+    "active": 0,
+    "created_at": "2023-11-21 09:06:12"
+  },
+  {
+    "user_id": 8,
+    "dictionary_id": 9,
+    "name": "A VLĂGUI",
+    "predefinition": "VLĂGUI",
+    "definition": "<p> <i>vb. </i>a istovi, a extenua, a epuiza; ► a stoarce pe cineva de puteri (de vlagă), a slei (a seca) de puteri, a da gata, a stoarce mâzga din cineva, a face pe cineva petică, a stoarce untul din cineva. </p>",
+    "active": 0,
+    "created_at": "2023-11-21 09:06:12"
+  },
+  {
+    "user_id": 8,
+    "dictionary_id": 9,
+    "name": "A SE VLĂGUI",
+    "predefinition": "VLĂGUI",
+    "definition": "<p> <i>vb. </i>a se istovi, a se epuiza, a se extenua; ► a se face (a fi) petică, a seca de puteri (de vlagă), a-şi scoate sufletul. </p>",
+    "active": 0,
+    "created_at": "2023-11-21 09:06:12"
+  },
+  {
+    "user_id": 8,
+    "dictionary_id": 9,
+    "name": "VLĂGUIT",
+    "predefinition": "VLĂGUIT",
+    "definition": "<p> <i>adj. </i>istovit, extenuat, epuizat; ► mai mult mort (decât viu), pe jumătate mort. </p>",
+    "active": 0,
+    "created_at": "2023-11-21 09:06:12"
+  },
+  {
+    "user_id": 8,
+    "dictionary_id": 9,
+    "name": "VOGĂ",
+    "predefinition": "VOGĂ",
+    "definition": "<p> <i>f. </i>modă; <strong>e în ~ </strong>(<i>despre îmbrăcăminte, încălţăminte</i>) ► se poartă. </p>",
+    "active": 0,
+    "created_at": "2023-11-21 09:06:12"
+  },
+  {
+    "user_id": 8,
+    "dictionary_id": 9,
+    "name": "A VOIAJA",
+    "predefinition": "VOIAJA",
+    "definition": "<p> <i>vb</i>. a călători; <strong>~ clandestin </strong>► a călători pe blat; <strong>~ mult </strong>► a vântura mări şi ţări. </p>",
+    "active": 0,
+    "created_at": "2023-11-21 09:06:12"
+  },
+  {
+    "user_id": 8,
+    "dictionary_id": 9,
+    "name": "VOINIC",
+    "predefinition": "VOINIC",
+    "definition": "<p> <i>adj. </i>puternic, vânjos, viguros; ► în putere (în puteri), tare (bun) de vână, fără splină, de bronz; <strong>foarte ~ </strong>► mare şi tare, tare şi mare, sparge piatra în palmă; <strong>a fi ~ </strong>► a avea sânge în vine, a fi de şapte palme în piept, a fi tare de vârtute; <strong>a fi foarte ~ </strong>► a sfărâma piatra, a rupe mâţa în două. </p>",
+    "active": 0,
+    "created_at": "2023-11-21 09:06:12"
+  },
+  {
+    "user_id": 8,
+    "dictionary_id": 9,
+    "name": "VOINŢĂ",
+    "predefinition": "VOINŢĂ",
+    "definition": "<p> <i>f. </i>fermitate; ► tărie morală; <strong>a fi fără ~ </strong>► a fi slab de fire (de oţele, de caracter, de inimă, de duh, de înger). </p>",
+    "active": 0,
+    "created_at": "2023-11-21 09:06:12"
+  },
+  {
+    "user_id": 8,
+    "dictionary_id": 9,
+    "name": "VOIOS",
+    "predefinition": "VOIOS",
+    "definition": "<p> <i>adj. </i>bucuros, vesel, mulţumit; <strong>a fi foarte ~ </strong>► a nu-şi mai găsi loc (locul) (de bucurie, de veselie), a nu-şi mai încăpea în piele, a nu-l mai încăpea (pe cineva) pielea, a nu-l mai ţine (pe cineva) locul, a i se umple inima de bucurie, a fi cu inima uşoară, a-i zburda cuiva inima. </p>",
+    "active": 0,
+    "created_at": "2023-11-21 09:06:12"
+  },
+  {
+    "user_id": 8,
+    "dictionary_id": 9,
+    "name": "VOIOȘIE",
+    "predefinition": "VOIOȘIE",
+    "definition": "<p> <i>f. </i>veselie; ► voie bună.</p>",
+    "active": 0,
+    "created_at": "2023-11-21 09:06:12"
+  },
+  {
+    "user_id": 8,
+    "dictionary_id": 9,
+    "name": "VOIT",
+    "predefinition": "VOIT",
+    "definition": "<p> <i>adv. </i>deliberat, intenţionat; ► într-adins, cu bună-ştiinţă; <strong>a necăji pe cineva ~ ► </strong>a face cuiva în ciudă (în necaz). </p>",
+    "active": 0,
+    "created_at": "2023-11-21 09:06:12"
+  },
+  {
+    "user_id": 8,
+    "dictionary_id": 9,
+    "name": "VOLUMINOS",
+    "predefinition": "VOLUMINOS",
+    "definition": "<p> <i>adj. </i>mare; ► cât toate zilele (de mare), cât o haraba, cât roata carului, cât o oală de praznic. </p>",
+    "active": 0,
+    "created_at": "2023-11-21 09:06:12"
+  },
+  {
+    "user_id": 8,
+    "dictionary_id": 9,
+    "name": "VOLUNTAR",
+    "predefinition": "VOLUNTAR",
+    "definition": "<p> <i>adv</i>. benevol, nesilit; ► de bunăvoie. </p>",
+    "active": 0,
+    "created_at": "2023-11-21 09:06:12"
+  },
+  {
+    "user_id": 8,
+    "dictionary_id": 9,
+    "name": "A VOMA",
+    "predefinition": "VOMA",
+    "definition": "<p> <i>vb. </i>a vărsa, a vomita; ~ <strong>tare </strong>► a da (mâncare) la boboci <i>iron</i>., a-şi vărsa (şi) maţele (măruntaiele). </p>",
+    "active": 0,
+    "created_at": "2023-11-21 09:06:12"
+  },
+  {
+    "user_id": 8,
+    "dictionary_id": 9,
+    "name": "A VOMITA",
+    "predefinition": "VOMITA",
+    "definition": "<p> <i>vb. </i>a vărsa, a voma; ~ <strong>tare </strong>► a da (mâncare) la boboci <i>iron</i>., a-şi vărsa (şi) maţele (măruntaiele). </p>",
+    "active": 0,
+    "created_at": "2023-11-21 09:06:12"
+  },
+  {
+    "user_id": 8,
+    "dictionary_id": 9,
+    "name": "VORB/Ă",
+    "predefinition": "VORBĂ",
+    "definition": "<p> <i>f. </i>1) cuvânt; ~<strong>e inutile </strong>► vorbe goale (deşarte), teoria chibritului, vorbă de clacă; ~<strong>e aspre </strong>► vorbe (cuvinte) tari; <strong>~ decisivă </strong>► cuvânt greu. </p>",
+    "active": 0,
+    "created_at": "2023-11-21 09:06:12"
+  },
+  {
+    "user_id": 8,
+    "dictionary_id": 9,
+    "name": "VORBĂREŢ",
+    "predefinition": "VORBĂREŢ",
+    "definition": "<p> <i>m., adj. </i>limbut, guraliv, flecar, palavragiu; ► gură spartă (nespălată), vorbă-lungă, bun de gură, bun (rău) de clanţă, înţepat la limbă, cu limba lungă, lung de (în) limbă, limbă lungă, moară stricată (hodorogită, spartă, neferecată), toacă-gură; <strong>a fi ~ </strong>►a fi cu gura spartă, a avea o gură cât o şură, a fi bun de gură a-i umbla gura ca o moară stricată (hodorogită), a avea mâncărime de (vierme la) limbă, a avea mâncărici (mâncărime) pe limbă, a nu-şi putea ţine limba (după dinţi), a avea gâdilici la limbă, a avea limba dezlegată. </p>",
+    "active": 0,
+    "created_at": "2023-11-21 09:06:12"
+  },
+  {
+    "user_id": 8,
+    "dictionary_id": 9,
+    "name": "VORBĂRIE",
+    "predefinition": "VORBĂRIE",
+    "definition": "<p> <i>f. </i>pălăvrăgeală, flecăreală, trăncăneală; ► vorbe de clacă, vorbă lungă (multă), vorbe goale, zeamă de vorbe, zeamă lungă, apă de ploaie; treanca-fleanca <i>reg</i>. <strong>A VORB/I </strong> <i>vb. </i>1) a grăi <i>pop.</i>; ► a prinde (la) limbă, a deschide gura; ~ <strong>mult </strong>► a lungi vorba, a-i da cu clanţa, a se pune la taifas, a se (a o) întinde la vorbă, a avea chef de vorbă, a avea limba lungă, a vorbi de-a băţul, a-i umbla cuiva gura ca la o ţarcă, a-i umbla cuiva gura ca o râşniţă, a-i merge gura ca pupăza, a avea papagal, a da din gură, a-i umbla cuiva limba (prin gură), a se întinde (a o întinde) la vorbă; a avea stupit la furcă <i>pop.</i>; ~ <strong>foarte repede </strong>► a face clăbuci (spume) la gură, a-i umbla gura ca o râşniţă (meliţă), a i se bate limba-n gură; ~ <strong>foarte frumos </strong>► a vorbi ca din carte, a avea darul vorbirii, a fi cu limba (fagur) de miere; ~ <strong>urât </strong>► a fi nespălat la gură; ~ <strong>confuz </strong>► a i se împletici cuiva limba, a încurca vorba; ~ <strong>greu </strong>► a se poticni în vorbire, a avea (a fi) limbă lată; ~ <strong>cu uşurinţă </strong>► a nu-i toarce cuiva mama (mamă-sa) pe limbă; ~ <strong>răutăcios, ironic </strong>► a avea limbă ascuţită (rea, de şarpe); ~ <strong>în zadar </strong>► a-şi răci (a-şi strica) gura degeaba, a vorbi până i se mută gura la ceafă, a da din gură (limbă), a bate toba (toaca) la urechea surdului, a-şi răci gura degeaba (în zadar, de pomană, de-a surda), a-şi bate gura degeaba (în vânt), a vorbi la pereţi, a predica în deşert (în pustiu); a scoate aburi pe gură <i>pop.</i>; ~ <strong>încet </strong>► a vorbi în barbă, a spune cu jumătate de gură, a da din buze; ~ <strong>înfundat </strong>► a vorbi ca din butoi; ~ <strong>mult şi fără rost </strong>► a bate (a pisa) apa în piuă (să se aleagă untul); ~ <strong>răstit </strong>► a ridica glasul (glas, tonul); ~ <strong>enigmatic </strong>► a vorbi în şarade; ~ <strong>fără sens </strong>► a vorbi (a grăi) în dodii, a bate câmpii; ~ <strong>vulgar </strong>► a fi spurcat la gură, a avea gura spurcată, a avea păr pe limbă; ~ <strong>puţin </strong>► a fi zgârcit la vorbă, a cere gura chirie; ~ <strong>foarte tare </strong>► a vorbi (a striga) în gura mare, a ţipa (a urla) ca în codru, a-i sparge urechile (timpanul) cuiva; ~ <strong>fără sfială </strong>► a fi slobod la (de) gură (limbă); <strong>a începe să vorbească </strong>► a i se dezlega (dezmorţi) cuiva limba, a i se descleşta cuiva fălcile; ~ <strong>neclar </strong>► a vorbi printre dinţi; ~ <strong>dispreţuitor </strong>► a vorbi cuiva (cu cineva) de sus; ~ <strong>cu duşmănie </strong>► a-şi vărsa focul (sufletul, amarul); ~ <strong>afectat </strong>► a vorbi din guşă, a vorbi în (din) vârful limbii (buzelor), a-şi subţia buzele (gura); ~ <strong>evaziv </strong>► a vorbi cu gura altuia; ~ <strong>cu prudenţă </strong>► a-şi păzi gura (limba); <strong>~ cu aluzii </strong>► a vorbi în ponturi; ~ <strong>savant </strong>► a vorbi ca de pe catedră; ~ <strong>direct </strong>► a veni (a umbla) pe drum, nu pe poteci; <strong>a lăsa să </strong>~<strong>ească </strong>► a da cuiva pas la vorbă; 2) a spune, a zice; ~ <strong>minciuni </strong>► a îndruga (la) verzi şi uscate, a înşira (la) gogoşi, a pune goange, a cârpi o minciună, a le spune calde, a tăia la piroane, a le spune calde, a mânca praz (haram, borş, ciuperci, rahat); ~ <strong>direct </strong>► a spune (a declara) fără înconjur, a spune lucrurilor pe nume; ~ <strong>multe </strong>► a dezlega sacul; <strong>~ spontan ► </strong>a spune ce-i vine pe limbă; <strong>nu </strong>~ <strong>(nimic) </strong>► a tăcea din gură, a tăcea chitic, a tăcea ca melcul (molcom), a rămâne mut, a-şi înghiţi limba, a închide gura, a nu avea limbă, a-şi ţine gura, a-şi pune gard la gură, a-i pieri cuiva (a-şi pierde) graiul (glasul), a-i pieri cuiva cuvintele (de) pe buze; <strong>a continua să ~ească ► </strong>a spune înainte; <strong>se vorbeşte </strong>► (aşa) umblă vorba; 3) a cuvânta; ► a lua cuvântul, a ţine un discurs (un cuvânt). </p>",
+    "active": 0,
+    "created_at": "2023-11-21 09:06:12"
+  },
+  {
+    "user_id": 8,
+    "dictionary_id": 9,
+    "name": "A VRĂJI",
+    "predefinition": "VRĂJI",
+    "definition": "<p> <i>vb</i>. a fermeca, a descânta; ► a-i pune cuiva ulcica (oala), a-i face cuiva cu ulcica. </p>",
+    "active": 0,
+    "created_at": "2023-11-21 09:06:12"
+  },
+  {
+    "user_id": 8,
+    "dictionary_id": 9,
+    "name": "A VRĂJMĂȘI",
+    "predefinition": "VRĂJMĂȘI",
+    "definition": "<p> <i>vb. </i>a duşmăni, a urî; a pizmui <i>înv</i>.; ► a(-i) purta cuiva pică (râcă), a purta (a ţine) cuiva sâmbetele, a nu se uita la cineva, a privi pe cineva cu ochi răi, a ţine cuiva (pe cineva) mânie. </p>",
+    "active": 0,
+    "created_at": "2023-11-21 09:06:12"
+  },
+  {
+    "user_id": 8,
+    "dictionary_id": 9,
+    "name": "A SE VRĂJMĂȘI",
+    "predefinition": "VRĂJMĂȘI",
+    "definition": "<p> <i>vb. </i>a se învrăjbi, a se duşmăni, a se certa; ► a se avea (a fi certat) la cuţite cu cineva, a se pune (a se lua) în pizmă cu cineva, a strica brânza cu cineva, a se înţelege (a trăi, a se iubi) ca câinele cu pisica (ca mâţa cu şoarecii), a se mânca ca câinii. </p>",
+    "active": 0,
+    "created_at": "2023-11-21 09:06:12"
+  },
+  {
+    "user_id": 8,
+    "dictionary_id": 9,
+    "name": "A VREA",
+    "predefinition": "VREA",
+    "definition": "<p> <i>vb. </i>1) a dori; ► a fi dispus să…, a fi gata să…, a-i arde cuiva de ceva, a avea chef de (să); 2) a dori, a pofti, a jindui; <strong>~ mult ► </strong>a-şi linge buzele după ceva, a se linge pe buze, a-i lăsa gura apă, a-i curge cuiva balele după ceva, a înnebuni după cineva (după ceva), a i se prinde cuiva ochii de cineva (de ceva), a pune ochii (ochiul) pe ceva (pe cineva), a privi (a se uita) cu jind la ceva, a duce jind(ul), a duce dorul de ceva, a mânca ceva cu ochii, a da de (a afla) gustul a ceva, a ofta după cineva (ceva); a face zâmbre <i>pop. fam.</i>; <strong>~ două lucruri deodată► </strong>a fi cu un ochi la făină şi cu altul la slănină; <strong>a nu mai ~ </strong>► a-i trece (a-i pieri) pofta de ceva, a i se tăia cuiva pofta de ceva; <strong>cât (cum) vrei </strong>► după (pe) poftă, după (pe) pofta inimii (sufletului), cât îţi cere inima. </p>",
+    "active": 0,
+    "created_at": "2023-11-21 09:06:12"
+  },
+  {
+    "user_id": 8,
+    "dictionary_id": 9,
+    "name": "VREDNIC",
+    "predefinition": "VREDNIC",
+    "definition": "<p> <i>adj. </i>muncitor, harnic, silitor; <strong>foarte ~ </strong>► harnic (de mănâncă) foc, harnic ca o furnică, iute ca piperul, (iute) ca o suveică (ca suveica). </p>",
+    "active": 0,
+    "created_at": "2023-11-21 09:06:12"
+  },
+  {
+    "user_id": 8,
+    "dictionary_id": 9,
+    "name": "VREMELNIC",
+    "predefinition": "VREMELNIC",
+    "definition": "<p> <i>adj. </i>temporar, trecător, efemer; ► de moment. </p>",
+    "active": 0,
+    "created_at": "2023-11-21 09:06:12"
+  },
+  {
+    "user_id": 8,
+    "dictionary_id": 9,
+    "name": "VREODATĂ",
+    "predefinition": "VREODATĂ",
+    "definition": "<p> <i>adv. </i>odată, cândva; ► odată şi odată, cu vremea, cu timpul, într-o (bună) zi, mai devreme (mai curând) sau mai târziu, într-una din zile. </p>",
+    "active": 0,
+    "created_at": "2023-11-21 09:06:12"
+  },
+  {
+    "user_id": 8,
+    "dictionary_id": 9,
+    "name": "VULGAR",
+    "predefinition": "VULGAR",
+    "definition": "<p> <i>adj. </i>1) grosolan; <strong>a fi ~ </strong>► a fi slobod (buruienos, scârbos, vulgar, porcos, spurcat) la vorbă (la limbă, la gură); 2) indecent, necuviincios, obscen; scabros, trivial <i>livr.</i>; ► fără perdea, cu piper, de mahala, fără înconjur. </p>",
+    "active": 0,
+    "created_at": "2023-11-21 09:06:12"
+  },
+  {
+    "user_id": 8,
+    "dictionary_id": 9,
+    "name": "ZADARNIC",
+    "predefinition": "ZADARNIC",
+    "definition": "<p> 1. <i>adv. </i>degeaba, inutil; ► de haram, de florile mărului, de flori de cuc, de cântecul cucului, de pomană, în zadar, în gol, în vânt, în van, în darn, fără (de) rost, de-a surda, în deşert; 2. <i>adj</i>. inutil, van; ► fără nicio (vreo) ispravă, fără (de) rost. </p>",
+    "active": 0,
+    "created_at": "2023-11-21 09:06:12"
+  },
+  {
+    "user_id": 8,
+    "dictionary_id": 9,
+    "name": "ZARVĂ",
+    "predefinition": "ZARVĂ",
+    "definition": "<p> <i>f. </i>agitaţie, vâlvă, gălăgie; <strong>cu mare </strong>~ ► cu surle şi trâmbiţe (trompete). </p>",
+    "active": 0,
+    "created_at": "2023-11-21 09:06:12"
+  },
+  {
+    "user_id": 8,
+    "dictionary_id": 9,
+    "name": "A ZĂBOVI",
+    "predefinition": "ZĂBOVI",
+    "definition": "<p> <i>vb. </i>a întârzia; ► a-şi face zăbavă, a se întâlni cu zăbava; ~ <strong>prea mult ► </strong>a-l uita sfântul pe cineva<strong>.</strong> </p>",
+    "active": 0,
+    "created_at": "2023-11-21 09:06:12"
+  },
+  {
+    "user_id": 8,
+    "dictionary_id": 9,
+    "name": "A ZĂCEA",
+    "predefinition": "ZĂCEA",
+    "definition": "<p> <i>vb. </i>a boli <i>pop</i>.; ► a sta la pat. </p>",
+    "active": 0,
+    "created_at": "2023-11-21 09:06:12"
+  },
+  {
+    "user_id": 8,
+    "dictionary_id": 9,
+    "name": "A ZĂDĂRNICI",
+    "predefinition": "ZĂDĂRNICI",
+    "definition": "<p> <i>vb. </i>a dejuca, a împiedica, a contracara; ► a pune piedică (piedici, frână) cuiva, a-i lua cuiva apa de la moară, a se pune prag, a (-i) pune piciorul în (pe) prag, a-i lua cuiva porumbul de pe foc, a încurca cuiva iţele (pânza), a pune cuiva beţe în roate; a pune opritoare (talaghir) <i>reg</i>. </p>",
+    "active": 0,
+    "created_at": "2023-11-21 09:06:12"
+  },
+  {
+    "user_id": 8,
+    "dictionary_id": 9,
+    "name": "A ZĂPĂCI",
+    "predefinition": "ZĂPĂCI",
+    "definition": "<p> <i>vb. </i>a buimăci, a năuci; ► a scoate (pe cineva) din minte (din minţi, din simţiri), a înnebuni de cap (pe cineva), a-i face cuiva capul calendar, a-i lua (a-i suci) cuiva minţile (mintea). </p>",
+    "active": 0,
+    "created_at": "2023-11-21 09:06:12"
+  },
+  {
+    "user_id": 8,
+    "dictionary_id": 9,
+    "name": "A SE ZĂPĂCI",
+    "predefinition": "ZĂPĂCI",
+    "definition": "<p> <i>vb. </i>a se buimăci, a se năuci, a se deruta; ► a-şi pierde busola, a-şi pierde rostul (rosturile), a-şi pierde capul, a i se face cuiva capul calendar, a i se strica cuiva capul (mintea), a se strica de (la) cap, a se pierde cu firea, a-şi pierde cumpătul. </p>",
+    "active": 0,
+    "created_at": "2023-11-21 09:06:12"
+  },
+  {
+    "user_id": 8,
+    "dictionary_id": 9,
+    "name": "ZĂPĂCIT",
+    "predefinition": "ZĂPĂCIT",
+    "definition": "<p> <i>adj. </i>năucit, buimăcit; ► cu gura căscată, ca o curcă beată (chioară, plouată); <strong>a fi </strong>~ ► a fi cam tralala, a fi pălit (bătut, trăsnit, lovit) cu leuca (în cap), a fi cu trei roate la car. </p>",
+    "active": 0,
+    "created_at": "2023-11-21 09:06:12"
+  },
+  {
+    "user_id": 8,
+    "dictionary_id": 9,
+    "name": "ZĂU",
+    "predefinition": "ZĂU",
+    "definition": "<p> <i>interj. </i>jur!, <strong>► </strong>pe crucea mea, pe cuvânt, să mor, pe legea mea. </p>",
+    "active": 0,
+    "created_at": "2023-11-21 09:06:12"
+  },
+  {
+    "user_id": 8,
+    "dictionary_id": 9,
+    "name": "A ZÂMBI",
+    "predefinition": "ZÂMBI",
+    "definition": "<p> <i>vb. </i>a surâde; <strong>► </strong>a miji a râs (a râde); ~ <strong>silit ► </strong>a zâmbi subţire. </p>",
+    "active": 0,
+    "created_at": "2023-11-21 09:06:12"
+  },
+  {
+    "user_id": 8,
+    "dictionary_id": 9,
+    "name": "A SE ZBATE",
+    "predefinition": "ZBATE",
+    "definition": "<p> <i>vb. </i>1) a se zvârcoli; ~ <strong>tare ► </strong>a se zbate de moarte. </p>",
+    "active": 0,
+    "created_at": "2023-11-21 09:06:12"
+  },
+  {
+    "user_id": 8,
+    "dictionary_id": 9,
+    "name": "ZBÂNŢUIT",
+    "predefinition": "ZBÂNŢUIT",
+    "definition": "<p> <i>adj. </i>neastâmpărat, zglobiu, zvăpăiat; ► fără astâmpăr (odihnă), iute ca ardeiul; <strong>copil ~ </strong>► drac împeliţat, argint-viu; <strong>a fi ~ </strong>► a avea draci, a fi cu draci, a avea pe dracul (viermi) în el, a sări (a juca) drăgaica, a nu avea astâmpăr (odihnă), a nu-şi mai afla (găsi) locul, a nu-l mai ţine (prinde) locul. </p>",
+    "active": 0,
+    "created_at": "2023-11-21 09:06:12"
+  },
+  {
+    "user_id": 8,
+    "dictionary_id": 9,
+    "name": "A ZBIERA",
+    "predefinition": "ZBIERA",
+    "definition": "<p> <i>vb</i>. a ţipa, a răcni, a striga; a se stropşi <i>pop.</i>; ► a ridica glasul (tonul), a face gură (mare, largă), a lua pe cineva cu resteul. </p>",
+    "active": 0,
+    "created_at": "2023-11-21 09:06:12"
+  },
+  {
+    "user_id": 8,
+    "dictionary_id": 9,
+    "name": "A SE ZBUCIUMA",
+    "predefinition": "ZBUCIUMA",
+    "definition": "<p> <i>vb. </i>a se agita, a se zvârcoli, a se frământa; ► a nu- şi mai afla locul, a sta ca pe ghimpi. </p>",
+    "active": 0,
+    "created_at": "2023-11-21 09:06:12"
+  },
+  {
+    "user_id": 8,
+    "dictionary_id": 9,
+    "name": "A ZBURA",
+    "predefinition": "ZBURA",
+    "definition": "<p> <i>vb. </i>a decola, a se înălţa, a se ridica; <strong>► </strong>a-şi lua zborul. </p>",
+    "active": 0,
+    "created_at": "2023-11-21 09:06:12"
+  },
+  {
+    "user_id": 8,
+    "dictionary_id": 9,
+    "name": "ZDRAVĂN",
+    "predefinition": "ZDRAVĂN",
+    "definition": "<p> <i>adj. </i>sănătos, teafăr; <strong>foarte ~ </strong>► sănătos tun; <strong>a fi ~ </strong>► a fi (a se simţi) bine, a fi (a-i merge) bine cu sănătatea, a fi tare de coş; <strong>a fi perfect ~ </strong>► a nu avea nici pe dracul, a nu avea nici pe naiba <i>peior.</i> </p>",
+    "active": 0,
+    "created_at": "2023-11-21 09:06:12"
+  },
+  {
+    "user_id": 8,
+    "dictionary_id": 9,
+    "name": "ZDRENŢĂROS",
+    "predefinition": "ZDRENŢĂROS",
+    "definition": "<p> <i>adj. </i>flenduros, jerpelit; <strong>a fi ~ </strong>► a-i curge cuiva obielele, a curge obielele de pe cineva. </p>",
+    "active": 0,
+    "created_at": "2023-11-21 09:06:12"
+  },
+  {
+    "user_id": 8,
+    "dictionary_id": 9,
+    "name": "A SE ZDRENŢUI",
+    "predefinition": "ZDRENŢUI",
+    "definition": "<p> <i>vb. </i>a se ferfeniţi; ► a se face (a ajunge, a fi) varză. </p>",
+    "active": 0,
+    "created_at": "2023-11-21 09:06:12"
+  },
+  {
+    "user_id": 8,
+    "dictionary_id": 9,
+    "name": "ZDRENŢUIT",
+    "predefinition": "ZDRENŢUIT",
+    "definition": "<p> <i>adj. </i>rupt, jerpelit; ► mai mult aţă decât faţă, curg zdrenţele (peticile) din…, numai găuri. </p>",
+    "active": 0,
+    "created_at": "2023-11-21 09:06:12"
+  },
+  {
+    "user_id": 8,
+    "dictionary_id": 9,
+    "name": "ZEFLEMEA",
+    "predefinition": "ZEFLEMEA",
+    "definition": "<p> <i>f. </i>batjocură, derâdere; ► bătaie de joc, luareîn râs. </p>",
+    "active": 0,
+    "created_at": "2023-11-21 09:06:12"
+  },
+  {
+    "user_id": 8,
+    "dictionary_id": 9,
+    "name": "A ZEFLEMISI",
+    "predefinition": "ZEFLEMISI",
+    "definition": "<p> <i>vb. </i>a ironiza, a şfichiui; a înţepa <i>fig</i>.; <strong>► </strong>a lua peste picior (în şfichi, în râs, în balon, în căruţă, în bătaie de joc, în batjocură, în derâdere, în băşcălie, în pleasna biciului, în zeflemea), a-i trage cuiva un şfichi, a înţepa cu limba, a da pe (prin) pârlitură, a-i trage cuiva un ibrişin pe la nas, a face glume (haz) pe seama cuiva, a-şi bate joc, a atinge pe cineva unde-l doare, a pune cuiva degetul pe rană, a arunca săgeţi (veninoase) la adresa cuiva. </p>",
+    "active": 0,
+    "created_at": "2023-11-21 09:06:12"
+  },
+  {
+    "user_id": 8,
+    "dictionary_id": 9,
+    "name": "ZEFLEMITOR",
+    "predefinition": "ZEFLEMITOR",
+    "definition": "<p> <i>adv</i>. ironic, batjocoritor; ► din vârful buzelor. </p>",
+    "active": 0,
+    "created_at": "2023-11-21 09:06:12"
+  },
+  {
+    "user_id": 8,
+    "dictionary_id": 9,
+    "name": "ZEL",
+    "predefinition": "ZEL",
+    "definition": "<p> <i>n. </i>sârguinţă; ~ <strong>exagerat </strong>► exces de zel. </p>",
+    "active": 0,
+    "created_at": "2023-11-21 09:06:12"
+  },
+  {
+    "user_id": 8,
+    "dictionary_id": 9,
+    "name": "ZEU",
+    "predefinition": "ZEU",
+    "definition": "<p> <i>m. </i>idol; ► chip cioplit. </p>",
+    "active": 0,
+    "created_at": "2023-11-21 09:06:12"
+  },
+  {
+    "user_id": 8,
+    "dictionary_id": 9,
+    "name": "A SE ZGÂI",
+    "predefinition": "ZGÂI",
+    "definition": "<p> <i>vb. </i>a se holba; ► a căsca (a(-şi) bolovăni) ochii. </p>",
+    "active": 0,
+    "created_at": "2023-11-21 09:06:12"
+  },
+  {
+    "user_id": 8,
+    "dictionary_id": 9,
+    "name": "ZGÂRCIT",
+    "predefinition": "ZGÂRCIT",
+    "definition": "<p> <i>m</i>., <i>adj. </i>avar; cărpănos <i>pop. fam.</i>; ► zgârie-brânză, frige-linte; <strong>a fi ~ </strong>► a tremura după bani, a tremura după un ban, a pune la chimir, a fi pestriţ (tărcat) la maţe, a avea (a fi cu) maţele pestriţe, a-şi mânca de sub unghii, a fi strâns la mână, a fi cu mâna strânsă, a drămălui banul, a avea mână scurtă; <strong>a fi foarte ~ </strong>► a coase petic la (de) petic, a lega paraua cu zece noduri, a avea (a-şi pune) nouă băieri la pungă, a-şi suge de sub unghii, punga la gură i-a făcut păianjeni. </p>",
+    "active": 0,
+    "created_at": "2023-11-21 09:06:12"
+  },
+  {
+    "user_id": 8,
+    "dictionary_id": 9,
+    "name": "ZGLOBIU",
+    "predefinition": "ZGLOBIU",
+    "definition": "<p> <i>adj. </i>(<i>despre un copil</i>) neastâmpărat, zvăpăiat, zbânţuit; ► fără astâmpăr (odihnă), iute ca ardeiul; <strong>copil ~ </strong>► drac împeliţat, argint-viu; <strong>a fi ~ </strong>► a avea draci, a fi cu draci, a avea pe dracul (viermi) în el, a sări (a juca) drăgaica, a nu avea astâmpăr (odihnă), a nu-şi mai afla (găsi) locul, a nu-l mai ţine (prinde) locul. </p>",
+    "active": 0,
+    "created_at": "2023-11-21 09:06:12"
+  },
+  {
+    "user_id": 8,
+    "dictionary_id": 9,
+    "name": "ZGRIPŢUROAICĂ",
+    "predefinition": "ZGRIPŢUROAICĂ",
+    "definition": "<p> <i>f. </i>cotoroanţă, hârcă; ► baba-cloanţa, baba-hârca, muma-pădurii. </p>",
+    "active": 0,
+    "created_at": "2023-11-21 09:06:12"
+  },
+  {
+    "user_id": 8,
+    "dictionary_id": 9,
+    "name": "ZI",
+    "predefinition": "ZI",
+    "definition": "<p> <i>f.: </i> <strong>toată ~ ua </strong>► ziulica toată (întreagă), toată ziulica, cât e ziulica de mare, tot timpul, din zori (şi) până-n seară (până-n noapte), </p>",
+    "active": 0,
+    "created_at": "2023-11-21 09:06:12"
+  },
+  {
+    "user_id": 8,
+    "dictionary_id": 9,
+    "name": "A ZIC/E",
+    "predefinition": "ZICE",
+    "definition": "<p> <i>vb. </i>a spune, a vorbi; ~ <strong>minciuni </strong>► a îndruga (la) verzi şi uscate, a înşira (la) gogoşi, a pune goange, a cârpi o minciună, a le spune calde, a tăia la piroane, a le spune calde, a mânca praz (haram, borş, ciuperci, rahat); ~ <strong>direct </strong>► a spune (a declara) fără înconjur, a spune lucrurilor pe nume; ~ <strong>multe </strong>► a dezlega sacul; <strong>~ spontan ► </strong>a spune ce-i vine pe limbă; <strong>nu </strong>~ <strong>(nimic) </strong>► a tăcea din gură, a tăcea chitic, a tăcea ca melcul (molcom), a rămâne mut, a-şi înghiţi limba, a închide gura, a nu avea limbă, a-şi ţine gura, a-şi pune gard la gură, a-i pieri cuiva (a-şi pierde) graiul (glasul), a-i pieri cuiva cuvintele (de) pe buze; <strong>a continuasă ~ă ► </strong>a spune înainte; <strong>se zice </strong>► (aşa) umblă vorba. </p>",
+    "active": 0,
+    "created_at": "2023-11-21 09:06:12"
+  },
+  {
+    "user_id": 8,
+    "dictionary_id": 9,
+    "name": "ZILNIC",
+    "predefinition": "ZILNIC",
+    "definition": "<p> 1. <i>adj. </i>► de zi cu zi; 2. <i>adv</i>. ► zi de (cu) zi, de la o zi la alta; cu zi de zi <i>rar.</i> </p>",
+    "active": 0,
+    "created_at": "2023-11-21 09:06:12"
+  },
+  {
+    "user_id": 8,
+    "dictionary_id": 9,
+    "name": "ZIUA",
+    "predefinition": "ZIUA",
+    "definition": "<p>adv. <strong>► </strong>pelumină, cu soare.</p>",
+    "active": 0,
+    "created_at": "2023-11-21 09:06:12"
+  },
+  {
+    "user_id": 8,
+    "dictionary_id": 9,
+    "name": "ZONĂ",
+    "predefinition": "ZONĂ",
+    "definition": "<p> <i>f. </i>regiune, loc; <strong>în </strong>~ <strong>fără primejdii ► </strong>la colţ de ţară şi la mijloc de masă, la mijloc de masă şi la colţ de ţară. </p>",
+    "active": 0,
+    "created_at": "2023-11-21 09:06:12"
+  },
+  {
+    "user_id": 8,
+    "dictionary_id": 9,
+    "name": "ZORI",
+    "predefinition": "ZORI",
+    "definition": "<p> <i>f. pl. astr. </i>auroră; <strong>► </strong>albul zilei. </p>",
+    "active": 0,
+    "created_at": "2023-11-21 09:06:12"
+  },
+  {
+    "user_id": 8,
+    "dictionary_id": 9,
+    "name": "A ZORI",
+    "predefinition": "ZORI",
+    "definition": "<p> <i>vb</i>. a grăbi, îndemna, a îmboldi; a alerta <i>livr</i>.; ► a da bici, a da pinteni cuiva, a-i pune cuiva sula (suliţa) în coaste, a da cuiva zor. </p>",
+    "active": 0,
+    "created_at": "2023-11-21 09:06:12"
+  },
+  {
+    "user_id": 8,
+    "dictionary_id": 9,
+    "name": "A SE ZORI",
+    "predefinition": "ZORI",
+    "definition": "<p> <i>vb.</i>1) a se lumina; ► a se îngâna (a se lupta, a se bate) ziua cu noaptea, a se crăpa (a se anunţa) de ziuă (zorii), a miji de ziuă, a se revărsa de ziuă (zorii, zorile), a se face ziuă (albă), a se face zori de ziuă (de zi), a da în fapt (de zori), a se anunţa de zori, a se apropia (a se lumina) de ziuă; <strong>s-a ~t ► </strong>a intrat bălaia în sat, a trecut alba dealul; 2) a se grăbi, a se pripi; ► a o lua repede, a avea zor, a-i da cărbuni, a bate fierul cât e cald, a arde cămaşa pe cineva, a da bătaie (zor); a-şi lungi (a-şi grăbi, a-şi iuţi) pasul, a da pas, a-i da drumul (brânci, vânt) pasului (la pas); <strong>a nu se ~ </strong>► a o lăsa (a o lua) mai domol. </p>",
+    "active": 0,
+    "created_at": "2023-11-21 09:06:12"
+  },
+  {
+    "user_id": 8,
+    "dictionary_id": 9,
+    "name": "ZVĂPĂIAT",
+    "predefinition": "ZVĂPĂIAT",
+    "definition": "<p> <i>adj. </i>(<i>despre un copil</i>) neastâmpărat, zglobiu, zbânţuit; ► fără astâmpăr (odihnă), iute ca ardeiul; <strong>copil ~ </strong>► drac împeliţat, argint-viu; <strong>a fi ~ </strong>► a avea draci, a fi cu draci, a avea pe dracul (viermi) în el, a sări (a juca) drăgaica, a nu avea astâmpăr (odihnă), a nu-şi mai afla (găsi) locul, a nu-l mai ţine (prinde) locul. </p>",
+    "active": 0,
+    "created_at": "2023-11-21 09:06:12"
+  },
+  {
+    "user_id": 8,
+    "dictionary_id": 9,
+    "name": "A SE ZVÂRCOLI",
+    "predefinition": "ZVÂRCOLI",
+    "definition": "<p> <i>vb. </i>1) a se zbate; ~ <strong>tare ► </strong>a se zbate de moarte; a se agita, a se zbuciuma, a se frământa; ► a nu-şi mai afla locul, asta ca pe ghimpi. </p>",
+    "active": 0,
+    "created_at": "2023-11-21 09:06:12"
+  }
+]
