@@ -111,9 +111,20 @@ Route::get('/insert-dictionary', function(){
 	// $storage_path = 'explicativ_new/explicativ_new_C2C24.json'; // Ecaterina C2-C24 full
 	// $storage_path = 'explicativ_new/explicativ_new_E2E13.json'; // Maria E2-E13 full
 	// $storage_path = 'explicativ_new/explicativ_new_F1F10.json'; // Maria F1-F10 full kek
+	// $storage_path = 'explicativ_new/explicativ_new_G1G6.json'; // Maria G1-G6 full
+	// $storage_path = 'explicativ_new/explicativ_new_N1N6.json'; // Livia N1-N6 full
+	// $storage_path = 'explicativ_new/explicativ_new_P1P22.json'; // Livia P1-P22 full
+    // $storage_path = 'explicativ_new/explicativ_new_T1T17.json'; // Maria T1-T17 full
+	// $storage_path = 'explicativ_new/explicativ_new_R1R13.json'; // Liliana
+	// $storage_path = 'explicativ_new/explicativ_new_U1U4.json'; // Maria
+	// $storage_path = 'explicativ_new/explicativ_new_V1V8.json'; // Maria
+	// $storage_path = 'explicativ_new/explicativ_new_W1Z3.json'; // Maria
+	// $storage_path = 'explicativ_new/explicativ_new_S1Sh4.json'; // Liliana
+	// $storage_path = 'dictionar9/dictionar9_C1I2.json'; // Ecaterina
+
 
 	// main block
-	$storage_path = 'explicativ_new/explicativ_new_G1G6.json'; // Maria G1-G6 full
+	$storage_path = 'dictionar9/dictionar9_S1Z1.json'; // Ecaterina
 
 	$json = file_get_contents(storage_path($storage_path));
 	$objs = json_decode($json,true);
@@ -125,11 +136,19 @@ Route::get('/insert-dictionary', function(){
 		DB::table('words')->insert($insertArr);
 		$i++;
 	}
-	echo 'Litera '.$storage_path.'  a fost încărcata in dictionarul <em>Dicționar Explicativ al Limbii Române Actuale</em>. <br>Au fost adăugate '.$i.' cuvinte.';
+
+	// get dictionary id from first obj of $objs
+	$dictionary_id = $objs[0]['dictionary_id'];
+
+	// get dictionary name by id 
+	$dictionary = DB::table('dictionaries')->where('id', $dictionary_id)->first();
+	$dictionary_name = $dictionary->name;
+
+	echo 'Litera/literele '.$storage_path.'  a/au fost încărcata/e in dictionarul <em>'.$dictionary_name.'</em>. <br>Au fost adăugate '.$i.' cuvinte.';
 	// end main block
 	
 	// return Redirect::back()->with('success', 'Litera X a fost încărcată. '.$i.' cuvinte au fost adăugate.');
-});
+})->middleware('auth');
 
 
 // Corect the word-titles
