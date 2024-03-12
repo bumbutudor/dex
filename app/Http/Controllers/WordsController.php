@@ -18,12 +18,22 @@ use Illuminate\Support\Facades\Request;
 use Illuminate\Support\Facades\Redirect;
 
 
-function generateRandomNumberEachDay(){
-    $seed = date("d"); //get the day.
-    srand($seed); //seeds the random generator with it.
-    $item = rand(1,10000);
+function generateRandomNumberEachDay($customSeed = null, $maxNumber = null){
+    if (is_null($customSeed)) {
+        $customSeed = date("z"); // Default to the day of the year.
+    }
+
+    if (is_null($maxNumber)) {
+        $maxNumber = Word::count(); // Set the max number to the total count of words.
+    }
+
+    srand($customSeed); 
+    $item = rand(1, $maxNumber); 
+
     return $item;
 }
+
+
 
 
 class WordsController extends Controller
@@ -94,6 +104,8 @@ class WordsController extends Controller
     // for @guest
     public function view()
     {   
+        $wordOfTheDay = $this->getWordOfTheDay();
+
         if (Request::has('dictionar')) {
             return Inertia::render('Words/View', [
                 'filters' => Request::all('search', 'trashed'),
@@ -110,8 +122,7 @@ class WordsController extends Controller
                 ),
                 'dictionaries' => Dictionary::withCount('words')->get(),
                 'dictionary_count' => Word::count(),
-                'wordOfTheDay' => Word::with('dictionary')
-                        ->firstWhere('ID', generateRandomNumberEachDay()),
+                'wordOfTheDay' => $wordOfTheDay,
             
             ]);
         }
@@ -129,8 +140,7 @@ class WordsController extends Controller
             ),
             'dictionaries' => Dictionary::withCount('words')->get(),
             'dictionary_count' => Word::count(),
-            'wordOfTheDay' => Word::with('dictionary')
-                    ->firstWhere('ID', generateRandomNumberEachDay()),
+            'wordOfTheDay' => $wordOfTheDay,
         
         ]);
     }
@@ -189,6 +199,15 @@ class WordsController extends Controller
         // return Redirect::to($request->request->get('http_referrer'))->with('success', 'Cuvântul a fost modificat.');
     }
 
+    public function updateImage(Word $word, WordUpdateRequest $request)
+    {
+        
+        $word->update([
+            $request->validated()
+        ]);
+    }
+
+
     public function destroy(Word $word)
     {
         $word->delete();
@@ -210,7 +229,7 @@ class WordsController extends Controller
         return Redirect::back()->with('success', 'Cuvântul a fost șters permanent.');
     }
 
-    public function correct()
+    protected function correct()
     {
         $regex_1 = '/^<p>( *<span> *<b>| *<b> *<span>) *(.){1,80} *<\/b> *(<span>){0,1} *(<i>){1}/i';
 	    $regex_2 = '/^<p>( *<span> *<b>| *<b> *<span>) *(.){1,80} *<\/b>/i';
@@ -252,5 +271,28 @@ class WordsController extends Controller
 
         echo("<a href=".url('')."><-Inapoi</a>");
     }
+
+
+
+    /**
+     * Fetch the word of the day.
+     * 
+     * @return mixed
+     */
+    protected function getWordOfTheDay()
+    {
+        $randomId = generateRandomNumberEachDay();
+        $wordExists = Word::where('ID', $randomId)->exists();
+    
+        // If a word with this ID exists, return it
+        if ($wordExists) {
+            return Word::with('dictionary')->firstWhere('ID', 104);
+        }
+    
+        // Fallback: select a random word
+        return Word::with('dictionary')->first();
+    }
+    
+
 
 }
